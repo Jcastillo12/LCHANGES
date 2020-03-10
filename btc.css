@@ -143,6 +143,10 @@ ul.menu-horizontal {
     max-height: 125px;
 }
 
+.bar--transparent:not(.bar--dark) .logo-dark {
+	display: block!important;
+}
+
 /*Barra de navegación*/
 .bar.bar--sm {
     background-color: white;
@@ -150,6 +154,16 @@ ul.menu-horizontal {
 
 .align-menu-content{
     top: 10px;
+}
+
+/*Search section*/
+.region.region-search-section {
+    top: 38px;
+    position: relative;
+}
+
+.region.region-search-section .fa.fa-search {
+    color:#808080;
 }
 
 /*HOME*/
