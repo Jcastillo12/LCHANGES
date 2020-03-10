@@ -152,6 +152,48 @@ ul.menu-horizontal {
     top: 10px;
 }
 
+/*HOME*/
+.title-h2{
+    font-size: 44px;
+    color: #333;
+}
+.subtitle-h2{
+    font-size: 40px;
+    color: #333;
+}
+.subtitle-h3{
+    color: #f26522;
+    letter-spacing: -0.55px;
+    font-size:22px;
+}
+.des-h3{
+    font-size: 22px;
+    color: #808080;
+}
+.des-p{
+    font-size: 16px;
+    letter-spacing: -0.4px;
+    color: #808080;
+}
+.link-p{
+    color:#333;
+    font-size: 18px;
+}
+.interesting-links-row{
+    padding-bottom: 1.429em !important;
+}
+.bg--orange{
+    background-color: #EA5B0B;
+}
+.pos-vertical-center{
+    top: 75% !important;
+}
+.pos-vertical-center .block{
+    text-transform: uppercase;
+}
+.feature-7 .background-image-holder {
+  border-radius: 0px !important;
+}
 
 
 /*Responsive*/
