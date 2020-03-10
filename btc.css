@@ -208,7 +208,46 @@ ul.menu-horizontal {
 .feature-7 .background-image-holder {
   border-radius: 0px !important;
 }
-
+.bg--secondary{
+    background: #fff !important;
+    padding-top: 0px !important;
+    padding-bottom: 50px !important;
+}
+.lll-column{
+    padding-top: 50px;
+}
+section.border--bottom:not([data-gradient-bg]) {
+	border-bottom: 0px solid #333333 !important;
+	background: #333333;
+}
+.boton-stock {
+	border-color: #F26522 !important;
+	background-color: #F26522;
+	border-radius: 3px !important;
+}
+.boton-stock span{
+    color: #fff !important;
+}
+section .slider[data-paging="true"] .flickity-page-dots {
+    bottom: 3.857em !important;
+}
+.flickity-page-dots .dot {
+    width: 12px !important;
+    height: 12px !important;
+}
+.flickity-prev-next-button {
+    background: #F26522 !important;
+    height: 2.571em !important;
+    border-radius: 50% !important;
+    margin: 20px !important;
+}
+.flickity-prev-next-button:before {
+    font-size: 1.8em !important;
+}
+.imagebg {
+	padding-bottom: 0em !important;
+	margin-bottom: -50px !important;
+}
 
 /*Responsive*/
 /* 975 */
