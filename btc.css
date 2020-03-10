@@ -1,0 +1,161 @@
+/* Secondary navigation - Top bar */
+.top-bar{
+    width: 100%;
+    height: 25px;
+}
+.elements-top {
+    width: 765px;
+    height: 40px;
+    float: right;
+    border-bottom: 1px solid rgba(112,112,112,0.2);
+}
+
+.elements-top i {
+    font-size: 14px;
+    color:#808080;
+    margin-right: 15px;
+}
+
+.elements-top a{
+    color:#808080;
+    text-decoration: none;
+    letter-spacing: -0.13px;
+    font-family: Arial;
+}
+
+.menu-info a {
+    margin-left: 5px;
+    font-family: Arial;
+    letter-spacing: -0.13px;
+    color: #808080;
+    opacity: 1;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.separator {
+    border-right: 1px solid #707070;
+    height: 16px;
+    position: absolute;
+    right: 2px;
+    top: 6px;
+    opacity: 0.2;
+}
+
+.separator-left {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+i.fa.fa-linkedin {
+    margin-right: 0px;
+}
+
+
+/* Main Menu */
+ul.menu-horizontal {
+    margin-top: 10px;
+}
+
+/*Mega menu*/
+
+#block-libertymenu {
+    overflow: visible!important;
+}
+
+.space-level{
+    margin-left: 15px;
+}
+
+.we-mega-menu-submenu>.we-mega-menu-submenu-inner {
+    min-height: 5.25rem;
+}
+
+.navbar {
+    border: none;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.submenu-dropdown-1{
+    left: -624px;
+    top: 80px;
+}
+
+.submenu-dropdown-2 {
+    left: -742px;
+    top: 80px;
+}
+
+.submenu-dropdown-3 {
+    left: -860px;
+    top: 80px;
+}
+.submenu-dropdown-4 {
+    left: -965px;
+    top: 80px;
+}
+.submenu-dropdown-5 {
+    left: -1045px;
+    top: 80px;
+}
+
+.we-mega-menu-ul > .we-mega-menu-li > span,
+.we-mega-menu-ul > .we-mega-menu-li > a  {
+	letter-spacing: 0.21px;
+	color: #333333;
+	font-size: 12px;
+}
+
+/* .we-mega-menu-ul>.dropdown-menu {
+    z-index: 0;
+} */
+
+
+.submenu-dropdown-1,
+.submenu-dropdown-2,
+.submenu-dropdown-3,
+.submenu-dropdown-4,
+.submenu-dropdown-5{
+    display: none;
+}
+
+/* .navbar-we-mega-menu[data-autoarrow="0"]:not(.admin) .dropdown-menu>a, .navbar-we-mega-menu[data-autoarrow="0"]:not(.admin) .dropdown-menu>span {
+    padding-right: 0;
+} */
+
+.we-mega-menu-ul > .we-mega-menu-li > span {
+	background-color: transparent;
+}
+
+.we-mega-menu-ul > .we-mega-menu-li {
+	border-left: none;
+}
+
+/* Logo */
+.bar .logo {
+    top: 0px;
+}
+.bar .logo {
+    max-height: 125px;
+}
+
+/*Barra de navegación*/
+.bar.bar--sm {
+    background-color: white;
+}
+
+.align-menu-content{
+    top: 10px;
+}
+
+
+
+/*Responsive*/
+/* 975 */
+
+
+
