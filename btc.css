@@ -167,7 +167,8 @@ ul.menu-horizontal {
 
 .we-mega-menu-ul > .dropdown-menu:hover > a, .we-mega-menu-ul > .dropdown-menu:hover > span, .we-mega-menu-ul > .dropdown-menu:focus > a, .we-mega-menu-ul > .dropdown-menu:focus > span {
 	background: transparent;
-	color: #333;
+    color: #333;
+}
 
 /*Search section*/
 .region.region-search-section {
