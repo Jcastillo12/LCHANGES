@@ -1,4 +1,4 @@
-/* Secondary navigation - Top bar */
+/*******************     Secondary navigation - Top bar      ***************************/
 .top-bar{
     width: 100%;
     height: 25px;
@@ -52,12 +52,12 @@ i.fa.fa-linkedin {
 }
 
 
-/* Main Menu */
+/*******************     Main Menu      ***************************/
 ul.menu-horizontal {
     margin-top: 10px;
 }
 
-/*Mega menu*/
+/*******************     Mega menu*/
 
 #block-libertymenu {
     overflow: visible!important;
@@ -135,7 +135,7 @@ ul.menu-horizontal {
 	border-left: none;
 }
 
-/* Logo */
+/*******************     Logo      ***************************/
 .bar .logo {
     top: 0px;
 }
@@ -147,7 +147,7 @@ ul.menu-horizontal {
 	display: block!important;
 }
 
-/*Barra de navegación*/
+/*******************     Barra de navegación      ***************************/
 .bar.bar--sm {
     background-color: white;
 }
@@ -170,9 +170,9 @@ ul.menu-horizontal {
     color: #333;
 }
 
-/*Search section*/
+/*******************     Search section      ***************************/
 .region.region-search-section {
-    top: 48px;
+    top: 42px;
     position: relative;
 }
 
@@ -180,7 +180,7 @@ ul.menu-horizontal {
     color:#808080;
 }
 
-/*HOME*/
+/*******************     HOME      ***************************/
 .title-h2{
     font-size: 44px;
     color: #333;
@@ -263,8 +263,139 @@ section .slider[data-paging="true"] .flickity-page-dots {
 	margin-bottom: -50px !important;
 }
 
-/*Responsive*/
-/* 975 */
 
+
+
+/*******************     Footer      ***************************/
+footer{
+    background-color:#333333;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.description-footer h4{
+    color: white;
+    font-size: 13px;
+    font-weight: 600!important;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+.description-footer p{
+    line-height: 24px;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 12px;
+    opacity: 1;
+}
+[class*='bg-']:not(.bg--white):not(.bg--secondary) p, [class*='imagebg']:not(.image--light) p{
+    opacity: 0.6;
+}
+.social-footer h4{
+    color: white;
+    font-family: "Open Sans";
+    font-size: 13px;
+}
+
+.social-footer{
+    padding-top: 30px;
+    clear: both;
+}
+
+.social-icons-footer a i {
+    background-color: #808080;
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 25px;
+    margin-right: 8px;
+}
+
+.social-icons-footer a i:before{
+    top: 7px;
+    position: relative;
+}
+
+.description-footer ul li {
+    line-height: 24px;
+    font-family: "Open Sans";
+    font-size: 12px;
+}
+
+.description-footer ul li a {
+    color: rgba(255,255,255,0.6)!important;
+}
+
+.space-between-columns{
+    padding-left: 60px;
+}
+
+.logo-position{
+    padding-left: 0px;
+}
+/****************************   Copyright   ************************************/
+.copyright{
+    border-top:1px solid rgba(255,255,255,0.1);
+    clear: both;
+}
+
+.spacer{
+    height:50px;
+    clear:both;
+}
+
+.text-copyright,
+.menu-copyright-space{
+   padding-top: 20px;
+}
+
+.text-copyright p{
+    text-align: left;
+    font-weight: 300;
+    font-size:12px;
+    font-family: "Open Sans";
+    color:white;
+}
+
+.menu-copyright li a{ 
+    text-align: left;
+    font-weight: 300;
+    font-size:12px;
+    font-family: "Open Sans";
+    color:white!important;
+    float: left;
+    margin-right: 20px;
+}
+
+.menu-copyright{
+    float: right;
+    width: 320px;
+}
+/*Responsive*/
+
+
+/*********************** 768 *************************/
+@media only screen and (max-width: 768px) {
+
+    .logo-position,
+    .social-footer{
+       padding-right: 15px;
+       padding-left: 15px;
+    }
+
+    .social-icons-footer{
+        padding-left: 0px;
+     }
+
+    .space-between-columns {
+        padding-top: 50px;
+        padding-left: 15px;
+    }
+   
+
+}
 
 
