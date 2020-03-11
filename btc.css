@@ -262,12 +262,47 @@ section .slider[data-paging="true"] .flickity-page-dots {
 .flickity-prev-next-button:before {
     font-size: 1.8em !important;
 }
-.imagebg {
+.principal-slider {
 	padding-bottom: 0em !important;
-	margin-bottom: -50px !important;
+	margin-bottom: -52px !important;
 }
 
-
+/******************************** INVESTORS *****************************/
+.secondary-slider{
+    padding-bottom: 0em !important;
+    margin-bottom: 0em !important;
+}
+.investors-p{
+    padding-bottom: 2.429em !important;
+}
+.des-h3 strong{
+    font-weight:600 !important;
+}
+.related-links-col{
+    padding-bottom: 0px !important;
+}
+.title-arrow {
+	border-radius: 50%;
+	background-color: #f26522;
+	height: 40px;
+	width: 40px;
+	padding-top: 5px;
+}
+.financials-table th {
+	background-color: #F26522;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: -0.45px;
+}
+.financials-table td {
+	font-size: 18px;
+	color: #808080;
+	letter-spacing: -0.45px;
+}
+tr:nth-child(2n+1) {
+	background-color: #F2F2F2;
+}
 
 
 /*******************     Footer      ***************************/
