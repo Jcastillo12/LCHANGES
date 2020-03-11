@@ -272,6 +272,13 @@ section .slider[data-paging="true"] .flickity-page-dots {
 .related-links-col{
     padding-bottom: 0px !important;
 }
+.title-arrow {
+	border-radius: 50%;
+	background-color: #f26522;
+	height: 40px;
+	width: 40px;
+	padding-top: 5px;
+}
 /*Responsive*/
 /* 975 */
 
