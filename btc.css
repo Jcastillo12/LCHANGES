@@ -275,6 +275,10 @@ section .slider[data-paging="true"] .flickity-page-dots {
 .investors-p{
     padding-bottom: 2.429em !important;
 }
+.inv-subtitle-h2{
+    font-size: 22px;
+    color: #333;
+}
 .des-h3 strong{
     font-weight:600 !important;
 }
