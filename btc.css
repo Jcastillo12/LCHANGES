@@ -387,6 +387,83 @@ tr:nth-child(2n+1) {
     letter-spacing:-0.25px;
     color: #808080;
 }
+.table-events .control-label {
+	font-size: 16px;
+	color: #808080;
+	font-family: Open Sans;
+}
+.table-events .btn-info {
+	padding-left: 25px !important;
+	padding-right: 25px !important;
+	background-color: #F26522 !important;
+	border-color: #F26522 !important;
+	border-radius: 3px !important;
+}
+.table-events th {
+	background-color: #F26522;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: -0.4px;
+}
+.table-events .views-field.views-field-field-events-date {
+    width: 20%;
+}
+.table-events tbody .views-field-field-events-date {
+	font-size: 14px;
+	color: #333;
+	letter-spacing: -0.35px;
+}
+.table-events tbody .views-field-title {
+	color: #F26522 !important;
+	font-size: 16px !important;
+	letter-spacing: -0.4px;
+	font-weight: 400 !important;
+	font-family: Open Sans;
+	width: 70%;
+}
+#view-title-table-column {
+  color: #fff !important;
+}
+.table-events .file-link a {
+	color: #333 !important;
+	font-size: 14px !important;
+	text-transform: uppercase !important;
+	line-height: 60px;
+	letter-spacing: 0.96px !important;
+	font-family: Open Sans !important;
+}
+.table-events .icon.glyphicon.glyphicon-file.text-primary {
+	color: #D90019 !important;
+	font-size: 18px !important;
+	line-height: 60px;
+}
+.table-events thead .views-field-field-events-date {
+	padding-left: 15px !important;
+}
+.table-events th {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.table-events .pagination > .active > a:hover {
+	background-color: #f26522 !important;
+	border-color: #f26522 !important;
+	color: #fff !important;
+}
+.table-events .pagination > .active > a {
+	color: #fff !important;
+	background-color: #f26522 !important;
+	border-color: #f26522 !important;
+}
+.table-events .pagination > li > a {
+	color: #f26522 !important;
+}
+.table-events .pagination > li > a:hover{
+    background-color: #f2f2f2 !important;
+}
+.related-links-img {
+	padding-bottom: 12em !important;
+}
 /*******************     Footer      ***************************/
 footer{
     background-color:#333333;
