@@ -464,6 +464,13 @@ tr:nth-child(2n+1) {
 .related-links-img {
 	padding-bottom: 12em !important;
 }
+/******************************** ABOUT US *****************************/
+.feature-1 {
+    min-height: 14.143em !important;
+    text-align: center;
+    align-items: center;
+    display: grid;
+}
 /*******************     Footer      ***************************/
 footer{
     background-color:#333333;
