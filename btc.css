@@ -320,7 +320,7 @@ tr:nth-child(2n+1) {
 .table-epr th {
     display: none;
 }
-.table-epr .views-field.views-field-title {
+.views-field {
     border: none !important;
     line-height: 60px !important;
 }
@@ -331,12 +331,50 @@ tr:nth-child(2n+1) {
 }
 .table-epr #edit-submit-table-view{
     padding-left: 25px !important;
-    padding-right: 255px !important;
+    padding-right: 25px !important;
     background-color: #F26522 !important;
     border-color: #F26522 !important;
     border-radius: 3px !important;
 }
-
+.file-size{
+    display: none !important;
+}
+.file > span{
+    background:none !important;
+    border: none !important;
+}
+.views-field.views-field-field-epr-file {
+    text-align:  right !important;
+  }
+.views-field.views-field-field-epr-date {
+	text-align: center !important;
+	color: #333333;
+	font-size: 14px;
+	letter-spacing: -0.56px;
+} 
+.table-epr .file-link a {
+	color: #333 !important;
+	font-size: 14px !important;
+	text-transform: uppercase !important;
+	line-height: 60px;
+	letter-spacing: 0.96px !important;
+}
+.table-epr .icon.glyphicon.glyphicon-file.text-primary {
+	color: #D90019 !important;
+	font-size: 18px !important;
+	line-height: 60px;
+	padding-left: 200px;
+}
+.table-epr .pagination > .active > a:hover{
+    background-color: #f26522 !important;
+    border-color: #f26522 !important;
+}
+.table-epr .pagination > li > a{
+    color:#f26522 !important;
+}
+.table-epr .pagination > li > a:hover{
+    background-color: #f2f2f2 !important;
+}
 /*******************     Footer      ***************************/
 footer{
     background-color:#333333;
