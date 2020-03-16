@@ -368,6 +368,12 @@ tr:nth-child(2n+1) {
 .table-epr .pagination > .active > a:hover{
     background-color: #f26522 !important;
     border-color: #f26522 !important;
+    color: #fff !important;
+}
+.table-epr .pagination > .active > a {
+	color: #fff !important;
+	background-color: #f26522 !important;
+	border-color: #f26522 !important;
 }
 .table-epr .pagination > li > a{
     color:#f26522 !important;
