@@ -466,7 +466,7 @@ tr:nth-child(2n+1) {
 }
 /******************************** ABOUT US *****************************/
 .feature-1 {
-    min-height: 14.143em !important;
+    min-height: 16.543em !important;
     text-align: center;
     align-items: center;
     display: grid;
@@ -477,6 +477,9 @@ tr:nth-child(2n+1) {
 }
 .title-arrow {
     margin: 0 auto;
+}
+.h1.h1--large:not(:last-child) {
+	margin-bottom: 0.119354838709677em !important;
 }
 
 /*******************     Footer      ***************************/
