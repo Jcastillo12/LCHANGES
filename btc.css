@@ -276,7 +276,7 @@ section .slider[data-paging="true"] .flickity-page-dots {
     padding-bottom: 2.429em !important;
 }
 .inv-subtitle-h2{
-    font-size: 22px;
+    font-size: 28px;
     color: #333;
 }
 .des-h3 strong{
@@ -490,6 +490,13 @@ tr:nth-child(2n+1) {
 }
 .about-div {
 	padding-bottom: 3.429em !important;
+}
+/************ our company ************/
+.list-inline--images img {
+    max-height: 300px !important;
+}
+.list-inline--images li:not(:last-child) {
+    margin-right: 0em !important;
 }
 
 /*******************     Footer      ***************************/
