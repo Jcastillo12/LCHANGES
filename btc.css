@@ -485,6 +485,12 @@ tr:nth-child(2n+1) {
 .about-lla{
     padding-bottom: 3.429em !important;
 }
+.feature-1 .h1.h1--large {
+	color: #f26522 !important;
+}
+.about-div {
+	padding-bottom: 3.429em !important;
+}
 
 /*******************     Footer      ***************************/
 footer{
