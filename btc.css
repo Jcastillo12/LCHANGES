@@ -471,6 +471,14 @@ tr:nth-child(2n+1) {
     align-items: center;
     display: grid;
 }
+.modal-instance.block {
+    width: 100%;
+    text-align: center;
+}
+.title-arrow {
+    margin: 0 auto;
+}
+
 /*******************     Footer      ***************************/
 footer{
     background-color:#333333;
