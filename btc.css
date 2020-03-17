@@ -482,6 +482,10 @@ tr:nth-child(2n+1) {
 	margin-bottom: 0.119354838709677em !important;
 }
 
+.about-lla{
+    padding-bottom: 3.429em !important;
+}
+
 /*******************     Footer      ***************************/
 footer{
     background-color:#333333;
