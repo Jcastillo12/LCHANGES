@@ -451,6 +451,24 @@ tr:nth-child(2n+1) {
 .list-inline--images li:not(:last-child) {
     margin-right: 0em !important;
 }
+/****** C&W COMMUNICATIONS *******/
+.footnotes.des-p {
+	margin-bottom: 10px !important;
+}
+a:hover {
+	color: #f26522 !important;
+}
+.link-about{
+    color: #f26522 !important;
+}
+.cw-key-facts .list-inline--images img{
+    max-height: 140px !important;
+}
+.fa-caret-right{
+    color: #f26522 !important;
+    font-size:20px !important;
+
+}
 
 /*******************     Footer      ***************************/
 footer{
