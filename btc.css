@@ -59,7 +59,7 @@ ul.menu-horizontal {
 
 /*******************     Mega menu*/
 
-#block-libertymenu {
+#block-libertyactualmenu {
     overflow: visible!important;
 }
 
@@ -81,12 +81,12 @@ ul.menu-horizontal {
 }
 
 .submenu-dropdown-1{
-    left: -546px;
+    left: -638px;
 
 }
 
 .submenu-dropdown-2 {
-    left: -670px;
+    left: -772px;
 
 }
 
@@ -160,7 +160,7 @@ ul.menu-horizontal {
     top: 10px;
 }
 
-#block-libertymenu .block-inner{
+#block-libertyactualmenu .block-inner{
     top: 10px;
     position: relative;
 }
