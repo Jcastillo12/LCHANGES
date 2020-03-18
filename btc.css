@@ -276,7 +276,7 @@ section .slider[data-paging="true"] .flickity-page-dots {
     padding-bottom: 2.429em !important;
 }
 .inv-subtitle-h2{
-    font-size: 22px;
+    font-size: 28px;
     color: #333;
 }
 .des-h3 strong{
@@ -293,24 +293,78 @@ section .slider[data-paging="true"] .flickity-page-dots {
 	padding-top: 5px;
 }
 .financials-table th {
-	background-color: #F26522;
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 18px;
-	letter-spacing: -0.45px;
+    background-color: #F26522;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: -0.45px;
+    border-bottom: 1px solid white;
 }
+
 .financials-table td {
-	font-size: 18px;
-	color: #808080;
-	letter-spacing: -0.45px;
+    font-size: 15px;
+    color: #808080;
+    letter-spacing: -0.2px;
+    font-weight: 500;
 }
+
 tr:nth-child(2n+1) {
 	background-color: #F2F2F2;
 }
 .col-md-12.financials-table {
 	padding: 0px;
 }
-.table-epr .views-field-title {
+
+.financials-table th, .financials-table td {
+    padding: 10px;
+}
+
+/************  Tables General  *****************/
+
+/* Filter */
+
+.tables-liberty .control-label {
+    font-size: 14px;
+    color: #808080;
+    font-family: "Open Sans";
+    letter-spacing: 0.2px;
+}
+
+.tables-liberty .btn-info {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    background-color: #F26522 !important;
+    border-color: #F26522 !important;
+    border-radius: 3px !important;
+}
+
+.tables-liberty input[type], textarea, select {
+    -webkit-appearance: none;
+    background: white;
+    padding: 0.46428571em;
+        padding-left: 0.464286em;
+    border-radius: 0px;
+    border: 1px solid #ececec;
+    margin-right: 20px;
+}
+
+.tables-liberty .form-control{
+    height: 30px;
+}
+
+/********* End Filter ********/
+
+/* Tables liberty*/
+
+.tables-liberty th, .tables-liberty td {
+    padding: 10px;
+}
+.tables-liberty .views-field {
+    border: none !important;
+    line-height: 30px !important;
+}
+
+.tables-liberty .views-field-title {
 	color: #F26522 !important;
 	font-size: 16px !important;
 	letter-spacing: -0.4px;
@@ -318,155 +372,54 @@ tr:nth-child(2n+1) {
     font-family: Open Sans;
     width: 50%;
 }
-.table-epr .views-field a:hover{
-    text-decoration: none !important;
+
+.tables-liberty a {
+    color: #f26522;
+    font-weight: 400;
+    text-decoration: none;
 }
-.table-epr th {
-    display: none;
+
+.tables-liberty .text-center {
+    text-align: left;
 }
-.views-field {
-    border: none !important;
-    line-height: 60px !important;
-}
-.table-epr .control-label {
-    font-size: 16px;
-    color: #808080;
-    font-family: Open Sans;
-}
-.table-epr .btn-info{
-    padding-left: 25px !important;
-    padding-right: 25px !important;
-    background-color: #F26522 !important;
-    border-color: #F26522 !important;
-    border-radius: 3px !important;
-}
-.file-size{
-    display: none !important;
-}
-.file > span{
-    background:none !important;
-    border: none !important;
-}
-.views-field.views-field-field-epr-date {
-	color: #333333;
-	font-size: 14px;
-	letter-spacing: -0.56px;
-} 
-.table-epr .file-link a {
-	color: #333 !important;
-	font-size: 14px !important;
-	text-transform: uppercase !important;
-	line-height: 60px;
-    letter-spacing: 0.96px !important;
-    font-family: Open Sans !important;
-}
-.table-epr .icon.glyphicon.glyphicon-file.text-primary {
-	color: #D90019 !important;
-	font-size: 18px !important;
-	line-height: 60px;
-	padding-left: 300px;
-}
-.table-epr .pagination > .active > a:hover{
-    background-color: #f26522 !important;
-    border-color: #f26522 !important;
-    color: #fff !important;
-}
-.table-epr .pagination > .active > a {
-	color: #fff !important;
-	background-color: #f26522 !important;
-	border-color: #f26522 !important;
-}
-.table-epr .pagination > li > a{
-    color:#f26522 !important;
-}
-.table-epr .pagination > li > a:hover{
-    background-color: #f2f2f2 !important;
-}
-.epr-caption{
-    font-size:12px;
-    letter-spacing:-0.25px;
-    color: #808080;
-}
-.table-events .control-label {
-	font-size: 16px;
-	color: #808080;
-	font-family: Open Sans;
-}
-.table-events .btn-info {
-	padding-left: 25px !important;
-	padding-right: 25px !important;
-	background-color: #F26522 !important;
-	border-color: #F26522 !important;
-	border-radius: 3px !important;
-}
-.table-events th {
+
+/****** Heading ******************/
+
+.tables-liberty table th {
 	background-color: #F26522;
-	color: #fff;
-	font-size: 16px;
-	font-weight: 400;
-	letter-spacing: -0.4px;
-}
-.table-events .views-field.views-field-field-events-date {
-    width: 20%;
-}
-.table-events tbody .views-field-field-events-date {
+	color: white;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 0.1px;
 	font-size: 14px;
-	color: #333;
-	letter-spacing: -0.35px;
+	padding: 10px;
 }
-.table-events tbody .views-field-title {
-	color: #F26522 !important;
-	font-size: 16px !important;
-	letter-spacing: -0.4px;
-	font-weight: 400 !important;
-	font-family: Open Sans;
-	width: 70%;
+
+/********* End Heading ********/
+
+/**************** Pagination  ****************/
+.tables-liberty .pagination > .active > a{
+    background-color: #f26522; 
+    border-color: #f26522;
+    color:white;
 }
-#view-title-table-column {
-  color: #fff !important;
+
+.tables-liberty .pagination > li > a{
+    color:#f26522;
 }
-.table-events .file-link a {
-	color: #333 !important;
-	font-size: 14px !important;
-	text-transform: uppercase !important;
-	line-height: 60px;
-	letter-spacing: 0.96px !important;
-	font-family: Open Sans !important;
-}
-.table-events .icon.glyphicon.glyphicon-file.text-primary {
-	color: #D90019 !important;
-	font-size: 18px !important;
-	line-height: 60px;
-}
-.table-events thead .views-field-field-events-date {
-	padding-left: 15px !important;
-}
-.table-events th {
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
-}
-.table-events .pagination > .active > a:hover {
-	background-color: #f26522 !important;
-	border-color: #f26522 !important;
-	color: #fff !important;
-}
-.table-events .pagination > .active > a {
-	color: #fff !important;
-	background-color: #f26522 !important;
-	border-color: #f26522 !important;
-}
-.table-events .pagination > li > a {
-	color: #f26522 !important;
-}
-.table-events .pagination > li > a:hover{
-    background-color: #f2f2f2 !important;
-}
+
+
+/************ End Pagination *********/
+
+
+
+
 .related-links-img {
 	padding-bottom: 12em !important;
 }
 /******************************** ABOUT US *****************************/
 .feature-1 {
-    min-height: 14.143em !important;
+    min-height: 16.543em !important;
     text-align: center;
     align-items: center;
     display: grid;
@@ -477,6 +430,26 @@ tr:nth-child(2n+1) {
 }
 .title-arrow {
     margin: 0 auto;
+}
+.h1.h1--large:not(:last-child) {
+	margin-bottom: 0.119354838709677em !important;
+}
+
+.about-lla{
+    padding-bottom: 3.429em !important;
+}
+.feature-1 .h1.h1--large {
+	color: #f26522 !important;
+}
+.about-div {
+	padding-bottom: 3.429em !important;
+}
+/************ our company ************/
+.list-inline--images img {
+    max-height: 210px !important;
+}
+.list-inline--images li:not(:last-child) {
+    margin-right: 0em !important;
 }
 
 /*******************     Footer      ***************************/
