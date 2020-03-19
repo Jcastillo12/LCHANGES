@@ -540,6 +540,7 @@ footer{
 .logo-position{
     padding-left: 0px;
 }
+
 /****************************   Copyright   ************************************/
 .copyright{
     border-top:1px solid rgba(255,255,255,0.1);
@@ -581,6 +582,20 @@ footer{
 
 #block-columna1.clearfix {
     overflow: visible;
+}
+
+/******************* USER LOGIN *************************/
+
+#user-login-form {
+    padding-bottom: 120px;
+}
+
+#user-login-form button#edit-submit, 
+#user-login-form button#edit-subscribe {
+    background: #F26522;
+    border-color: #F26522;
+    text-transform: uppercase;
+    color: #fff;
 }
 
 /*Responsive*/
