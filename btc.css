@@ -490,6 +490,9 @@ a:hover {
 .list-a{
     list-style-type:lower-alpha !important;
 }
+.about-lla1{
+    padding-bottom: 0.429em !important;
+}
 /*******************     Footer      ***************************/
 footer{
     background-color:#333333;
