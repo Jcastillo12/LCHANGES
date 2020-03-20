@@ -493,6 +493,14 @@ a:hover {
 .about-lla1{
     padding-bottom: 0.429em !important;
 }
+.tab__content1 ul li::before {
+	content: "\2022";
+	color: #f26522;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	font-size: 20px !important;
+}
 /*******************     Footer      ***************************/
 footer{
     background-color:#333333;
