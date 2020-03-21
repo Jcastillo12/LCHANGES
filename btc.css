@@ -501,8 +501,9 @@ a:hover {
 	width: 1em;
 	font-size: 20px !important;
 }
-.tabs li.active {
-	background-color: #f26522 !important;
+.small-tabs .tabs li.active {
+    background-color: #f26522 !important;
+    border-color: #f26522 !important;
 }
 /*******************     Footer      ***************************/
 footer{
