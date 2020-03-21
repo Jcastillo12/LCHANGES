@@ -411,7 +411,39 @@ tr:nth-child(2n+1) {
 
 /************ End Pagination *********/
 
+/************* SEC filings ***********/
 
+.file--application-pdf {
+    background-image: url(../../images/icons/pdf.png);
+}
+
+.file--general, 
+.file--application-octet-stream {
+  background-image: url(../../images/icons/docs.png);
+}
+/*Icon for xml*/
+.views-field-field-sec-doc-url :nth-child(4) {
+  background-image: url(../../images/icons/xml.png);
+}
+
+.file--x-office-spreadsheet {
+  background-image: url(../../images/icons/xls.png);
+}
+
+.views-field.views-field-field-sec-doc-url a {
+	display: none;
+}
+
+.file {
+    display: table;
+    font-size: 40%;
+    font-weight: 700;
+    margin: 5px 5px;
+    width: 15%;
+    float: left;
+}
+
+/*********** End SED FILINGS **********/
 
 
 .related-links-img {
