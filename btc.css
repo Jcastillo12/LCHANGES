@@ -383,6 +383,32 @@ tr:nth-child(2n+1) {
     text-align: left;
 }
 
+.select-wrapper::after {
+    visibility: hidden;
+}
+
+.tables-liberty select {
+    height: 36px!important;
+    -webkit-appearance: none;
+    background: white;
+    padding: 5px;
+    padding-left: 0.464286em;
+    padding-left: 0.464286em;
+    border-radius: 0px;
+    border: 1px solid #ececec;
+    margin-right: 15px;
+}
+
+.views-field-field-sec-xml-image img,
+.views-field-field-sec-xls-image img {
+    display: none;
+}
+
+.views-field-field-sec-xml-image a img,
+.views-field-field-sec-xls-image a img {
+    display: block;
+}
+
 /****** Heading ******************/
 
 .tables-liberty table th {
@@ -411,36 +437,8 @@ tr:nth-child(2n+1) {
 
 /************ End Pagination *********/
 
-/************* SEC filings ***********/
-
-.file--application-pdf {
-    background-image: url(../../images/icons/pdf.png);
-}
-
-.file--general, 
-.file--application-octet-stream {
-  background-image: url(../../images/icons/docs.png);
-}
-/*Icon for xml*/
-.views-field-field-sec-doc-url :nth-child(4) {
-  background-image: url(../../images/icons/xml.png);
-}
-
-.file--x-office-spreadsheet {
-  background-image: url(../../images/icons/xls.png);
-}
-
-.views-field.views-field-field-sec-doc-url a {
-	display: none;
-}
-
-.file {
-    display: table;
-    font-size: 40%;
-    font-weight: 700;
-    margin: 5px 5px;
-    width: 15%;
-    float: left;
+.tables-liberty.sec-filings .views-field a img {
+    margin-top: 5px;
 }
 
 /*********** End SED FILINGS **********/
