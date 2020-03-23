@@ -443,10 +443,16 @@ tr:nth-child(2n+1) {
 
 /*********** End SED FILINGS **********/
 
-
 .related-links-img {
 	padding-bottom: 12em !important;
 }
+
+.we-mega-menu-submenu li.we-mega-menu-li.active > a, .we-mega-menu-submenu li.we-mega-menu-li.active > a:hover,
+.we-mega-menu-submenu li.we-mega-menu-li.active > .we-megamenu-nolink {
+    color: #f26522;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
 /******************************** ABOUT US *****************************/
 .feature-1 {
     min-height: 16.543em !important;
