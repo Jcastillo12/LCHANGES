@@ -538,6 +538,19 @@ a:hover {
 .small-tabs .tabs li.active .tab__title span {
     color: #fff !important;
 }
+/************ Executive Team and Directors ************/
+.feature-8 img {
+    border-radius: 50% !important;
+}
+.feature-8 {
+	padding: 2.786em 0 3.714em 0 !important;
+	border: 1px solid #ececeb !important;
+	border-radius: 6px !important;
+}
+.lla-team{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 /*******************     Footer      ***************************/
 footer{
     background-color:#333333;
