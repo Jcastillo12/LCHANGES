@@ -506,7 +506,7 @@ a:hover {
     color: #808080;
 }
 .tabs li.active .tab__title span {
-    color: #fff;
+    color: #f26522;
 }
 .tab__content ul li::before {
 	content: "\2022";
@@ -534,6 +534,9 @@ a:hover {
 .small-tabs .tabs li.active {
     background-color: #f26522 !important;
     border-color: #f26522 !important;
+}
+.small-tabs .tabs li.active .tab__title span {
+    color: #fff !important;
 }
 /*******************     Footer      ***************************/
 footer{
