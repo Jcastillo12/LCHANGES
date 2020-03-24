@@ -566,6 +566,9 @@ a:hover {
 .about-lla2{
     padding-top: 3.429em !important;
 }
+.video-gallery .tabs li.active .tab__title {
+	color: #f26522 !important;
+}
 /************ Contact Us ************/
 .asterisk-lla {
 	color: #f26522;
