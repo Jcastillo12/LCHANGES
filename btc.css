@@ -567,7 +567,10 @@ a:hover {
     padding-top: 3.429em !important;
 }
 .video-gallery .tabs li.active .tab__title {
-	color: #f26522 !important;
+	color: #ffffff !important;
+}
+.video-gallery .tabs li.active{
+    background-color: #f26522 !important;
 }
 /************ Contact Us ************/
 .asterisk-lla {
