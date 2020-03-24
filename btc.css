@@ -557,6 +557,12 @@ a:hover {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+/************ Video Gallery ************/
+.video-play-icon:hover {
+	border: 2px solid #f26522;
+	background: #f26522;
+	transition-duration: .3s;
+}
 /************ Contact Us ************/
 .asterisk-lla {
 	color: #f26522;
