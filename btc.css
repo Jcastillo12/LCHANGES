@@ -557,6 +557,11 @@ a:hover {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+/************ Contact Us ************/
+.asterisk-lla {
+	color: #f26522;
+	font-weight: 900 !important;
+}
 /*******************     Footer      ***************************/
 footer{
     background-color:#333333;
