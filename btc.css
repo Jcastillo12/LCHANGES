@@ -563,6 +563,9 @@ a:hover {
 	background: #f26522;
 	transition-duration: .3s;
 }
+.about-lla2{
+    padding-top: 3.429em !important;
+}
 /************ Contact Us ************/
 .asterisk-lla {
 	color: #f26522;
