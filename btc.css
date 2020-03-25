@@ -573,6 +573,12 @@ a:hover {
 .video-gallery .tabs li.active{
     background-color: #f26522 !important;
 }
+.lla-icons-tabs{
+    padding-left: 25px !important;
+}
+.tab__content .social-list li::before {
+	color: transparent;
+}
 /************ Contact Us ************/
 .asterisk-lla {
 	color: #f26522;
