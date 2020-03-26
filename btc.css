@@ -596,6 +596,12 @@ a:hover {
 .accordion li.active .accordion__title {
 	background: #f26522 !important;
 }
+.accordion-1 li .accordion__title {
+	border-bottom: 1px solid #dedede !important;
+}
+.accordion li .accordion__title {
+	border: 1px solid #dedede !important;
+}
 /*******************     Footer      ***************************/
 footer{
     background-color:#333333;
