@@ -584,6 +584,18 @@ a:hover {
 	color: #f26522;
 	font-weight: 900 !important;
 }
+/******/
+.subtitle-span{
+    color: #f26522;
+    letter-spacing: -0.55px;
+    font-size:20px;
+}
+.accordion-1 li.active .accordion__title {
+	border-color: #f26522 !important;
+}
+.accordion li.active .accordion__title {
+	background: #f26522 !important;
+}
 /*******************     Footer      ***************************/
 footer{
     background-color:#333333;
