@@ -194,7 +194,7 @@ ul.menu-horizontal {
     color: #333;
 }
 .subtitle-h3{
-    color: #f26522;
+    color: #FF4100;
     letter-spacing: -0.55px;
     font-size:22px;
 }
@@ -239,8 +239,8 @@ section.border--bottom:not([data-gradient-bg]) {
 	background: #333333;
 }
 .boton-stock {
-	border-color: #F26522 !important;
-	background-color: #F26522;
+	border-color: #FF4100 !important;
+	background-color: #FF4100;
 	border-radius: 3px !important;
 }
 .boton-stock span{
@@ -287,13 +287,13 @@ section .slider[data-paging="true"] .flickity-page-dots {
 }
 .title-arrow {
 	border-radius: 50%;
-	background-color: #f26522;
+	background-color: #FF4100;
 	height: 40px;
 	width: 40px;
 	padding-top: 5px;
 }
 .financials-table th {
-    background-color: #F26522;
+    background-color: #FF4100;
     color: #fff;
     text-transform: uppercase;
     font-size: 14px;
@@ -475,7 +475,7 @@ tr:nth-child(2n+1) {
     padding-bottom: 3.429em !important;
 }
 .feature-1 .h1.h1--large {
-	color: #f26522 !important;
+	color: #FF4100 !important;
 }
 .about-div {
 	padding-bottom: 3.429em !important;
@@ -492,16 +492,16 @@ tr:nth-child(2n+1) {
 	margin-bottom: 10px !important;
 }
 a:hover {
-	color: #f26522 !important;
+	color: #FF4100 !important;
 }
 .link-about{
-    color: #f26522 !important;
+    color: #FF4100 !important;
 }
 .cw-key-facts .list-inline--images img{
     max-height: 140px !important;
 }
 .fa-caret-right{
-    color: #f26522 !important;
+    color: #FF4100 !important;
     font-size:20px !important;
 
 }
@@ -512,11 +512,11 @@ a:hover {
     color: #808080;
 }
 .tabs li.active .tab__title span {
-    color: #f26522;
+    color: #FF4100;
 }
 .tab__content ul li::before {
 	content: "\2022";
-	color: #f26522;
+	color: #FF4100;
 	font-weight: bold;
 	display: inline-block;
 	width: 1em;
@@ -531,7 +531,7 @@ a:hover {
 }
 .tab__content1 ul li::before {
 	content: "\2022";
-	color: #f26522;
+	color: #FF4100;
 	font-weight: bold;
 	display: inline-block;
 	width: 1em;
@@ -539,8 +539,8 @@ a:hover {
     margin-left: 0em !important;
 }
 .small-tabs .tabs li.active {
-    background-color: #f26522 !important;
-    border-color: #f26522 !important;
+    background-color: #FF4100 !important;
+    border-color: #FF4100 !important;
 }
 .small-tabs .tabs li.active .tab__title span {
     color: #fff !important;
@@ -560,8 +560,8 @@ a:hover {
 }
 /************ Video Gallery ************/
 .video-play-icon:hover {
-	border: 2px solid #f26522;
-	background: #f26522;
+	border: 2px solid #FF4100;
+	background: #FF4100;
 	transition-duration: .3s;
 }
 .about-lla2{
@@ -571,7 +571,7 @@ a:hover {
 	color: #ffffff !important;
 }
 .video-gallery .tabs li.active{
-    background-color: #f26522 !important;
+    background-color: #FF4100 !important;
 }
 .lla-icons-tabs{
     padding-left: 25px !important;
@@ -581,20 +581,20 @@ a:hover {
 }
 /************ Contact Us ************/
 .asterisk-lla {
-	color: #f26522;
+	color: #FF4100;
 	font-weight: 900 !important;
 }
 /******/
 .subtitle-span{
-    color: #f26522;
+    color: #FF4100;
     letter-spacing: -0.55px;
     font-size:16px;
 }
 .accordion-1 li.active .accordion__title {
-	border-color: #f26522 !important;
+	border-color: #FF4100 !important;
 }
 .accordion li.active .accordion__title {
-	background: #f26522 !important;
+	background: #FF4100 !important;
 }
 .accordion-1 li .accordion__title {
 	border-bottom: 1px solid #dedede !important;
