@@ -256,9 +256,11 @@ ul.menu-horizontal {
     padding-top: 50px;
 }
 section.border--bottom:not([data-gradient-bg]) {
-	border-bottom: 0px solid #333333 !important;
-	background: #333333;
+	border-bottom: 0px solid #575756 !important;
+    background: #575756;
+    border-top: 8px solid #EA5B0B;
 }
+
 .boton-stock {
 	border-color: #FF4100 !important;
 	background-color: #FF4100;
@@ -745,7 +747,10 @@ footer{
 .sitemap-box-menu.sitemap-box-menu-liberty-m.sitemap-box {
     padding-bottom: 60px;
 }
-
+.sitemap-menu li a{ 
+    color:#333333; 
+    font-weight:400;
+}
 
 /****************** END SITEMAP *************************/
 
