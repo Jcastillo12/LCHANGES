@@ -238,6 +238,9 @@ ul.menu-horizontal {
 .bg--orange{
     background-color: #EA5B0B;
 }
+.bg--gray{
+    background-color: #808080;
+}
 .pos-vertical-center{
     top: 75% !important;
 }
