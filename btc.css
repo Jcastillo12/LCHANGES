@@ -333,8 +333,8 @@ tr:nth-child(2n+1) {
 .tables-liberty .btn-info {
     padding-left: 25px !important;
     padding-right: 25px !important;
-    background-color: #F26522 !important;
-    border-color: #F26522 !important;
+    background-color: #FF4100 !important;
+    border-color: #FF4100 !important;
     border-radius: 3px !important;
 }
 
@@ -365,7 +365,7 @@ tr:nth-child(2n+1) {
 }
 
 .tables-liberty .views-field-title {
-	color: #F26522 !important;
+	color: #FF4100 !important;
 	font-size: 16px !important;
 	letter-spacing: -0.4px;
 	font-weight: 400 !important;
@@ -374,7 +374,7 @@ tr:nth-child(2n+1) {
 }
 
 .tables-liberty a {
-    color: #f26522;
+    color: #FF4100;
     font-weight: 400;
     text-decoration: none;
 }
@@ -412,7 +412,7 @@ tr:nth-child(2n+1) {
 /****** Heading ******************/
 
 .tables-liberty table th {
-	background-color: #F26522;
+	background-color: #FF4100;
 	color: white;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -425,13 +425,13 @@ tr:nth-child(2n+1) {
 
 /**************** Pagination  ****************/
 .tables-liberty .pagination > .active > a{
-    background-color: #f26522; 
-    border-color: #f26522;
+    background-color: #FF4100; 
+    border-color: #FF4100;
     color:white;
 }
 
 .tables-liberty .pagination > li > a{
-    color:#f26522;
+    color:#FF4100;
 }
 
 
