@@ -81,7 +81,7 @@ ul.menu-horizontal {
 }
 
 .submenu-dropdown-1{
-    left: -645pxpx;
+    left: -645px;
 }
 
 .submenu-dropdown-2 {
@@ -175,7 +175,7 @@ ul.menu-horizontal {
 }
 
 #block-libertyactualmenu .block-inner{
-    top: 0px;
+    top: -4px;
     position: relative;
 }
 
@@ -191,9 +191,13 @@ ul.menu-horizontal {
     color: #333;
 }
 
+.we-mega-menu-ul > .we-mega-menu-li > a:hover, .we-mega-menu-ul > .we-mega-menu-li > a:focus{
+    background: transparent;
+}
+
 /*******************     Search section      ***************************/
 .region.region-search-section {
-    top: 42px;
+    top: 36px;
     position: relative;
 }
 
@@ -732,6 +736,20 @@ footer{
 #block-columna1.clearfix {
     overflow: visible;
 }
+
+/********************* SITEMAP ***************************/
+.sitemap-box-menu.sitemap-box-menu-liberty-m.sitemap-box h2 {
+	visibility: hidden;
+}
+
+.sitemap-box-menu.sitemap-box-menu-liberty-m.sitemap-box {
+    padding-bottom: 60px;
+}
+
+
+/****************** END SITEMAP *************************/
+
+
 
 /******************* USER LOGIN *************************/
 
