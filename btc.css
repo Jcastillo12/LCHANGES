@@ -135,9 +135,24 @@ ul.menu-horizontal {
 	border-left: none;
 }
 
+.we-mega-menu-ul > .we-mega-menu-li.active > a, 
+.we-mega-menu-ul > .we-mega-menu-li.active > a:hover, 
+.we-mega-menu-ul > .we-mega-menu-li.active > a:focus, 
+.we-mega-menu-ul > .we-mega-menu-li.active-trail > a, 
+.we-mega-menu-ul > .we-mega-menu-li.active-trail > a:hover, 
+.we-mega-menu-ul > .we-mega-menu-li.active-trail > a:focus {
+	background-color: transparent;
+	color: #FF4100;
+}
+
+.bar.bar--sm {
+	padding-top: 0px;
+}
+
+
 /*******************     Logo      ***************************/
 .bar .logo {
-    top: 0px;
+    top: 5px;
 }
 .bar .logo {
     max-height: 125px;
@@ -161,10 +176,13 @@ ul.menu-horizontal {
 }
 
 #block-libertyactualmenu .block-inner{
-    top: 10px;
+    top: 0px;
     position: relative;
 }
 
+.liberty-m.navbar {
+    margin-bottom: 0px;
+}
 .we-mega-menu-ul > .we-mega-menu-li > a {
 	background-color: transparent;
 }
