@@ -625,6 +625,12 @@ a:hover {
 .accordion li .accordion__title {
 	border: 1px solid #dedede !important;
 }
+
+#block-sitewidecontactform button[type="submit"] {
+    background: #FF4100;
+    border-color: #FF4100;
+}
+
 /*******************     Footer      ***************************/
 footer{
     background-color:#333333;
