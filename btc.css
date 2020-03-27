@@ -631,6 +631,35 @@ a:hover {
     border-color: #FF4100;
 }
 
+/******************** Contact Form *************************/
+
+#contact-message-liberty-contact-form-form .form-group {
+    width: 50%;
+    float: left;
+}
+
+#contact-message-liberty-contact-form-form .form-group .form-item {
+    width: 95% !important;
+}
+
+#contact-message-liberty-contact-form-form #edit-actions {
+    clear: both;
+}
+
+#contact-message-liberty-contact-form-form #edit-message-wrapper {
+    width: 100%;
+}
+
+#contact-message-liberty-contact-form-form #edit-message-0-value {
+    height: 150px;
+}
+
+#contact-message-liberty-contact-form-form #edit-message-wrapper .form-item{
+    width: 98% !important;
+}
+
+/******************** End contact form ********************/ 
+
 /*******************     Footer      ***************************/
 footer{
     background-color:#333333;
