@@ -387,6 +387,7 @@ tr:nth-child(2n+1) {
 }
 .tables-liberty .views-field {
     /*border: none !important;*/
+    border-right: 1px dotted #ddd;
     line-height: 30px !important;
 }
 
@@ -397,14 +398,6 @@ tr:nth-child(2n+1) {
 	font-weight: 400 !important;
     font-family: Open Sans;
     width: 50%;
-}
-
-.views-field.views-field-field-fixed-income-date {
-	border-right: 1px dotted #ddd !important;
-}
-
-.views-field.views-field-field-fixed-income-description {
-	border-right: 1px dotted #ddd !important;
 }
 
 .tables-liberty a {
