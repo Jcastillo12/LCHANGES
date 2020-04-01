@@ -319,7 +319,7 @@ section .slider[data-paging="true"] .flickity-page-dots {
 	padding-top: 5px;
 }
 .financials-table th {
-    background-color: #FF4100;
+    background-color: #ea5b0b;
     color: #fff;
     text-transform: uppercase;
     font-size: 14px;
@@ -335,7 +335,7 @@ section .slider[data-paging="true"] .flickity-page-dots {
 }
 
 tr:nth-child(2n+1) {
-	background-color: #F2F2F2;
+	background-color: #feeee8;
 }
 .col-md-12.financials-table {
 	padding: 0px;
@@ -398,6 +398,22 @@ tr:nth-child(2n+1) {
 	font-weight: 400 !important;
     font-family: Open Sans;
     width: 50%;
+}
+
+.views-field.views-field-field-liberty-calendar {
+	border-right: none !important;
+}
+
+.views-field.views-field-field-sec-xml-image {
+	border-right: none !important;
+}
+
+.views-field.views-field-field-fixed-income-document-imag {
+	border-right: none !important;
+}
+
+.table-hover > tbody > tr:hover {
+	background-color: #feeee8 !important;
 }
 
 .tables-liberty a {
