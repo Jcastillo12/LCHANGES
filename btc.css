@@ -386,7 +386,7 @@ tr:nth-child(2n+1) {
     padding: 10px;
 }
 .tables-liberty .views-field {
-    border: none !important;
+    /*border: none !important;*/
     line-height: 30px !important;
 }
 
@@ -397,6 +397,14 @@ tr:nth-child(2n+1) {
 	font-weight: 400 !important;
     font-family: Open Sans;
     width: 50%;
+}
+
+.views-field.views-field-field-fixed-income-date {
+	border-right: 1px dotted #ddd !important;
+}
+
+.views-field.views-field-field-fixed-income-description {
+	border-right: 1px dotted #ddd !important;
 }
 
 .tables-liberty a {
@@ -438,7 +446,7 @@ tr:nth-child(2n+1) {
 /****** Heading ******************/
 
 .tables-liberty table th {
-	background-color: #FF4100;
+	background-color: #ea5b0b;
 	color: white;
 	text-transform: uppercase;
 	font-weight: 600;
