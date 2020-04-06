@@ -206,6 +206,9 @@ ul.menu-horizontal {
 }
 
 /*******************     HOME      ***************************/
+body {
+    color: #333;
+  }
 .title-h2{
     font-size: 44px;
     color: #333;
