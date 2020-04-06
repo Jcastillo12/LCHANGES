@@ -596,6 +596,9 @@ a:hover {
 .small-tabs .tabs li.active .tab__title span {
     color: #fff !important;
 }
+.epr-caption {
+	color: #333;
+}
 /************ Executive Team and Directors ************/
 .feature-8 img {
     border-radius: 50% !important;
