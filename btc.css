@@ -208,7 +208,31 @@ ul.menu-horizontal {
 /*******************     HOME      ***************************/
 body {
     color: #333;
-  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Helvetica Neue', sans-serif !important;
+}
+h5,
+.h5 {
+  font-weight: 500 !important;
+}
+.imagebg:not(.image--light) a {
+    font-weight: 500 !important;
+}
+.des-p {
+    font-family: 'Helvetica Neue', sans-serif !important;
+}
 .title-h2{
     font-size: 44px;
     color: #333;
@@ -513,6 +537,7 @@ tr:nth-child(2n+1) {
     text-align: center;
     align-items: center;
     display: grid;
+    min-width: 19.3em !important;
 }
 .modal-instance.block {
     width: 100%;
