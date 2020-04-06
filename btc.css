@@ -258,6 +258,11 @@ h5,
 .link-p{
     color:#333;
     font-size: 18px;
+    font-family: 'Helvetica Neue', sans-serif !important;
+}
+.boton-stock span {
+    font-family: 'Helvetica Neue', sans-serif !important;
+    font-size: 11px !important;
 }
 .interesting-links-row{
     padding-bottom: 1.429em !important;
