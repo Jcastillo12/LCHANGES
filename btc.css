@@ -236,6 +236,7 @@ h5,
 .title-h2{
     font-size: 44px;
     color: #333;
+    letter-spacing: -2px;
 }
 .subtitle-h2{
     font-size: 40px;
@@ -299,7 +300,8 @@ section.border--bottom:not([data-gradient-bg]) {
 .boton-stock {
 	border-color: #FF4100 !important;
 	background-color: #FF4100;
-	border-radius: 3px !important;
+    border-radius: 3px !important;
+    font-family: 'Helvetica Neue', sans-serif !important;
 }
 .boton-stock span{
     color: #fff !important;
@@ -336,6 +338,7 @@ section .slider[data-paging="true"] .flickity-page-dots {
 .inv-subtitle-h2{
     font-size: 28px;
     color: #333;
+    letter-spacing: -1px;
 }
 .des-h3 strong{
     font-weight:600 !important;
@@ -644,6 +647,22 @@ a:hover {
 .lla-team{
     padding-top: 15px;
     padding-bottom: 15px;
+}
+.modal-instance span {
+	font-family: 'Helvetica Neue', sans-serif;
+}
+/************ Suppliers ************/
+.tab__content2 ul li::before {
+	content: "\2022";
+	color: #FF4100;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	font-size: 16px !important;
+	margin-left: 0em !important;
+}
+.tab__content1 ul .linked::before {
+	color: #FF4100 !important;
 }
 /************ Video Gallery ************/
 .video-play-icon:hover {
