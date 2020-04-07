@@ -341,7 +341,7 @@ section .slider[data-paging="true"] .flickity-page-dots {
     letter-spacing: -1px;
 }
 .des-h3 strong{
-    font-weight:600 !important;
+    font-weight:500 !important;
 }
 .related-links-col{
     padding-bottom: 0px !important;
@@ -360,13 +360,15 @@ section .slider[data-paging="true"] .flickity-page-dots {
     font-size: 14px;
     letter-spacing: -0.45px;
     border-bottom: 1px solid white;
+    font-family: 'Helvetica Neue', sans-serif !important;
 }
 
 .financials-table td {
     font-size: 15px;
-    color: #808080;
+    color: #333333;
     letter-spacing: -0.2px;
     font-weight: 500;
+    font-family: 'Helvetica Neue', sans-serif !important;
 }
 
 tr:nth-child(2n+1) {
@@ -386,7 +388,7 @@ tr:nth-child(2n+1) {
 
 .tables-liberty .control-label {
     font-size: 14px;
-    color: #808080;
+    color: #333333;
     font-family: "Open Sans";
     letter-spacing: 0.2px;
 }
@@ -424,6 +426,7 @@ tr:nth-child(2n+1) {
     /*border: none !important;*/
     border-right: 1px dotted #ddd;
     line-height: 30px !important;
+    font-family: 'Helvetica Neue', sans-serif !important;
 }
 
 .tables-liberty .views-field-title {
@@ -501,10 +504,11 @@ tr:nth-child(2n+1) {
 	background-color: #ea5b0b;
 	color: white;
 	text-transform: uppercase;
-	font-weight: 600;
+	font-weight: 500;
 	letter-spacing: 0.1px;
 	font-size: 14px;
-	padding: 10px;
+    padding: 10px;
+    font-family: 'Helvetica Neue', sans-serif !important;
 }
 
 /********* End Heading ********/
@@ -696,7 +700,7 @@ a:hover {
 }
 /************ Contact Us ************/
 .asterisk-lla {
-	color: #FF4100;
+	color: #f12f2f;
 	font-weight: 900 !important;
 }
 /******/
