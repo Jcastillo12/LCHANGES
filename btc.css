@@ -648,7 +648,13 @@ a:hover {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+.switchable__text span {
+	font-family: 'Helvetica Neue', sans-serif;
+}
 .modal-instance span {
+	font-family: 'Helvetica Neue', sans-serif;
+}
+.lla-team span {
 	font-family: 'Helvetica Neue', sans-serif;
 }
 /************ Suppliers ************/
