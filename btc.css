@@ -206,64 +206,31 @@ ul.menu-horizontal {
 }
 
 /*******************     HOME      ***************************/
-body {
-    color: #333;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  font-family: 'Helvetica Neue', sans-serif !important;
-}
-h5,
-.h5 {
-  font-weight: 500 !important;
-}
-.imagebg:not(.image--light) a {
-    font-weight: 500 !important;
-}
-.des-p {
-    font-family: 'Helvetica Neue', sans-serif !important;
-}
 .title-h2{
-    font-size: 44px;
-    color: #333;
-    letter-spacing: -2px;
+    font-size: 70px;
+    color: #FF4100;
 }
 .subtitle-h2{
     font-size: 40px;
-    color: #FF4100;
+    color: #333;
 }
 .subtitle-h3{
     color: #FF4100;
     letter-spacing: -0.55px;
-    font-size:22px;
+    font-size:24px;
 }
 .des-h3{
-    font-size: 22px;
-    color: #333333;
+    font-size: 20px;
+    color: #808080;
 }
 .des-p{
     font-size: 16px;
     letter-spacing: -0.4px;
-    color: #333333;
+    color: #808080;
 }
 .link-p{
     color:#333;
     font-size: 18px;
-    font-family: 'Helvetica Neue', sans-serif !important;
-}
-.boton-stock span {
-    font-family: 'Helvetica Neue', sans-serif !important;
-    font-size: 11px !important;
 }
 .interesting-links-row{
     padding-bottom: 1.429em !important;
@@ -300,8 +267,7 @@ section.border--bottom:not([data-gradient-bg]) {
 .boton-stock {
 	border-color: #FF4100 !important;
 	background-color: #FF4100;
-    border-radius: 3px !important;
-    font-family: 'Helvetica Neue', sans-serif !important;
+	border-radius: 3px !important;
 }
 .boton-stock span{
     color: #fff !important;
@@ -318,15 +284,37 @@ section .slider[data-paging="true"] .flickity-page-dots {
     height: 2.571em !important;
     border-radius: 50% !important;
     margin: 20px !important;
+    top: 103.5% !important;
 }
 .flickity-prev-next-button:before {
     font-size: 1.8em !important;
 }
 .principal-slider {
 	padding-bottom: 0em !important;
-	margin-bottom: -52px !important;
+	margin-bottom: -54px !important;
 }
-
+.flickity-page-dots {
+    text-align: right !important;
+    padding-right: 6% !important;
+}
+.flickity-prev-next-button.next {
+    right: 0% !important;
+}
+.flickity-prev-next-button.previous {
+    right: 2% !important;
+    left: auto !important;
+}
+section:not(.image--light) .slider[data-paging="true"] .flickity-page-dots .dot {
+	background: transparent !important;
+    border: 1px solid #fff;
+    opacity: 1 !important;
+}
+.flickity-page-dots .dot.is-selected {
+    border: 1px solid #ff4100 !important;
+}
+.slider[data-paging="true"]:not(section) .flickity-page-dots {
+    bottom: -4.3em !important;
+  }
 /******************************** INVESTORS *****************************/
 .secondary-slider{
     padding-bottom: 0em !important;
@@ -338,10 +326,9 @@ section .slider[data-paging="true"] .flickity-page-dots {
 .inv-subtitle-h2{
     font-size: 28px;
     color: #333;
-    letter-spacing: -1px;
 }
 .des-h3 strong{
-    font-weight:500 !important;
+    font-weight:600 !important;
 }
 .related-links-col{
     padding-bottom: 0px !important;
@@ -354,25 +341,23 @@ section .slider[data-paging="true"] .flickity-page-dots {
 	padding-top: 5px;
 }
 .financials-table th {
-    background-color: #ea5b0b;
+    background-color: #FF4100;
     color: #fff;
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: -0.45px;
     border-bottom: 1px solid white;
-    font-family: 'Helvetica Neue', sans-serif !important;
 }
 
 .financials-table td {
     font-size: 15px;
-    color: #333333;
+    color: #808080;
     letter-spacing: -0.2px;
     font-weight: 500;
-    font-family: 'Helvetica Neue', sans-serif !important;
 }
 
 tr:nth-child(2n+1) {
-	background-color: #feeee8;
+	background-color: #F2F2F2;
 }
 .col-md-12.financials-table {
 	padding: 0px;
@@ -388,7 +373,7 @@ tr:nth-child(2n+1) {
 
 .tables-liberty .control-label {
     font-size: 14px;
-    color: #333333;
+    color: #808080;
     font-family: "Open Sans";
     letter-spacing: 0.2px;
 }
@@ -423,10 +408,8 @@ tr:nth-child(2n+1) {
     padding: 10px;
 }
 .tables-liberty .views-field {
-    /*border: none !important;*/
-    border-right: 1px dotted #ddd;
+    border: none !important;
     line-height: 30px !important;
-    font-family: 'Helvetica Neue', sans-serif !important;
 }
 
 .tables-liberty .views-field-title {
@@ -436,30 +419,6 @@ tr:nth-child(2n+1) {
 	font-weight: 400 !important;
     font-family: Open Sans;
     width: 50%;
-}
-
-.views-field.views-field-field-liberty-calendar {
-	border-right: none !important;
-}
-
-.views-field.views-field-field-sec-xml-image {
-	border-right: none !important;
-}
-
-.views-field.views-field-field-fixed-income-document-imag {
-	border-right: none !important;
-}
-
-.views-field.views-field-field-regulation-image {
-	border-right: none !important;
-}
-
-.views-field.views-field-field-news-date {
-	border-right: none !important;
-}
-
-.table-hover > tbody > tr:hover {
-	background-color: #feeee8 !important;
 }
 
 .tables-liberty a {
@@ -501,14 +460,13 @@ tr:nth-child(2n+1) {
 /****** Heading ******************/
 
 .tables-liberty table th {
-	background-color: #ea5b0b;
+	background-color: #FF4100;
 	color: white;
 	text-transform: uppercase;
-	font-weight: 500;
+	font-weight: 600;
 	letter-spacing: 0.1px;
 	font-size: 14px;
-    padding: 10px;
-    font-family: 'Helvetica Neue', sans-serif !important;
+	padding: 10px;
 }
 
 /********* End Heading ********/
@@ -549,7 +507,6 @@ tr:nth-child(2n+1) {
     text-align: center;
     align-items: center;
     display: grid;
-    min-width: 19.3em !important;
 }
 .modal-instance.block {
     width: 100%;
@@ -600,19 +557,19 @@ a:hover {
 .tab__content {
     font-size: 16px;
     letter-spacing: -0.4px;
-    color: #333333;
+    color: #808080;
 }
 .tabs li.active .tab__title span {
     color: #FF4100;
 }
 .tab__content ul li::before {
 	content: "\2022";
-	color: #333333;
+	color: #FF4100;
 	font-weight: bold;
 	display: inline-block;
 	width: 1em;
 	margin-left: -1em;
-	font-size: 16px !important;
+	font-size: 20px !important;
 }
 .list-a{
     list-style-type:lower-alpha !important;
@@ -622,11 +579,11 @@ a:hover {
 }
 .tab__content1 ul li::before {
 	content: "\2022";
-	color: #333333;
+	color: #FF4100;
 	font-weight: bold;
 	display: inline-block;
 	width: 1em;
-    font-size: 16px !important;
+    font-size: 20px !important;
     margin-left: 0em !important;
 }
 .small-tabs .tabs li.active {
@@ -635,9 +592,6 @@ a:hover {
 }
 .small-tabs .tabs li.active .tab__title span {
     color: #fff !important;
-}
-.epr-caption {
-	color: #333;
 }
 /************ Executive Team and Directors ************/
 .feature-8 img {
@@ -651,28 +605,6 @@ a:hover {
 .lla-team{
     padding-top: 15px;
     padding-bottom: 15px;
-}
-.switchable__text span {
-	font-family: 'Helvetica Neue', sans-serif;
-}
-.modal-instance span {
-	font-family: 'Helvetica Neue', sans-serif;
-}
-.lla-team span {
-	font-family: 'Helvetica Neue', sans-serif;
-}
-/************ Suppliers ************/
-.tab__content2 ul li::before {
-	content: "\2022";
-	color: #FF4100;
-	font-weight: bold;
-	display: inline-block;
-	width: 1em;
-	font-size: 16px !important;
-	margin-left: 0em !important;
-}
-.tab__content1 ul .linked::before {
-	color: #FF4100 !important;
 }
 /************ Video Gallery ************/
 .video-play-icon:hover {
@@ -695,12 +627,9 @@ a:hover {
 .tab__content .social-list li::before {
 	color: transparent;
 }
-.il-vg{
-    margin-top: -200px !important;
-}
 /************ Contact Us ************/
 .asterisk-lla {
-	color: #f12f2f;
+	color: #FF4100;
 	font-weight: 900 !important;
 }
 /******/
