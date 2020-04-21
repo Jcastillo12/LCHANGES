@@ -205,6 +205,34 @@ ul.menu-horizontal {
     color:#808080;
 }
 
+/************************ Title banner ***********************************/
+
+/* .container.pos-vertical-center .field {
+    position: relative;
+    text-align: center;
+    top: 300px;
+} */
+
+
+/************************************************************************/
+
+
+/******************* SECCIÓN DE INFO BAR ******************************/
+
+.paragraph.paragraph--type--info-bar{
+	border-bottom: 0px solid #575756 !important;
+	background: #575756;
+	border-top: 8px solid #EA5B0B;
+        padding-top: 1.85714286em;
+        padding-bottom: 1.85714286em;
+}
+
+.paragraph.paragraph--type--info-bar .paragraph__column{
+  padding-bottom: 0px;
+}
+
+/**********************************************************************/
+
 /*******************     HOME      ***************************/
 .title-h2{
     font-size: 44px;
