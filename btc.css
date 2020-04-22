@@ -7,7 +7,6 @@
     width: 1055px;
     height: 40px;
     float: right;
-    border-bottom: 1px solid rgba(112,112,112,0.2);
 }
 
 .social-icons-top i {
@@ -121,6 +120,14 @@ ul.menu-horizontal {
 
 .we-mega-menu-ul .dropdown-menu > span::before{
     display: none;
+}
+
+.we-mega-menu-li a,
+.we-megamenu-nolink.is-active,
+.we-mega-menu-li.dropdown-menu span {
+    padding-right: 0px !important;
+    margin-left: 30px;
+    padding-left: 0px !important;
 }
 
 /* .we-mega-menu-ul>.dropdown-menu {
@@ -813,7 +820,7 @@ a:hover {
 
 /*******************     Footer      ***************************/
 footer{
-    background-color:#333333;
+    background-color:#575756;
     padding-top: 50px;
     padding-bottom: 25px;
 }
