@@ -430,14 +430,20 @@ section .slider[data-paging="true"] .flickity-page-dots {
     height: 12px !important;
 }
 .flickity-prev-next-button {
-    background: #F26522 !important;
+    background: #575756 !important;
     height: 2.571em !important;
     border-radius: 50% !important;
     margin: 20px !important;
-    top: 103.5% !important;
+    top: 102.9% !important;
 }
 .flickity-prev-next-button:before {
     font-size: 1.8em !important;
+}
+.flickity-prev-next-button.previous::before {
+    content: "\e807" !important;
+}
+.flickity-prev-next-button::before{
+    content: "\e808" !important;
 }
 .principal-slider {
 	padding-bottom: 0em !important;
@@ -463,8 +469,22 @@ section:not(.image--light) .slider[data-paging="true"] .flickity-page-dots .dot 
     border: 1px solid #ff4100 !important;
 }
 .slider[data-paging="true"]:not(section) .flickity-page-dots {
-    bottom: -4.3em !important;
-  }
+    bottom: -3.8em !important;
+}
+.btn--primary:hover {
+	background: #FF4100 !important;
+	border: 1px solid #FF4100 !important;
+}
+.btn--primary {
+	background: #575756 !important;
+    border: 1px solid #575756 !important;
+    color: #ffffff;
+}
+.btn--primary .btn__text, .btn--primary:visited .btn__text {
+    color: #fff;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+}
 /******************************** INVESTORS *****************************/
 .secondary-slider{
     padding-bottom: 0em !important;
