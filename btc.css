@@ -600,6 +600,26 @@ article .article__body img  {
 }
 
 
+.home-icons {
+	background: #dadada;
+	border-radius: 50%;
+	padding: 50px;
+}
+.home-icons.homeicon1:hover {
+	background: #ea5b0b;
+}
+.home-icons.homeicon2:hover {
+	background: #D90019;
+}
+.home-icons.homeicon3:hover {
+	background: #FF1926;
+}
+.home-icons.homeicon4:hover {
+	background: #333333;
+}
+.home-icons.homeicon5:hover {
+	background: #831F82;
+}
 /******************************** INVESTORS *****************************/
 .secondary-slider{
     padding-bottom: 0em !important;
