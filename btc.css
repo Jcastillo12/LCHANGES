@@ -16,13 +16,30 @@
     background-color: #DADADA;
     padding: 5px;
     border-radius: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .social-icons-top a:hover i {
     background-color: #575756;
 }
+
+.social-icons-footer-new i {
+    font-size: 20px;
+    color: white;
+    margin-right: 7px;
+    background-color: #878787;
+    padding: 5px;
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.social-icons-footer-new a:hover i {
+    background-color: #DADADA;
+    color: #575756;
+}
+
 
 .elements-top a{
     color:#808080;
@@ -118,9 +135,6 @@ ul.menu-horizontal {
 	font-weight: 300;
 }
 
-.we-mega-menu-ul .dropdown-menu > span::before{
-    display: none;
-}
 
 .we-mega-menu-li a,
 .we-megamenu-nolink.is-active,
@@ -129,11 +143,30 @@ ul.menu-horizontal {
     margin-left: 30px;
     padding-left: 0px !important;
 }
-
-/* .we-mega-menu-ul>.dropdown-menu {
+ .we-mega-menu-ul>.dropdown-menu {
     z-index: 0;
-} */
+} 
+.we-mega-menu-ul .dropdown-menu > span::before{
+    display: none;
+}
 
+.we-mega-menu-ul > .we-mega-menu-li::after {
+	content: '|';
+	position: relative;
+	right: -10px;
+	top: 32%;
+	margin-top: -.3125rem;
+	width: .6875rem;
+	height: .6875rem;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: initial;
+}
+
+.we-mega-menu-li:last-child::after {
+    display: none;
+}
 
 .submenu-dropdown-1,
 .submenu-dropdown-2,
@@ -497,6 +530,76 @@ section:not(.image--light) .slider[data-paging="true"] .flickity-page-dots .dot 
     font-weight: 500 !important;
     font-size: 16px !important;
 }
+
+.field .btn.btn--primary {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+/******************************** HOME ARTICLE *****************************/
+
+.page-node-type-full-page .field.field--name-field-tags.field--type-entity-reference.field--label-above,
+.page-node-type-full-page .field.field--name-field-tags.field--type-entity-reference.field--label-hidden.field--items,
+.page-node-type-full-page .text-article,
+.page-node-type-full-page .comment-comments.last,
+.page-node-type-full-page .comment-add,
+article .article__body img  {
+    display: none;
+}
+
+.page-node-type-full-page .container.full-expand {
+    width: 100%;
+    background-color: #B3B2B2;
+    height: 430px;
+    overflow: hidden;
+}
+
+.page-node-type-full-page .desktop-view article section {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.page-node-type-full-page .paragraph--id--1821 .paragraph__column {
+    padding: 0 !important;
+}
+
+.page-node-type-full-page .no-padding-right{
+    padding-right: 0px;
+}
+.page-node-type-full-page .image-selector .field {
+    margin-bottom: 0px;
+}
+
+.page-node-type-full-page .article__body {
+    width: 600px;
+    position: relative;
+    top: 60px;
+    left: 90px;
+}
+
+.page-node-type-full-page .article__body h2{
+    font-size: 40px;
+    color: #fff !important;
+    letter-spacing: -1px !important;
+    font-family: 'Open Sans' !important;
+ }
+
+ .page-node-type-full-page .article__body p{
+    font-size: 22px;
+    color: #fff !important;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    letter-spacing: -0.5px;
+ }
+
+.page-node-type-full-page .node-readmore a {
+    color: #585857;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    letter-spacing: -0.5px;
+}
+
+
 /******************************** INVESTORS *****************************/
 .secondary-slider{
     padding-bottom: 0em !important;
@@ -927,21 +1030,25 @@ a:hover {
 
 /*******************     Footer      ***************************/
 footer{
-    background-color:#575756;
     padding-top: 50px;
-    padding-bottom: 25px;
+	padding-bottom: 25px;
+	background-color: #575756;
+	background-image: url('/sites/default/files/2020-04/bloom_half.png');
+	background-size: contain;
+        background-position:center right;
+	background-repeat: no-repeat;
 }
 
 .description-footer h4{
-    color: white;
-    font-size: 13px;
-    font-weight: 600!important;
+    color: rgba(255,255,255,0.6) !important;
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 0;
 }
 
 .description-footer p{
-    line-height: 24px;
+    line-height: 18px;
     color: white;
     font-family: "Open Sans";
     font-size: 12px;
@@ -1003,7 +1110,7 @@ footer{
 }
 
 .spacer{
-    height:50px;
+    height:35px;
     clear:both;
 }
 
@@ -1021,19 +1128,35 @@ footer{
 }
 
 .menu-copyright li a{ 
-    text-align: left;
-    font-weight: 300;
-    font-size:12px;
-    font-family: "Open Sans";
-    color:white!important;
     float: left;
     margin-right: 20px;
+    letter-spacing: 0.21px;
+    color: #575756;
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
-.menu-copyright{
-    float: right;
-    width: 320px;
+
+.menu-copyright li a::after{ 
+    content: '|';
+	position: relative;
+	right: -10px;
+	top: 32%;
+	margin-top: -.3125rem;
+	width: .6875rem;
+	height: .6875rem;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: initial;
 }
+
+.last-item::after {
+    display: none !important;
+}
+
 
 #block-columna1.clearfix {
     overflow: visible;
