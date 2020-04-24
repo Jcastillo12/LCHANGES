@@ -472,6 +472,9 @@ h5,
 .icons-h3.hi5:hover {
 	color: #831F82;
 }
+.iconos-title:hover {
+	text-decoration: none;
+}
 .des-h3 {
     font-size: 22px;
     color: #808080;
