@@ -444,7 +444,7 @@ h5,
 .subtitle-h3 {
 	font-size: 28px;
 	font-family: "Helvetica Neue LT Com" !important;
-	font-weight: 300;
+	font-weight: 700;
 	line-height: 38px;
 	letter-spacing: 0.5px;
 	color: #EA5B0B;
@@ -453,11 +453,25 @@ h5,
 	font-size: 20px;
 	font-family: "Helvetica Neue LT Com" !important;
 	font-weight: bolder;
-	line-height: 50px;
+	margin-top: 25px;
 	letter-spacing: 0.5px;
-	color: #EA5B0B;
+	color: #dadada;
 }
-
+.icons-h3.hi1:hover {
+	color: #ea5b0b;
+}
+.icons-h3.hi2:hover {
+	color: #D90019;
+}
+.icons-h3.hi3:hover {
+	color: #FF1926;
+}
+.icons-h3.hi4:hover {
+	color: #333333;
+}
+.icons-h3.hi5:hover {
+	color: #831F82;
+}
 .des-h3 {
     font-size: 22px;
     color: #808080;
