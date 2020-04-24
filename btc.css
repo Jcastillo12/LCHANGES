@@ -1,3 +1,18 @@
+/************* Tipografia Tempor********************/
+/*Helvetica Ultra Light*/
+@font-face {
+    font-family: "Helvetica Neue LT Com"; 
+    src: url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.eot"); 
+    src: url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.woff") format("woff"), url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.svg#Helvetica Neue LT Com") format("svg"); 
+} 
+/*Helvetica Light*/
+@font-face {
+    font-family: "Helvetica Neue"; src: url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.eot"); 
+    src: url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.woff") format("woff"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0e6de1ec911a2e267ff136bbdd384a44.svg#Helvetica Neue") format("svg"); 
+}
+
+
+
 /*******************     Secondary navigation - Top bar      ***************************/
 .top-bar{
     width: 100%;
@@ -5,8 +20,11 @@
 }
 .elements-top {
     width: 1055px;
-    height: 40px;
+    height: 20px;
     float: right;
+}
+#block-topmenuiconosyredessociales{
+    overflow: initial;
 }
 
 .social-icons-top i {
@@ -47,10 +65,13 @@
     letter-spacing: -0.13px;
     font-family: Arial;
 }
+.menu-info{
+    left: 50px;
+}
 
 .menu-info a {
     margin-left: 5px;
-    font-family: Arial;
+    font-family: 'Helvetica Neue' !important;
     letter-spacing: -0.13px;
     color: #808080;
     opacity: 1;
@@ -106,7 +127,7 @@ ul.menu-horizontal {
 }
 
 .submenu-dropdown-1{
-    left: -645px;
+    left: -602px;
 }
 
 .submenu-dropdown-2 {
@@ -130,7 +151,7 @@ ul.menu-horizontal {
 .we-mega-menu-ul > .we-mega-menu-li > span, .we-mega-menu-ul > .we-mega-menu-li > a {
 	letter-spacing: 0.21px;
 	color: #575756;
-	font-size: 18px;
+	font-size: 20px;
 	font-family: 'Helvetica Neue', sans-serif;
 	font-weight: 300;
 }
@@ -225,7 +246,7 @@ ul.menu-horizontal {
 }
 
 .align-menu-content{
-    top: 10px;
+    top: 15px;
 }
 
 #block-libertyactualmenu .block-inner{
@@ -257,7 +278,7 @@ ul.menu-horizontal {
     background-color: #82368C;
     color: white !important;
     padding: 8px;
-    font-size: 12px !important;
+    font-size: 14px !important;
     border-radius: 5px;
     font-weight: 300 !important;
 }
@@ -266,7 +287,7 @@ ul.menu-horizontal {
     background-color: #BE1622;
     color: white !important; 
     padding: 8px;
-    font-size: 12px !important;
+    font-size: 14px !important;
     border-radius: 5px;
     font-weight: 300 !important;
 }
@@ -275,7 +296,7 @@ ul.menu-horizontal {
 	background-color: #E7332A;
 	color: white !important;
 	padding: 8px;
-	font-size: 12px !important;
+	font-size: 14px !important;
 	border-radius: 5px;
 	font-weight: 300 !important;
 }
@@ -312,6 +333,12 @@ color:white;
 }
 .search-container .fa.fa-search {
     color: white;
+}
+
+.search-container {
+    position: relative;
+    top: 0px;
+    left: 40px;
 }
 
 ::placeholder {
@@ -382,8 +409,9 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Helvetica Neue', sans-serif !important;
+  font-family: 'Helvetica Neue LT Com'!important;
 }
+
 h5,
 .h5 {
   font-weight: 500 !important;
@@ -392,26 +420,44 @@ h5,
     font-weight: 500 !important;
 }
 .des-p {
-    font-family: 'Helvetica Neue', sans-serif !important;
+    font-family: 'Helvetica Neue LT Com'!important;
 }
-.title-h2{
-    font-size: 70px;
-    color: #FF4100;
-    letter-spacing: -2px;
+.title-h2-main {
+    font-family: "Helvetica Neue LT Com";
+    font-weight: 600;
+    color: #575756;
+    font-size: 72px !important;
+    line-height: 84px;
 }
+.title-h2 {
+    font-size: 110px !important;
+    color: #EA5B0B;
+    letter-spacing: 0px;
+    font-weight: 300;
+    font-family: "Helvetica Neue LT Com";
+}
+
 .subtitle-h2{
     font-size: 40px;
     color: #333;
 }
-.subtitle-h3{
-    color: #FF4100;
-    letter-spacing: -0.55px;
-    font-size:24px;
+.subtitle-h3 {
+	font-size: 28px;
+	font-family: 'Helvetica Neue' !important;
+	font-weight: 300;
+	line-height: 38px;
+	letter-spacing: 0.5px;
+	color: #EA5B0B;
 }
-.des-h3{
-    font-size: 20px;
+
+.des-h3 {
+    font-size: 22px;
     color: #808080;
+    letter-spacing: 0.5px;
+    line-height: 32px;
+    font-family: 'Helvetica Neue' !important;
 }
+
 .des-p{
     font-size: 16px;
     letter-spacing: -0.4px;
@@ -420,15 +466,29 @@ h5,
 .link-p{
     color:#333;
     font-size: 18px;
-    font-family: 'Helvetica Neue', sans-serif !important;
+    font-family: "Helvetica Neue LT Com"; 
 }
 .boton-stock span {
-    font-family: 'Helvetica Neue', sans-serif !important;
+    font-family: "Helvetica Neue LT Com"; 
     font-size: 11px !important;
 }
 .interesting-links-row{
+    padding-top: 40px;
     padding-bottom: 1.429em !important;
 }
+
+.icons-quick-links {
+    padding-bottom: 40px;
+}
+
+.quick-links {
+    font-weight: 600;
+    color: #575756;
+    font-size: 44px !important;
+    line-height: 84px;
+    letter-spacing: 0.5px;
+}
+
 .bg--orange{
     background-color: #EA5B0B;
 }
@@ -462,7 +522,7 @@ section.border--bottom:not([data-gradient-bg]) {
 	border-color: #FF4100 !important;
 	background-color: #FF4100;
     border-radius: 3px !important;
-    font-family: 'Helvetica Neue', sans-serif !important;
+    font-family: "Helvetica Neue LT Com"; 
 }
 .boton-stock span{
     color: #fff !important;
@@ -524,16 +584,20 @@ section:not(.image--light) .slider[data-paging="true"] .flickity-page-dots .dot 
 	background: #575756 !important;
     border: 1px solid #575756 !important;
     color: #ffffff;
+	font-family: "Helvetica Neue LT Com";
+	letter-spacing: 0.5px;
 }
 .btn--primary .btn__text, .btn--primary:visited .btn__text {
     color: #fff;
     font-weight: 500 !important;
     font-size: 16px !important;
+    letter-spacing: 0.5px;
 }
 
+
+
 .field .btn.btn--primary {
-	padding-right: 10px;
-	padding-left: 10px;
+	padding:5px 10px;
 }
 
 /******************************** HOME ARTICLE *****************************/
@@ -548,8 +612,6 @@ article .article__body img  {
 }
 
 .page-node-type-full-page .container.full-expand {
-    width: 100%;
-    background-color: #B3B2B2;
     height: 430px;
     overflow: hidden;
 }
@@ -557,48 +619,56 @@ article .article__body img  {
 .page-node-type-full-page .desktop-view article section {
     padding-top: 0px;
     padding-bottom: 0px;
+    background-color: #B3B2B2;
 }
 
 .page-node-type-full-page .paragraph--id--1821 .paragraph__column {
     padding: 0 !important;
 }
 
-.page-node-type-full-page .no-padding-right{
+.page-node-type-full-page .no-padding{
     padding-right: 0px;
+    padding-left: 0px;
 }
 .page-node-type-full-page .image-selector .field {
     margin-bottom: 0px;
 }
 
 .page-node-type-full-page .article__body {
-    width: 600px;
-    position: relative;
-    top: 60px;
-    left: 90px;
+	width: 500px;
+	padding-right: 15px;
+	padding-top: 30px;
 }
 
 .page-node-type-full-page .article__body h2{
-    font-size: 40px;
+    font-size: 36px;
     color: #fff !important;
-    letter-spacing: -1px !important;
-    font-family: 'Open Sans' !important;
+    letter-spacing: 0.5px !important;
+    font-family: "Helvetica Neue LT Com";
  }
 
  .page-node-type-full-page .article__body p{
     font-size: 22px;
     color: #fff !important;
-    font-family: 'Open Sans';
+    font-family: "Helvetica Neue LT Com";
     font-weight: 300;
-    letter-spacing: -0.5px;
+    letter-spacing: 0.5px;
  }
 
 .page-node-type-full-page .node-readmore a {
     color: #585857;
-    font-family: 'Open Sans';
+    font-family: "Helvetica Neue LT Com";
     font-weight: 300;
-    letter-spacing: -0.5px;
+    letter-spacing: 0.5px;
 }
 
+.page-node-type-full-page .comment-comments {
+    display: none !important;
+}
+
+.page-node-type-full-page .comment-forbidden {
+    display: none !important;
+}
 
 .home-icons {
 	background: #dadada;
@@ -620,6 +690,36 @@ article .article__body img  {
 .home-icons.homeicon5:hover {
 	background: #831F82;
 }
+
+.col-2dot4,
+.col-sm-2dot4,
+.col-md-2dot4,
+.col-lg-2dot4,
+.col-xl-2dot4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float:left;
+}
+
+.page-node-type-full-page .imageblock__content.col-lg-6.col-md-8.pos-right {
+    left: auto;
+     position: absolute;
+     height: 100%;
+     top: 0;
+     z-index: 2;
+     padding-right: 0px;
+     padding-left: 40px;
+ }   
+ /*Background image article*/
+ .page-node-type-full-page .field.field--name-field-image.field--type-image.field--label-hidden.field--item div {
+     height: 430px; 
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+
 /******************************** INVESTORS *****************************/
 .secondary-slider{
     padding-bottom: 0em !important;
@@ -653,7 +753,7 @@ article .article__body img  {
     font-size: 14px;
     letter-spacing: -0.45px;
     border-bottom: 1px solid white;
-    font-family: 'Helvetica Neue', sans-serif !important;
+    font-family: "Helvetica Neue LT Com"; 
 }
 
 .financials-table td {
@@ -661,7 +761,7 @@ article .article__body img  {
     color: #333333;
     letter-spacing: -0.2px;
     font-weight: 500;
-    font-family: 'Helvetica Neue', sans-serif !important;
+    font-family: "Helvetica Neue LT Com"; 
 }
 
 tr:nth-child(2n+1) {
@@ -682,7 +782,7 @@ tr:nth-child(2n+1) {
 .tables-liberty .control-label {
     font-size: 14px;
     color: #333333;
-    font-family: 'Helvetica Neue', sans-serif !important;
+    font-family: "Helvetica Neue LT Com"; 
     letter-spacing: 0.2px;
 }
 
@@ -719,7 +819,7 @@ tr:nth-child(2n+1) {
     /*border: none !important;*/
     border-right: 1px dotted #ddd;
     line-height: 30px !important;
-    font-family: 'Helvetica Neue', sans-serif !important;
+    font-family: "Helvetica Neue LT Com"; 
 }
 
 .tables-liberty .views-field-title {
@@ -727,7 +827,7 @@ tr:nth-child(2n+1) {
 	font-size: 16px !important;
 	letter-spacing: -0.4px;
 	font-weight: 400 !important;
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     width: 50%;
 }
 .views-field.views-field-field-liberty-calendar {
@@ -800,7 +900,7 @@ tr:nth-child(2n+1) {
 	letter-spacing: 0.1px;
     font-size: 14px;
     padding: 10px;
-    font-family: 'Helvetica Neue', sans-serif !important;
+    font-family: "Helvetica Neue LT Com"; 
 }
 
 /********* End Heading ********/
@@ -834,6 +934,18 @@ tr:nth-child(2n+1) {
     color: #f26522;
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
+
+.submenu-dropdown-1 .we-mega-menu-submenu li.we-mega-menu-li a,
+.submenu-dropdown-1 .we-megamenu-nolink,
+.submenu-dropdown-1 .we-mega-menu-li,
+.submenu-dropdown-2 .we-mega-menu-submenu li.we-mega-menu-li a,
+.submenu-dropdown-2 .we-megamenu-nolink{
+    font-family: 'Helvetica Neue' !important;
+    letter-spacing: 0.5px;
+    font-size: 14px!important;
+    font-weight: 300!important;
+}
+
 
 /******************************** ABOUT US *****************************/
 .feature-1 {
@@ -1050,7 +1162,7 @@ a:hover {
 
 /*******************     Footer      ***************************/
 footer{
-    padding-top: 50px;
+    padding-top: 50px!important;
 	padding-bottom: 25px;
 	background-color: #575756;
 	background-image: url('/sites/default/files/2020-04/bloom_half.png');
@@ -1061,18 +1173,21 @@ footer{
 
 .description-footer h4{
     color: rgba(255,255,255,0.6) !important;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Helvetica Neue', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .description-footer p{
-    line-height: 18px;
+    float: left;
+    margin-right: 20px;
+    letter-spacing: 1px;
     color: white;
-    font-family: "Open Sans";
-    font-size: 12px;
-    opacity: 1;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: 'Helvetica Neue LT Com'!important;
 }
 [class*='bg-']:not(.bg--white):not(.bg--secondary) p, [class*='imagebg']:not(.image--light) p{
     opacity: 0.6;
@@ -1123,6 +1238,8 @@ footer{
     padding-left: 0px;
 }
 
+
+
 /****************************   Copyright   ************************************/
 .copyright{
     border-top:1px solid rgba(255,255,255,0.1);
@@ -1142,22 +1259,22 @@ footer{
 .text-copyright p{
     text-align: left;
     font-weight: 300;
-    font-size:12px;
-    font-family: "Open Sans";
-    color:white;
+    color: white;
+    font-family: 'Helvetica Neue LT Com'!important;
+    letter-spacing: 0.5px;
+    font-size: 16px;
 }
 
 .menu-copyright li a{ 
     float: left;
     margin-right: 20px;
-    letter-spacing: 0.21px;
+    letter-spacing: 0.5px;
     color: #575756;
-    font-size: 16px;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-family: 'Helvetica Neue LT Com'!important;
     font-weight: 300;
     text-transform: uppercase;
 }
-
 
 .menu-copyright li a::after{ 
     content: '|';
@@ -1214,27 +1331,87 @@ footer{
 }
 
 /*Responsive*/
+/*********************** 1200 *************************/
+@media (max-width: 1200px) and (min-width: 992px) {
 
-
-/*********************** 768 *************************/
-@media only screen and (max-width: 768px) {
-
-    .logo-position,
-    .social-footer{
-       padding-right: 15px;
-       padding-left: 15px;
-    }
-
-    .social-icons-footer{
-        padding-left: 0px;
-     }
-
-    .space-between-columns {
-        padding-top: 50px;
-        padding-left: 15px;
-    }
-   
+    .page-node-type-full-page .imageblock__content.col-lg-6.col-md-8.pos-right {
+        right: -20%;
+     }   
 
 }
+
+/*********************** 1140 *************************/
+
+@media (min-width: 1140px) {
+    .col-xl-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+@media (max-width: 1139px) and (min-width: 992px) {
+    .col-lg-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+/*********************** 992 *************************/
+@media (max-width: 991px) and (min-width: 768px) {
+    .imageblock__content.col-lg-6.col-md-8.pos-right {
+        width: 400px;
+    }
+    .page-node-type-full-page .article__body {
+        width: 400px!important;
+        padding-top: 70px!important;
+    }
+    
+    .page-node-type-full-page .article__body p {
+        font-size: 18px;
+    }
+
+    .pos-right {
+        right: 0px!important;
+    }
+    
+    .page-node-type-full-page .article__body h2 {
+        font-size: 28px!important;
+    }
+
+}
+
+
+
+/*********************** 960 *************************/
+
+@media (max-width: 767px) {
+    .page-node-type-full-page .imageblock__content.col-lg-6.col-md-8.pos-right {
+        width: 806px;   
+        position: relative;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .page-node-type-full-page .article__body {
+        width: 100%;
+        padding-right: 0;
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+    
+    .page-node-type-full-page .article__body h2 {
+        font-size: 28px;
+    }
+    
+    .page-node-type-full-page .article__body p {
+        font-size: 18px;
+    }
+}
+
+/*********************** 768 *************************/
+
 
 
