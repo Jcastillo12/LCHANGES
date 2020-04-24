@@ -557,7 +557,7 @@ section .slider[data-paging="true"] .flickity-page-dots {
     height: 2.571em !important;
     border-radius: 50% !important;
     margin: 20px !important;
-    top: 102.9% !important;
+    top: 103.9% !important;
 }
 .flickity-prev-next-button:before {
     font-size: 1.8em !important;
@@ -602,7 +602,7 @@ section:not(.image--light) .slider[data-paging="true"] .flickity-page-dots .dot 
 	background: #575756 !important;
     border: 1px solid #575756 !important;
     color: #ffffff;
-	font-family: "Helvetica Neue LT Com";
+	font-family: "Helvetica Neue";
 	letter-spacing: 0.5px;
 }
 .btn--primary .btn__text, .btn--primary:visited .btn__text {
