@@ -482,7 +482,9 @@ h5,
     line-height: 32px;
     font-family: 'Helvetica Neue' !important;
 }
-
+.imagebg:not(.image--light) h4{
+    font-family: 'Helvetica Neue' !important;
+}
 .des-p{
     font-size: 16px;
     letter-spacing: -0.4px;
@@ -494,7 +496,7 @@ h5,
     font-family: "Helvetica Neue LT Com"; 
 }
 .boton-stock span {
-    font-family: "Helvetica Neue LT Com"; 
+    font-family: "Helvetica Neue"; 
     font-size: 11px !important;
 }
 .interesting-links-row{
@@ -543,7 +545,7 @@ section.border--bottom:not([data-gradient-bg]) {
 	border-color: #FF4100 !important;
 	background-color: #FF4100;
     border-radius: 3px !important;
-    font-family: "Helvetica Neue LT Com"; 
+    font-family: "Helvetica Neue"; 
 }
 .boton-stock span{
     color: #fff !important;
