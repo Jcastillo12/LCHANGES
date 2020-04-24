@@ -457,20 +457,20 @@ h5,
     letter-spacing: -0.5px;
 	color: #dadada;
 }
-.icons-h3.hi1:hover {
-	color: #ea5b0b;
+.icons-h3.hi1 a:hover {
+	color: #ea5b0b !important;
 }
-.icons-h3.hi2:hover {
-	color: #D90019;
+.icons-h3.hi2 a:hover {
+	color: #D90019 !important;
 }
-.icons-h3.hi3:hover {
-	color: #FF1926;
+.icons-h3.hi3 a:hover {
+	color: #FF1926 !important;
 }
-.icons-h3.hi4:hover {
-	color: #333333;
+.icons-h3.hi4 a:hover {
+	color: #333333 !important;
 }
-.icons-h3.hi5:hover {
-	color: #831F82;
+.icons-h3.hi5 a:hover {
+	color: #831F82 !important;
 }
 .iconos-title:hover {
 	text-decoration: none;
