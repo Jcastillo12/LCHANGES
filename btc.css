@@ -451,10 +451,10 @@ h5,
 }
 .icons-h3 {
 	font-size: 22px;
-	font-family: "Helvetica Neue LT Com" !important;
-	font-weight: bolder;
-	margin-top: 25px;
-	letter-spacing: 0.5px;
+    font-family: "Helvetica Neue" !important;
+    font-weight: 700;
+    margin-top: 25px !important;
+    letter-spacing: -0.5px;
 	color: #dadada;
 }
 .icons-h3.hi1:hover {
