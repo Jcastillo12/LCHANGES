@@ -477,10 +477,6 @@ h5,
     padding-bottom: 1.429em !important;
 }
 
-.icons-quick-links {
-    padding-bottom: 40px;
-}
-
 .quick-links {
     font-weight: 600;
     color: #575756;
@@ -858,6 +854,7 @@ tr:nth-child(2n+1) {
     color: #FF4100;
     font-weight: 400;
     text-decoration: none;
+    letter-spacing: 0.5px;
 }
 
 .tables-liberty .text-center {
