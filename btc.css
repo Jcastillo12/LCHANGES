@@ -127,11 +127,11 @@ ul.menu-horizontal {
 }
 
 .submenu-dropdown-1{
-    left: -602px;
+    left: -442px;
 }
 
 .submenu-dropdown-2 {
-    left: -780px;
+    left: -630px;
 
 }
 
@@ -149,9 +149,9 @@ ul.menu-horizontal {
 }
 
 .we-mega-menu-ul > .we-mega-menu-li > span, .we-mega-menu-ul > .we-mega-menu-li > a {
-	letter-spacing: 0.21px;
+	letter-spacing: 1px;
 	color: #575756;
-	font-size: 20px;
+	font-size: 21px;
 	font-family: 'Helvetica Neue', sans-serif;
 	font-weight: 300;
 }
@@ -321,14 +321,14 @@ color:white;
     font-size: 12px;
     background-color: #DADADA;
     text-transform: uppercase;
-    height:30px;
+    height:32px;
 }
 .search-container button {
 	position: relative;
 	top: -44px;
 	width: 30px !important;
 	border: none;
-	left: -116px;
+	left: -200px;
 	height: 30px;
 }
 .search-container .fa.fa-search {
@@ -337,7 +337,7 @@ color:white;
 
 .search-container {
     position: relative;
-    top: 0px;
+    top: -2px;
     left: 40px;
 }
 
@@ -424,10 +424,10 @@ h5,
 }
 .title-h2-main {
     font-family: "Helvetica Neue LT Com";
-    font-weight: 600;
     color: #575756;
-    font-size: 72px !important;
+    font-size: 82px !important;
     line-height: 84px;
+    margin-bottom: 40px!important;
 }
 .title-h2 {
     font-size: 110px !important;
@@ -452,11 +452,17 @@ h5,
 .icons-h3 {
 	font-size: 22px;
     font-family: "Helvetica Neue" !important;
-    font-weight: 700;
     margin-top: 25px !important;
     letter-spacing: -0.5px;
-	color: #dadada;
 }
+
+.icons-h3 a {
+    letter-spacing: -0.5px;
+    color: #a5a3a3;
+    font-weight: 300!important;
+}
+
+
 .icons-h3.hi1 a:hover {
 	color: #ea5b0b !important;
 }
@@ -528,7 +534,7 @@ h5,
 .bg--secondary{
     background: #fff !important;
     padding-top: 0px !important;
-    padding-bottom: 50px !important;
+    padding-bottom: 120px !important;
 }
 .lll-column{
     padding-top: 50px;
@@ -633,7 +639,7 @@ article .article__body img  {
 }
 
 .page-node-type-full-page .container.full-expand {
-    height: 430px;
+    height: 540px;
     overflow: hidden;
 }
 
@@ -656,9 +662,9 @@ article .article__body img  {
 }
 
 .page-node-type-full-page .article__body {
-	width: 500px;
+	width: 580px;
 	padding-right: 15px;
-	padding-top: 30px;
+	padding-top: 60px;
 }
 
 .page-node-type-full-page .article__body h2{
@@ -669,19 +675,37 @@ article .article__body img  {
  }
 
  .page-node-type-full-page .article__body p{
-    font-size: 22px;
+    font-size: 26px;
     color: #fff !important;
-    font-family: "Helvetica Neue LT Com";
+    font-family: "Helvetica Neue";
     font-weight: 300;
-    letter-spacing: 0.5px;
+    letter-spacing: 0px;
  }
 
 .page-node-type-full-page .node-readmore a {
     color: #585857;
     font-family: "Helvetica Neue LT Com";
-    font-weight: 300;
+    font-weight: 600;
     letter-spacing: 0.5px;
+    text-transform: capitalize;
+    font-size: 24px;
 }
+
+#copyright .menu-copyright-space li{
+    float: left;
+    margin-left: 30px;
+    color: white!important; 
+}
+
+#copyright .menu-copyright-space li a{
+    text-align: left;
+    font-weight: 300;
+    color: rgba(255,255,255,0.6) !important;
+    font-family: 'Helvetica Neue LT Com' !important;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+
 
 .page-node-type-full-page .comment-comments {
     display: none !important;
@@ -691,26 +715,116 @@ article .article__body img  {
     display: none !important;
 }
 
-.home-icons {
-	background: #dadada;
-	border-radius: 50%;
-	padding: 50px;
+/*New Home icon configuration*/
+
+/*Icon 1*/
+.home-icons.homeicon1 {
+	height: 240px;
+	width: 240px;
+	background: url('/sites/default/files/2020-04/circulo1.png');
+	background-size: cover;
 }
-.home-icons.homeicon1:hover {
-	background: #ea5b0b;
+
+.link-circle-1:hover .home-icons.homeicon1 {
+	background: url('/sites/default/files/2020-04/circulocolor1.png');
+	height: 240px;
+	width: 240px;
+	background-size: cover;
 }
-.home-icons.homeicon2:hover {
-	background: #D90019;
+
+/*Icon 2*/
+.home-icons.homeicon2 {
+	height: 240px;
+	width: 240px;
+	background: url('/sites/default/files/2020-04/circulo2.png');
+    background-size: contain;
+    background-repeat:no-repeat;
 }
-.home-icons.homeicon3:hover {
-	background: #FF1926;
+
+.link-circle-2:hover .home-icons.homeicon2 {
+	background: url('/sites/default/files/2020-04/circulocolor2.png');
+	height: 240px;
+	width: 240px;
+    background-size: contain;
+    background-repeat:no-repeat;
 }
-.home-icons.homeicon4:hover {
-	background: #333333;
+
+/*Icon 3*/
+.home-icons.homeicon3 {
+	height: 240px;
+	width: 240px;
+	background: url('/sites/default/files/2020-04/circulo3.png');
+    background-size: contain;
+    background-repeat:no-repeat;
 }
-.home-icons.homeicon5:hover {
-	background: #831F82;
+
+.link-circle-3:hover .home-icons.homeicon3 {
+	background: url('/sites/default/files/2020-04/circulocolor3.png');
+	height: 240px;
+	width: 240px;
+    background-size: contain;
+    background-repeat:no-repeat;
 }
+/*Icon 4*/
+.home-icons.homeicon4 {
+	height: 240px;
+	width: 240px;
+	background: url('/sites/default/files/2020-04/circulo4.png');
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+.link-circle-4:hover .home-icons.homeicon4 {
+	background: url('/sites/default/files/2020-04/circulocolor4.png');
+	height: 240px;
+	width: 240px;
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+/*Icon 5*/
+.home-icons.homeicon5 {
+	height: 240px;
+	width: 240px;
+	background: url('/sites/default/files/2020-04/circulo5.png');
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+.link-circle-5:hover .home-icons.homeicon5 {
+	background: url('/sites/default/files/2020-04/circulocolor5.png');
+	height: 240px;
+	width: 240px;
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+.link-circle-2 {
+    position: relative;
+    left: -7px;
+    top: 0px;
+}
+
+.link-circle-3 {
+    position: relative;
+    left: -14px;
+    top: 30px;
+}
+
+.link-circle-4 {
+    position: relative;
+    left: -21px;
+    top: -2px;
+}
+
+.link-circle-5 {
+    position: relative;
+    left: -28px;
+    top: -2px;
+}
+
+
+
 
 .col-2dot4,
 .col-sm-2dot4,
@@ -736,7 +850,7 @@ article .article__body img  {
  }   
  /*Background image article*/
  .page-node-type-full-page .field.field--name-field-image.field--type-image.field--label-hidden.field--item div {
-     height: 430px; 
+     height: 550px; 
      background-size: cover;
      background-repeat: no-repeat;
  }
