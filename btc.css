@@ -414,7 +414,7 @@ h6,
 
 h5,
 .h5 {
-  font-weight: 500 !important;
+  font-weight: 800 !important;
 }
 .imagebg:not(.image--light) a {
     font-weight: 500 !important;
@@ -495,6 +495,7 @@ h5,
     font-size: 16px;
     letter-spacing: -0.4px;
     color: #333;
+    line-height: 25px !important;
 }
 .link-p{
     color:#333;
@@ -1092,6 +1093,14 @@ tr:nth-child(2n+1) {
     align-items: center;
     display: grid;
     min-width: 19.3em !important;
+}
+.feature h5 {
+	margin: 0;
+	font-size: 16px;
+	color: #808080;
+	letter-spacing: 0.5px !important;
+	line-height: 18px !important;
+	font-family: 'Helvetica Neue' !important;
 }
 .modal-instance.block {
     width: 100%;
