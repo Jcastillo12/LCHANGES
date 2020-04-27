@@ -447,7 +447,13 @@ h5,
     font-weight: 300;
     font-family: "Helvetica Neue LT Com";
 }
-
+.content-title-h2 {
+	font-size: 90px !important;
+	color: #FF4100;
+	font-weight: 300;
+	font-family: "Helvetica Neue LT Com" !important;
+	line-height: 0px !important;
+}
 .subtitle-h2{
     font-size: 40px;
     color: #333;
