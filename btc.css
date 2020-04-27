@@ -108,6 +108,10 @@ ul.menu-horizontal {
 #block-libertyactualmenu {
     overflow: visible!important;
 }
+#block-libertyactualmenu:hover {
+    overflow: visible!important;
+}
+
 
 .space-level{
     margin-left: 15px;
@@ -223,6 +227,9 @@ ul.menu-horizontal {
 	padding-top: 0px;
 }
 
+.we-mega-menu-ul > .dropdown-menu {
+    z-index: 2 !important;
+}
 
 /*******************     Logo      ***************************/
 .bar .logo {
@@ -420,7 +427,11 @@ h5,
     font-weight: 500 !important;
 }
 .des-p {
-    font-family: 'Helvetica Neue LT Com'!important;
+    font-size: 18px!important;
+    color: #5f5f5f!important;
+    letter-spacing: 0.5px;
+    line-height: 32px;
+    font-family: 'Helvetica Neue' !important;
 }
 .title-h2-main {
     font-family: "Helvetica Neue LT Com";
@@ -542,9 +553,19 @@ h5,
     padding-top: 50px;
 }
 section.border--bottom:not([data-gradient-bg]) {
-    border-bottom: 0px solid #343434 !important;
-    background: #343434;
-    border-top: 8px solid #E8471E;
+    border-bottom: 0px solid #57585A !important;
+    background: #57585A;
+    border-top: 8px solid #F36421;
+}
+.title-bar {
+    text-transform: uppercase;
+    color: white;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.boton-stock.btn.type--uppercase {
+    display: none;
 }
 
 .boton-stock {
@@ -866,9 +887,11 @@ article .article__body img  {
     padding-bottom: 2.429em !important;
 }
 .inv-subtitle-h2{
-    font-size: 28px;
-    color: #333;
-    letter-spacing: -1px;
+    font-weight: 600;
+    color: #EA5B0B;
+    font-size: 44px !important;
+    line-height: 54px;
+    letter-spacing: 1px;
 }
 .des-h3 strong{
     font-weight:500 !important;
@@ -993,9 +1016,10 @@ tr:nth-child(2n+1) {
 
 .tables-liberty a {
     color: #FF4100;
-    font-weight: 400;
-    text-decoration: none;
-    letter-spacing: 0.5px;
+    font-weight: 600;
+    color: #EA5B0B;
+    font-size: 16px !important;
+    letter-spacing: 1px;
 }
 
 .tables-liberty .text-center {
@@ -1093,12 +1117,21 @@ tr:nth-child(2n+1) {
     display: grid;
     min-width: 19.3em !important;
 }
+.feature h5 {
+    margin: 0;
+    font-size: 16px;
+    color: #808080;
+    letter-spacing: 0.5px;
+    line-height: 32px;
+    font-family: 'Helvetica Neue' !important;
+}
 .modal-instance.block {
     width: 100%;
     text-align: center;
 }
 .title-arrow {
     margin: 0 auto;
+    display: none;
 }
 .h1.h1--large:not(:last-child) {
 	margin-bottom: 0.119354838709677em !important;
