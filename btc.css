@@ -1111,6 +1111,11 @@ tr:nth-child(2n+1) {
 
 
 /******************************** ABOUT US *****************************/
+.tabs .tab__title {
+	font-size: 16px !important;
+	letter-spacing: 1.5px !important;
+	color: #333 !important;
+}
 .feature-1 {
     min-height: 16.543em !important;
     text-align: center;
