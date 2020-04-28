@@ -201,6 +201,11 @@ ul.menu-horizontal {
     display: none;
 }
 
+.we-mega-menu-submenu.submenu-dropdown-1 {
+    height: 450px;
+    overflow-y: scroll;
+}
+
 /* .navbar-we-mega-menu[data-autoarrow="0"]:not(.admin) .dropdown-menu>a, .navbar-we-mega-menu[data-autoarrow="0"]:not(.admin) .dropdown-menu>span {
     padding-right: 0;
 } */
@@ -503,10 +508,10 @@ h5,
     font-family: 'Helvetica Neue' !important;
 }
 .des-p{
-    font-size: 16px;
-    letter-spacing: -0.4px;
+    font-size: 18px;
+    letter-spacing: 0px;
     color: #333;
-    line-height: 25px !important;
+    line-height: 30px !important;
 }
 .link-p{
     color:#333;
@@ -887,13 +892,28 @@ article .article__body img  {
 .investors-p{
     padding-bottom: 2.429em !important;
 }
-.inv-subtitle-h2{
+
+.inv-subtitle-h2 {
     font-weight: 600;
     color: #EA5B0B;
     font-size: 44px !important;
-    line-height: 54px;
     letter-spacing: 1px;
+    font-weight: 600;
+    color: #EA5B0B;
+    font-size: 74px !important;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
 }
+
+.inv-subtitle-h3 {
+	font-weight: 600;
+	color: #57585A;
+	font-size: 34px !important;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-top: -18px;
+}
+
 .des-h3 strong{
     font-weight:500 !important;
 }
@@ -1147,6 +1167,15 @@ tr:nth-child(2n+1) {
 .about-div {
 	padding-bottom: 3.429em !important;
 }
+
+.tab__title {
+    font-size: 18px!important;
+}
+
+.paragraph.paragraph--type--paragraph-block.about-lla.paragraph--view-mode--default {
+    padding-top: 3.429em;
+}
+
 /************ our company ************/
 .list-inline--images img {
     max-height: 210px !important;
@@ -1175,9 +1204,16 @@ a:hover {
 /************ Corporate Governance ************/
 .tab__content {
     font-size: 16px;
-    letter-spacing: -0.4px;
-    color: #333333;
+    letter-spacing: 0px;
+    color: #ea5b0b;
+    line-height: 30px !important;
 }
+
+.tab__content1 ul li {
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
 .tabs li.active .tab__title span {
     color: #FF4100;
 }
