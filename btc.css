@@ -282,6 +282,10 @@ ul.menu-horizontal {
     background: transparent;
 }
 
+.we-megamenu-nolink {
+    padding-right: 0px !important;
+}
+
 .elements-top .menu-info a:hover {
 	color: white !important;
 }
@@ -955,6 +959,8 @@ tr:nth-child(2n+1) {
 .financials-table th, .financials-table td {
     padding: 10px;
 }
+
+
 
 /************  Tables General  *****************/
 
