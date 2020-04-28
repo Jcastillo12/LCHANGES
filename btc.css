@@ -1275,6 +1275,15 @@ a:hover {
     font-size: 16px !important;
     margin-left: 0em !important;
 }
+.tab__content3 ul li::before {
+	content: "\2022";
+	color: #FF4100;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	font-size: 16px !important;
+	margin-left: 0em !important;
+}
 .small-tabs .tabs li.active {
     background-color: #FF4100 !important;
     border-color: #FF4100 !important;
