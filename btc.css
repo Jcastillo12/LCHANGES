@@ -428,7 +428,7 @@ h5,
 }
 .des-p {
     font-size: 18px!important;
-    color: #5f5f5f!important;
+    color: #333333!important;
     letter-spacing: 0.5px;
     line-height: 32px;
     font-family: 'Helvetica Neue' !important;
@@ -439,6 +439,7 @@ h5,
     font-size: 82px !important;
     line-height: 84px;
     margin-bottom: 40px!important;
+    font-weight: 700;
 }
 .title-h2 {
     font-size: 110px !important;
@@ -500,10 +501,11 @@ h5,
 }
 .des-h3 {
     font-size: 22px;
-    color: #808080;
+    color: #333333;
     letter-spacing: 0.5px;
     line-height: 32px;
-    font-family: 'Helvetica Neue' !important;
+    font-family: 'Helvetica Neue LT Com' !important;
+    font-weight: 800 !important;
 }
 .imagebg:not(.image--light) h4{
     font-family: 'Helvetica Neue' !important;
@@ -894,7 +896,7 @@ article .article__body img  {
     padding-bottom: 2.429em !important;
 }
 .inv-subtitle-h2{
-    font-weight: 600;
+    font-weight: 300;
     color: #EA5B0B;
     font-size: 44px !important;
     line-height: 54px;
@@ -918,17 +920,25 @@ article .article__body img  {
     color: #fff;
     text-transform: uppercase;
     font-size: 14px;
-    letter-spacing: -0.45px;
+    letter-spacing: 1px;
     border-bottom: 1px solid white;
-    font-family: "Helvetica Neue LT Com"; 
+    font-family: "Helvetica Neue";
+    font-weight: 600; 
 }
 
 .financials-table td {
     font-size: 15px;
     color: #333333;
-    letter-spacing: -0.2px;
-    font-weight: 500;
+    letter-spacing: 1px;
+    font-weight: 800;
     font-family: "Helvetica Neue LT Com"; 
+}
+
+.table > thead > tr > th {
+    font-family: "Helvetica Neue" !important;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 16px;
 }
 
 tr:nth-child(2n+1) {
@@ -950,7 +960,8 @@ tr:nth-child(2n+1) {
     font-size: 14px;
     color: #333333;
     font-family: "Helvetica Neue LT Com"; 
-    letter-spacing: 0.2px;
+    letter-spacing: 1.2px;
+    font-weight: 700;
 }
 
 .tables-liberty .btn-info {
@@ -959,6 +970,10 @@ tr:nth-child(2n+1) {
     background-color: #FF4100 !important;
     border-color: #FF4100 !important;
     border-radius: 3px !important;
+    font-family: "Helvetica Neue";
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    font-size:13px;
 }
 
 .tables-liberty input[type], textarea, select {
@@ -987,6 +1002,8 @@ tr:nth-child(2n+1) {
     border-right: 1px dotted #ddd;
     line-height: 30px !important;
     font-family: "Helvetica Neue LT Com"; 
+    font-weight: 800;
+    letter-spacing: 1px;
 }
 
 .tables-liberty .views-field-title {
@@ -1224,7 +1241,9 @@ a:hover {
     color: #fff !important;
 }
 .epr-caption {
-	color: #333;
+    color: #333;
+    font-family: "Helvetica Neue";
+    letter-spacing: 0.5px;
 }
 /************ Executive Team and Directors ************/
 .feature-8 img {
@@ -1293,8 +1312,9 @@ a:hover {
 /******/
 .subtitle-span{
     color: #FF4100;
-    letter-spacing: -0.55px;
-    font-size:16px;
+    letter-spacing: -0.5px;
+    font-size:18px;
+    font-family: "Helvetica Neue";
 }
 .accordion-1 li.active .accordion__title {
 	border-color: #FF4100 !important;
