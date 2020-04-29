@@ -1161,6 +1161,9 @@ tr:nth-child(2n+1) {
 
 
 /******************************** ABOUT US *****************************/
+.tab__title .h5 {
+	font-family: "Helvetica Neue" !important;
+}
 .tabs .tab__title {
 	font-size: 16px !important;
 	letter-spacing: 1.5px !important;
