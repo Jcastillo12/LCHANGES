@@ -436,11 +436,12 @@ h5,
     font-weight: 500 !important;
 }
 .des-p {
-    font-size: 18px!important;
-    color: #333333!important;
+    font-size: 18px;
+    color: #333333;
     letter-spacing: 0.5px;
-    line-height: 32px;
-    font-family: 'Helvetica Neue' !important;
+    font-family: 'Helvetica Neue LT Com' !important;
+    font-weight: 800;
+    line-height: 25px;
 }
 .title-h2-main {
     font-family: "Helvetica Neue LT Com";
@@ -519,12 +520,6 @@ h5,
 }
 .imagebg:not(.image--light) h4{
     font-family: 'Helvetica Neue' !important;
-}
-.des-p{
-    font-size: 18px;
-    letter-spacing: 0px;
-    color: #333;
-    line-height: 30px !important;
 }
 .link-p{
     color:#333;
