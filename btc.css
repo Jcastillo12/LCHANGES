@@ -443,6 +443,11 @@ h5,
     font-weight: 800;
     line-height: 25px;
 }
+p a,
+span a,
+label a {
+  font-weight: 800 !important;
+}
 .title-h2-main {
     font-family: "Helvetica Neue LT Com";
     color: #575756;
