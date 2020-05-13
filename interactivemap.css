@@ -45,7 +45,8 @@ g.svg_label:hover {
     cursor: pointer;
 }
 /*init colors */
-#Mexico, #Bahamas, #Belice, #Guatemala, #Honduras, #Nicaragua, #Costaric, #Salvador, #Colombia, #Venezuela, #Ecuador, #Peru, #Brasil, #Dominicana, #Haiti, #Guyana, #GuyanaF {
+#Mexico, #Bahamas, #Belice, #Guatemala, #Honduras, #Nicaragua, #Costaric, #Salvador, #Colombia, #Venezuela, #Ecuador, #Peru, #Brasil, #Dominicana, #Haiti, #Guyana, #GuyanaF,
+#Surinan, #Cuba, #Argentina, #Bolivia, #Paraguay, #Uruguay, #Dominicana {
   fill:#B3B2B2;
   opacity: 0.8;
 }

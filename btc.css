@@ -212,22 +212,22 @@ ul.menu-horizontal {
 }
 
 .submenu-dropdown-1{
-    left: -672px;
+    left: -532px;
 }
 
 .submenu-dropdown-2 {
-    left: -852px;
+    left: -712px;
     height: 250px;
 }
 
 .submenu-dropdown-3 {
-    left: -992px;
+    left: -852px;
     height: 450px;
     overflow-y: scroll;
 }
 
 .submenu-dropdown-4 {
-    left: -1150px;
+    left: -1010px;
     height:450px;
 }
 
@@ -245,7 +245,9 @@ ul.menu-horizontal {
 	font-weight: 300;
 }
 
-
+.we-mega-menu-ul .dropdown-menu > a::before{
+    display: none;
+}
 .we-mega-menu-li a,
 .we-megamenu-nolink.is-active,
 .we-mega-menu-li.dropdown-menu span {
@@ -317,6 +319,19 @@ ul.menu-horizontal {
     display: initial;
 }
 
+.we-mega-menu-ul > .we-mega-menu-li:nth-child(5):after  {
+	content: '|';
+    position: relative;
+    right: -16px;
+    top: 36%;
+    margin-top: -.3125rem;
+    width: .6875rem;
+    height: .6875rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: initial;
+}
 
 
 
@@ -614,7 +629,8 @@ label a {
 	font-weight: 400;
 	line-height: 10mm;
 	letter-spacing: 0.5px;
-	color: #EA5B0B;
+    color: #EA5B0B;
+    margin-top: 10px;
 }
 .icons-h3 {
 	font-size: 22px;
@@ -668,8 +684,8 @@ label a {
     font-size: 11px !important;
 }
 .interesting-links-row{
-    padding-top: 10mm;
-    padding-bottom: 1.429em !important;
+    padding-top: 21mm;
+    padding-bottom: 13mm !important;
 }
 
 .quick-links {
@@ -682,7 +698,7 @@ label a {
 }
 
 .icons-quick-links{
-    padding-bottom: 28mm;
+    padding-bottom: 39mm;
 }
 
 .bg--orange{
@@ -703,10 +719,10 @@ label a {
 .bg--secondary{
     background: #fff !important;
     padding-top: 0px !important;
-    padding-bottom: 5mm !important;
+    padding-bottom: 16mm !important;
 }
 .lll-column{
-    padding-top: 10mm;
+    padding-top: 20mm;
 }
 section.border--bottom:not([data-gradient-bg]) {
     border-bottom: 0px solid #57585A !important;
@@ -823,7 +839,7 @@ article .article__body img  {
 }
 
 .page-node-type-full-page .container.full-expand {
-    height: 450px;
+    height: 528px;
     overflow: hidden;
 }
 
@@ -848,7 +864,7 @@ article .article__body img  {
 .page-node-type-full-page .article__body {
 	width: 580px;
 	padding-right: 15px;
-	padding-top: 10mm;
+	padding-top: 20mm;
 }
 
 .page-node-type-full-page .article__body h2{
@@ -1050,7 +1066,70 @@ article .article__body img  {
      height: 550px; 
      background-size: cover;
      background-repeat: no-repeat;
+     background-position:center ;
  }
+
+/*********************************** INTERNAL PAGES GENERAL CSS **************************************************/
+
+
+.title-internal-page{
+    color: #EA5B0B;
+    font-size: 82px !important;
+    line-height: 64px;
+    margin-bottom: 20mm !important;
+    font-weight: 700;
+    letter-spacing: 1mm;
+    padding-top: 8mm;
+}
+
+.subtitle-internal-page{
+    font-size: 28pt;
+	color: #ff4100 !important;
+	letter-spacing: 0.5px !important;
+	font-family: "Helvetica Neue" !important;
+	line-height: 28px;
+}
+
+.description-internal-page{
+    font-size: 16pt;
+    color: #4B4C4C;
+    line-height: 10mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+}
+
+.bullets-info-internal-page{
+    letter-spacing: 0.5px;
+	font-size: 14pt;
+	color: #4B4C4C;
+	line-height: 0mm;
+	font-family: 'Helvetica Neue' !important;
+	font-weight: 400 !important;
+}
+
+.special-spacing {
+    padding-top: 0px !important;
+}
+
+
+.feature h5 {
+    margin: 0;
+    font-size: 18px;
+    color: #4B4C4C;
+    letter-spacing: 1px !important;
+    line-height: 6mm !important;
+    font-weight: 300 !important;
+}
+
+#aboutusr {
+    margin-bottom: -18px;
+}
+
+/***********************************  END INTERNAL PAGES GENERAL CSS ***********************************************/
+
+
+
+
 
 /******************************** INVESTORS *****************************/
 .secondary-slider{
@@ -1334,14 +1413,7 @@ tr:nth-child(2n+1) {
     display: grid;
     min-width: 19.3em !important;
 }
-.feature h5 {
-	margin: 0;
-	font-size: 16px;
-	color: #808080;
-	letter-spacing: 0.5px !important;
-	line-height: 18px !important;
-	font-family: 'Helvetica Neue' !important;
-}
+
 .modal-instance.block {
     width: 100%;
     text-align: center;
@@ -1358,7 +1430,8 @@ tr:nth-child(2n+1) {
     padding-bottom: 3.429em !important;
 }
 .feature-1 .h1.h1--large {
-	color: #FF4100 !important;
+    color: #FF4100 !important;
+    font-size: 50px;
 }
 .about-div {
 	padding-bottom: 3.429em !important;
@@ -1632,8 +1705,9 @@ footer{
 }
 
 .social-med {
-    height: 30px;
-    margin-right: 5px;
+    margin-right: 8px;
+    height: 34px;
+    width: 31px;
 }
 
 .social-icons-footer a i:before{
