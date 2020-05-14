@@ -228,7 +228,7 @@ ul.menu-horizontal {
 
 .submenu-dropdown-4 {
     left: -1010px;
-    height:250px;
+    height:150px;
 }
 
 .submenu-dropdown-5 {
@@ -348,7 +348,7 @@ ul.menu-horizontal {
 }
 
 .we-mega-menu-submenu.submenu-dropdown-1 {
-    height: 290px;
+    height: 205px;
     /*overflow-y: scroll;*/
 }
 
@@ -363,6 +363,10 @@ ul.menu-horizontal {
 .we-mega-menu-ul > .we-mega-menu-li {
 	border-left: none;
 }
+.financials-table tbody tr:nth-child(1){
+
+}
+
 
 .we-mega-menu-ul > .we-mega-menu-li.active > a, 
 .we-mega-menu-ul > .we-mega-menu-li.active > a:hover, 
@@ -1074,7 +1078,7 @@ article .article__body img  {
 
 .title-internal-page{
     color: #EA5B0B;
-    font-size: 82px !important;
+    font-size: 62px !important;
     line-height: 64px;
     margin-bottom: 20mm !important;
     font-weight: 700;
@@ -1085,7 +1089,7 @@ article .article__body img  {
 
 .title-internal-page-long{
     color: #EA5B0B;
-    font-size: 82px !important;
+    font-size: 62px !important;
     line-height: 84px;
     margin-bottom: 20mm !important;
     font-weight: 700;
@@ -1233,6 +1237,14 @@ article .article__body img  {
     min-height: 2.25rem;
 }
 
+.secondary-slider.cover.imagebg .background-image-holder{
+    background-repeat: no-repeat;
+    background-position-y: -10px !important;
+}
+
+.boxed.boxed--border {
+    border: none;
+}
 
 
 /***********************************  END INTERNAL PAGES GENERAL CSS ***********************************************/
@@ -1647,7 +1659,6 @@ a:hover {
 }
 .feature-8 {
 	padding: 2.786em 0 3.714em 0 !important;
-	border: 1px solid #ececeb !important;
 	border-radius: 6px !important;
 }
 .lla-team{
@@ -1764,7 +1775,7 @@ footer{
     padding-top: 10mm!important;
 	padding-bottom: 0;
 	background-color: #575756;
-	background-image: url('/sites/default/files/2020-05/logate_rotated.png');
+	background-image: url('/sites/default/files/2020-05/logate_rotated_definitive.png');
 	background-size: contain;
         background-position:center right;
 	background-repeat: no-repeat;
@@ -1776,7 +1787,7 @@ footer{
     font-family: 'Helvetica Neue', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 .description-footer p{
