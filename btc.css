@@ -222,13 +222,13 @@ ul.menu-horizontal {
 
 .submenu-dropdown-3 {
     left: -852px;
-    height: 450px;
+    height: 400px;
     overflow-y: scroll;
 }
 
 .submenu-dropdown-4 {
     left: -1010px;
-    height:450px;
+    height:250px;
 }
 
 .submenu-dropdown-5 {
@@ -1080,14 +1080,54 @@ article .article__body img  {
     font-weight: 700;
     letter-spacing: 1mm;
     padding-top: 8mm;
+    text-transform: uppercase;
 }
 
+.title-internal-page-long{
+    color: #EA5B0B;
+    font-size: 82px !important;
+    line-height: 84px;
+    margin-bottom: 20mm !important;
+    font-weight: 700;
+    letter-spacing: 1mm;
+    padding-top: 5mm;
+    text-transform: uppercase;
+}
 .subtitle-internal-page{
     font-size: 28pt;
 	color: #ff4100 !important;
 	letter-spacing: 0.5px !important;
 	font-family: "Helvetica Neue" !important;
-	line-height: 28px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.subtitle-internal-page-long{
+    font-size: 28pt;
+	color: #ff4100 !important;
+	letter-spacing: 0.5px !important;
+	font-family: "Helvetica Neue" !important;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.subtitle-internal-page-modal{
+    font-size: 28pt;
+    color: #ff4100 !important;
+    letter-spacing: 0.5px !important;
+    font-family: "Helvetica Neue" !important;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.second-subtitle-internal-page{
+    font-size: 28pt;
+    color: #ff4100 !important;
+    letter-spacing: 0.5px !important;
+    font-family: "Helvetica Neue" !important;
+    line-height: 40px;
+    text-transform: uppercase;
 }
 
 .description-internal-page{
@@ -1096,6 +1136,15 @@ article .article__body img  {
     line-height: 10mm;
     font-family: 'Helvetica Neue' !important;
     font-weight: 400 !important;
+}
+
+.description-accordion-internal{
+    font-size: 14pt;
+    color: #4B4C4C;
+    line-height: 10mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+    padding: 20px 30px !important;
 }
 
 .bullets-info-internal-page{
@@ -1107,10 +1156,30 @@ article .article__body img  {
 	font-weight: 400 !important;
 }
 
+.accordion-title-internal-page{
+    font-size: 15pt;
+    letter-spacing: 0.5px !important;
+    font-family: "Helvetica Neue" !important;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.accordion .accordion__title::before{
+    display: none;
+}
+
 .special-spacing {
     padding-top: 0px !important;
 }
 
+.spacing-general-section {
+    padding-top: 13mm;
+    padding-bottom: 0px;
+}
+
+.our-companies-bottom {
+	margin-bottom: -85px;
+}
 
 .feature h5 {
     margin: 0;
@@ -1124,6 +1193,47 @@ article .article__body img  {
 #aboutusr {
     margin-bottom: -18px;
 }
+
+.description-table {
+	padding-bottom: 68px;
+}
+
+.iframe-special iframe {
+    margin-bottom: -192px;
+}
+
+
+.iframe-special-2 iframe {
+    margin-bottom: -150px;
+}
+
+.iframe-special-3 iframe {
+    margin-bottom: -398px;
+}
+
+.iframe-special-4 iframe{
+    margin-bottom: -348px;
+}
+
+#contact-message-liberty-contact-form-form label {
+	font-size: 12pt;
+	color: #4B4C4C;
+	line-height: 10mm;
+	font-family: 'Helvetica Neue' !important;
+	font-weight: 400 !important;
+	text-transform: uppercase;
+}
+
+.title-element-menu > span, .title-element-menu > a {
+	color: #4B4C4C !important;
+	margin-top: 30px;
+}
+
+.we-mega-menu-submenu > .we-mega-menu-submenu-inner{
+    min-height: 2.25rem;
+}
+
+
 
 /***********************************  END INTERNAL PAGES GENERAL CSS ***********************************************/
 
