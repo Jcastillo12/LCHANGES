@@ -1688,6 +1688,9 @@ a:hover {
 	color: #FF4100 !important;
 }
 /************ Video Gallery ************/
+.modal-trigger p strong:hover {
+	color: #ff4100 !important;
+}
 .video-play-icon:hover {
 	border: 2px solid #FF4100;
 	background: #FF4100;
