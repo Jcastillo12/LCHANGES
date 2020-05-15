@@ -1246,6 +1246,83 @@ article .article__body img  {
     border: none;
 }
 
+.view-side-tables .field--name-field-side-tables-category{
+    display: none;
+}
+
+.view-side-tables .tabs-container.tabs--vertical {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pdf-little-img{
+    float: left;
+    position: relative;
+    top: 14px;
+    margin-right: 10px;
+}
+.table-elements-sidebar a,
+.table-elements-sidebar p{
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #ea5b0b;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    top: 8px;
+}
+.table-elements-sidebar a{
+    float:left;
+}
+.table-elements-sidebar p{
+    float:right;
+}
+
+.description-internal-page a{
+    color: #ea5b0b;
+}
+
+.table-elements-sidebar .col-lg-12 {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.special-table tbody tr th:first-child {
+	background-color: white;
+}
+
+.special-table tbody tr th {
+    background-color: #575656;
+    text-align: center;
+    font-size: 12pt;
+    color: white;
+    line-height: 10mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    border: 1px solid white;
+}
+
+.special-table tbody tr td:first-child {
+    background-color: #F9B133;
+    font-size: 12pt;
+    color: white;
+    line-height: 10mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+}
+
+.special-table tbody tr td {
+    background-color: #FDD9A1;
+    font-size: 12pt;
+    line-height: 10mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid white;
+}
+
 
 /***********************************  END INTERNAL PAGES GENERAL CSS ***********************************************/
 
