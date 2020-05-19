@@ -363,10 +363,6 @@ ul.menu-horizontal {
 .we-mega-menu-ul > .we-mega-menu-li {
 	border-left: none;
 }
-.financials-table tbody tr:nth-child(1){
-
-}
-
 
 .we-mega-menu-ul > .we-mega-menu-li.active > a, 
 .we-mega-menu-ul > .we-mega-menu-li.active > a:hover, 
@@ -375,7 +371,9 @@ ul.menu-horizontal {
 .we-mega-menu-ul > .we-mega-menu-li.active-trail > a:hover, 
 .we-mega-menu-ul > .we-mega-menu-li.active-trail > a:focus {
 	background-color: transparent;
-	color: #FF4100;
+    color: #FF4100;
+    position: relative;
+    top: 0px;
 }
 
 .bar.bar--sm {
@@ -610,7 +608,7 @@ label a {
 .title-h2 {
     font-size: 110px !important;
     color: #EA5B0B;
-    letter-spacing: 0px;
+    letter-spacing: 6px;
     font-weight: 300;
     line-height: 120px;
     font-family: "Helvetica Neue LT Com";
@@ -731,8 +729,8 @@ label a {
 section.border--bottom:not([data-gradient-bg]) {
     border-bottom: 0px solid #57585A !important;
     background: #57585A;
-    border-top: 3mm solid #F36421;
-    height: 18mm;
+    border-top: 2mm solid #F36421;
+    height: 13mm;
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -786,7 +784,7 @@ section .slider[data-paging="true"] .flickity-page-dots {
 }
 .flickity-page-dots {
     text-align: right !important;
-    padding:10px 0px;
+    padding:20px 0px;
     padding-right: 6% !important;
 }
 .flickity-prev-next-button.next {
@@ -1067,7 +1065,7 @@ article .article__body img  {
  }   
  /*Background image article*/
  .page-node-type-full-page .field.field--name-field-image.field--type-image.field--label-hidden.field--item div {
-     height: 550px; 
+     height: 528px; 
      background-size: cover;
      background-repeat: no-repeat;
      background-position:center ;
@@ -1321,6 +1319,20 @@ article .article__body img  {
     text-transform: uppercase;
     text-align: center;
     border: 1px solid white;
+}
+
+.article__author,
+.article__title,
+.field.field--name-field-tags.field--type-entity-reference.field--label-hidden.field--items,
+.comment-add,
+.js-comment,
+#coment-user
+{
+    display: none!important;
+}
+
+[data-overlay]::before {
+    background: transparent;
 }
 
 
@@ -2283,10 +2295,14 @@ footer{
 
 
 }
+@media (min-width: 768px) {
+    .flickity-viewport {
+        height: 344px!important;
+    }
+}
 
 
-
-/*********************** 960 *************************/
+/*********************** 767 *************************/
 
 @media (max-width: 767px) {
     .page-node-type-full-page .imageblock__content.col-lg-6.col-md-8.pos-right {
