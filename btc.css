@@ -606,9 +606,9 @@ label a {
     letter-spacing: 1mm;
 }
 .title-h2 {
-    font-size: 110px !important;
+    font-size: 96px !important;
     color: #EA5B0B;
-    letter-spacing: 6px;
+    letter-spacing: 10px;
     font-weight: 300;
     line-height: 120px;
     font-family: "Helvetica Neue LT Com";
@@ -1326,7 +1326,8 @@ article .article__body img  {
 .field.field--name-field-tags.field--type-entity-reference.field--label-hidden.field--items,
 .comment-add,
 .js-comment,
-#coment-user
+#coment-user,
+.links.inline.list-inline
 {
     display: none!important;
 }
@@ -2098,6 +2099,10 @@ footer{
         flex: 0 0 20%;
         max-width: 20%;
     }
+
+    .flickity-viewport {
+        height: 500px!important;
+    }
 }
 
 @media (max-width: 1139px) and (min-width: 992px) {
@@ -2295,7 +2300,7 @@ footer{
 
 
 }
-@media (min-width: 768px) {
+@media (max-width: 1139px) and (min-width: 768px) {
     .flickity-viewport {
         height: 344px!important;
     }
