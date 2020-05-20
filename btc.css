@@ -1336,7 +1336,14 @@ article .article__body img  {
     background: transparent;
 }
 
-
+#webform-submission-liberty-latin-america-informatio-add-form {
+    position: relative;
+    margin-left: 300px;
+    padding-left: 39px;
+    width: 600px;
+    min-height: 650px;
+    padding-bottom: 40px;
+}
 /***********************************  END INTERNAL PAGES GENERAL CSS ***********************************************/
 
 
