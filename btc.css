@@ -1336,6 +1336,10 @@ article .article__body img  {
     background: transparent;
 }
 
+.paragraph.paragraph--type--paragraph-image-cover-block.height-50.imagebg.text-center.secondary-slider.cover.paragraph--view-mode--default {
+    height: 55vh;
+}
+
 
 /***********************************  END INTERNAL PAGES GENERAL CSS ***********************************************/
 
@@ -2101,7 +2105,7 @@ footer{
     }
 
     .flickity-viewport {
-        height: 500px!important;
+        height: 550px!important;
     }
 }
 
