@@ -1,0 +1,80 @@
+.orange{
+    fill: #EA5B0B!important;
+}
+.red{
+    fill: #D90019!important;
+}
+
+.reddish{
+    fill: #FF1926!important; 
+}
+
+.black{
+    fill:#333333!important;
+}
+
+.purple{
+    fill:#831F82!important;
+}
+
+.effectCircle1{
+    transition: all 1s;
+    fill: none;
+    stroke: #EA5B0B!important;
+    stroke-width: 18;
+    stroke-miterlimit: 10;
+    /* animation: progress 3s ease-out forwards;
+    stroke-dasharray:50, 0;
+    stroke-dashoffset:-100; */
+}
+
+.effectCircle2{
+    transition: all 1s;
+    fill: none;
+    stroke: #D90019!important;
+    stroke-width: 18;
+    stroke-miterlimit: 10;
+    /* animation: progress 3s ease-out forwards;
+    stroke-dasharray:50, 0;
+    stroke-dashoffset:-100; */
+}
+
+.effectCircle3{
+    transition: all 1s;
+    fill: none;
+    stroke: #FF1926!important;
+    stroke-width: 18;
+    stroke-miterlimit: 10;
+    /* animation: progress 3s ease-out forwards;
+    stroke-dasharray:50, 0;
+    stroke-dashoffset:-100; */
+}
+
+.effectCircle4{
+    transition: all 1s;
+    fill: none;
+    stroke: #333333!important;
+    stroke-width: 18;
+    stroke-miterlimit: 10;
+    /* animation: progress 3s ease-out forwards;
+    stroke-dasharray:50, 0;
+    stroke-dashoffset:-100; */
+}
+
+.effectCircle5{
+    transition: all 1s;
+    fill: none;
+    stroke: #831F82!important;
+    stroke-width: 18;
+    stroke-miterlimit: 10;
+    /* animation: progress 3s ease-out forwards;
+    stroke-dasharray:50, 0;
+    stroke-dashoffset:-100; */
+}
+
+
+/* @keyframes progress {
+    0% {
+        stroke-dasharray: 0 100;
+    }
+} */
