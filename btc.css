@@ -222,8 +222,8 @@ ul.menu-horizontal {
 
 .submenu-dropdown-3 {
     left: -852px;
-    height: 400px;
-    overflow-y: scroll;
+    height: 270px;
+   /* overflow-y: scroll;*/
 }
 
 .submenu-dropdown-4 {
@@ -348,7 +348,7 @@ ul.menu-horizontal {
 }
 
 .we-mega-menu-submenu.submenu-dropdown-1 {
-    height: 205px;
+    height: 155px;
     /*overflow-y: scroll;*/
 }
 
@@ -724,7 +724,7 @@ label a {
     padding-bottom: 16mm !important;
 }
 .lll-column{
-    padding-top: 20mm;
+    padding-top: 15mm;
 }
 section.border--bottom:not([data-gradient-bg]) {
     border-bottom: 0px solid #57585A !important;
@@ -1071,6 +1071,59 @@ article .article__body img  {
      background-position:center ;
  }
 
+.background-who{
+   margin-top: 30px;
+   background-color: #B3B2B2;
+}
+
+.paragraph.paragraph--type--bp-view.paragraph--view-mode--default.paragraph--id--1821.paragraph--width--full h1{
+    display: none;
+}
+
+.custom-box-title {
+    font-size: 28pt;
+    color: #fff !important;
+    letter-spacing: 0.5px !important;
+    font-family: "Helvetica Neue" !important;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.custom-description-internal-page{
+    font-size: 16pt;
+    color: white;
+    line-height: 10mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+}
+
+.facts.paragraph--view-mode--default {
+    padding-bottom: 0px;
+}
+
+.barra-interna {
+    background: url('/sites/default/files/2020-05/barra1_0.jpg');
+        background-repeat: repeat;
+        background-size: auto;
+    height: 640px;
+    width: 170px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: -277px;
+    position: absolute;
+    z-index: 9;
+    top: -120px;
+}
+
+.brands-logos.paragraph--view-mode--default {
+    padding-bottom: 0px;
+}
+
+.brands-companies{
+    padding-top:0px;
+}
+
+
 /*********************************** INTERNAL PAGES GENERAL CSS **************************************************/
 
 
@@ -1133,6 +1186,14 @@ article .article__body img  {
 }
 
 .description-internal-page{
+    font-size: 16pt;
+    color: #4B4C4C;
+    line-height: 10mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+}
+
+.article__body p{
     font-size: 16pt;
     color: #4B4C4C;
     line-height: 10mm;
@@ -1327,7 +1388,7 @@ article .article__body img  {
 .comment-add,
 .js-comment,
 #coment-user,
-.links.inline.list-inline
+.comment-forbidden
 {
     display: none!important;
 }
@@ -1337,7 +1398,7 @@ article .article__body img  {
 }
 
 .paragraph.paragraph--type--paragraph-image-cover-block.height-50.imagebg.text-center.secondary-slider.cover.paragraph--view-mode--default {
-    height: 55vh;
+    height: 58.3vh;
 }
 
 
@@ -1348,6 +1409,10 @@ article .article__body img  {
     width: 600px;
     min-height: 650px;
     padding-bottom: 40px;
+}
+
+.links.inline.list-inline .node-readmore {
+    display: block !important;
 }
 /***********************************  END INTERNAL PAGES GENERAL CSS ***********************************************/
 
@@ -2113,7 +2178,7 @@ footer{
     }
 
     .flickity-viewport {
-        height: 550px!important;
+        height: 580px!important;
     }
 }
 
