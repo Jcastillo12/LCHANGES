@@ -1414,6 +1414,19 @@ article .article__body img  {
 .links.inline.list-inline .node-readmore {
     display: block !important;
 }
+
+.news-grid .feature__body.boxed.boxed--border {
+	background-color: #dadada;
+    color: #4B4C4C !important;
+    min-height: 20em;
+}
+
+.news-grid .feature__body.boxed.boxed--border a {
+	color: #4B4C4C !important;
+	text-decoration: none !important;
+}
+
+
 /***********************************  END INTERNAL PAGES GENERAL CSS ***********************************************/
 
 
