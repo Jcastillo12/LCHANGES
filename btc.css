@@ -1416,9 +1416,9 @@ article .article__body img  {
 }
 
 .news-grid .feature__body.boxed.boxed--border {
-	background-color: #dadada;
+	background-color: #eee;
     color: #4B4C4C !important;
-    min-height: 30em;
+    min-height: 20em;
 }
 
 .news-grid .feature__body.boxed.boxed--border a {
