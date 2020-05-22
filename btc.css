@@ -1426,6 +1426,19 @@ article .article__body img  {
 	text-decoration: none !important;
 }
 
+.pagination.js-pager__items .active a:hover {
+	color: #fff !important;
+}
+
+.news-grid .description-internal-page {
+	font-size: 14pt !important;
+}
+
+.view-id-news_grid .pagination > li > a {
+	color: #FF4100 !important;
+	font-family: "Helvetica Neue" !important;
+	font-size: 12pt !important;
+}
 
 /***********************************  END INTERNAL PAGES GENERAL CSS ***********************************************/
 
