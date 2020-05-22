@@ -1134,7 +1134,7 @@ article .article__body img  {
     margin-bottom: 20mm !important;
     font-weight: 700;
     letter-spacing: 1mm;
-    padding-top: 8mm;
+    padding-top: 0mm;
     text-transform: uppercase;
 }
 
@@ -1149,7 +1149,7 @@ article .article__body img  {
     text-transform: uppercase;
 }
 .subtitle-internal-page{
-    font-size: 28pt;
+    font-size: 40px;
 	color: #ff4100 !important;
 	letter-spacing: 0.5px !important;
 	font-family: "Helvetica Neue" !important;
@@ -1158,7 +1158,7 @@ article .article__body img  {
 }
 
 .subtitle-internal-page-long{
-    font-size: 28pt;
+    font-size: 40px;
 	color: #ff4100 !important;
 	letter-spacing: 0.5px !important;
 	font-family: "Helvetica Neue" !important;
@@ -1207,7 +1207,7 @@ article .article__body img  {
     line-height: 10mm;
     font-family: 'Helvetica Neue' !important;
     font-weight: 400 !important;
-    padding: 20px 30px !important;
+    padding: 20px 0px !important;
 }
 
 .bullets-info-internal-page{
@@ -1224,7 +1224,6 @@ article .article__body img  {
     letter-spacing: 0.5px !important;
     font-family: "Helvetica Neue" !important;
     line-height: 28px;
-    text-transform: uppercase;
 }
 
 .accordion .accordion__title::before{
@@ -1241,7 +1240,8 @@ article .article__body img  {
 }
 
 .our-companies-bottom {
-	margin-bottom: -85px;
+    margin-bottom: -69px;
+    padding-top: 57px;
 }
 
 .feature h5 {
@@ -1905,10 +1905,30 @@ a:hover {
 .accordion li .accordion__title {
 	border: 1px solid #dedede !important;
 }
+.accordion-1 li .accordion__title {
+	background: #DADADA !important;
+    opacity: 1 !important;
+}
+
+.tabs-container.tabs--vertical .tabs-content > li.active .tab__content,
+.tabs-content > li.active {
+    animation:none!important;
+    -webkit-animation: none!important;
+    backface-visibility: hidden;
+}
+
 
 #block-sitewidecontactform button[type="submit"] {
     background: #FF4100;
     border-color: #FF4100;
+}
+
+.accordion li.active .accordion__content {
+    max-height: 100% !important;
+}
+
+.accordion__content .description-internal-page {
+    margin-bottom: 10px;
 }
 
 /******************** Contact Form *************************/
@@ -2161,7 +2181,7 @@ footer{
     }
     
     .paragraph.paragraph--type--paragraph-block.switchable.bg--secondary.paragraph--view-mode--default {
-        padding-bottom: 10mm !important;
+        padding-bottom: 12mm !important;
     }
 
 
