@@ -1428,6 +1428,7 @@ article .article__body img  {
 	background-color: #eee;
     color: #4B4C4C !important;
     max-height: 20em;
+    min-height: 20em;
 }
 
 .news-grid .feature__body.boxed.boxed--border a {
@@ -1472,6 +1473,9 @@ article .article__body img  {
     padding-bottom: 0px;
 }
 
+.news-grid .description-internal-page.dip-news-grid {
+	display: none;
+}
 /***********************************  END INTERNAL PAGES GENERAL CSS ***********************************************/
 
 
