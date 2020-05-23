@@ -545,7 +545,7 @@ color:white;
 .paragraph.paragraph--type--info-bar{
 	border-bottom: 0px solid #575756 !important;
 	background: #575756;
-	border-top: 8px solid #EA5B0B;
+	border-top: 8px solid #FF4100;
         padding-top: 1.85714286em;
         padding-bottom: 1.85714286em;
 }
@@ -607,7 +607,7 @@ label a {
 }
 .title-h2 {
     font-size: 96px !important;
-    color: #EA5B0B;
+    color: #FF4100;
     letter-spacing: 10px;
     font-weight: 300;
     line-height: 120px;
@@ -631,7 +631,7 @@ label a {
 	font-weight: 400;
 	line-height: 10mm;
 	letter-spacing: 0.5px;
-    color: #EA5B0B;
+    color: #FF4100;
     margin-top: 10px;
 }
 .icons-h3 {
@@ -649,7 +649,7 @@ label a {
 
 
 .icons-h3.hi1 a:hover {
-	color: #ea5b0b !important;
+	color: #FF4100 !important;
 }
 .icons-h3.hi2 a:hover {
 	color: #D90019 !important;
@@ -704,7 +704,7 @@ label a {
 }
 
 .bg--orange{
-    background-color: #EA5B0B;
+    background-color: #FF4100;
 }
 .bg--gray{
     background-color: #808080;
@@ -729,7 +729,7 @@ label a {
 section.border--bottom:not([data-gradient-bg]) {
     border-bottom: 0px solid #57585A !important;
     background: #57585A;
-    border-top: 2mm solid #F36421;
+    border-top: 2mm solid #FF4100;
     height: 13mm;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -1128,18 +1128,18 @@ article .article__body img  {
 
 
 .title-internal-page{
-    color: #EA5B0B;
-    font-size: 62px !important;
-    line-height: 64px;
-    margin-bottom: 20mm !important;
-    font-weight: 700;
-    letter-spacing: 1mm;
-    padding-top: 0mm;
+    font-size: 40px;
+    color: #ff4100 !important;
+    letter-spacing: 0.5px !important;
+    font-family: "Helvetica Neue" !important;
+    line-height: 28px;
     text-transform: uppercase;
+    padding-top: 2mm;
+    margin-bottom: 0px!important;
 }
 
 .title-internal-page-long{
-    color: #EA5B0B;
+    color: #FF4100;
     font-size: 62px !important;
     line-height: 84px;
     margin-bottom: 20mm !important;
@@ -1324,7 +1324,7 @@ article .article__body img  {
 .table-elements-sidebar p{
     font-size: 16px;
     letter-spacing: 0px;
-    color: #ea5b0b;
+    color: #FF4100;
     text-decoration: none;
     font-weight: 600;
     position: relative;
@@ -1338,7 +1338,7 @@ article .article__body img  {
 }
 
 .description-internal-page a{
-    color: #ea5b0b;
+    color: #FF4100;
 }
 
 .table-elements-sidebar .col-lg-12 {
@@ -1416,7 +1416,7 @@ article .article__body img  {
 }
 
 .news-grid .feature__body.boxed.boxed--border {
-	background-color: #dadada;
+	background-color: #eee;
     color: #4B4C4C !important;
     min-height: 20em;
 }
@@ -1424,6 +1424,10 @@ article .article__body img  {
 .news-grid .feature__body.boxed.boxed--border a {
 	color: #4B4C4C !important;
 	text-decoration: none !important;
+}
+
+.front-news h1 {
+    display: none;
 }
 
 
@@ -1443,11 +1447,11 @@ article .article__body img  {
 }
 .inv-subtitle-h2{
     font-weight: 300;
-    color: #EA5B0B;
+    color: #FF4100;
     font-size: 44px !important;
     letter-spacing: 1px;
     font-weight: 600;
-    color: #EA5B0B;
+    color: #FF4100;
     font-size: 74px !important;
     letter-spacing: 1px;
     margin-bottom: 0px;
@@ -1476,7 +1480,7 @@ article .article__body img  {
 	padding-top: 5px;
 }
 .financials-table th {
-    background-color: #ea5b0b;
+    background-color: #FF4100;
     color: #fff;
     text-transform: uppercase;
     font-size: 14px;
@@ -1603,7 +1607,7 @@ tr:nth-child(2n+1) {
 .tables-liberty a {
     color: #FF4100;
     font-weight: 600;
-    color: #EA5B0B;
+    color: #FF4100;
     font-size: 16px !important;
     letter-spacing: 1px;
 }
@@ -1641,7 +1645,7 @@ tr:nth-child(2n+1) {
 /****** Heading ******************/
 
 .tables-liberty table th {
-	background-color: #ea5b0b;
+	background-color: #FF4100;
 	color: white;
 	text-transform: uppercase;
 	font-weight: 500;
@@ -1776,7 +1780,7 @@ a:hover {
 .tab__content {
     font-size: 16px;
     letter-spacing: 0px;
-    color: #ea5b0b;
+    color: #FF4100;
     line-height: 30px !important;
 }
 
