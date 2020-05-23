@@ -1925,10 +1925,22 @@ a:hover {
 .modal-trigger p strong:hover {
 	color: #ff4100 !important;
 }
-.video-play-icon:hover {
-	border: 2px solid #FF4100;
-	background: #FF4100;
-	transition-duration: .3s;
+.video-cover .video-play-icon {
+    color:   transparent !important;
+    background: transparent !important;
+    border: transparent !important;
+    width: 650px !important;
+    height: 475px !important;
+}
+.video-cover .video-play-icon:hover {
+	color: transparent !important;
+	background: transparent !important;
+	border: transparent !important;
+}
+.video-cover .video-play-icon:before {
+    border: transparent !important;
+    background: transparent !important;
+    color: transparent !important;
 }
 .about-lla2{
     padding-top: 3.429em !important;
