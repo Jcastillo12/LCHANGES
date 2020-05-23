@@ -1427,12 +1427,13 @@ article .article__body img  {
 .news-grid .feature__body.boxed.boxed--border {
 	background-color: #eee;
     color: #4B4C4C !important;
-    min-height: 20em;
+    max-height: 20em;
 }
 
 .news-grid .feature__body.boxed.boxed--border a {
 	color: #4B4C4C !important;
-	text-decoration: none !important;
+    text-decoration: none !important;
+    letter-spacing: 0.5px !important;
 }
 
 .front-news h1 {
@@ -1444,13 +1445,19 @@ article .article__body img  {
 }
 
 .news-grid .description-internal-page {
-	font-size: 14pt !important;
+	font-size: 12pt !important;
 }
 
 .view-id-news_grid .pagination > li > a {
 	color: #FF4100 !important;
 	font-family: "Helvetica Neue" !important;
 	font-size: 12pt !important;
+}
+
+.view-news-grid .pagination > .active > a {
+	background-color: #FF4100 !important;
+	border-color: #FF4100 !important;
+	color: #fff !important;
 }
 
 /***********************************  END INTERNAL PAGES GENERAL CSS ***********************************************/
