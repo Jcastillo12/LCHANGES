@@ -1149,7 +1149,7 @@ article .article__body img  {
     text-transform: uppercase;
 }
 .subtitle-internal-page{
-    font-size: 40px;
+    font-size: 30px;
 	color: #ff4100 !important;
 	letter-spacing: 0.5px !important;
 	font-family: "Helvetica Neue" !important;
@@ -1251,6 +1251,15 @@ article .article__body img  {
     letter-spacing: 1px !important;
     line-height: 6mm !important;
     font-weight: 300 !important;
+}
+
+.lla-team .feature h5{
+    margin: 0;
+    font-size: 18px;
+    color: #FF4100;
+    letter-spacing: 1px !important;
+    line-height: 6mm !important;
+    font-weight: 600 !important;
 }
 
 #aboutusr {
@@ -1869,7 +1878,12 @@ a:hover {
 	font-family: 'Helvetica Neue', sans-serif;
 }
 .lla-team span {
-	font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14pt;
+    color: #4B4C4C;
+    line-height: 10mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
 }
 /************ Suppliers ************/
 .tab__content2 ul li::before {
