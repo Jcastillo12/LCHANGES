@@ -1139,14 +1139,14 @@ article .article__body img  {
 }
 
 .title-internal-page-long{
-    color: #FF4100;
-    font-size: 62px !important;
-    line-height: 84px;
-    margin-bottom: 20mm !important;
-    font-weight: 700;
-    letter-spacing: 1mm;
-    padding-top: 5mm;
+    font-size: 40px;
+    color: #ff4100 !important;
+    letter-spacing: 0.5px !important;
+    font-family: "Helvetica Neue" !important;
+    line-height: 45px;
     text-transform: uppercase;
+    padding-top: 2mm;
+    margin-bottom: 0px!important;
 }
 .subtitle-internal-page{
     font-size: 30px;
@@ -1158,7 +1158,7 @@ article .article__body img  {
 }
 
 .subtitle-internal-page-long{
-    font-size: 40px;
+    font-size: 30px;
 	color: #ff4100 !important;
 	letter-spacing: 0.5px !important;
 	font-family: "Helvetica Neue" !important;
@@ -1335,7 +1335,7 @@ article .article__body img  {
     letter-spacing: 0px;
     color: #FF4100;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 400;
     position: relative;
     top: 8px;
 }
@@ -1458,6 +1458,18 @@ article .article__body img  {
 	background-color: #FF4100 !important;
 	border-color: #FF4100 !important;
 	color: #fff !important;
+}
+
+.imagebg-content-article {
+    padding-top: 42px;
+}
+
+.imagebg-content-article .title-internal-page-long {
+    margin-bottom: 40px !important;
+}
+
+.no-padding-bottom{
+    padding-bottom: 0px;
 }
 
 /***********************************  END INTERNAL PAGES GENERAL CSS ***********************************************/
