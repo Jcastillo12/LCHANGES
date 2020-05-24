@@ -1226,9 +1226,7 @@ article .article__body img  {
     line-height: 28px;
 }
 
-.accordion .accordion__title::before{
-    display: none;
-}
+
 
 .special-spacing {
     padding-top: 0px !important;
@@ -1476,6 +1474,52 @@ article .article__body img  {
 .news-grid .description-internal-page.dip-news-grid {
 	display: none;
 }
+
+.image-box {
+    background-color: #DADADA;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+        margin-bottom: 0px;
+    margin-bottom: 20px;
+}
+
+.box-info h5{
+    text-align: center;
+}
+
+.share-information .field--name-field-page-type a{
+    display:none;
+}
+
+.separator-element{
+    margin: 50px 0px;
+}
+
+.box-info h5 a {
+    font-size: 16pt;
+    color: #FF4100;
+    line-height: 10mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+}
+.iframe-special-4{
+    margin-bottom: 52px;
+}
+.spacing-top{
+    margin-top: 60px;
+}
+
+.accordion.accordion-1 {
+    min-height: auto !important;
+}
+
+.accordion .accordion__title::before {
+    float: right;
+}
+
 /***********************************  END INTERNAL PAGES GENERAL CSS ***********************************************/
 
 
