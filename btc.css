@@ -1966,6 +1966,10 @@ a:hover {
 	color: #FF4100 !important;
 }
 /************ Video Gallery ************/
+.video-cover .background-image-holder {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
 .modal-trigger p strong:hover {
 	color: #ff4100 !important;
 }
