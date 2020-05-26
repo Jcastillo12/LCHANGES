@@ -2231,6 +2231,9 @@ a:hover {
     backface-visibility: hidden;
 }
 
+.tabs-container ul {
+    margin-bottom: 0px !important;
+}
 
 #block-sitewidecontactform button[type="submit"] {
     background: #FF4100;
