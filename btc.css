@@ -1545,7 +1545,7 @@ article .article__body img  {
     width: 125px;
     height: 570px;
     position: relative;
-    top: -460px;
+    top: -550px;
     left: 680px;
     z-index: 2;
     clear: both;
@@ -1553,7 +1553,7 @@ article .article__body img  {
 
 .bar-wrapper {
     width: 100%;
-    height: 550px;
+    height: 960px;
 }
 
 .bar-animated-1 {
