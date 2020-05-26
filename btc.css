@@ -1220,6 +1220,7 @@ article .article__body img  {
 }
 
 .accordion-title-internal-page{
+    width: 95%;
     font-size: 15pt;
     letter-spacing: 0.5px !important;
     font-family: "Helvetica Neue" !important;
