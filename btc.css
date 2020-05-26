@@ -1518,7 +1518,8 @@ article .article__body img  {
     font-weight: 400 !important;
 }
 .iframe-special-4{
-    margin-bottom: 52px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 .spacing-top{
     margin-top: 60px;
@@ -1702,9 +1703,146 @@ article .article__body img  {
 }
 
 
+
+
 /***********************************  END INTERNAL PAGES GENERAL CSS ***********************************************/
 
+/************************************ BRAND PAGE ******************************************************************/
+.cable-brand .field.field--name-field-brand-type.field--type-entity-reference.field--label-above,
+.lcpc-brand .field.field--name-field-brand-type.field--type-entity-reference.field--label-above,
+.vtr-brand .field.field--name-field-brand-type.field--type-entity-reference.field--label-above{
+    display: none;
+}
+.same-height-brand {
+    height: 550px;
+    padding: 60px;
+}
 
+.same-height-brand-2{
+    height: 430px;
+    padding: 60px;
+}
+
+.same-height-brand-3 {
+    height: 640px;
+    padding: 60px;
+}
+
+.brand-cont {
+	overflow: hidden;
+}
+.image img {
+    margin-top: 90px;
+    width: 280px;
+}
+
+.vtr-brand .image img {
+    margin-top: 140px;
+    width: 210px;
+}
+
+.vtr-brand .bar-brand-container {
+    height: 620px;
+}
+
+.vtr-brand .bar-brand-wrapper{
+    height: 695px;
+}
+
+.image {
+    text-align: center;
+}
+
+.text-middle {
+    background-color: #9E9D9E;
+}
+
+.bg-image-brand {
+    background-image: url('http://ec2-18-205-16-231.compute-1.amazonaws.com/sites/default/files/images/blogliberty9_0.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-middle .subtitle-internal-page{
+    color: white!important;
+}
+
+.text-middle .description-internal-page{
+    font-size: 14pt;
+    color: white!important;
+    line-height: 10mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+}
+
+.bar-brand-container {
+	width: 125px;
+	height: 580px;
+	position: relative;
+	top: -70px;
+	left: -60px;
+	z-index: 2;
+	clear: both;
+}
+
+.bar-brand-wrapper {
+    width: 100%;
+    height: 580px;
+}
+
+.bar-brand-1 {
+    background-color: #702673;
+    height: inherit;
+    width: 36px;
+    float:left;
+}
+
+.bar-brand-2 {
+    background-color: #BD1521;
+    height: inherit;
+    width: 5px;
+    float: left;
+}
+
+.bar-brand-3 {
+    background-color: #F9B234;
+    height: inherit;
+    width: 16px;
+    float: left;
+}
+
+.bar-brand-4 {
+    background-color: #283583;
+    height: inherit;
+    width: 17px;
+    float: left;
+}
+
+.bar-brand-5 {
+    background-color: #EA5B0B;
+    height: inherit;
+    width: 12px;
+    float: left;
+}
+
+.bar-brand-6 {
+    background-color: #575757;
+    height: inherit;
+    width: 15px;
+    float: left;
+}
+
+.bar-brand-7 {
+    background-color: #59A332;
+    height: inherit;
+    width: 23px;
+    float: left;
+}
+
+
+
+/***************************************************/
 
 
 
@@ -1777,7 +1915,7 @@ article .article__body img  {
 }
 
 tr:nth-child(2n+1) {
-	background-color: #feeee8;
+	background-color: #f9f9f9;
 }
 .col-md-12.financials-table {
 	padding: 0px;
@@ -1828,19 +1966,24 @@ tr:nth-child(2n+1) {
 }
 
 /********* End Filter ********/
-
+.spacing-fixing-section {
+    padding-top: 13mm;
+    padding-bottom: 40px;
+}
 /* Tables liberty*/
 
 .tables-liberty th, .tables-liberty td {
     padding: 10px;
 }
 .tables-liberty .views-field {
-    /*border: none !important;*/
-    border-right: 1px dotted #ddd;
-    line-height: 30px !important;
-    font-family: "Helvetica Neue LT Com"; 
-    font-weight: 800;
-    letter-spacing: 1px;
+	border-right: 1px dotted #ddd;
+	line-height: 30px !important;
+	font-family: "Helvetica Neue LT Com";
+	font-weight: 800;
+	font-size: 12pt;
+	line-height: 10mm;
+	font-family: 'Helvetica Neue' !important;
+	font-weight: 400 !important;
 }
 
 .tables-liberty .views-field-title {
