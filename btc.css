@@ -1487,6 +1487,10 @@ article .article__body img  {
 	display: none;
 }
 
+.news-grid .description-internal-page a {
+    font-size: 12pt !important;
+}
+
 .image-box {
     background-color: #DADADA;
     width: 100px;
