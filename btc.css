@@ -1207,7 +1207,7 @@ article .article__body img  {
     line-height: 10mm;
     font-family: 'Helvetica Neue' !important;
     font-weight: 400 !important;
-    padding: 20px 0px !important;
+    padding: 20px 15px !important;
 }
 
 .bullets-info-internal-page{
@@ -1238,7 +1238,7 @@ article .article__body img  {
 }
 
 .our-companies-bottom {
-    margin-bottom: -69px;
+    margin-bottom: -35px;
     padding-top: 57px;
 }
 
@@ -1362,6 +1362,14 @@ article .article__body img  {
 
 .tabs.text-center .active span {
     color:white!important;
+}
+
+.tabs-content.table-padding-top {
+    margin-top: -26px !important;
+}
+
+.content-tab-sidebar a, .content-tab-sidebar p {
+    color: #929292;
 }
 
 .special-table tbody tr th:first-child {
