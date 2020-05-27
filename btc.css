@@ -1373,6 +1373,15 @@ article .article__body img  {
     color: #929292;
 }
 
+.content-tab-sidebar a {
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+.tabs-commit .tab__content .subtitle-internal-page {
+    margin-top: 55px;
+}
+
 .special-table tbody tr th:first-child {
 	background-color: white;
 }
