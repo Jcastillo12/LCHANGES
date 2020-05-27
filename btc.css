@@ -2152,6 +2152,9 @@ a:hover {
 	color: #FF4100 !important;
 }
 /************ Video Gallery ************/
+.modal-container .modal-content iframe:first-child + .modal-close-cross:last-child {
+    top: unset !important;
+}
 .video-cover .background-image-holder {
     background-size: contain !important;
     background-repeat: no-repeat !important;
