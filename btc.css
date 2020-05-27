@@ -2313,8 +2313,11 @@ a:hover {
 	color: #FF4100 !important;
 }
 /************ Video Gallery ************/
-.modal-container .modal-content iframe:first-child + .modal-close-cross:last-child {
+/*.modal-container .modal-content iframe:first-child + .modal-close-cross:last-child {
     top: unset !important;
+}*/
+.background-image-holder{
+    background-color: #fff !important;
 }
 .video-cover .background-image-holder {
     background-size: contain !important;
