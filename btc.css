@@ -2313,6 +2313,16 @@ a:hover {
 	color: #FF4100 !important;
 }
 /************ Video Gallery ************/
+.vid-gallery .modal-container::before {
+	background: rgba(0, 0, 0, 0);
+	content: '';
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
 .video-cover .background-image-holder {
     background-size: contain !important;
     background-repeat: no-repeat !important;
