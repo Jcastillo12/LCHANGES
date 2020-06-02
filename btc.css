@@ -2312,6 +2312,14 @@ a:hover {
 .tab__content1 ul .linked::before {
 	color: #FF4100 !important;
 }
+/************ Our Culture ************/
+.pr-lg-4:hover {
+	border: 1px solid #ff4100 !important;
+	border-top: 0.50em solid #ff4100 !important;
+}
+.nav-pills a:active {
+	color: #ff4100 !important;
+}
 /************ Video Gallery ************/
 .modal-container::before {
 	background: rgba(255, 255, 255, 0.8) !important;
