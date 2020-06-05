@@ -1452,11 +1452,16 @@ article .article__body img  {
     display: block !important;
 }
 
+.news-date.bullets-info-internal-page {
+    position: absolute;
+    bottom: 35px;
+}
+
 .news-grid .feature__body.boxed.boxed--border {
 	background-color: #eee;
     color: #4B4C4C !important;
-    max-height: 20em;
-    min-height: 20em;
+    max-height: 15em;
+    min-height: 15em;
 }
 
 .news-grid .feature__body.boxed.boxed--border a {
@@ -2320,6 +2325,10 @@ a:hover {
 .nav-pills a:active {
 	color: #ff4100 !important;
 }
+.nav-pills .description-internal-page.active a {
+    color: #ff4100 !important;
+    }
+    
 /************ Video Gallery ************/
 .modal-container::before {
 	background: rgba(255, 255, 255, 0.8) !important;
