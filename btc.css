@@ -2337,7 +2337,13 @@ a:hover {
 }
 .cta-2.bg--orange:hover {
     background: #ea5b0b !important;
+}
+.ourworkplace .tab__title .h5 {
+	font-weight: 500 !important;
 }    
+.peoplecareers .feature-7 {
+	height: 25em !important;
+}
 /************ Video Gallery ************/
 .modal-container::before {
 	background: rgba(255, 255, 255, 0.8) !important;
