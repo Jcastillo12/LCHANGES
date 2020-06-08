@@ -2334,8 +2334,10 @@ a:hover {
 }
 .nav-pills .description-internal-page.active a {
     color: #ff4100 !important;
-    }
-    
+}
+.cta-2.bg--orange:hover {
+    background: #ea5b0b !important;
+}    
 /************ Video Gallery ************/
 .modal-container::before {
 	background: rgba(255, 255, 255, 0.8) !important;
