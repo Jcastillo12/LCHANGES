@@ -225,23 +225,27 @@ ul.menu-horizontal {
 }
 
 .submenu-dropdown-1{
-    left: -532px;
+    left: -602px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .submenu-dropdown-2 {
-    left: -712px;
+    left: -766px;
     height: 250px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .submenu-dropdown-3 {
-    left: -852px;
+    left: -892px;
     height: 270px;
+    border-radius: 0px 0px 10px 10px;
    /* overflow-y: scroll;*/
 }
 
 .submenu-dropdown-4 {
-    left: -1010px;
+    left: -1034px;
     height:150px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .submenu-dropdown-5 {
@@ -721,6 +725,11 @@ label a {
 .pos-vertical-center .block{
     text-transform: uppercase;
 }
+.background-image-holder{
+    background-repeat: no-repeat !important;  
+}
+
+
 .feature-7 .background-image-holder {
   border-radius: 0px !important;
 }
@@ -2577,8 +2586,14 @@ footer{
 
 [data-overlay] :not(.container):not(.background-image-holder) {
     opacity: 1;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.2);
     z-index: 50;
+}
+
+[data-overlay="2"]::before {
+    opacity: 1;
+    background: rgba(0,0,0,0.2) !important;
+    z-index: 1;
 }
 
 .bar--absolute.pos-fixed .we-mega-menu-li{

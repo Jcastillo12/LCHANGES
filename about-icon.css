@@ -1,0 +1,237 @@
+.sp-box-con.boxed.boxed--border {
+    border: 1px solid transparent;
+}
+
+.sp-box-con.boxed {
+    position: relative;
+    overflow: hidden;
+    padding: 1.85714286em;
+    margin-bottom: 30px;
+}
+
+.sp-box-con i {
+    width: 25%;
+    float: left;
+}
+
+.sp-box-con p {
+    min-height: 5.57142857em;
+    margin: 0;
+    font-size: 16px;
+    color: #4B4C4C;
+    letter-spacing: 1px !important;
+    line-height: 6mm !important;
+    font-weight: 300 !important;
+}
+
+.sp-box-con .feature__body {
+    width: 75%;
+    float: right;
+}
+
+.sp-box-con{
+    height: 170px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 6px 1px #888;
+}
+
+.con-box-1 i {
+    font-size: 50px;
+    color: #EA5B0B;
+    text-align: left;
+    position: relative;
+    top: 21px;
+}
+
+.con-box-1 p {
+    position: relative;
+    top: 13px;
+}
+
+.con-box-1:hover i,
+.con-box-1:hover,
+.con-box-1:hover p{
+    color: white;
+}
+
+.con-box-1:hover{
+    background-color: #EA5B0B;
+    transition: 1s;
+}
+
+.con-box-2 i {
+    font-size: 50px;
+    color: #702673;
+    text-align: left;
+    position: relative;
+    top: 21px;
+    left: 0px;
+}
+
+.con-box-2 p {
+    position: relative;
+    top: 6px;
+    left: 20px; 
+}
+
+.con-box-2:hover i,
+.con-box-2:hover,
+.con-box-2:hover p{
+    color: white;
+}
+
+.con-box-2:hover{
+    background-color: #702673;
+    transition: 1s;
+}
+
+
+.con-box-3 i {
+    font-size: 50px;
+    color: #58A332;
+    text-align: left;
+    position: relative;
+    top: 21px;
+}
+
+.con-box-3 p {
+    position: relative;
+    top: -5px;
+    left: 28px;
+}
+
+.con-box-3:hover i,
+.con-box-3:hover,
+.con-box-3:hover p{
+    color: white;
+}
+
+.con-box-3:hover{
+    background-color: #58A332;
+    transition: 1s;
+}
+
+.con-box-4 i {
+    font-size: 50px;
+    color: #283583;
+    text-align: left;
+    position: relative;
+    top: 21px;
+}
+
+.con-box-4 p {
+    position: relative;
+    top: 24px;
+    left: 28px;
+}
+
+.con-box-4:hover i,
+.con-box-4:hover,
+.con-box-4:hover p{
+    color: white;
+}
+
+.con-box-4:hover{
+    background-color: #283583;
+    transition: 1s;
+}
+
+.con-box-5 i {
+    font-size: 50px;
+    color: #BE1622;
+    text-align: left;
+    position: relative;
+    top: 21px;
+}
+
+.con-box-5 p {
+    position: relative;
+    top: 24px;
+    left: 28px;
+}
+
+.con-box-5:hover i,
+.con-box-5:hover,
+.con-box-5:hover p{
+    color: white;
+}
+
+.con-box-5:hover{
+    background-color: #BE1622;
+    transition: 1s;
+}
+
+.con-box-6 i {
+    font-size: 50px;
+    color: #F9B234;
+    text-align: left;
+    position: relative;
+    top: 21px;
+}
+
+.con-box-6 p {
+    position: relative;
+    top: 24px;
+    left: 20px;
+}
+
+.con-box-6:hover i,
+.con-box-6:hover,
+.con-box-6:hover p{
+    color: white;
+}
+
+.con-box-6:hover{
+    background-color: #F9B234;
+    transition: 1s;
+}
+
+.con-box-7 i {
+    font-size: 50px;
+    color: #E7332A;
+    text-align: left;
+    position: relative;
+    top: 21px;
+}
+
+.con-box-7 p {
+    position: relative;
+    top: -3px;
+    left: 28px;
+}
+
+.con-box-7:hover i,
+.con-box-7:hover,
+.con-box-7:hover p{
+    color: white;
+}
+
+.con-box-7:hover{
+    background-color: #E7332A;
+    transition: 1s;
+}
+
+.con-box-8 i {
+    font-size: 50px;
+    color: #575756;
+    text-align: left;
+    position: relative;
+    top: 21px;
+}
+
+.con-box-8 p {
+    position: relative;
+    top: 24px;
+    left: 8px;
+}
+
+.con-box-8:hover i,
+.con-box-8:hover,
+.con-box-8:hover p{
+    color: white;
+}
+
+.con-box-8:hover{
+    background-color: #575756;
+    transition: 1s;
+}
