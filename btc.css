@@ -132,15 +132,29 @@
     padding-left: 0px;
 }
 
-.elements-top a{
-    color:#808080;
+
+
+.elements-top a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: -0.13px;
+    font-family: Arial;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.pos-fixed .elements-top a{
+    color:#808080!important;
     text-decoration: none;
     letter-spacing: -0.13px;
     font-family: Arial;
 }
+
  .menu-info{
     padding-right: 12px;
 } 
+
+
 
 .menu-info a {
     font-family: 'Helvetica Neue' !important;
@@ -391,13 +405,6 @@ ul.menu-horizontal {
     max-height: 125px;
 }
 
-.bar--transparent:not(.bar--dark) .logo-dark {
-	display: block!important;
-}
-
-.logo.logo-light {
-    display: none !important;
-}
 
 /*******************     Barra de navegación      ***************************/
 .bar.bar--sm {
@@ -2327,8 +2334,16 @@ a:hover {
 }
 .nav-pills .description-internal-page.active a {
     color: #ff4100 !important;
-    }
-    
+}
+.cta-2.bg--orange:hover {
+    background: #ea5b0b !important;
+}
+.ourworkplace .tab__title .h5 {
+	font-weight: 500 !important;
+}    
+.peoplecareers .feature-7 {
+	height: 25em !important;
+}
 /************ Video Gallery ************/
 .modal-container::before {
 	background: rgba(255, 255, 255, 0.8) !important;
@@ -2551,7 +2566,7 @@ footer{
 }
 
 .pos-fixed .elements-top {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .videobg {
     background: #252525;
@@ -2573,6 +2588,52 @@ footer{
 .bar--absolute .we-mega-menu-ul > .we-mega-menu-li.active > a
 .bar--absolute .we-mega-menu-li.active-trail > a{
   color: #FF4100!important;
+}
+
+/*************** NOT FRONT PAGE *****************/
+
+
+.path-not-frontpage .node.node--type-full-page.full-page.full.clearfix {
+    overflow: inherit;
+}
+
+
+.path-not-frontpage #menu1 :not([pos-fixed]) .we-mega-menu-li,
+.path-not-frontpage #menu1 :not([pos-fixed]) .logo.logo-dark{
+    z-index: 2;
+}
+
+
+.path-not-frontpage :not([pos-fixed]) .separator-left{
+    z-index: 2;
+}
+
+.path-not-frontpage .node.node--type-full-page.full-page.full.clearfix {
+    overflow: inherit;
+    position: relative;
+    top: -121px;
+}
+.path-not-frontpage [data-overlay] :not(.container):not(.background-image-holder){
+    background: none;
+}
+
+.path-not-frontpage #menu1 :not([pos-fixed]) .logo.logo-dark{
+    display:none;
+}
+  
+.path-not-frontpage .bar:not(.bg--dark):not(.bar--transparent) :not([pos-fixed]) .logo-light {
+    display: block;
+    z-index: 2;
+}
+
+.path-not-frontpage .pos-fixed .logo.logo-dark {
+	display: block !important;
+	z-index: 2;
+}
+
+.path-not-frontpage .pos-fixed .logo-light {
+    display: none!important;
+    z-index: 2;
 }
 
 /****************************   Copyright   ************************************/
