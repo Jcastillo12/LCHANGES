@@ -19,11 +19,10 @@
     height: 25px;
 }
 .elements-top {
-    width: 1055px;
-    height: 33px;
-    float: right;
-    overflow: hidden;
-    padding-top: 2px;
+    width: 765px;
+    height: 40px;
+    float: right; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 #block-topmenuiconosyredessociales{
     overflow: initial;
@@ -222,8 +221,8 @@ ul.menu-horizontal {
 
 .submenu-dropdown-3 {
     left: -852px;
-    height: 400px;
-    overflow-y: scroll;
+    height: 270px;
+   /* overflow-y: scroll;*/
 }
 
 .submenu-dropdown-4 {
@@ -240,7 +239,7 @@ ul.menu-horizontal {
 .we-mega-menu-ul > .we-mega-menu-li > a{
 	letter-spacing: 1px;
 	color: #575756;
-	font-size: 21px;
+	font-size: 18px;
 	font-family: 'Helvetica Neue', sans-serif;
 	font-weight: 300;
 }
@@ -348,7 +347,7 @@ ul.menu-horizontal {
 }
 
 .we-mega-menu-submenu.submenu-dropdown-1 {
-    height: 205px;
+    height: 155px;
     /*overflow-y: scroll;*/
 }
 
@@ -371,7 +370,7 @@ ul.menu-horizontal {
 .we-mega-menu-ul > .we-mega-menu-li.active-trail > a:hover, 
 .we-mega-menu-ul > .we-mega-menu-li.active-trail > a:focus {
 	background-color: transparent;
-    color: #FF4100;
+    color: #FF4100!important;
     position: relative;
     top: 0px;
 }
@@ -402,7 +401,7 @@ ul.menu-horizontal {
 
 /*******************     Barra de navegación      ***************************/
 .bar.bar--sm {
-    background-color: white;
+    background-color: transparent;
 }
 
 .align-menu-content{
@@ -545,7 +544,7 @@ color:white;
 .paragraph.paragraph--type--info-bar{
 	border-bottom: 0px solid #575756 !important;
 	background: #575756;
-	border-top: 8px solid #EA5B0B;
+	border-top: 8px solid #FF4100;
         padding-top: 1.85714286em;
         padding-bottom: 1.85714286em;
 }
@@ -606,9 +605,9 @@ label a {
     letter-spacing: 1mm;
 }
 .title-h2 {
-    font-size: 110px !important;
-    color: #EA5B0B;
-    letter-spacing: 6px;
+    font-size: 96px !important;
+    color: #FF4100;
+    letter-spacing: 10px;
     font-weight: 300;
     line-height: 120px;
     font-family: "Helvetica Neue LT Com";
@@ -631,7 +630,7 @@ label a {
 	font-weight: 400;
 	line-height: 10mm;
 	letter-spacing: 0.5px;
-    color: #EA5B0B;
+    color: #FF4100;
     margin-top: 10px;
 }
 .icons-h3 {
@@ -649,7 +648,7 @@ label a {
 
 
 .icons-h3.hi1 a:hover {
-	color: #ea5b0b !important;
+	color: #FF4100 !important;
 }
 .icons-h3.hi2 a:hover {
 	color: #D90019 !important;
@@ -704,7 +703,7 @@ label a {
 }
 
 .bg--orange{
-    background-color: #EA5B0B;
+    background-color: #FF4100;
 }
 .bg--gray{
     background-color: #808080;
@@ -724,12 +723,12 @@ label a {
     padding-bottom: 16mm !important;
 }
 .lll-column{
-    padding-top: 20mm;
+    padding-top: 15mm;
 }
 section.border--bottom:not([data-gradient-bg]) {
     border-bottom: 0px solid #57585A !important;
     background: #57585A;
-    border-top: 2mm solid #F36421;
+    border-top: 2mm solid #FF4100;
     height: 13mm;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -780,7 +779,8 @@ section .slider[data-paging="true"] .flickity-page-dots {
 }
 .principal-slider {
 	padding-bottom: 0em !important;
-	margin-bottom: -54px !important;
+    margin-bottom: -54px !important;
+    padding-top: 0px;
 }
 .flickity-page-dots {
     text-align: right !important;
@@ -1071,32 +1071,85 @@ article .article__body img  {
      background-position:center ;
  }
 
+.background-who{
+   margin-top: 30px;
+   background-color: #B3B2B2;
+}
+
+.paragraph.paragraph--type--bp-view.paragraph--view-mode--default.paragraph--id--1821.paragraph--width--full h1{
+    display: none;
+}
+
+.custom-box-title {
+    font-size: 28pt;
+    color: #fff !important;
+    letter-spacing: 0.5px !important;
+    font-family: "Helvetica Neue" !important;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.custom-description-internal-page{
+    font-size: 16pt;
+    color: white;
+    line-height: 10mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+}
+
+.facts.paragraph--view-mode--default {
+    padding-bottom: 0px;
+}
+
+.barra-interna {
+    background: url('/sites/default/files/2020-05/barra1_0.jpg');
+        background-repeat: repeat;
+        background-size: auto;
+    height: 640px;
+    width: 170px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: -277px;
+    position: absolute;
+    z-index: 9;
+    top: -120px;
+}
+
+.brands-logos.paragraph--view-mode--default {
+    padding-bottom: 0px;
+}
+
+.brands-companies{
+    padding-top:0px;
+}
+
+
 /*********************************** INTERNAL PAGES GENERAL CSS **************************************************/
 
 
 .title-internal-page{
-    color: #EA5B0B;
-    font-size: 62px !important;
-    line-height: 64px;
-    margin-bottom: 20mm !important;
-    font-weight: 700;
-    letter-spacing: 1mm;
-    padding-top: 8mm;
+    font-size: 40px;
+    color: #ff4100 !important;
+    letter-spacing: 0.5px !important;
+    font-family: "Helvetica Neue" !important;
+    line-height: 28px;
     text-transform: uppercase;
+    padding-top: 2mm;
+    margin-bottom: 0px!important;
 }
 
 .title-internal-page-long{
-    color: #EA5B0B;
-    font-size: 62px !important;
-    line-height: 84px;
-    margin-bottom: 20mm !important;
-    font-weight: 700;
-    letter-spacing: 1mm;
-    padding-top: 5mm;
+    font-size: 40px;
+    color: #ff4100 !important;
+    letter-spacing: 0.5px !important;
+    font-family: "Helvetica Neue" !important;
+    line-height: 45px;
     text-transform: uppercase;
+    padding-top: 2mm;
+    margin-bottom: 0px!important;
 }
 .subtitle-internal-page{
-    font-size: 28pt;
+    font-size: 30px;
 	color: #ff4100 !important;
 	letter-spacing: 0.5px !important;
 	font-family: "Helvetica Neue" !important;
@@ -1105,7 +1158,7 @@ article .article__body img  {
 }
 
 .subtitle-internal-page-long{
-    font-size: 28pt;
+    font-size: 30px;
 	color: #ff4100 !important;
 	letter-spacing: 0.5px !important;
 	font-family: "Helvetica Neue" !important;
@@ -1140,13 +1193,21 @@ article .article__body img  {
     font-weight: 400 !important;
 }
 
+.article__body p{
+    font-size: 16pt;
+    color: #4B4C4C;
+    line-height: 10mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+}
+
 .description-accordion-internal{
     font-size: 14pt;
     color: #4B4C4C;
     line-height: 10mm;
     font-family: 'Helvetica Neue' !important;
     font-weight: 400 !important;
-    padding: 20px 30px !important;
+    padding: 20px 15px !important;
 }
 
 .bullets-info-internal-page{
@@ -1159,16 +1220,14 @@ article .article__body img  {
 }
 
 .accordion-title-internal-page{
+    width: 95%;
     font-size: 15pt;
     letter-spacing: 0.5px !important;
     font-family: "Helvetica Neue" !important;
     line-height: 28px;
-    text-transform: uppercase;
 }
 
-.accordion .accordion__title::before{
-    display: none;
-}
+
 
 .special-spacing {
     padding-top: 0px !important;
@@ -1180,7 +1239,8 @@ article .article__body img  {
 }
 
 .our-companies-bottom {
-	margin-bottom: -85px;
+    margin-bottom: -35px;
+    padding-top: 57px;
 }
 
 .feature h5 {
@@ -1190,6 +1250,15 @@ article .article__body img  {
     letter-spacing: 1px !important;
     line-height: 6mm !important;
     font-weight: 300 !important;
+}
+
+.lla-team .feature h5{
+    margin: 0;
+    font-size: 18px;
+    color: #FF4100;
+    letter-spacing: 1px !important;
+    line-height: 6mm !important;
+    font-weight: 600 !important;
 }
 
 #aboutusr {
@@ -1263,9 +1332,9 @@ article .article__body img  {
 .table-elements-sidebar p{
     font-size: 16px;
     letter-spacing: 0px;
-    color: #ea5b0b;
+    color: #FF4100;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 400;
     position: relative;
     top: 8px;
 }
@@ -1277,11 +1346,40 @@ article .article__body img  {
 }
 
 .description-internal-page a{
-    color: #ea5b0b;
+    color: #FF4100;
+}
+.table-elements-sidebar {
+    padding: 0px 20px;
 }
 
 .table-elements-sidebar .col-lg-12 {
     border-bottom: 1px solid rgba(0,0,0,0.1);
+    background-color: #F9F9F9;
+}
+
+.tabs.text-center .active {
+    background-color: #ff4100;
+}
+
+.tabs.text-center .active span {
+    color:white!important;
+}
+
+.tabs-content.table-padding-top {
+    margin-top: -26px !important;
+}
+
+.content-tab-sidebar a, .content-tab-sidebar p {
+    color: #929292;
+}
+
+.content-tab-sidebar a {
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+.tabs-commit .tab__content .subtitle-internal-page {
+    margin-top: 55px;
 }
 
 .special-table tbody tr th:first-child {
@@ -1289,7 +1387,7 @@ article .article__body img  {
 }
 
 .special-table tbody tr th {
-    background-color: #575656;
+    background-color: #FF4100;
     text-align: center;
     font-size: 12pt;
     color: white;
@@ -1301,9 +1399,9 @@ article .article__body img  {
 }
 
 .special-table tbody tr td:first-child {
-    background-color: #F9B133;
+    background-color: #F9F9F9;
     font-size: 12pt;
-    color: white;
+    color: black;
     line-height: 10mm;
     font-family: 'Helvetica Neue' !important;
     font-weight: 400 !important;
@@ -1311,7 +1409,7 @@ article .article__body img  {
 }
 
 .special-table tbody tr td {
-    background-color: #FDD9A1;
+    background-color: #F9F9F9;
     font-size: 12pt;
     line-height: 10mm;
     font-family: 'Helvetica Neue' !important;
@@ -1326,7 +1424,8 @@ article .article__body img  {
 .field.field--name-field-tags.field--type-entity-reference.field--label-hidden.field--items,
 .comment-add,
 .js-comment,
-#coment-user
+#coment-user,
+.comment-forbidden
 {
     display: none!important;
 }
@@ -1335,10 +1434,442 @@ article .article__body img  {
     background: transparent;
 }
 
+.paragraph.paragraph--type--paragraph-image-cover-block.height-50.imagebg.text-center.secondary-slider.cover.paragraph--view-mode--default {
+    height: 58.3vh;
+}
+
+
+#webform-submission-liberty-latin-america-informatio-add-form {
+    position: relative;
+    margin-left: 300px;
+    padding-left: 39px;
+    width: 600px;
+    min-height: 650px;
+    padding-bottom: 40px;
+}
+
+.links.inline.list-inline .node-readmore {
+    display: block !important;
+}
+
+.news-date.bullets-info-internal-page {
+    position: absolute;
+    bottom: 35px;
+}
+
+.news-grid .feature__body.boxed.boxed--border {
+	background-color: #eee;
+    color: #4B4C4C !important;
+    max-height: 15em;
+    min-height: 15em;
+}
+
+.news-grid .feature__body.boxed.boxed--border a {
+	color: #4B4C4C !important;
+    text-decoration: none !important;
+    letter-spacing: 0.5px !important;
+}
+
+.front-news h1 {
+    display: none;
+}
+
+.pagination.js-pager__items .active a:hover {
+	color: #fff !important;
+}
+
+.news-grid .description-internal-page {
+	font-size: 12pt !important;
+}
+
+.view-id-news_grid .pagination > li > a {
+	color: #FF4100 !important;
+	font-family: "Helvetica Neue" !important;
+	font-size: 12pt !important;
+}
+
+.view-news-grid .pagination > .active > a {
+	background-color: #FF4100 !important;
+	border-color: #FF4100 !important;
+	color: #fff !important;
+}
+
+.imagebg-content-article {
+    padding-top: 42px;
+}
+
+.imagebg-content-article .title-internal-page-long {
+    margin-bottom: 40px !important;
+}
+
+.no-padding-bottom{
+    padding-bottom: 0px;
+}
+
+.news-grid .description-internal-page.dip-news-grid {
+	display: none;
+}
+
+.news-grid .description-internal-page a {
+    font-size: 12pt !important;
+}
+
+.image-box {
+    background-color: #DADADA;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+        margin-bottom: 0px;
+    margin-bottom: 20px;
+}
+
+.box-info h5{
+    text-align: center;
+}
+
+.share-information .field--name-field-page-type a{
+    display:none;
+}
+
+.separator-element{
+    margin: 50px 0px;
+}
+
+.box-info h5 a {
+    font-size: 16pt;
+    color: #FF4100;
+    line-height: 10mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+}
+.iframe-special-4{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.spacing-top{
+    margin-top: 60px;
+}
+
+.accordion.accordion-1 {
+    min-height: auto !important;
+}
+
+.accordion .accordion__title::before {
+    float: right;
+}
+.link-about,
+.description-internal-page a {
+    font-size: 16pt;
+    line-height: 10mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+}
+
+/*Bars*/
+.bar-container {
+    width: 125px;
+    height: 570px;
+    position: relative;
+    top: -550px;
+    left: 680px;
+    z-index: 2;
+    clear: both;
+}
+
+.bar-wrapper {
+    width: 100%;
+    height: 960px;
+}
+
+.bar-animated-1 {
+    background-color: #702673;
+    height: inherit;
+    width: 36px;
+    float:left;
+}
+
+.bar-animated-2 {
+    background-color: #BD1521;
+    height: inherit;
+    width: 5px;
+    float: left;
+}
+
+.bar-animated-3 {
+    background-color: #F9B234;
+    height: inherit;
+    width: 16px;
+    float: left;
+}
+
+.bar-animated-4 {
+    background-color: #283583;
+    height: inherit;
+    width: 17px;
+    float: left;
+}
+
+.bar-animated-5 {
+    background-color: #EA5B0B;
+    height: inherit;
+    width: 12px;
+    float: left;
+}
+
+.bar-animated-6 {
+    background-color: #575757;
+    height: inherit;
+    width: 15px;
+    float: left;
+}
+
+.bar-animated-7 {
+    background-color: #59A332;
+    height: inherit;
+    width: 23px;
+    float: left;
+}
+
+.text-bar-animated {
+    position: relative;
+    width: 600px;
+    height: 545px;
+    left: 680px;
+    top: -1032px;
+}
+
+.text-bar-animated.position{
+    z-index: 2;
+}
+
+
+.text-bar-1.animation1 {
+    background-color: #702673;
+    height: inherit;
+    -moz-animation: showHide 5s ease-in; /* Firefox */
+    -webkit-animation: showHide 5s ease-in; /* Safari and Chrome */
+    -ms-animation: showHide 5s ease-in; /* IE10 */
+    -o-animation: showHide 5s ease-in; /* Opera */
+    animation: showHide 5s ease-in;
+}
+
+.text-bar-2.animation2 {
+    background-color: #BD1521;
+    height: inherit;
+    left: 36px;
+    position: relative;
+}
+
+.text-bar-3.animation3 {
+    background-color: #F9B234;
+    height: inherit;
+    left: 41px;
+    position: relative;
+}
+
+.text-bar-4.animation4 {
+    background-color: #283583;
+    height: inherit;
+    left: 57px;
+    position: relative;
+}
+
+.text-bar-5.animation5 {
+    background-color: #EA5B0B;
+    height: inherit;
+    left: 74px;
+    position: relative;
+}
+
+.text-bar-6.animation6 {
+    background-color: #575757;
+    height: inherit;
+    left: 86px;
+    position: relative;
+}
+
+.text-bar-7.animation7 {
+    background-color: #59A332;
+    height: inherit;
+    left: 101px;
+    position: relative;
+}
+
+
+@-webkit-keyframes showHide { /* Chrome, Safari */
+    0% {width:0%}
+    40% {width:0%}
+    60% {width:0%;}
+    100% {width:100%;}
+}
+@-moz-keyframes showHide { /* FF */
+    0% {width:0%}
+    40% {width:0%}
+    60% {width:0%;}
+    100% {width:100%;}
+}
+@-ms-keyframes showHide { /* IE10 */
+    0% {width:0%}
+    40% {width:0%}
+    60% {width:0%;}
+    100% {width:100%;}
+}
+@-o-keyframes showHide { /* Opera */
+    0% {width:0%}
+    40% {width:0%}
+    60% {width:0%;}
+    100% {width:100%;}
+}
+@keyframes showHide {
+    0% {width:0%}
+    40% {width:0%}
+    60% {width:0%;}
+    100% {width:100%;}
+}
+
+
+
 
 /***********************************  END INTERNAL PAGES GENERAL CSS ***********************************************/
 
+/************************************ BRAND PAGE ******************************************************************/
+.cable-brand .field.field--name-field-brand-type.field--type-entity-reference.field--label-above,
+.lcpc-brand .field.field--name-field-brand-type.field--type-entity-reference.field--label-above,
+.vtr-brand .field.field--name-field-brand-type.field--type-entity-reference.field--label-above{
+    display: none;
+}
+.same-height-brand {
+    height: 550px;
+    padding: 60px;
+}
 
+.same-height-brand-2{
+    height: 430px;
+    padding: 60px;
+}
+
+.same-height-brand-3 {
+    height: 640px;
+    padding: 60px;
+}
+
+.brand-cont {
+	overflow: hidden;
+}
+.image img {
+    margin-top: 90px;
+    width: 280px;
+}
+
+.vtr-brand .image img {
+    margin-top: 140px;
+    width: 210px;
+}
+
+.vtr-brand .bar-brand-container {
+    height: 620px;
+}
+
+.vtr-brand .bar-brand-wrapper{
+    height: 695px;
+}
+
+.image {
+    text-align: center;
+}
+
+.text-middle {
+    background-color: #9E9D9E;
+}
+
+.bg-image-brand {
+    background-image: url('http://ec2-18-205-16-231.compute-1.amazonaws.com/sites/default/files/images/blogliberty9_0.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-middle .subtitle-internal-page{
+    color: white!important;
+}
+
+.text-middle .description-internal-page{
+    font-size: 14pt;
+    color: white!important;
+    line-height: 10mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+}
+
+.bar-brand-container {
+	width: 125px;
+	height: 580px;
+	position: relative;
+	top: -70px;
+	left: -60px;
+	z-index: 2;
+	clear: both;
+}
+
+.bar-brand-wrapper {
+    width: 100%;
+    height: 580px;
+}
+
+.bar-brand-1 {
+    background-color: #702673;
+    height: inherit;
+    width: 36px;
+    float:left;
+}
+
+.bar-brand-2 {
+    background-color: #BD1521;
+    height: inherit;
+    width: 5px;
+    float: left;
+}
+
+.bar-brand-3 {
+    background-color: #F9B234;
+    height: inherit;
+    width: 16px;
+    float: left;
+}
+
+.bar-brand-4 {
+    background-color: #283583;
+    height: inherit;
+    width: 17px;
+    float: left;
+}
+
+.bar-brand-5 {
+    background-color: #EA5B0B;
+    height: inherit;
+    width: 12px;
+    float: left;
+}
+
+.bar-brand-6 {
+    background-color: #575757;
+    height: inherit;
+    width: 15px;
+    float: left;
+}
+
+.bar-brand-7 {
+    background-color: #59A332;
+    height: inherit;
+    width: 23px;
+    float: left;
+}
+
+
+
+/***************************************************/
 
 
 
@@ -1352,11 +1883,11 @@ article .article__body img  {
 }
 .inv-subtitle-h2{
     font-weight: 300;
-    color: #EA5B0B;
+    color: #FF4100;
     font-size: 44px !important;
     letter-spacing: 1px;
     font-weight: 600;
-    color: #EA5B0B;
+    color: #FF4100;
     font-size: 74px !important;
     letter-spacing: 1px;
     margin-bottom: 0px;
@@ -1385,7 +1916,7 @@ article .article__body img  {
 	padding-top: 5px;
 }
 .financials-table th {
-    background-color: #ea5b0b;
+    background-color: #FF4100;
     color: #fff;
     text-transform: uppercase;
     font-size: 14px;
@@ -1411,7 +1942,7 @@ article .article__body img  {
 }
 
 tr:nth-child(2n+1) {
-	background-color: #feeee8;
+	background-color: #f9f9f9;
 }
 .col-md-12.financials-table {
 	padding: 0px;
@@ -1462,19 +1993,24 @@ tr:nth-child(2n+1) {
 }
 
 /********* End Filter ********/
-
+.spacing-fixing-section {
+    padding-top: 13mm;
+    padding-bottom: 40px;
+}
 /* Tables liberty*/
 
 .tables-liberty th, .tables-liberty td {
     padding: 10px;
 }
 .tables-liberty .views-field {
-    /*border: none !important;*/
-    border-right: 1px dotted #ddd;
-    line-height: 30px !important;
-    font-family: "Helvetica Neue LT Com"; 
-    font-weight: 800;
-    letter-spacing: 1px;
+	border-right: 1px dotted #ddd;
+	line-height: 30px !important;
+	font-family: "Helvetica Neue LT Com";
+	font-weight: 800;
+	font-size: 12pt;
+	line-height: 10mm;
+	font-family: 'Helvetica Neue' !important;
+	font-weight: 400 !important;
 }
 
 .tables-liberty .views-field-title {
@@ -1512,7 +2048,7 @@ tr:nth-child(2n+1) {
 .tables-liberty a {
     color: #FF4100;
     font-weight: 600;
-    color: #EA5B0B;
+    color: #FF4100;
     font-size: 16px !important;
     letter-spacing: 1px;
 }
@@ -1550,7 +2086,7 @@ tr:nth-child(2n+1) {
 /****** Heading ******************/
 
 .tables-liberty table th {
-	background-color: #ea5b0b;
+	background-color: #FF4100;
 	color: white;
 	text-transform: uppercase;
 	font-weight: 500;
@@ -1685,7 +2221,7 @@ a:hover {
 .tab__content {
     font-size: 16px;
     letter-spacing: 0px;
-    color: #ea5b0b;
+    color: #FF4100;
     line-height: 30px !important;
 }
 
@@ -1761,7 +2297,12 @@ a:hover {
 	font-family: 'Helvetica Neue', sans-serif;
 }
 .lla-team span {
-	font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14pt;
+    color: #4B4C4C;
+    line-height: 10mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
 }
 /************ Suppliers ************/
 .tab__content2 ul li::before {
@@ -1776,14 +2317,46 @@ a:hover {
 .tab__content1 ul .linked::before {
 	color: #FF4100 !important;
 }
+/************ Our Culture ************/
+.pr-lg-4:hover {
+	border: 1px solid #ff4100 !important;
+	border-top: 0.50em solid #ff4100 !important;
+}
+.nav-pills a:active {
+	color: #ff4100 !important;
+}
+.nav-pills .description-internal-page.active a {
+    color: #ff4100 !important;
+    }
+    
 /************ Video Gallery ************/
+.modal-container::before {
+	background: rgba(255, 255, 255, 0.8) !important;
+}
+.video-cover .background-image-holder {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
 .modal-trigger p strong:hover {
 	color: #ff4100 !important;
 }
-.video-play-icon:hover {
-	border: 2px solid #FF4100;
-	background: #FF4100;
-	transition-duration: .3s;
+.video-cover .video-play-icon {
+    color:   transparent !important;
+    background: transparent !important;
+    border: transparent !important;
+    width: 650px !important;
+    height: 475px !important;
+}
+.video-cover .video-play-icon:hover {
+	color: transparent !important;
+	background: transparent !important;
+    border: transparent !important;
+    box-shadow: none !important;
+}
+.video-cover .video-play-icon:before {
+    border: transparent !important;
+    background: transparent !important;
+    color: transparent !important;
 }
 .about-lla2{
     padding-top: 3.429em !important;
@@ -1827,10 +2400,29 @@ a:hover {
 .accordion li .accordion__title {
 	border: 1px solid #dedede !important;
 }
+.accordion-1 li .accordion__title {
+	background: #DADADA !important;
+    opacity: 1 !important;
+}
+
+.tabs-container.tabs--vertical .tabs-content > li.active .tab__content,
+.tabs-content > li.active {
+    animation:none!important;
+    -webkit-animation: none!important;
+    backface-visibility: hidden;
+}
 
 #block-sitewidecontactform button[type="submit"] {
     background: #FF4100;
     border-color: #FF4100;
+}
+
+.accordion li.active .accordion__content {
+    max-height: 100% !important;
+}
+
+.accordion__content .description-internal-page {
+    margin-bottom: 10px;
 }
 
 /******************** Contact Form *************************/
@@ -1946,7 +2538,42 @@ footer{
     padding-left: 0px;
 }
 
+.we-mega-menu-ul > .we-mega-menu-li > span, .we-mega-menu-ul > .we-mega-menu-li > a {
+    letter-spacing: 1px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+}
 
+.pos-fixed .we-mega-menu-li {
+    color: #575756!important;
+}
+
+.pos-fixed .elements-top {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+.videobg {
+    background: #252525;
+    position: relative;
+    overflow: hidden;
+    height: 917px;
+}
+
+[data-overlay] :not(.container):not(.background-image-holder) {
+    opacity: 1;
+    background: rgba(0,0,0,0.4);
+    z-index: 50;
+}
+
+.bar--absolute.pos-fixed .we-mega-menu-li{
+    color: #575756!important;
+}
+
+.bar--absolute .we-mega-menu-ul > .we-mega-menu-li.active > a
+.bar--absolute .we-mega-menu-li.active-trail > a{
+  color: #FF4100!important;
+}
 
 /****************************   Copyright   ************************************/
 .copyright{
@@ -2083,7 +2710,7 @@ footer{
     }
     
     .paragraph.paragraph--type--paragraph-block.switchable.bg--secondary.paragraph--view-mode--default {
-        padding-bottom: 10mm !important;
+        padding-bottom: 12mm !important;
     }
 
 
@@ -2097,6 +2724,14 @@ footer{
         -ms-flex: 0 0 20%;
         flex: 0 0 20%;
         max-width: 20%;
+    }
+
+    .flickity-viewport {
+        height: 920px!important;
+    }
+
+    .imagebg.slide.is-selected {
+        height: 920px;
     }
 }
 
@@ -2254,14 +2889,6 @@ footer{
         display:none;
     }
 
-    .we-mega-menu-ul > .we-mega-menu-li > span, .we-mega-menu-ul > .we-mega-menu-li > a {
-        letter-spacing: 1px;
-        color: #575756;
-        font-size: 18px;
-        font-family: 'Helvetica Neue', sans-serif;
-        font-weight: 400;
-    }
-
     #footer-custom .space-between-columns,
     #footer-custom .postscript_first{
         padding-left:0px;
@@ -2295,7 +2922,7 @@ footer{
 
 
 }
-@media (min-width: 768px) {
+@media (max-width: 1139px) and (min-width: 768px) {
     .flickity-viewport {
         height: 344px!important;
     }
@@ -2446,13 +3073,7 @@ footer{
         display:none;
     }
 
-    .we-mega-menu-ul > .we-mega-menu-li > span, .we-mega-menu-ul > .we-mega-menu-li > a {
-        letter-spacing: 1px;
-        color: #575756;
-        font-size: 16px;
-        font-family: 'Helvetica Neue', sans-serif;
-        font-weight: 400;
-    }
+
     .link-social-1 .social-facebook, 
     .link-social-1:hover .social-facebook,
      .link-social-2 .social-youtube, 
