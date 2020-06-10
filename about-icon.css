@@ -1,3 +1,9 @@
+.news-con {
+    background-color: #FAFAFA;
+    padding-top: 53px!important;
+    padding-bottom: 30px!important;
+}
+
 .sp-box-con.boxed.boxed--border {
     border: 1px solid transparent;
 }
@@ -96,8 +102,8 @@
 
 .con-box-3 p {
     position: relative;
-    top: -5px;
-    left: 28px;
+    top: 10px;
+    left: 18px;
 }
 
 .con-box-3:hover i,
@@ -141,13 +147,13 @@
     color: #BE1622;
     text-align: left;
     position: relative;
-    top: 21px;
+    top: 30px;
 }
 
 .con-box-5 p {
     position: relative;
-    top: 24px;
-    left: 28px;
+    top: 40px;
+    left: 15px;
 }
 
 .con-box-5:hover i,
@@ -196,8 +202,8 @@
 
 .con-box-7 p {
     position: relative;
-    top: -3px;
-    left: 28px;
+    top: 5px;
+    left: 18px;
 }
 
 .con-box-7:hover i,

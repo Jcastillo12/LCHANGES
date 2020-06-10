@@ -937,7 +937,7 @@ article .article__body img  {
 
 /*Lines*/
 .barra-1 {
-	background: url('/sites/default/files/2020-05/barra1_0.jpg');
+	background: url('/sites/default/files/2020-06/barra2.png');
 	height: 600px;
 	width: 170px;
 	background-size: contain;
@@ -1118,7 +1118,7 @@ article .article__body img  {
 }
 
 .barra-interna {
-    background: url('/sites/default/files/2020-05/barra1_0.jpg');
+    background: url('/sites/default/files/2020-06/barra2.png');
         background-repeat: repeat;
         background-size: auto;
     height: 640px;
@@ -2290,6 +2290,58 @@ tr:nth-child(2n+1) {
     padding-top: 3.429em;
 }
 
+.tab-circle-about .box-shadow-wide {
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.tab-circle-about:not(.image--light) .slider[data-paging="true"] .flickity-page-dots .dot {
+    background: transparent !important;
+    border: 1px solid gray;
+    opacity: 1 !important;
+}
+
+.tab-circle-about .accordion .accordion__title::before {
+    float: left;
+}
+
+.tab-circle-about .accordion li.active .accordion__title,
+.tab-circle-about .accordion li .accordion__title {
+    background: transparent !important;
+    border: none !important;
+}
+
+.tab-circle-about .active .accordion__title span {
+    display: inline-block;
+    font-size: 14pt;
+    color: #FF4100!important;
+    line-height: 10mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 600 !important;
+    letter-spacing: 1.1px;
+    position: relative;
+    top: -5px;
+    left: 5px;
+}
+
+.tab-circle-about  .active .accordion__title::before {
+	color: #FF4100;
+}
+
+
+.tab-circle-about .accordion .accordion__title span {
+    display: inline-block;
+    font-size: 14pt;
+    color: #4B4C4C;
+    line-height: 10mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 600 !important;
+    letter-spacing: 1.1px;
+    position: relative;
+    top: -5px;
+    left: 5px;
+}
+
+
 /************ our company ************/
 .list-inline--images img {
     max-height: 210px !important;
@@ -2884,9 +2936,9 @@ footer{
         max-width: 20%;
     }
 
-    .flickity-viewport {
+    /* .flickity-viewport {
         height: 920px!important;
-    }
+    } */
 
     .imagebg.slide.is-selected {
         height: 920px;
@@ -3080,11 +3132,11 @@ footer{
 
 
 }
-@media (max-width: 1139px) and (min-width: 768px) {
+/* @media (max-width: 1139px) and (min-width: 768px) {
     .flickity-viewport {
         height: 344px!important;
     }
-}
+} */
 
 
 /*********************** 767 *************************/
