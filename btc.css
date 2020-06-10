@@ -1867,6 +1867,88 @@ article .article__body img  {
 /***************************************************/
 
 
+/**************** PRODUCT PAGE *******************************/
+.cage-container {
+    overflow: hidden;
+    height: 565px;
+}
+
+.title-boxes {
+    font-size: 21px;
+    color: white !important;
+    letter-spacing: 0.5px !important;
+    font-family: "Helvetica Neue" !important;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.cage-box {
+    padding: 34px 40px 0px 40px;
+    background-color: #aaa;
+    height: 600px;
+    color:white;
+}
+
+.image-cage-box {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.cage-box .description-internal-page{
+    color:white!important;
+}
+
+.cage-box .btn--primary{
+    background: #FF4100 !important;
+    border: 1px solid #FF4100 !important;
+    color: #ffffff;
+    font-family: "Helvetica Neue";
+    letter-spacing: 0.5px;
+}
+
+.cage-square-boxes {
+    overflow: hidden;
+    height: 840px;
+    background-color: gray;
+}
+
+
+.cage-square-boxes .feature.feature-7.boxed.text-center.imagebg {
+    height: 420px;
+}
+
+.cage-square-boxes .col-sm-6.col-xs-6 {
+    height: 420px;
+    padding:0px;
+}
+
+
+.cage-square-boxes .boxed {
+    border-radius: 0px;
+}
+
+.title-breaking-section {
+    padding-bottom: 30px;
+    margin-top: -60px;
+}
+
+
+.cage-medium-container{
+    overflow: hidden;
+    height: 425px;
+}
+
+.cage-medium-container .cage-box p {
+    margin-bottom: 10px !important;
+}
+
+.sticky-section {
+    padding-bottom: 0px !important;
+}
+
+/**/
+
+
 
 /******************************** INVESTORS *****************************/
 .secondary-slider{
