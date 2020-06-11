@@ -1255,9 +1255,13 @@ article .article__body img  {
 }
 
 .our-companies-bottom {
-    margin-bottom: -35px;
-    padding-top: 57px;
+    margin-bottom: -32px;
+    padding-top: 55px;
 }
+
+.custom-bottom-margin{
+    margin-bottom:-155px;
+  }
 
 .feature h5 {
     margin: 0;
@@ -2223,8 +2227,13 @@ tr:nth-child(2n+1) {
 
 .we-mega-menu-submenu li.we-mega-menu-li.active > a, .we-mega-menu-submenu li.we-mega-menu-li.active > a:hover,
 .we-mega-menu-submenu li.we-mega-menu-li.active > .we-megamenu-nolink {
-    color: #f26522;
+    color: #FF4100!important;
     border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.we-mega-menu-submenu li.we-mega-menu-li a:hover, .we-mega-menu-submenu li.we-mega-menu-li a:focus {
+    background-color: transparent;
+    color: #FF4100 !important;
 }
 
 .submenu-dropdown-1 .we-mega-menu-submenu li.we-mega-menu-li a,
@@ -2248,7 +2257,6 @@ tr:nth-child(2n+1) {
 }
 .tabs .tab__title {
 	font-size: 16px !important;
-	letter-spacing: 1.5px !important;
 	color: #333 !important;
 }
 .feature-1 {
@@ -2340,7 +2348,60 @@ tr:nth-child(2n+1) {
     top: -5px;
     left: 5px;
 }
+.line-bellow {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
 
+.alt-title {
+	color: #ff4100 !important;
+	letter-spacing: 0.5px !important;
+	font-family: "Helvetica Neue" !important;
+	line-height: 28px;
+	padding-top: 12mm;
+}
+
+.title-inside-tabs{
+    font-size: 33px;
+    color: #ff4100 !important;
+    letter-spacing: 0.5px !important;
+    font-family: "Helvetica Neue" !important;
+    line-height: 40px;
+ }
+ 
+ .special-spacing-tabs{
+     padding-bottom: 40px;
+ }
+
+ .image-tab-inside{
+    position: relative;
+}
+
+hr.short {
+    border-color: #ff4100 !important;
+}
+
+.lcpr{
+    top: 100px;
+}
+
+.btc,
+.flow{
+    top: 150px; 
+}
+
+
+.container-info-tab{
+    height: 480px;
+    overflow-y: scroll;
+    width: 100%;
+}
+.feature-6 p {
+    min-height: auto;
+}
+
+.hide-section{
+    display: none!important;
+}
 
 /************ our company ************/
 .list-inline--images img {
@@ -2368,12 +2429,12 @@ a:hover {
 
 }
 /************ Corporate Governance ************/
-.tab__content {
+/* .tab__content {
     font-size: 16px;
     letter-spacing: 0px;
     color: #FF4100;
     line-height: 30px !important;
-}
+} */
 
 .tab__content1 ul li {
 	margin-left: 20px;
@@ -2383,7 +2444,7 @@ a:hover {
 .tabs li.active .tab__title span {
     color: #FF4100;
 }
-.tab__content ul li::before {
+/* .tab__content ul li::before {
 	content: "\2022";
 	color: #333333;
 	font-weight: bold;
@@ -2391,7 +2452,7 @@ a:hover {
 	width: 1em;
 	margin-left: -1em;
 	font-size: 16px !important;
-}
+} */
 .list-a{
     list-style-type:lower-alpha !important;
 }
