@@ -2348,9 +2348,9 @@ tr:nth-child(2n+1) {
     top: -5px;
     left: 5px;
 }
-.line-bellow {
+/* .line-bellow {
     border-bottom: 1px solid rgba(0,0,0,0.1);
-}
+} */
 
 .alt-title {
 	color: #ff4100 !important;
@@ -2380,8 +2380,14 @@ hr.short {
     border-color: #ff4100 !important;
 }
 
-.lcpr{
-    top: 100px;
+.lcpr {
+    top: 105px;
+    width: 190px;
+    left: 40px;
+}
+
+.border-in-right{
+    border-right: 1px solid rgba(0,0,0,0.2);
 }
 
 .btc,
@@ -2389,24 +2395,76 @@ hr.short {
     top: 150px; 
 }
 
+.mt--1 {
+    margin-top: 0px;
+}
+
+.home-design [data-overlay] :not(.container):not(.background-image-holder) {
+    opacity: 1;
+    background: transparent;
+    z-index: 50;
+}
 
 .container-info-tab{
     height: 480px;
     overflow-y: scroll;
     width: 100%;
+    overflow-x: hidden;
 }
 .container-info-tab-2{
     height: 570px;
     overflow-y: scroll;
     width: 100%;
+    overflow-x: hidden;
 }
 
+.container-info-tab-3{
+    height: 340px;
+    overflow-y: scroll;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container-info-tab-2 div,
+.container-info-tab-3 div{
+    margin-right: 5px;
+    margin-left: 2px;
+}
+
+.side-tabs-audit{
+    padding-bottom: 70px;
+}
 .feature-6 p {
     min-height: auto;
 }
 
 .hide-section{
     display: none!important;
+}
+
+.big-box {
+    height: 430px;
+}
+
+.small-boxes {
+    height: 200px !important;
+}
+
+
+.cage-square-boxes.home-design {
+    overflow: hidden;
+    height: 430px;
+    background-color: transparent;
+}
+
+.feature.feature-7.boxed.text-center.imagebg.big-box {
+    height: 442px!important;
+}
+
+.tabs-brands .tabs {
+    position: relative;
+    left: -288px;
+    margin-bottom: 60px;
 }
 
 /************ our company ************/
