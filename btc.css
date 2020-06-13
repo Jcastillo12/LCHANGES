@@ -2564,6 +2564,14 @@ a:hover {
     letter-spacing: 0.5px;
 }
 /************ Executive Team and Directors ************/
+.btn.btn-leadership {
+	border-color: #FF4100 !important;
+	background-color: #FF4100;
+	border-radius: 3px !important;
+	font-family: "Helvetica Neue";
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
 .feature-8 img {
     border-radius: 50% !important;
 }
