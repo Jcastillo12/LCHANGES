@@ -2012,7 +2012,7 @@ article .article__body img  {
 }
 .title-arrow {
 	border-radius: 50%;
-	background-color: #FF4100;
+	background-color: #FF4100 !important;
 	height: 40px;
 	width: 40px;
 	padding-top: 5px;
@@ -2271,10 +2271,20 @@ tr:nth-child(2n+1) {
     width: 100%;
     text-align: center;
 }
-.title-arrow {
+/*.title-arrow {
     margin: 0 auto;
     display: none;
+}*/
+
+.banner-arrow {
+    font-size: 25pt;
+    color: #fff;
+    line-height: 34px !important;
 }
+section.bg--secondary:not(.imagebg) + section:not(.imagebg):not([class*="bg-"]) {
+	border-top: none !important;
+}
+
 .h1.h1--large:not(:last-child) {
 	margin-bottom: 0.119354838709677em !important;
 }
