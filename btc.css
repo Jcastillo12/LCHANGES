@@ -2727,6 +2727,19 @@ a:hover {
 .peoplecareers .feature-7 {
 	height: 25em !important;
 }
+.barra-interna-people {
+	background: url('/sites/default/files/2020-06/barra2.png');
+	background-repeat: repeat;
+	background-size: auto;
+	height: 640px;
+	width: 170px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	right: -80px;
+	position: absolute;
+	z-index: 9;
+	top: -90px;
+}
 
 .nav-pills .description-internal-page.active {
 border-right: 3px solid #ff4100;
