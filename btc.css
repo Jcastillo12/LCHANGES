@@ -2259,6 +2259,10 @@ tr:nth-child(2n+1) {
 	opacity: 1 !important;
 }
 
+.read-more-state:checked ~ .read-more-wrap .read-more-target:hover {
+	opacity: 1 !important;
+}
+
 .read-more-state ~ .read-more-trigger:before {
     content: 'Show More Years';
 }
