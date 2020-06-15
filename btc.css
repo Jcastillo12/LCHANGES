@@ -729,7 +729,7 @@ label a {
     background-repeat: no-repeat !important;  
 }
 
-p .btn-home-news {
+.description-internal-page .btn-home-news {
 	color: #fff;
 	font-size: 14pt;
 	font-weight: 800 !important;
