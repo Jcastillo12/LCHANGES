@@ -2236,6 +2236,42 @@ tr:nth-child(2n+1) {
     display: block;
 }
 
+/*Tables Presentations and Webcasts*/
+
+.read-more-state {
+    display: none;
+}
+  
+.read-more-target {
+    opacity: 0 !important;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease !important;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 0.5 !important;
+    font-size: inherit;
+    max-height: 999em !important;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target.active {
+	opacity: 1 !important;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+    content: 'Show More Years';
+}
+  
+.read-more-state:checked ~ .read-more-trigger:before {
+    content: 'Show Less Years';
+}
+
+.read-more-trigger {
+    cursor: pointer;
+    padding-left:75px !important;
+  }
+
 /****** Heading ******************/
 
 .tables-liberty table th {
