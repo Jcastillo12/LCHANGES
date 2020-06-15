@@ -1433,8 +1433,11 @@ article .article__body img  {
     color:white!important;
 }
 
-.tabs-content.table-padding-top {
+/*.tabs-content.table-padding-top {
     margin-top: -26px !important;
+}*/
+.tabs-container .tabs-content {
+    margin-bottom: 0px;
 }
 
 .content-tab-sidebar a, .content-tab-sidebar p {
