@@ -2269,9 +2269,10 @@ tr:nth-child(2n+1) {
 
 .read-more-trigger {
     cursor: pointer;
-    padding-left:75px !important;
-  }
-
+}
+.read-more-trigger:hover {
+	color: #ff4100 !important;
+}
 /****** Heading ******************/
 
 .tables-liberty table th {
