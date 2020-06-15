@@ -744,6 +744,11 @@ p .btn-home-news {
 	float: right;
 }
 
+.btn-home-news:hover {
+	color: #fff !important;
+	background: #ea5b0b !important;
+}
+
 .news-facebook {
 	font-size: 18pt;
 	color: #fff;
@@ -756,6 +761,10 @@ p .btn-home-news {
 	padding-left: 18px;
 }
 
+.btn-facebook span:hover {
+    color: #3b5998 !important;
+}
+
 .news-twitter {
 	font-size: 22pt;
 	color: #fff;
@@ -763,6 +772,10 @@ p .btn-home-news {
 	border-radius: 50%;
 	padding: 12px;
 	margin-right: 10px;
+}
+
+.btn-twitter span:hover {
+    color: #00acee !important;
 }
 
 .feature-7 .background-image-holder {
