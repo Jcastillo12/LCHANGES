@@ -2791,6 +2791,35 @@ a:hover {
 	top: -90px;
 }
 
+.barra-interna-people1 {
+	background: url('/sites/default/files/2020-06/barras(2).png');
+	background-repeat: repeat;
+	background-size: auto;
+	height: 278px;
+	width: 111px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	right: -55px;
+	position: absolute;
+	z-index: 9;
+	top: 0px;
+}
+
+.barra-interna-people2 {
+	background: url('/sites/default/files/2020-06/barras(2).png');
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: repeat;
+	background-size: auto;
+	height: 278px;
+	width: 111px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	left: -45px;
+	position: absolute;
+	z-index: 9;
+	top: 0px;
+}
 .nav-pills .description-internal-page.active {
 border-right: 3px solid #ff4100;
 }
