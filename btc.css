@@ -1179,6 +1179,48 @@ article .article__body img  {
     top: -120px;
 }
 
+.barra-interna-products1 {
+	background: url('/sites/default/files/2020-06/barra2.png');
+	background-repeat: repeat;
+	background-size: auto;
+	height: 640px;
+	width: 170px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	right: -55px;
+	position: absolute;
+	z-index: 9;
+	top: -70px;
+}
+
+.barra-interna-products2 {
+	background: url('/sites/default/files/2020-06/barra2.png');
+	background-repeat: repeat;
+	background-size: auto;
+	height: 640px;
+	width: 170px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	left: 0px;
+	position: absolute;
+	z-index: 9;
+	top: -70px;
+}
+
+.barra-interna-products3 {
+	background: url('/sites/default/files/2020-06/barra2.png');
+	/* background-repeat: repeat; */
+	/* background-size: auto; */
+	height: 640px;
+	width: 170px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	right: -40px;
+	position: absolute;
+	z-index: 9;
+	top: -70px;
+}
+
 .brands-logos.paragraph--view-mode--default {
     padding-bottom: 0px;
 }
@@ -1218,6 +1260,10 @@ article .article__body img  {
 	letter-spacing: 0.5px !important;
 	font-family: "Helvetica Neue" !important;
     line-height: 28px;
+    text-transform: lowercase;
+}
+
+.subtitle-internal-page:first-letter {
     text-transform: capitalize;
 }
 
@@ -1227,6 +1273,10 @@ article .article__body img  {
 	letter-spacing: 0.5px !important;
 	font-family: "Helvetica Neue" !important;
     line-height: 40px;
+    text-transform: lowercase;
+}
+
+.subtitle-internal-page-long:first-letter {
     text-transform: capitalize;
 }
 
