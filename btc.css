@@ -2341,6 +2341,47 @@ tr:nth-child(2n+1) {
 .read-more-trigger:hover {
 	color: #ff4100 !important;
 }
+
+/*VTR FINANCE - FIXED INCOME*/
+.read-more-state-vtr {
+    display: none;
+}
+  
+.read-more-target-vtr {
+    opacity: 0 !important;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease !important;
+}
+
+.read-more-state-vtr:checked ~ .read-more-wrap-vtr .read-more-target-vtr {
+    opacity: 0.5 !important;
+    font-size: inherit;
+    max-height: 999em !important;
+}
+
+.read-more-state-vtr:checked ~ .read-more-wrap-vtr .read-more-target-vtr.active {
+	opacity: 1 !important;
+}
+
+.read-more-state-vtr:checked ~ .read-more-wrap-vtr .read-more-target-vtr:hover {
+	opacity: 1 !important;
+}
+
+.read-more-state-vtr ~ .read-more-trigger-vtr:before {
+    content: 'Show More Years';
+}
+  
+.read-more-state-vtr:checked ~ .read-more-trigger-vtr:before {
+    content: 'Show Less Years';
+}
+
+.read-more-trigger-vtr {
+    cursor: pointer;
+}
+.read-more-trigger-vtr:hover {
+	color: #ff4100 !important;
+}
 /****** Heading ******************/
 
 .tables-liberty table th {
