@@ -545,7 +545,9 @@ color:white;
     text-align: center;
     top: 300px;
 } */
-
+#views-exposed-form-sec-filing-block-1 .form--inline.form-inline.clearfix {
+    margin-bottom: 40px;
+}
 
 /************************************************************************/
 
