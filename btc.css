@@ -2444,6 +2444,11 @@ section.bg--secondary:not(.imagebg) + section:not(.imagebg):not([class*="bg-"]) 
 .h1.h1--large:not(:last-child) {
 	margin-bottom: 0.119354838709677em !important;
 }
+.printfriendly i, .addthis i {
+    font-size: 18px;
+    color: #FF4100;
+    margin-right: 10px;
+}
 
 .about-lla{
     padding-bottom: 3.429em !important;
