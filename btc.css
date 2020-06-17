@@ -2330,11 +2330,11 @@ tr:nth-child(2n+1) {
 }
 
 .read-more-state ~ .read-more-trigger:before {
-    content: 'Show More Years';
+    content: 'More';
 }
   
 .read-more-state:checked ~ .read-more-trigger:before {
-    content: 'Show Less Years';
+    content: 'Less';
 }
 
 .read-more-trigger {
@@ -2371,11 +2371,11 @@ tr:nth-child(2n+1) {
 }
 
 .read-more-state-vtr ~ .read-more-trigger-vtr:before {
-    content: 'Show More Years';
+    content: 'More';
 }
   
 .read-more-state-vtr:checked ~ .read-more-trigger-vtr:before {
-    content: 'Show Less Years';
+    content: 'Less';
 }
 
 .read-more-trigger-vtr {
