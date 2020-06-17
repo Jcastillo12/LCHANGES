@@ -538,6 +538,11 @@ color:white;
     color:#808080;
 }
 
+.profile-about .modal-content{
+    width: 1020px !important;
+    height: 620px !important;
+}
+
 /************************ Title banner ***********************************/
 
 /* .container.pos-vertical-center .field {
@@ -1388,7 +1393,7 @@ article .article__body img  {
 
 .lla-team .feature h5{
     margin: 0;
-    font-size: 18px;
+    font-size: 17px;
     color: #FF4100;
     letter-spacing: 1px !important;
     line-height: 6mm !important;
