@@ -3110,7 +3110,7 @@ transform: rotateY(180deg);
     background-size: contain !important;
     background-repeat: no-repeat !important;
 }
-.modal-trigger p strong:hover {
+.modal-instance .modal-trigger p:hover {
 	color: #ff4100 !important;
 }
 .video-cover .video-play-icon {
