@@ -1,0 +1,25 @@
+.timeline-container {
+    height: 690px;
+    width: 1100px;
+    overflow-x: scroll;
+}
+
+#timeline {
+    height: 650px;
+}
+
+#elements1999,
+#elements2000,
+#elements2001,
+#elements2005,
+#elements2006,
+#elements2011,
+#elements2012,
+#elements2014,
+#elements2015,
+#elements2016,
+#elements2017,
+#elements2018,
+#elements2019{
+    display: none;
+}
