@@ -1704,7 +1704,7 @@ article .article__body img  {
 .link-about,
 .description-internal-page a {
     font-size: 16pt;
-    line-height: 10mm;
+    line-height: 24px;
     font-family: 'Helvetica Neue' !important;
     font-weight: 400 !important;
 }
@@ -1716,7 +1716,7 @@ article .article__body img  {
     position: relative;
     top: -550px;
     left: 680px;
-    z-index: 2;
+    z-index: 3;
     clear: both;
 }
 
@@ -1776,68 +1776,180 @@ article .article__body img  {
 
 .text-bar-animated {
     position: relative;
-    width: 600px;
+    width: 700px;
     height: 545px;
-    left: 680px;
-    top: -1032px;
+    left: 0;
+    top: -1068px;
+}
+
+.hide-element{
+    display:none!important;
+}
+
+.show-element{
+    display:block!important;
+}
+
+.show-element h2 {
+    position: relative;
+    top: 102px;
+    left: -40px;
+    width: 630px;
+    line-height: 36px;
+    color: white !important;
+    text-align: left;
+}
+
+.show-element p {
+    position: relative;
+    top: 130px;
+    left: -40px;
+    width: 580px;
+    line-height: 36px;
+    font-size: 15pt;
+    color: white;
+    line-height: 10mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
 }
 
 .text-bar-animated.position{
     z-index: 2;
 }
 
-
+.fade-in {
+    animation: fadeIn ease 1s !important;
+    -webkit-animation: fadeIn ease 1s !important;
+    -moz-animation: fadeIn ease 1s !important;
+    -o-animation: fadeIn ease 1s !important;
+    -ms-animation: fadeIn ease 1s !important;
+  }
+  
+  
+  @keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
 .text-bar-1.animation1 {
     background-color: #702673;
-    height: inherit;
-    -moz-animation: showHide 5s ease-in; /* Firefox */
-    -webkit-animation: showHide 5s ease-in; /* Safari and Chrome */
-    -ms-animation: showHide 5s ease-in; /* IE10 */
-    -o-animation: showHide 5s ease-in; /* Opera */
-    animation: showHide 5s ease-in;
+}
+._1332.back1,
+._1332.back2,
+._1332.back3,
+._1332.back4,
+._1332.back5,
+._1332.back6,
+._1332.back7{
+    height: 528px !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+
+._1332.back1{
+    background-image: url(/sites/default/files/2020-06/bar_image1.jpg)!important;
+}
+
+._1332.back2{
+    background-image: url(/sites/default/files/2020-06/bar_image2.jpg)!important;
+}
+
+._1332.back3{
+    background-image: url(/sites/default/files/2020-06/bar_image3.jpg)!important;
+}
+
+._1332.back4{
+    background-image: url(/sites/default/files/2020-06/bar_image4.jpg)!important;
+}
+
+._1332.back5{
+    background-image: url(/sites/default/files/2020-06/bar_image5.jpg)!important;
+}
+
+._1332.back6{
+    background-image: url(/sites/default/files/2020-06/bar_image6.jpg)!important;
+}
+
+._1332.back7{
+    background-image: url(/sites/default/files/2020-06/bar_image7.jpg)!important;
 }
 
 .text-bar-2.animation2 {
     background-color: #BD1521;
-    height: inherit;
-    left: 36px;
-    position: relative;
 }
 
 .text-bar-3.animation3 {
     background-color: #F9B234;
-    height: inherit;
-    left: 41px;
-    position: relative;
 }
 
 .text-bar-4.animation4 {
     background-color: #283583;
-    height: inherit;
-    left: 57px;
-    position: relative;
 }
 
 .text-bar-5.animation5 {
     background-color: #EA5B0B;
-    height: inherit;
-    left: 74px;
-    position: relative;
 }
 
 .text-bar-6.animation6 {
     background-color: #575757;
-    height: inherit;
-    left: 86px;
-    position: relative;
 }
 
 .text-bar-7.animation7 {
     background-color: #59A332;
-    height: inherit;
-    left: 101px;
-    position: relative;
 }
+
+.text-bar-1.animation1,
+.text-bar-2.animation2,
+.text-bar-3.animation3,
+.text-bar-4.animation4,
+.text-bar-5.animation5,
+.text-bar-6.animation6,
+.text-bar-7.animation7{
+    height: inherit;
+} 
+
 
 
 @-webkit-keyframes showHide { /* Chrome, Safari */
@@ -2793,8 +2905,12 @@ a:hover {
     padding-bottom: 15px;
 }
 .switchable__text span {
-	font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14pt;
+    color: #4B4C4C;
+    line-height: 10mm;
 }
+
 .modal-instance span {
 	font-family: 'Helvetica Neue', sans-serif;
 }
