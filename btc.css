@@ -2726,8 +2726,14 @@ hr.short {
 }
 
 .btc{
-    top: 105px;
+    top: 120px;
     width: 230px;
+    left: 40px;
+}
+
+.cabletica {
+    top: 82px;
+    width: 190px;
     left: 40px;
 }
 
