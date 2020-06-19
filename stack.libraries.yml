@@ -15,6 +15,7 @@ global-styling:
       css/circlebtc2.css: {}
       css/circlegraphics.css: {}
       css/about-icon.css: {}
+      css/timeline2.css: {}
   js:
     js/countdown.min.js: {}
     js/datepicker.js: {}
@@ -32,6 +33,7 @@ global-styling:
     js/parallax.js: {}
     js/scripts.js: {}
     js/bar-animation-home.js: {}
+    js/timeline.js: {}
 global-styling-rtl:
   css:
     theme:
