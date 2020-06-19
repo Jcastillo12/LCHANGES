@@ -59,10 +59,10 @@ g.svg_label:hover {
   fill:#575756;
   opacity: 1;
 }
-#Chile:hover{
+/* #Chile:hover{
   fill:#d2232a;
   opacity: 1;
-}
+} */
 #Panama, #Jamaica, #TrinidadTobago, #Bahamas{
   fill: #575756;
   opacity: 1;
@@ -72,7 +72,12 @@ g.svg_label:hover {
   opacity: 1;
 }
 
-#Costarica:hover, #Chile:hover, #Panama:hover, #Jamaica:hover, #TrinidadTobago:hover, #Bahamas:hover, #PuertoRico:hover{
+/* #Costarica:hover, #Chile:hover, #Panama:hover, #Jamaica:hover, #TrinidadTobago:hover, #Bahamas:hover, #PuertoRico:hover{
   cursor: pointer;
   fill:#ef4036;
+} */
+
+
+#LChile, #LCostarica, #LPanama, #LJamaica, #LBahamas, #LPuertoRico, #LTrinidadTobago{
+  display: none;
 }

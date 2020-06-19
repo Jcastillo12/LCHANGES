@@ -2721,9 +2721,14 @@ hr.short {
     border-right: 1px solid rgba(0,0,0,0.2);
 }
 
-.btc,
 .flow{
     top: 150px; 
+}
+
+.btc{
+    top: 105px;
+    width: 230px;
+    left: 40px;
 }
 
 .mt--1 {
