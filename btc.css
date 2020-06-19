@@ -2721,10 +2721,11 @@ hr.short {
     border-right: 1px solid rgba(0,0,0,0.2);
 }
 
-.flow{
-    top: 150px; 
+.flow {
+    top: 110px;
+    left: 30px;
+    width: 260px;
 }
-
 .btc{
     top: 120px;
     width: 230px;
@@ -2735,6 +2736,24 @@ hr.short {
     top: 82px;
     width: 190px;
     left: 40px;
+}
+
+.masmovil {
+    top: 80px;
+    width: 270px;
+    left: 20px;
+}
+
+.uts{
+    top: 70px;
+    width: 270px;
+    left: 20px;
+}
+
+.vtr {
+    top: 90px;
+    width: 220px;
+    left: 60px;
 }
 
 .mt--1 {
@@ -2904,9 +2923,9 @@ a:hover {
 	padding-left: 15px !important;
 	padding-right: 15px !important;
 }
-.feature-8 img {
+/* .feature-8 img {
     border-radius: 50% !important;
-}
+} */
 .feature-8 {
 	padding: 2.786em 0 3.714em 0 !important;
 	border-radius: 6px !important;
