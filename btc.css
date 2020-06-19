@@ -558,6 +558,9 @@ color:white;
 
 
 /******************* SECCIÓN DE INFO BAR ******************************/
+html{
+    scroll-behavior: smooth;
+}
 
 .paragraph.paragraph--type--info-bar{
 	border-bottom: 0px solid #575756 !important;
