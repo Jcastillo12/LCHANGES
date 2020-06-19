@@ -2985,7 +2985,9 @@ transform: rotateY(180deg);
     float: left;
     width: 20%;
 }
-
+.bg--orange .video-cover iframe {
+	background: none !important;
+}
 /************ Video Gallery ************/
 .modal-container::before {
 	background: rgba(255, 255, 255, 0.8) !important;
