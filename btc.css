@@ -3019,11 +3019,25 @@ a:hover {
 	background: url('/sites/default/files/2020-06/barras-ourworkplace.png');
 	/* background-repeat: repeat; */
 	/* background-size: auto; */
-	height: 406px;
+	height: 407px;
 	width: 74px;
 	background-size: contain;
 	background-repeat: no-repeat;
 	left: 15px;
+	position: absolute;
+	z-index: 9;
+	top: 0;
+}
+
+.barra-interna-people4 {
+	background: url('/sites/default/files/2020-06/barras-ourworkplace.png');
+	/* background-repeat: repeat; */
+	/* background-size: auto; */
+	height: 407px;
+	width: 74px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	left: 13px;
 	position: absolute;
 	z-index: 9;
 	top: 0;
