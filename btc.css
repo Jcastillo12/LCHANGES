@@ -14,6 +14,10 @@
 
 
 /*******************     Secondary navigation - Top bar      ***************************/
+html {
+    scroll-behavior: smooth;
+}
+
 .top-bar{
     width: 100%;
     height: 25px;
