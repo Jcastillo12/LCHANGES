@@ -1243,7 +1243,7 @@ article .article__body img  {
 	width: 89px;
 	background-size: contain;
 	background-repeat: no-repeat;
-	left: 15px;
+	left: 0px;
 	position: absolute;
 	z-index: 9;
 	top: 0;
