@@ -141,7 +141,7 @@ html {
 .elements-top a {
     color: white;
     text-decoration: none;
-    letter-spacing: -0.13px;
+    letter-spacing: 0px;
     font-family: Arial;
     font-size: 18px;
     margin-left: 10px;
@@ -150,7 +150,7 @@ html {
 .pos-fixed .elements-top a{
     color:#808080!important;
     text-decoration: none;
-    letter-spacing: -0.13px;
+    letter-spacing: 0px;
     font-family: Arial;
 }
 
@@ -262,7 +262,7 @@ ul.menu-horizontal {
 
 .we-mega-menu-ul > .we-mega-menu-li > span, 
 .we-mega-menu-ul > .we-mega-menu-li > a{
-	letter-spacing: 1px;
+	letter-spacing: 0px;
 	color: #575756;
 	font-size: 18px;
 	font-family: 'Helvetica Neue', sans-serif;
@@ -612,7 +612,7 @@ h5,
 .des-p {
     font-size: 18px;
     color: #333333;
-    letter-spacing: 0.5px;
+    letter-spacing: 0px;
     font-family: 'Helvetica Neue LT Com' !important;
     font-weight: 800;
     line-height: 25px;
@@ -630,12 +630,12 @@ label a {
     margin-bottom: 40px!important;
     font-weight: 700;
     
-    letter-spacing: 1mm;
+    letter-spacing: 0px;
 }
 .title-h2 {
     font-size: 96px !important;
     color: #FF4100;
-    letter-spacing: 10px;
+    letter-spacing: 0px;
     font-weight: 300;
     line-height: 120px;
     font-family: "Helvetica Neue LT Com";
@@ -657,7 +657,7 @@ label a {
 	font-family: "Helvetica Neue" !important;
 	font-weight: 400;
 	line-height: 10mm;
-	letter-spacing: 0.5px;
+	letter-spacing: 0px;
     color: #FF4100;
     margin-top: 10px;
 }
@@ -665,11 +665,11 @@ label a {
 	font-size: 22px;
     font-family: "Helvetica Neue" !important;
     margin-top: 25px !important;
-    letter-spacing: -0.5px;
+    letter-spacing: 0px;
 }
 
 .icons-h3 a {
-    letter-spacing: -0.5px;
+    letter-spacing: 0px;
     color: #a5a3a3;
     font-weight: 300!important;
 }
@@ -721,7 +721,7 @@ label a {
 	font-weight: 400;
 	color: #575756;
 	font-size: 28pt;
-	letter-spacing: 0.5px !important;
+	letter-spacing: 0px !important;
     font-family: "Helvetica Neue" !important;
     line-height: 24px;
 }
@@ -818,7 +818,7 @@ section.border--bottom:not([data-gradient-bg]) {
     text-transform: uppercase;
     color: white;
     font-size: 28px;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
 }
 
 .boton-stock.btn.type--uppercase {
@@ -895,13 +895,13 @@ section:not(.image--light) .slider[data-paging="true"] .flickity-page-dots .dot 
     border: 1px solid #575756 !important;
     color: #ffffff;
 	font-family: "Helvetica Neue";
-	letter-spacing: 0.5px;
+	letter-spacing: 0px;
 }
 .btn--primary .btn__text, .btn--primary:visited .btn__text {
     color: #fff;
     font-weight: 500 !important;
     font-size: 16px !important;
-    letter-spacing: 0.5px;
+    letter-spacing: 0px;
 }
 
 
@@ -956,7 +956,7 @@ article .article__body img  {
 .page-node-type-full-page .article__body h2{
     font-size: 28pt;
     color: #fff !important;
-    letter-spacing: 0.5px !important;
+    letter-spacing: 0px !important;
     font-family: "Helvetica Neue"!important;
     line-height: 26px;
  }
@@ -973,7 +973,7 @@ article .article__body img  {
     color: #585857;
     font-family: "Helvetica Neue LT Com";
     font-weight: 600;
-    letter-spacing: 0.5px;
+    letter-spacing: 0px;
     text-transform: capitalize;
     font-size: 24px;
 }
@@ -989,7 +989,7 @@ article .article__body img  {
     font-weight: 300;
     color: rgba(255,255,255,0.6) !important;
     font-family: 'Helvetica Neue LT Com' !important;
-    letter-spacing: 0.5px;
+    letter-spacing: 0px;
     font-size: 16px;
 }
 
@@ -1167,7 +1167,7 @@ article .article__body img  {
 .custom-box-title {
     font-size: 28pt;
     color: #fff !important;
-    letter-spacing: 0.5px !important;
+    letter-spacing: 0px !important;
     font-family: "Helvetica Neue" !important;
     line-height: 26px;
     text-transform: uppercase;
@@ -1270,7 +1270,7 @@ article .article__body img  {
 .title-internal-page{
     font-size: 40px;
     color: #ff4100 !important;
-    letter-spacing: 0.5px !important;
+    letter-spacing: 0px !important;
     font-family: "Helvetica Neue" !important;
     line-height: 28px;
     text-transform: uppercase;
@@ -1304,7 +1304,7 @@ article .article__body img  {
 .subtitle-internal-page-long{
     font-size: 30px;
 	color: #ff4100 !important;
-	letter-spacing: 0.5px !important;
+	letter-spacing: 0px !important;
 	font-family: "Helvetica Neue" !important;
     line-height: 40px;
     text-transform: lowercase;
@@ -1317,7 +1317,7 @@ article .article__body img  {
 .subtitle-internal-page-modal{
     font-size: 28pt;
     color: #ff4100 !important;
-    letter-spacing: 0.5px !important;
+    letter-spacing: 0px !important;
     font-family: "Helvetica Neue" !important;
     line-height: 40px;
     text-transform: uppercase;
@@ -1327,7 +1327,7 @@ article .article__body img  {
 .second-subtitle-internal-page{
     font-size: 28pt;
     color: #ff4100 !important;
-    letter-spacing: 0.5px !important;
+    letter-spacing: 0px !important;
     font-family: "Helvetica Neue" !important;
     line-height: 40px;
     text-transform: uppercase;
@@ -1359,7 +1359,7 @@ article .article__body img  {
 }
 
 .bullets-info-internal-page{
-    letter-spacing: 0.5px;
+    letter-spacing: 0px;
 	font-size: 14pt;
 	color: #4B4C4C;
 	line-height: 0mm;
@@ -1370,7 +1370,7 @@ article .article__body img  {
 .accordion-title-internal-page{
     width: 95%;
     font-size: 15pt;
-    letter-spacing: 0.5px !important;
+    letter-spacing: 0px !important;
     font-family: "Helvetica Neue" !important;
     line-height: 28px;
 }
@@ -1399,7 +1399,7 @@ article .article__body img  {
     margin: 0;
     font-size: 18px;
     color: #4B4C4C;
-    letter-spacing: 1px !important;
+    letter-spacing: 0px !important;
     line-height: 6mm !important;
     font-weight: 300 !important;
 }
@@ -1408,7 +1408,7 @@ article .article__body img  {
     margin: 0;
     font-size: 17px;
     color: #FF4100;
-    letter-spacing: 1px !important;
+    letter-spacing: 0px !important;
     line-height: 6mm !important;
     font-weight: 600 !important;
 }
@@ -1622,7 +1622,7 @@ article .article__body img  {
 .news-grid .feature__body.boxed.boxed--border a {
 	color: #4B4C4C !important;
     text-decoration: none !important;
-    letter-spacing: 0.5px !important;
+    letter-spacing: 0px !important;
 }
 
 .front-news h1 {
@@ -2164,7 +2164,7 @@ article .article__body img  {
 .title-boxes {
     font-size: 21px;
     color: white !important;
-    letter-spacing: 0.5px !important;
+    letter-spacing: 0px !important;
     font-family: "Helvetica Neue" !important;
     line-height: 32px;
     text-transform: uppercase;
@@ -2191,7 +2191,7 @@ article .article__body img  {
     border: 1px solid #FF4100 !important;
     color: #ffffff;
     font-family: "Helvetica Neue";
-    letter-spacing: 0.5px;
+    letter-spacing: 0px;
 }
 
 .cage-square-boxes {
@@ -2250,11 +2250,11 @@ article .article__body img  {
     font-weight: 300;
     color: #FF4100;
     font-size: 44px !important;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     font-weight: 600;
     color: #FF4100;
     font-size: 74px !important;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     margin-bottom: 0px;
 }
 
@@ -2262,7 +2262,7 @@ article .article__body img  {
 	font-weight: 600;
 	color: #57585A;
 	font-size: 34px !important;
-	letter-spacing: 1px;
+	letter-spacing: 0px;
 	text-transform: uppercase;
 	margin-top: -18px;
 }
@@ -2295,7 +2295,7 @@ article .article__body img  {
 .financials-table td {
     font-size: 15px;
     color: #333333;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     font-weight: 800;
     font-family: "Helvetica Neue LT Com"; 
 }
@@ -2303,7 +2303,7 @@ article .article__body img  {
 .table > thead > tr > th {
     font-family: "Helvetica Neue" !important;
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     font-size: 16px;
 }
 
@@ -2328,7 +2328,7 @@ tr:nth-child(2n+1) {
     font-size: 14px;
     color: #333333;
     font-family: "Helvetica Neue LT Com"; 
-    letter-spacing: 1.2px;
+    letter-spacing: 0px;
     font-weight: 700;
 }
 
@@ -2340,7 +2340,7 @@ tr:nth-child(2n+1) {
     border-radius: 3px !important;
     font-family: "Helvetica Neue";
     font-weight: 800;
-    letter-spacing: 1.2px;
+    letter-spacing: 0px;
     font-size:13px;
 }
 
@@ -2382,7 +2382,7 @@ tr:nth-child(2n+1) {
 .tables-liberty .views-field-title {
 	color: #FF4100 !important;
 	font-size: 16px !important;
-	letter-spacing: -0.4px;
+	letter-spacing: 0px;
 	font-weight: 400 !important;
     font-family: 'Open Sans';
     width: 50%;
@@ -2416,7 +2416,7 @@ tr:nth-child(2n+1) {
     font-weight: 600;
     color: #FF4100;
     font-size: 16px !important;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
 }
 
 .tables-liberty .text-center {
@@ -2538,7 +2538,7 @@ tr:nth-child(2n+1) {
 	color: white;
 	text-transform: uppercase;
 	font-weight: 500;
-	letter-spacing: 0.1px;
+	letter-spacing: 0px;
     font-size: 14px;
     padding: 10px;
     font-family: "Helvetica Neue LT Com"; 
@@ -2591,7 +2591,7 @@ tr:nth-child(2n+1) {
 .we-mega-menu-col ul > .we-mega-menu-li > a
 {
     font-family: 'Helvetica Neue' !important;
-    letter-spacing: 0.5px;
+    letter-spacing: 0px;
     font-size: 14px!important;
     font-weight: 300!important;
 }
@@ -2686,7 +2686,7 @@ section.bg--secondary:not(.imagebg) + section:not(.imagebg):not([class*="bg-"]) 
     line-height: 10mm;
     font-family: 'Helvetica Neue' !important;
     font-weight: 600 !important;
-    letter-spacing: 1.1px;
+    letter-spacing: 0px;
     position: relative;
     top: -5px;
     left: 5px;
@@ -2715,7 +2715,7 @@ section.bg--secondary:not(.imagebg) + section:not(.imagebg):not([class*="bg-"]) 
 
 .alt-title {
 	color: #ff4100 !important;
-	letter-spacing: 0.5px !important;
+	letter-spacing: 0px !important;
 	font-family: "Helvetica Neue" !important;
 	line-height: 28px;
 	padding-top: 12mm;
@@ -2724,7 +2724,7 @@ section.bg--secondary:not(.imagebg) + section:not(.imagebg):not([class*="bg-"]) 
 .title-inside-tabs{
     font-size: 33px;
     color: #ff4100 !important;
-    letter-spacing: 0.5px !important;
+    letter-spacing: 0px !important;
     font-family: "Helvetica Neue" !important;
     line-height: 40px;
  }
@@ -2942,7 +2942,7 @@ a:hover {
 .epr-caption {
     color: #333;
     font-family: "Helvetica Neue";
-    letter-spacing: 0.5px;
+    letter-spacing: 0px;
 }
 /************ Executive Team and Directors ************/
 .btn.btn-leadership {
@@ -3247,7 +3247,7 @@ transform: rotateY(180deg);
 /******/
 .subtitle-span{
     color: #FF4100;
-    letter-spacing: -0.5px;
+    letter-spacing: 0px;
     font-size:18px;
     font-family: "Helvetica Neue";
 }
@@ -3334,13 +3334,13 @@ footer{
     font-family: 'Helvetica Neue', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
 }
 
 .description-footer p{
     float: left;
     margin-right: 20px;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     color: white;
     font-size: 13px;
     line-height: 20px;
@@ -3402,7 +3402,7 @@ footer{
 }
 
 .we-mega-menu-ul > .we-mega-menu-li > span, .we-mega-menu-ul > .we-mega-menu-li > a {
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     color: white;
     font-size: 18px;
     font-family: 'Helvetica Neue', sans-serif;
@@ -3511,14 +3511,14 @@ footer{
     font-weight: 300;
     color: white;
     font-family: 'Helvetica Neue LT Com'!important;
-    letter-spacing: 0.5px;
+    letter-spacing: 0px;
     font-size: 16px;
 }
 
 .menu-copyright li a{ 
     float: left;
     margin-right: 20px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0px;
     color: #575756;
     font-size: 18px;
     font-family: 'Helvetica Neue LT Com'!important;
