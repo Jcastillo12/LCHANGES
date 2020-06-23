@@ -1294,7 +1294,7 @@ article .article__body img  {
 	letter-spacing: 0.5px !important;
 	font-family: "Helvetica Neue" !important;
     line-height: 28px;
-    text-transform: lowercase;
+    text-transform: capitalize
 }
 
 .subtitle-internal-page:first-letter {
@@ -1307,7 +1307,7 @@ article .article__body img  {
 	letter-spacing: 0.5px !important;
 	font-family: "Helvetica Neue" !important;
     line-height: 40px;
-    text-transform: lowercase;
+    text-transform: capitalize;
 }
 
 .subtitle-internal-page-long:first-letter {
