@@ -1,0 +1,190 @@
+.leadership.row > div {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.person-teaser {
+    height: 0;
+    padding-bottom: 120%;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    background: #9eafc0;
+    -webkit-transition: background 0.3s linear;
+    -o-transition: background 0.3s linear;
+    transition: background 0.3s linear;
+}
+
+.person-teaser__overlay {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    opacity: .7;
+    background-image: -webkit-linear-gradient(270.95deg,rgba(0,0,0,0) 0%,#000000 100%);
+    background-image: -o-linear-gradient(270.95deg,rgba(0,0,0,0) 0%,#000000 100%);
+    background-image: linear-gradient(179.05deg,rgba(0,0,0,0) 0%,#000000 100%);
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.person-teaser__text {
+    position: absolute;
+    bottom: 30px;
+    padding: 0 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5625rem;
+    z-index: 9;
+    color: #fff;
+}
+
+.job-title {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+    color: white;
+    line-height: 8mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+}
+
+.person-teaser__text span {
+    font-size: 16pt;
+    line-height: 6mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+    color: white !important;
+}
+
+.person-teaser__bg {
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+a .person-teaser:hover .person-teaser__bg {
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.person-teaser:hover .person-teaser__bg {
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+/*****************************/
+.link-about, .description-internal-page a {
+    font-size: 16pt;
+    line-height: 6mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+    color:white!important;
+}
+
+.home-design .col-lg-6 {
+    padding-right: 0px;
+    padding-left: 12px;
+}
+
+.modal-instance:not(.block) {
+    display: inline-block;
+}
+
+.small-boxes {
+    height: 210px !important;
+    margin-bottom: 10px;
+}
+
+.home-design .person-teaser {
+    height: 0;
+    padding-bottom: 80%;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+    background: #9eafc0;
+    -webkit-transition: background 0.3s linear;
+    -o-transition: background 0.3s linear;
+    transition: background 0.3s linear;
+}
+
+.home-design .person-teaser.small {
+    height: 0;
+    padding-bottom: 75%;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+    background: #9eafc0;
+    -webkit-transition: background 0.3s linear;
+    -o-transition: background 0.3s linear;
+    transition: background 0.3s linear;
+}
+
+.modal-container {
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    padding: 0;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.home-design{
+    overflow: hidden;
+    height: 430px;
+    background-color: transparent;
+}
+
+
+.cage-square-boxes {
+    overflow: hidden;
+    height: 840px;
+    background-color: gray;
+}
+.big-box {
+    height: 430px;
+}
+
+.container {
+    width: 1170px!important;
+}
+
+.background-image-holder {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+    z-index: 0;
+    transition: opacity .3s linear;
+    -webkit-transition: opacity .3s linear;
+    opacity: 0;
+    background: #252525;
+}
+
+
+
+.big-box-height{
+    height: 442px;
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat;
+}

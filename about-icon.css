@@ -23,9 +23,9 @@
 .sp-box-con p {
     min-height: 5.57142857em;
     margin: 0;
-    font-size: 16px;
+    font-size: 13pt;
     color: #4B4C4C;
-    letter-spacing: 1px !important;
+    letter-spacing: 0px !important;
     line-height: 6mm !important;
     font-weight: 300 !important;
     font-family: 'Helvetica Neue' !important;
@@ -43,11 +43,11 @@
 
 
 .con-box-1 i {
-    font-size: 50px;
+    font-size: 64px;
     color: #EA5B0B;
     text-align: left;
     position: relative;
-    top: 21px;
+    top: 15px;
 }
 
 .con-box-1 p {
@@ -64,22 +64,20 @@
 .con-box-1:hover{
     background-color: #EA5B0B;
     transition: 1s;
-    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.6);
 }
-
 .con-box-2 i {
-    font-size: 50px;
+    font-size: 70px;
     color: #702673;
     text-align: left;
     position: relative;
-    top: 21px;
-    left: 0px;
+    top: 15px;
+    left: -10px;
 }
 
 .con-box-2 p {
     position: relative;
-    top: 6px;
-    left: 20px; 
+    top: 15px;
+    left: 20px;
 }
 
 .con-box-2:hover i,
@@ -91,16 +89,16 @@
 .con-box-2:hover{
     background-color: #702673;
     transition: 1s;
-    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.6);
 }
 
 
 .con-box-3 i {
-    font-size: 50px;
+    font-size: 60px;
     color: #58A332;
     text-align: left;
     position: relative;
-    top: 21px;
+    top: 26px;
+    left: -5px;
 }
 
 .con-box-3 p {
@@ -118,11 +116,10 @@
 .con-box-3:hover{
     background-color: #58A332;
     transition: 1s;
-    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.6);
 }
 
 .con-box-4 i {
-    font-size: 50px;
+    font-size: 60px;
     color: #283583;
     text-align: left;
     position: relative;
@@ -144,15 +141,15 @@
 .con-box-4:hover{
     background-color: #283583;
     transition: 1s;
-    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.6);
 }
 
 .con-box-5 i {
-    font-size: 50px;
+    font-size: 60px;
     color: #BE1622;
     text-align: left;
     position: relative;
-    top: 30px;
+    top: 23px;
+    left: -5px;
 }
 
 .con-box-5 p {
@@ -170,21 +167,21 @@
 .con-box-5:hover{
     background-color: #BE1622;
     transition: 1s;
-    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.6);
 }
 
 .con-box-6 i {
-    font-size: 50px;
+    font-size: 70px;
     color: #F9B234;
     text-align: left;
     position: relative;
-    top: 21px;
+    top: 15px;
+    left: -3px;
 }
 
 .con-box-6 p {
     position: relative;
-    top: 24px;
-    left: 20px;
+    top: 42px;
+    left: 10px;
 }
 
 .con-box-6:hover i,
@@ -196,15 +193,15 @@
 .con-box-6:hover{
     background-color: #F9B234;
     transition: 1s;
-    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.6);
 }
 
 .con-box-7 i {
-    font-size: 50px;
+    font-size: 60px;
     color: #E7332A;
     text-align: left;
     position: relative;
     top: 21px;
+    left: 0px;
 }
 
 .con-box-7 p {
@@ -222,15 +219,15 @@
 .con-box-7:hover{
     background-color: #E7332A;
     transition: 1s;
-    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.6);
 }
 
 .con-box-8 i {
-    font-size: 50px;
+    font-size: 90px;
     color: #575756;
     text-align: left;
     position: relative;
-    top: 21px;
+    top: 4px;
+    left: 6px;
 }
 
 .con-box-8 p {
@@ -248,5 +245,4 @@
 .con-box-8:hover{
     background-color: #575756;
     transition: 1s;
-    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.6);
 }

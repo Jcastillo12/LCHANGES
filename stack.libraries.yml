@@ -16,6 +16,7 @@ global-styling:
       css/circlegraphics.css: {}
       css/about-icon.css: {}
       css/timeline2.css: {}
+      css/leadership.css: {}
   js:
     js/countdown.min.js: {}
     js/datepicker.js: {}
