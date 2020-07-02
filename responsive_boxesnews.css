@@ -1,0 +1,38 @@
+@media (max-width: 1200px) {
+    .home-design {
+        overflow: initial;
+        height: auto;
+        background-color: transparent;
+    }
+
+    .home-design .col-lg-6 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .imagebg.big-box .person-teaser {
+        padding-bottom: 50%;
+    }
+
+    .big-box .home-info p {
+        position: relative;
+        top: 0px !important;
+        left: 20px;
+        width: 520px;
+    }
+
+    .small-boxes {
+        height: 690px !important;
+        margin-bottom: 10px;
+    }
+
+    .social-fix.col-sm-12.col-lg-3 {
+        margin-bottom: 30px;
+    }
+    
+    .btn-read-more.col-sm-12.col-lg-3 {
+        position: relative;
+        top: -210px;
+    }
+
+}

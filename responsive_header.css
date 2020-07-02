@@ -57,7 +57,6 @@
         color: #808080 !important;
         text-decoration: none;
         letter-spacing: 0px;
-        font-family: Arial;
     }
 
     .path-frontpage .bar.bar--sm {
@@ -83,7 +82,19 @@
 @media (max-width: 767px) {
 
     #menu1 .container {
-        width: 725px;
+        width: 100%!important;
+    }
+
+    .nav-container {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index: 9999;
+        margin-bottom: 30px;
+    }
+    
+    #main-container {
+        padding-top: 190px;
     }
 
       #menu1{

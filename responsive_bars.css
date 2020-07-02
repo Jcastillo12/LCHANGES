@@ -1,0 +1,154 @@
+.bacground-balam {
+    background-image: url('/sites/default/files/images/blogliberty9_0.jpg');
+    height: 500px;
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 1740px) and (max-width: 1920px) {
+    .bar-container {
+        left: 600px!important;  
+    }
+
+    .page-node-type-full-page .article__body {
+        width: 510px;
+        padding-right: 15px;
+        padding-top: 38mm;
+    }
+
+    .page-node-type-full-page .article__body h2 {
+        font-size: 28pt;
+        color: #fff !important;
+        letter-spacing: 0px !important;
+        font-family: "Helvetica Neue" !important;
+        line-height: 44px;
+    }
+
+}
+
+@media (min-width: 1525px) and (max-width: 1740px) {
+    .bar-container {
+        left: 790px !important;
+    }
+
+    .page-node-type-full-page .article__body {
+        width: 510px;
+        padding-right: 15px;
+        padding-top: 42mm;
+        position: relative;
+        left: 120px;
+    }
+
+    .page-node-type-full-page .container.full-expand {
+        margin-left: 0px !important;
+    }
+
+ 
+
+    
+}
+
+@media (min-width: 1300px) and (max-width: 1360px) {
+    .fill-gap-green .internal-text h2, .fill-gap-gray .internal-text h2, .fill-gap-orange .internal-text h2, .fill-gap-blue .internal-text h2, .fill-gap-yellow .internal-text h2, .fill-gap-red .internal-text h2, .fill-gap-purple .internal-text h2 {
+        position: relative;
+        left: 40px;
+        width: 630px;
+        line-height: 56px;
+        color: white !important;
+        text-align: left;
+        font-size: 48px !important;
+    }
+
+    .fill-gap-green .internal-text h2 {
+        top: 325px;
+    }
+
+    .fill-gap-gray .internal-text h2 {
+        top: 264px;
+        width: 515px;
+    }
+}
+
+
+@media (min-width: 1300px) and (max-width: 1524px) {
+ 
+    .page-node-type-full-page .article__body {
+        width: 510px;
+        padding-right: 15px;
+        padding-top: 38mm;
+        left: 20px;
+        position: relative;
+        left: 90px;
+    }
+
+    .bar-container {
+        left: 680px;
+    }
+    .page-node-type-full-page .container.full-expand {
+        margin-left: 0px !important;
+    }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+ 
+    .page-node-type-full-page .article__body {
+        width: 400px;
+        padding-right: 15px;
+        padding-top: 25mm;
+        position: relative;
+        left: 60px;
+    }
+
+    .bar-container {
+        left: 560px;
+    }
+
+    .page-node-type-full-page .container.full-expand {
+        margin-left: 0px !important;
+    }
+
+    .page-node-type-full-page .article__body h2 {
+        line-height: 43px;
+    }
+
+}
+
+@media (min-width: 990px) and (max-width: 1199px) {
+
+    .page-node-type-full-page .container.full-expand {
+        margin-left: 0px !important;
+    }
+
+    .bar-container {
+        left: 560px;
+    }
+
+    .page-node-type-full-page .article__body {
+        width: 400px !important;
+        padding-top: 90px !important;
+        padding-right: 15px;
+        position: relative;
+        left: 90px;
+    }
+    .page-node-type-full-page .article__body h2 {
+        line-height: 42px;
+    }
+    
+}
+@media (min-width: 993px){
+    .mobile-only {
+        display: none;
+    }
+}
+
+@media (max-width: 992px){
+    .desktop-view{
+        display: none;
+    }
+    .mobile-only {
+        display: block;
+    }
+}

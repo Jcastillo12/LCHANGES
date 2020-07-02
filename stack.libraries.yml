@@ -18,6 +18,10 @@ global-styling:
       css/timeline2.css: {}
       css/leadership.css: {}
       css/responsive_header.css: {}
+      css/responsive_boxesnews.css: {}
+      css/responsive_bars.css: {}
+      css/whoweare.css: {}
+      css/culture.css: {}
   js:
     js/countdown.min.js: {}
     js/datepicker.js: {}
