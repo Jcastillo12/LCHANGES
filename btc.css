@@ -4490,7 +4490,19 @@ footer{
     .investors-tabs .tab__content {
         margin-top: -50px;
     }
-
+    /*Fixed Income Tabs*/
+    .fixed-income-tabs .pdf-little-img{
+        top:135px;
+        float: right;
+    }
+    .fixed-income-tabs .tab__content {
+        margin-top: -50px;
+    }
+    .fixed-income-tabs .read-more-trigger{
+        padding-top: 10px;
+        font-size:16px;
+        margin-left: 5px;
+    }
 }
 
 /*********************** 768 *************************/
