@@ -4428,6 +4428,69 @@ footer{
         background-position-x: -320px;
     }
 
+        /*Investors Tables*/
+    
+    .pdf-little-img{ 
+        top:88px;
+        float: right
+    }
+    .table-elements-sidebar p{ 
+        float:left;
+        top:0px;
+    }
+    .content-tab-sidebar a{ 
+        width: 100%; 
+    }
+    .financials-table tbody{
+        width: 100%;
+        display: -webkit-inline-box;
+        display: inline-flex;
+    }
+    .financials-table tr{
+        display: grid;
+        width: 50%;
+    }
+
+    .table-elements-sidebar .col-lg-12{
+        border: none !important;
+        background-color: transparent;
+    }
+    .investors-tabs .tab__content {
+        margin-top: -50px;
+    }
+
+    
+    /*Investors Tables*/
+    
+    .pdf-little-img{ 
+        top:88px;
+        float: right
+    }
+    .table-elements-sidebar p{ 
+        float:left;
+        top:0px;
+    }
+    .content-tab-sidebar a{ 
+        width: 100%; 
+    }
+    .financials-table tbody{
+        width: 100%;
+        display: -webkit-inline-box;
+        display: inline-flex;
+    }
+    .financials-table tr{
+        display: grid;
+        width: 50%;
+    }
+
+    .table-elements-sidebar .col-lg-12{
+        border: none !important;
+        background-color: transparent;
+    }
+    .investors-tabs .tab__content {
+        margin-top: -50px;
+    }
+
 }
 
 /*********************** 768 *************************/
