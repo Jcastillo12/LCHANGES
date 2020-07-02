@@ -4221,7 +4221,14 @@ footer{
     .investors-tabs .tab__content {
         margin-top: -50px;
     }
-
+    /*Fixed Income*/
+    .fixed-income-tabs .tab__content {
+        margin-top: -50px;
+    }
+    /*Regulation G Information*/
+    .regulation-g-tabs .tab__content {
+        margin-top: -50px;
+    }
 
 }
 /* @media (max-width: 1139px) and (min-width: 768px) {
@@ -4505,8 +4512,28 @@ footer{
         font-size:16px;
         margin-left: 5px;
     }
+    /*Share Information*/
+    .tabs--Horizontal .tabs {
+        width: 100%;
+    }
+    /*Regulation G Information*/
+    .regulation-g-tabs .tab__content {
+        margin-top: -50px;
+    }
 }
+/*********************** 320 *************************/
+@media (max-width: 320px) {
 
+    /*Fixed Income Tabs*/
+    .fixed-income-tabs .pdf-little-img{
+        top:135px !important;
+        float: right;
+    }
+    .regulation-g-tabs .pdf-little-img{
+        top:135px !important;
+        float: right;
+    }
+}
 /*********************** 768 *************************/
 
 
