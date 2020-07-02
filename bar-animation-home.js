@@ -3,10 +3,11 @@ jQuery(document).ready(function() {
 
     $( ".bar-animated-1" ).hover(function() {
 
-        $( ".text-bar-1" ).toggleClass("animation1");
+        $( ".text-bar-1" ).toggleClass("animation1 ");
         $('.text-bar-animated').addClass( "position" );
         $('.text-bar-1').toggleClass( "show-element fade-in" );
         $('.fill-gap-purple').toggleClass("transition");
+        $( ".fill-gap-purple .internal-text" ).toggleClass("hide-element");
 
          //Add classes
          $('.text-bar-2').addClass( "hide-element" );
@@ -42,6 +43,8 @@ jQuery(document).ready(function() {
             $('.text-bar-animated').addClass( "position" );
             $('.text-bar-2').toggleClass( "show-element fade-in" );
             $('.fill-gap-red').toggleClass("transition");
+            $( ".fill-gap-red .internal-text" ).toggleClass("hide-element");
+            
 
             //Add classes
             $('.text-bar-1').addClass( "hide-element" );
@@ -88,6 +91,7 @@ jQuery(document).ready(function() {
                 $('.text-bar-animated').addClass( "position" );
                 $('.text-bar-3').toggleClass( "show-element fade-in" );
                 $('.fill-gap-yellow').toggleClass("transition");
+                $( ".fill-gap-yellow .internal-text" ).toggleClass("hide-element");
 
                 //Add classes
                 $('.text-bar-1').addClass( "hide-element" );
@@ -134,6 +138,7 @@ jQuery(document).ready(function() {
                 $('.text-bar-animated').addClass( "position" );
                 $('.text-bar-4').toggleClass( "show-element fade-in" );
                 $('.fill-gap-blue').toggleClass("transition");
+                $( ".fill-gap-blue .internal-text" ).toggleClass("hide-element");
 
                 //Add classes
                 $('.text-bar-1').addClass( "hide-element" );
@@ -180,6 +185,7 @@ jQuery(document).ready(function() {
                 $('.text-bar-animated').addClass( "position" );
                 $('.text-bar-5').toggleClass( "show-element fade-in" );
                 $('.fill-gap-orange').toggleClass("transition");
+                $( ".fill-gap-orange .internal-text" ).toggleClass("hide-element");
 
                 //Add classes
                 $('.text-bar-1').addClass( "hide-element" );
@@ -225,6 +231,7 @@ jQuery(document).ready(function() {
                 $('.text-bar-animated').addClass( "position" );
                 $('.text-bar-6').toggleClass( "show-element fade-in" );
                 $('.fill-gap-gray').toggleClass("transition");
+                $( ".fill-gap-gray .internal-text" ).toggleClass("hide-element");
 
                 //Add classes
                 $('.text-bar-1').addClass( "hide-element" );
@@ -271,6 +278,7 @@ jQuery(document).ready(function() {
                 $('.text-bar-animated').addClass( "position" );
                 $('.text-bar-7').toggleClass( "show-element fade-in" );
                 $('.fill-gap-green').toggleClass("transition");
+                $( ".fill-gap-green .internal-text" ).toggleClass("hide-element");
 
                 //Add classes
                 $('.text-bar-1').addClass( "hide-element" );

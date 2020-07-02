@@ -158,8 +158,6 @@ html {
     padding-right: 12px;
 } 
 
-
-
 .menu-info a {
     font-family: 'Helvetica Neue' !important;
     letter-spacing: 0px;
@@ -188,9 +186,22 @@ i.fa.fa-linkedin {
     margin-right: 0px;
 }
 
+.fa.fa-linkedin.news-linked {
+    font-size: 18pt;
+    color: #fff;
+    background: #007BB6;
+    border-radius: 50%;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 #ourphilosophy {
     padding-top: 0px !important;
 }
+
 
 /*******************     Main Menu      ***************************/
 ul.menu-horizontal {
@@ -777,15 +788,15 @@ label a {
 }
 
 .news-facebook {
-	font-size: 18pt;
-	color: #fff;
-	background: #3b5998;
-	border-radius: 50%;
-	padding-top: 14px;
-	padding-bottom: 14px;
-	margin-right: 10px;
-	padding-right: 18px;
-	padding-left: 18px;
+    font-size: 18pt;
+    color: #fff;
+    background: #3b5998;
+    border-radius: 50%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 5px;
+    padding-right: 13px;
+    padding-left: 13px;
 }
 
 .btn-facebook span:hover {
@@ -793,12 +804,12 @@ label a {
 }
 
 .news-twitter {
-	font-size: 22pt;
-	color: #fff;
-	background: #00acee;
-	border-radius: 50%;
-	padding: 12px;
-	margin-right: 10px;
+    font-size: 22pt;
+    color: #fff;
+    background: #00acee;
+    border-radius: 50%;
+    padding: 6px;
+    margin-right: 10px;
 }
 
 .btn-twitter span:hover {
@@ -960,8 +971,18 @@ article .article__body img  {
 .page-node-type-full-page .article__body {
 	width: 580px;
 	padding-right: 15px;
-	padding-top: 30mm;
+	padding-top: 40mm;
 }
+
+.imageblock__content.col-md-6.col-lg-5.col-sm-12.pos-right {
+    position: relative;
+    top: -90px;
+    left: -80px;
+}
+
+.switchable{
+    margin-bottom:-70px!important;
+  }
 
 .page-node-type-full-page .article__body h2{
     font-size: 28pt;
@@ -1280,8 +1301,15 @@ article .article__body img  {
 
 .brands-companies{
     padding-top:0px;
+    margin-top: 100px;
 }
-
+.description-internal-short{
+    font-size: 14pt;
+    color: #4B4C4C;
+    line-height: 8mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+ }
 
 /*********************************** INTERNAL PAGES GENERAL CSS **************************************************/
 
@@ -1423,12 +1451,12 @@ article .article__body img  {
     font-weight: 300 !important;
 }
 
+
 .lla-team .feature h5{
-    margin: 0;
-    font-size: 17px;
+    font-size: 14pt;
     color: #FF4100;
-    letter-spacing: 0px !important;
-    line-height: 6mm !important;
+    line-height: 10mm;
+    font-family: 'Helvetica Neue' !important;
     font-weight: 400 !important;
 }
 
@@ -1622,8 +1650,8 @@ article .article__body img  {
     padding-bottom: 40px;
 }
 
-.links.inline.list-inline .node-readmore {
-    display: block !important;
+.path-frontpage .links.inline.list-inline .node-readmore {
+    display: none !important;
 }
 
 .news-date.bullets-info-internal-page {
@@ -1876,6 +1904,50 @@ article .article__body img  {
     height: inherit;
     position: relative;
     transition: width 0.5s;
+}
+.fill-gap-green .internal-text h2,
+.fill-gap-gray .internal-text h2,
+.fill-gap-orange .internal-text h2,
+.fill-gap-blue .internal-text h2,
+.fill-gap-yellow .internal-text h2,
+.fill-gap-red .internal-text h2,
+.fill-gap-purple .internal-text h2 {
+    position: relative;
+    left: 110px;
+    width: 630px;
+    line-height: 62px;
+    color: white !important;
+    text-align: left;
+    font-size: 62px!important;
+}
+
+.fill-gap-gray .internal-text h2{
+    top: 264px;
+}
+
+.fill-gap-orange .internal-text h2{
+    top: 273px;
+}
+
+.fill-gap-green .internal-text h2{
+    top: 338px;
+}
+
+.fill-gap-blue .internal-text h2{
+    top: 306px;
+}
+
+.fill-gap-yellow .internal-text h2{
+    top: 306px;
+    width: 640px;
+}
+
+.fill-gap-red .internal-text h2{
+    top: 320px;
+}
+
+.fill-gap-purple .internal-text h2{
+    top: 256px;
 }
 
 .hide-element{
@@ -2863,30 +2935,30 @@ hr.short {
 }
 
 .flow {
-    top: 110px;
+    top: 98px;
     left: 30px;
     width: 200px;
 }
 .btc{
-    top: 120px;
+    top: 150px;
     width: 195px;
     left: 40px;
 }
 
 .cabletica {
-    top: 82px;
+    top: 160px;
     width: 190px;
     left: 40px;
 }
 
 .masmovil {
-    top: 90px;
+    top: 115px;
     width: 200px;
     left: 20px;
 }
 
 .uts{
-    top: 70px;
+    top: 115px;
     width: 200px;
     left: 20px;
 }
@@ -2977,7 +3049,7 @@ hr.short {
 
 .home-design .person-teaser.small {
     height: 0;
-    padding-bottom: 73%;
+    padding-bottom: 69%;
     margin-bottom: 10px;
     position: relative;
     overflow: hidden;
@@ -2989,7 +3061,7 @@ hr.short {
 
 .big-box .home-info p{
     position: relative;
-    top: -20px !important;
+    top: -82px !important;
     left: 20px;
     width: 520px;
 }
@@ -3028,17 +3100,13 @@ hr.short {
 .small p a{
     color:white!important;
     position: relative;
-    top: 32px;
+    top: 12px;
     width: 225px;
     left: 15px;
 }
 
 .small p a:hover{
     color:#ff4100!important;
-}
-
-.container {
-    width: 1170px!important;
 }
 
 .background-image-holder {
@@ -3089,7 +3157,7 @@ hr.short {
 
 .tabs-brands .tabs {
     position: relative;
-    left: -288px;
+    left: -328px;
     margin-bottom: 60px;
 }
 
@@ -3211,10 +3279,11 @@ a:hover {
 }
 .lla-team span {
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 14pt;
+    margin: 0;
+    font-size: 17px;
     color: #4B4C4C;
-    line-height: 10mm;
-    font-family: 'Helvetica Neue' !important;
+    letter-spacing: 0px !important;
+    line-height: 6mm !important;
     font-weight: 400 !important;
 }
 /************ Suppliers ************/
@@ -3735,17 +3804,48 @@ footer{
     background-color: transparent;
     background: linear-gradient(180deg, rgba(0, 0, 0,0.8) 0%, rgba(255,255,255,0) 95%);
 }
+
+.row.imge-conte {
+    height: 420px;
+    overflow: hidden;
+    background-color: #808080;
+}
+
+#principles {
+    font-size: 28pt;
+    color: white;
+    line-height: 13mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+    width: 560px;
+    position: relative;
+    top: 80px;
+    left: 140px;
+}
+
+.imge-conte .barra-interna {
+    background: url('/sites/default/files/2020-06/barra2.png');
+        background-repeat: repeat;
+        background-size: auto;
+    background-repeat: repeat;
+    background-size: auto;
+    height: 640px;
+    width: 115px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: -277px;
+    position: absolute;
+    z-index: 3;
+    top: -120px;
+    left: 533px;
+}
+
 /* 
-
-
-
 .path-not-frontpage .node.node--type-full-page.full-page.full.clearfix {
     overflow: inherit;
     position: relative;
     top: -121px;
 }
-
-
 
 } */
 
