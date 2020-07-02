@@ -4458,7 +4458,9 @@ footer{
     .investors-tabs .tab__content {
         margin-top: -50px;
     }
-
+    .bullets-info-internal-page{
+        line-height: 6mm;
+    }
 
     /*Investors Tables*/
     
