@@ -1,0 +1,125 @@
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #menu1 .container{
+        width:780px;
+      }
+
+
+      #menu1{
+        z-index:9999999;
+        width: 100%;
+      }
+      
+      .pos-fixed .elements-top {
+          border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      }
+      
+      .pos-fixed .elements-top {
+          border-bottom: none;
+      }
+      
+      .elements-top {
+          width: 100%;
+          height: 52px;
+          float: right;
+          border-bottom: none;
+      }
+    
+      .elements-top .separator-left {
+          float: right;
+          margin-right: 25px;
+      }
+      
+      
+      .pos-fixed .logo.logo-light {
+          display: none;
+      }
+      
+      :not(.pos-fixed) .logo-light {
+          display: none;
+      }
+
+      .pos-fixed .logo.logo-dark {
+        display: block;
+    }
+
+      .pos-fixed .container {
+        width: 812px !important;
+        padding-right: 45px;
+        padding-left: 45px;
+    }
+
+      .videobg {
+        height: 510px;
+    }
+
+    :not(.pos-fixed) .elements-top a {
+        color: #808080 !important;
+        text-decoration: none;
+        letter-spacing: 0px;
+        font-family: Arial;
+    }
+
+    .path-frontpage .bar.bar--sm {
+        background: white;
+    }
+
+    .col-xs-12.social-media-mobile a {
+        float: left;
+        margin-left: 10px;
+        position: relative;
+        top: 70px;
+        color: #808080 !important;
+        text-decoration: none;
+        letter-spacing: 0px;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+   
+
+}
+
+@media (max-width: 767px) {
+
+    #menu1 .container {
+        width: 725px;
+    }
+
+      #menu1{
+        z-index:9999999;
+        width: 100%;
+      }
+
+    .path-frontpage .bar.bar--sm {
+        background-color: transparent;
+        background: white;
+    }
+
+    .col-xs-12.social-media-mobile {
+        width: 135px;
+        float: right;
+        position: relative;
+        top: 10px;
+    }
+
+    .col-xs-12.social-media-mobile a {
+        float: left;
+        margin-left: 10px;
+        position: relative;
+        top: 70px;
+        margin-left: 10px;
+        position: relative;
+        top: 70px;
+        color: #808080 !important;
+        text-decoration: none;
+        letter-spacing: 0px;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .videobg {
+        height: 460px;
+    }
+
+}

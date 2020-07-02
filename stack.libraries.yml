@@ -17,6 +17,7 @@ global-styling:
       css/about-icon.css: {}
       css/timeline2.css: {}
       css/leadership.css: {}
+      css/responsive_header.css: {}
   js:
     js/countdown.min.js: {}
     js/datepicker.js: {}
