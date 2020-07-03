@@ -3424,6 +3424,12 @@ height: 58.3vh !important;
     line-height: 52px;
 }
 /************ Video Gallery ************/
+.video-cover{
+    background: #fff !important;
+}
+.video-cover iframe{
+    background: #fff !important;
+}
 .modal-container::before {
         background: rgba(255, 255, 255, 0.8) !important;
 }
