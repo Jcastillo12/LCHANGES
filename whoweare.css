@@ -1,0 +1,182 @@
+.switchable.wwa-switchable {
+    margin-bottom: 0px !important;
+}
+.about-lla.wwa-switchable .field.field--name-field-paragraph-content {
+    padding-bottom: calc(4em + 2mm);
+    margin-bottom: 10px;
+}
+
+.wwa-title .title-internal-page {
+    padding-top: 0px;
+}
+
+.wwa-switchable .subtitle-h3 {
+    margin-top: 0px !important;
+}
+.wwa-switchable .imageblock__content.col-md-6.col-lg-5.col-sm-12.pos-right {
+    position: absolute !important;
+    left: auto !important; 
+    top: -90px !important;
+    right: 90px !important;
+}
+
+.background-who.wwa-background-who {
+    margin-top: 0px;
+}
+
+.wwa-news-con.news-con {
+    margin: 0px;
+    padding: 53px 0px !important;
+}
+
+section.wwa-padding {
+    padding: 53px 0px !important;
+}
+
+.wwa-bg-light {
+    background-color: #f6f6f6;
+}
+
+.wwa-margin-null {
+    margin: 0px !important;
+}
+
+.oh-paddig-null {
+    padding: 0px !important;
+}
+
+.custom-bottom-margin.wwa-bg-light .flex-wrapper.text {
+    top: 0px !important;
+    margin-top: 15px;
+}
+.wwa-margin-120 {
+    margin-bottom: -120px !important;
+}
+
+.wwa-hidden { 
+    /* display: none !important;  */
+    position: absolute;
+}
+
+.circle-mobile .subtitle-internal-page, .circle-desktop .subtitle-internal-page { padding-top: 3px; }
+
+.or-tabs.tabs-brands {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.or-tabs.tabs-brands .tabs {
+    position: relative;
+    left: 0px;
+    margin-bottom: 53px;
+}
+
+.brands-companies.wwa-bg-light {
+    margin-top: 53px !important;
+}
+/* custom container */
+
+@media (min-width: 1200px) {
+    .container { width: 1170px; }
+}
+
+@media (min-width: 1310px) {
+    .container { width: 1280px; }
+}
+
+@media (max-width: 1309px) { 
+    .background-who.wwa-background-who .container { 
+        padding: 5em 0px;
+    }
+    .background-who.wwa-background-who .barra-interna {
+        height: 600px;
+        width: 130px;
+        right: -160px;
+        top: -130px;
+    }
+
+    .wwa-switchable .imageblock__content.col-md-6.col-lg-5.col-sm-12.pos-right {
+        top: -25px !important;
+        right: 0px !important;
+    }
+
+    .circle-mobile.wwa-margin-120.wwa-bg-light {
+        transform: translateY(120px);
+        -moz-transform: translateY(120px);
+        -webkit-transform: translateY(120px);
+        margin-top: -65px;
+        padding: 53px 0px 0px !important;
+    }
+    .circle-mobile { display: block !important; }
+    .circle-mobile .row.circles-space .col-lg-4, .row.circles-space .col-lg-6 {  padding-bottom: 53px !important; }
+    .brands-companies.wwa-bg-light {  margin-top: -65px !important; }
+}
+@media (max-width: 1199px) {
+    .background-who.wwa-background-who .barra-interna {
+        display: none !important;
+    }
+    .background-who.wwa-background-who .container { 
+        padding: 4em 0px;
+    }
+}
+
+@media (max-width: 1024px) { 
+    .youtube-background{ display: block !important; }
+    .culture-height-50 { height: 30.3vh !important; } 
+}
+
+@media (max-width: 991px) {
+    .wwa-switchable .imageblock__content.col-md-6.col-lg-5.col-sm-12.pos-right {
+        position: relative !important;
+        top: 0px !important;
+        margin-bottom: -5.5em;
+        margin-top: 20px;
+    }
+
+    .background-who.wwa-background-who .imageblock__content { 
+        width: 41.666%;
+    }
+    .circle-mobile.wwa-margin-120.wwa-bg-light {
+        transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        margin-top: 0px;
+        padding: 53px 0px 0px !important;
+    }
+    .brands-companies.wwa-bg-light {  margin-top: 53px !important; }
+}
+
+@media (max-width: 776px) { 
+    .about-lla.wwa-switchable .col-md-6.col-lg-5.col-sm-12 {
+        float: left !important;
+        padding: 0px 15px;
+        width: 100%;
+    }
+
+    .background-who.wwa-background-who .container {
+        padding: 4em 15px;
+    }
+
+    .background-who.wwa-background-who .imageblock__content {
+        width: 100%;
+        padding: 15em;
+    }
+    .wwa-margin-120 { margin-bottom: 0px !important; }
+
+    .or-tabs.tabs-brands .tabs-content .border-in-right { border: none; }
+    .or-tabs.tabs-brands .tabs-content .col-sm-3 img { 
+        top: 0 !important;
+        width: auto !important;
+        left: 0 !important;
+     }
+
+    .brands-companies.wwa-bg-light {  margin-top: 120px !important; }
+
+}
+
+@media (max-width: 425px) { 
+
+    .background-who.wwa-background-who .imageblock__content {
+        width: 100%;
+        padding: 0em;
+    }
+}

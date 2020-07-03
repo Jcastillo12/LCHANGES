@@ -1,5 +1,35 @@
 
+  .secondary-slider.cover.imagebg .background-image-holder {
+    background-position-y: 0px !important;
+}
+
+
 @media (max-width: 991px) and (min-width: 768px) {
+    .path-not-frontpage #main-container {
+        margin-top: 0px;
+    }
+    .secondary-slider.cover.imagebg .background-image-holder {
+        background-position-y: 0px !important;
+    }
+    .path-not-frontpage .bar.bar--sm {
+        background: white;
+    }
+    
+    .path-not-frontpage #menu1 :not([pos-fixed]) .logo.logo-dark {
+        display: block;
+    }
+    
+    .path-not-frontpage .bar:not(.bg--dark):not(.bar--transparent) :not([pos-fixed]) .logo-light {
+        display: none;
+        z-index: 2;
+    }
+    
+    .path-not-frontpage #main-container {
+        margin-top: -10px;
+        position: relative;
+        top: 0px;
+    }
+ 
     #menu1 .container{
         width:780px;
       }
@@ -81,20 +111,42 @@
 
 @media (max-width: 767px) {
 
-    #menu1 .container {
-        width: 100%!important;
+    .secondary-slider.cover.imagebg .background-image-holder {
+        background-repeat: no-repeat;
+        background-position-y: 0px !important;
+    }
+    .path-not-frontpage .bar.bar--sm {
+        background: white;
+    }
+    
+    .path-not-frontpage #menu1 :not([pos-fixed]) .logo.logo-dark {
+        display: block;
+    }
+    
+    .path-not-frontpage .bar:not(.bg--dark):not(.bar--transparent) :not([pos-fixed]) .logo-light {
+        display: none;
+        z-index: 2;
+    }
+    
+    .path-not-frontpage #main-container {
+        margin-top: -10px;
+        position: relative;
+        top: 0px;
+    }
+
+    #menu1.pos-fixed {
+        display: none !important;
     }
 
     .nav-container {
-        position: fixed;
+        position: inherit;
         top: 0px;
         width: 100%;
         z-index: 9999;
-        margin-bottom: 30px;
     }
     
     #main-container {
-        padding-top: 190px;
+        padding-top: 0px;
     }
 
       #menu1{

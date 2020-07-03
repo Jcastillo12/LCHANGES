@@ -6,6 +6,35 @@
     background-size: cover;
 }
 
+.bacground-text {
+    background-color: #B3B2B2;
+}
+
+.message .title-internal-page {
+    font-size: 40px;
+    color: white !important;
+    letter-spacing: 0px !important;
+    font-family: "Helvetica Neue" !important;
+    line-height: 28px;
+    text-transform: uppercase;
+    padding-top: 12mm;
+    margin-bottom: 30px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.message p {
+    font-size: 16pt;
+    color: #fff !important;
+    font-family: "Helvetica Neue";
+    font-weight: 300;
+    letter-spacing: 0px;
+    line-height: 8mm;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 40px !important;
+}
+
 @media (min-width: 1740px) and (max-width: 1920px) {
     .bar-container {
         left: 600px!important;  
@@ -43,9 +72,7 @@
     .page-node-type-full-page .container.full-expand {
         margin-left: 0px !important;
     }
-
- 
-
+    
     
 }
 
@@ -151,4 +178,69 @@
     .mobile-only {
         display: block;
     }
+
+    .mobile-only {
+        padding-top: 0px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .bacground-text {
+        background-color: #B3B2B2;
+        height: 380px;
+    }
+
+    .mobile-only {
+        padding-top: 0px;
+    }
+
+    .message .title-internal-page {
+        font-size: 40px;
+        color: white !important;
+        letter-spacing: 0px !important;
+        font-family: "Helvetica Neue" !important;
+        line-height: 46px;
+        text-transform: uppercase;
+        padding-top: 12mm;
+        margin-bottom: 30px !important;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .mobile-only .container {
+        width: 100%;
+    }
+
+
+
+}
+
+@media (max-width: 500px){
+   
+    .btn-read-more.col-sm-12.col-lg-3 {
+        position: relative;
+        top: 0px;
+        padding-bottom: 20px;
+        float: left;
+        margin-left: -10px;
+    }
+
+    .news-home-boxes {
+        padding-bottom: 50px !important;
+    }
+
+}
+
+@media (max-width: 378px){
+   
+    .bacground-balam {
+        background-position-x: -190px;
+    }
+
+    .bacground-text {
+        background-color: #B3B2B2;
+        height: 460px;
+    }
+
 }

@@ -22,6 +22,8 @@ global-styling:
       css/responsive_bars.css: {}
       css/whoweare.css: {}
       css/culture.css: {}
+      css/circles_navigation.css: {}
+      css/our-square-products.css: {}
   js:
     js/countdown.min.js: {}
     js/datepicker.js: {}
