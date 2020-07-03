@@ -15,6 +15,7 @@
     padding: 15px 0 !important;
     font-size: 12px !important;
     color: #dadada !important;
+    opacity: 0.8;
 }
 .small .person-teaser__overlay{
     height: 100% !important;
@@ -59,9 +60,9 @@ html {
     color: white;
     margin-right: 7px;
     background-color: #878787;
-    border-radius: 5px;
-    height: 30px;    width: 30px;
-    line-height: 30px;
+    border-radius: 50%;
+    height: 35px;    width: 35px;
+    line-height: 35px;
     text-align: center;
 }
 
@@ -2465,7 +2466,7 @@ article .article__body img  {
     color: #fff;
     line-height: 30px !important;
     position: relative;
-    left: 10px;
+    left: 14px;
 }
 
 .financials-table th {
@@ -3429,6 +3430,12 @@ height: 58.3vh !important;
 }
 
 /************ Video Gallery ************/
+.video-cover{
+    background: #fff !important;
+}
+.video-cover iframe{
+    background: #fff !important;
+}
 .modal-container::before {
         background: rgba(255, 255, 255, 0.8) !important;
 }
@@ -4467,6 +4474,9 @@ footer{
     .regulation-g-tabs .tab__content {
         margin-top: -50px;
     }
+    .cw-regulation .pdf-little-img {
+        top: 135px;
+    }
 }
 /*********************** 320 *************************/
 @media (max-width: 320px) {
@@ -4476,8 +4486,13 @@ footer{
         top:135px !important;
         float: right;
     }
+    /*Regulation G Information*/
     .regulation-g-tabs .pdf-little-img{
         top:135px !important;
+        float: right;
+    }
+    .cw-regulation .pdf-little-img {
+        top: 158px !important;
         float: right;
     }
 }
