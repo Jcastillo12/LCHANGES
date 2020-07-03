@@ -3645,6 +3645,8 @@ footer{
     font-weight: 300;
 }
 
+.bar .logo {max-height: 93px;top: 3px;}
+
 .pos-fixed .we-mega-menu-li {
     color: #575756!important;
 }
