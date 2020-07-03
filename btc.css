@@ -2466,7 +2466,7 @@ article .article__body img  {
     color: #fff;
     line-height: 30px !important;
     position: relative;
-    left: 10px;
+    left: 14px;
 }
 
 .financials-table th {
@@ -4456,6 +4456,9 @@ footer{
     .regulation-g-tabs .tab__content {
         margin-top: -50px;
     }
+    .cw-regulation .pdf-little-img {
+        top: 135px;
+    }
 }
 /*********************** 320 *************************/
 @media (max-width: 320px) {
@@ -4465,8 +4468,13 @@ footer{
         top:135px !important;
         float: right;
     }
+    /*Regulation G Information*/
     .regulation-g-tabs .pdf-little-img{
         top:135px !important;
+        float: right;
+    }
+    .cw-regulation .pdf-little-img {
+        top: 158px !important;
         float: right;
     }
 }
