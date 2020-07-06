@@ -3095,6 +3095,11 @@ hr.short {
     background-color: transparent;
 }
 
+.news-boxes {
+	overflow: hidden;
+	height: 850px;
+	background-color: transparent;
+}
 
 .cage-square-boxes {
     overflow: hidden;
