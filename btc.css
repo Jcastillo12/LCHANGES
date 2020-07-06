@@ -2510,6 +2510,10 @@ tr:nth-child(2n+1) {
 .container.pos-vertical-center {
     visibility: hidden;
 }
+
+.hide-message .field.field--name-field-circle-type.field--type-entity-reference.field--label-above {
+    visibility: hidden;
+}
 /************  Tables General  *****************/
 
 /* Filter */
