@@ -3100,9 +3100,9 @@ hr.short {
 }
 
 .news-boxes {
-	overflow: hidden;
-	height: 850px;
-	background-color: transparent;
+	overflow: hidden !important;
+	height: 850px !important;
+	background-color: transparent !important;
 }
 
 .cage-square-boxes {
