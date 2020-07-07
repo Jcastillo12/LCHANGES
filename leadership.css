@@ -2,11 +2,11 @@
     padding-left: 10px;
 }
 
-.switchable__text {
+.align-middle.switchable__text {
     position: relative;
     top: 90px;
 }
-.switchable__text > p {
+.align-middle.switchable__text > p {
     padding-bottom: 30px;
 }
 
