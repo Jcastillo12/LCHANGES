@@ -1,0 +1,385 @@
+/* =============================================
+    Custom Styles for Pages in Culture Submenu
+================================================ */
+.flip-box-inner-principles .flip-box-front-principles{
+    min-height: 320px;
+}
+.title-internal-page {
+    line-height: 48px;
+}
+
+.btc-section-pad {
+    padding-top: 3.429em;
+    padding-bottom: 3.429em;
+}
+
+/*---- Culture Page ----*/
+
+section.banner-culture-section {
+    padding: 0px !important;
+}
+
+section.philosophy-section {
+    padding-bottom: 120px;
+}
+
+.flip-box-principles:hover .flip-box-inner-principles {
+    transform: none;
+} 
+
+.flip-box-front-principles h3{
+    font-size: 1.5em;
+}
+
+.flip-box-front-principles p.description-internal-page {
+    padding: 0 10px;
+    font-size: 14pt;
+    line-height: 6mm;
+}
+
+.flip-box-principles {
+    height: 375px;
+}
+
+.culture-principles .col-xs-5 {
+    padding: 0px 5px;
+}
+
+.culture-principles .col-xs-5:nth-child(1) .flip-box-front-principles {
+    background: #ff4100;
+}
+
+.culture-principles .col-xs-5:nth-child(2) .flip-box-front-principles {
+    background: #004f9f;
+}
+
+.culture-principles .col-xs-5:nth-child(3) .flip-box-front-principles {
+    background: #50a028;
+}
+
+.culture-principles .col-xs-5:nth-child(4) .flip-box-front-principles {
+    background: #831f82;
+}
+
+.culture-principles .col-xs-5:nth-child(5) .flip-box-front-principles {
+    background: #d90019;
+}
+
+/*---- People Page ----*/
+
+section#diversity-and-inclusion {
+    padding-bottom: 3.429em;
+}
+
+section#diversity-and-inclusion img {
+    margin-bottom: 0;
+}
+
+section.orange-banner-people{
+    margin-bottom: 0px !important;
+}
+
+.barra-interna-people1, .barra-interna-people2{
+    height: 100%;
+}
+
+/*---- Responsability Page ----*/
+
+.video-cover .video-play-icon {
+    width: 100% !important;
+}
+
+/*---- Product Page ----*/
+
+.banner-product-section {
+    padding-top: 0px !important;
+    padding-bottom: 3.429em !important;
+    margin-bottom: 110px;
+}
+
+.banner-product-section p#principles {
+    font-size: 16pt !important;
+    line-height: 8mm !important;
+}
+
+.banner-product-section .field .btn.btn--primary {
+    left: 135px;
+    top: 100px;
+}
+
+.fun-product-section {
+    padding-bottom: 3.429em;
+}
+
+@media screen and (max-width: 1309px){
+
+    /*---- Culture Page ----*/
+
+    section.philosophy-section {
+        padding-bottom: 0em !important;
+    }
+
+    section.banner-culture-section #principles {
+        left: 135px;
+        width: 500px;
+    }
+
+    section.banner-culture-section .imge-conte .barra-interna {
+        left: 485px;
+    }
+
+    .circle-mobile.wwa-margin-120.wwa-bg-light.custom-color-section {
+        margin-top: -120px;
+    }
+    
+}
+
+@media screen and (max-width: 1199px){
+
+    /*---- Culture Page ----*/
+
+    section.banner-culture-section #principles {
+        left: 130px;
+        width: 400px;
+        font-size: 24px;
+        line-height: 38px;
+    }
+
+    section.banner-culture-section .imge-conte .barra-interna {
+        left: 385px;
+    }
+
+    .flip-box-principles {
+        height: 350px;
+    }
+
+    .culture-principles .col-xs-5 {
+        width: 33.3333%;
+    }
+
+    .culture-principles .col-xs-5:nth-child(5) {
+        padding-right: 5px !important;
+        margin-top: 10px;
+    }
+
+    .culture-principles .col-xs-5:nth-child(4) {
+        padding-left: 0px;
+        margin-top: 10px;
+    }
+
+    .culture-principles .col-xs-5:nth-child(3) {
+        padding-right: 0px;
+    }
+
+    /*---- People Page ----*/
+
+    .ourworkplace h2.subtitle-internal-page-long {
+        margin-top: 35px;
+        padding-bottom: 0.78em;
+    }
+
+    .ourworkplace h2.subtitle-internal-page {
+        margin-top: 35px;
+    }
+
+    /*---- Product Page ----*/
+
+    section.banner-product-section #principles {
+        left: 115px;
+        top: 60px;
+    }
+
+    .banner-product-section .field .btn.btn--primary {
+        left: 115px;
+        top: 80px;
+    }
+}
+
+@media screen and (max-width: 991px){
+
+    /*---- Culture Page ----*/
+
+    section.banner-culture-section #principles {
+        left: 30px;
+    }
+
+    section.banner-culture-section .imge-conte .barra-interna {
+        left: 225px;
+    }
+
+    section.banner-culture-section .col-sm-5 {
+        background-position: center;
+    }
+
+    .flip-box-principles {
+        height: 380px;
+    }
+
+    .circle-mobile.wwa-margin-120.wwa-bg-light.custom-color-section {
+        margin-top: 0px;
+    }
+
+    /*---- Product Page ----*/
+
+    section.banner-culture-section #principles {
+        left: 35px;
+        width: 375px;
+        top: 40px;
+    }
+
+    .banner-product-section .field .btn.btn--primary {
+        left: 35px;
+        top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 776px){
+
+    .circle-mobile h2.subtitle-internal-page{
+        text-align: center;
+    }
+
+    /*---- Culture Page ----*/
+
+    section.philosophy-section {
+        padding-bottom: 3.429em !important;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    /*---- Culture Page ----*/
+
+    .flip-box-front-principles p.description-internal-page {
+        font-size: 16pt;
+    }
+
+    .culture-principles .col-xs-5,  .culture-principles .col-xs-5:nth-child(3), .culture-principles .col-xs-5:nth-child(4), .culture-principles .col-xs-5:nth-child(5){
+        width: 100%;
+        padding: 0 0 20px 0 !important;
+        margin-top: 0px;
+    }
+
+    section.banner-culture-section .imge-conte .barra-interna {
+        left: 0px;
+    }
+
+    section.banner-culture-section .row.imge-conte {
+        height: 100%;
+    }
+
+    section.banner-culture-section #principles {
+        left: auto;
+        font-size: 26px;
+        width: auto;
+        line-height: 38px;
+        top: auto;
+        padding: 60px 0px;
+    }
+
+    .philosophy-section{
+        padding-top: 25px !important;
+    }
+
+    .flip-box-principles {
+        height: 335px;
+    }
+
+    /*---- People Page ----*/
+
+    .barra-interna-people1, .barra-interna-people2 {
+        height: 100%;
+        display: none;
+    }
+
+    .ourworkplace ul.tabs {
+        margin: auto;
+        display: table;
+    }
+
+    .ourworkplace ul.tabs li {
+        float: left;
+    }
+
+    .orange-banner-people h2.subtitle-internal-page {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+        text-align: center;
+    }
+
+    /*---- Responsability Page ----*/
+
+    .video-cover {
+        margin-top: 60px;
+    }
+
+    /*---- Product Page ----*/
+
+    .banner-product-section .field .btn.btn--primary {
+        left: 0px;
+        top: 0px;
+        margin-bottom: 60px;
+    }
+
+    section.banner-product-section #principles {
+        padding-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+
+    /*---- Culture Page ----*/
+
+    section.banner-culture-section #principles {
+        font-size: 22px;
+    }
+
+    #ourprinciples{
+        padding-bottom: 0px !important;
+    }
+
+    .flip-box-principles {
+        height: 360px;
+    }
+
+    /*---- Responsability Page ----*/
+
+    .video-cover {
+        margin-top: 0px;
+    }
+
+    .video-cover iframe {
+        max-height: 280px;
+    }
+
+}
+
+@media screen and (max-width: 460px){
+
+    /*---- People Page ----*/
+
+    .ourworkplace ul.tabs li {
+        float: left;
+        width: 100%;
+    }
+
+    /*---- Product Page ----*/
+
+    .banner-product-section .barra-interna {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+
+    /*---- Culture Page ----*/
+
+    section.banner-culture-section #principles {
+        font-size: 20px;
+    }
+
+}
+

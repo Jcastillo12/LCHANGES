@@ -1,3 +1,193 @@
+/*Bars*/
+.bar-container {
+    width: 125px;
+    height: 570px;
+    position: relative;
+    top: -550px;
+    left: 680px;
+    z-index: 3;
+    clear: both;
+    cursor: pointer;
+}
+
+.bar-wrapper {
+    width: 100%;
+    height: 960px;
+}
+
+.bar-animated-1 {
+    background-color: #702673;
+    height: inherit;
+    width: 36px;
+    float:left;
+}
+
+.bar-animated-2 {
+    background-color: #BD1521;
+    height: inherit;
+    width: 5px;
+    float: left;
+}
+
+.bar-animated-3 {
+    background-color: #F9B234;
+    height: inherit;
+    width: 16px;
+    float: left;
+}
+
+.bar-animated-4 {
+    background-color: #283583;
+    height: inherit;
+    width: 17px;
+    float: left;
+}
+
+.bar-animated-5 {
+    background-color: #EA5B0B;
+    height: inherit;
+    width: 12px;
+    float: left;
+}
+
+.bar-animated-6 {
+    background-color: #575757;
+    height: inherit;
+    width: 15px;
+    float: left;
+}
+
+.bar-animated-7 {
+    background-color: #59A332;
+    height: inherit;
+    width: 23px;
+    float: left;
+}
+
+.text-bar-animated {
+    position: relative;
+    width: 860px;
+    height: 545px;
+    left: 800px;
+    top: -1068px;
+}
+
+
+.fill-gap-purple{
+    width: 0px;
+    background-color:#702673;
+    height: inherit;
+    position: relative;
+    transition: width 0.5s;
+}
+
+.transition{
+    width: 980px!important;
+    transition-timing-function: ease;
+}
+
+.fill-gap-red{
+    width: 0px;
+    background-color: #BD1521;
+    height: inherit;
+    position: relative;
+    transition: width 0.5s;
+}
+
+.fill-gap-yellow{
+    width: 0px;
+    background-color: #F9B234;
+    height: inherit;
+    position: relative;
+    transition: width 0.5s;
+}
+
+.fill-gap-blue{
+    width: 0px;
+    background-color: #283583;
+    height: inherit;
+    position: relative;
+    transition: width 0.5s;
+}
+
+.fill-gap-orange{
+    width: 0px;
+    background-color: #EA5B0B;
+    height: inherit;
+    position: relative;
+    transition: width 0.5s;
+}
+
+.fill-gap-gray{
+    width: 0px;
+    background-color: #575757;
+    height: inherit;
+    position: relative;
+    transition: width 0.5s;
+}
+
+.fill-gap-green{
+    width: 0px;
+    background-color: #59A332;
+    height: inherit;
+    position: relative;
+    transition: width 0.5s;
+}
+.fill-gap-green .internal-text h2,
+.fill-gap-gray .internal-text h2,
+.fill-gap-orange .internal-text h2,
+.fill-gap-blue .internal-text h2,
+.fill-gap-yellow .internal-text h2,
+.fill-gap-red .internal-text h2,
+.fill-gap-purple .internal-text h2 {
+    position: relative;
+    left: 110px;
+    width: 630px;
+    line-height: 62px;
+    color: white !important;
+    text-align: left;
+    font-size: 62px!important;
+    text-transform: initial;
+}
+
+.fill-gap-gray .internal-text h2{
+    top: 264px;
+}
+
+.fill-gap-orange .internal-text h2{
+    top: 292px;
+}
+
+.fill-gap-green .internal-text h2{
+    top: 288px;
+}
+
+.fill-gap-blue .internal-text h2{
+    top: 280px;
+}
+
+.fill-gap-yellow .internal-text h2{
+    top: 292px;
+    width: 640px;
+}
+
+.fill-gap-red .internal-text h2{
+    top: 292px;
+}
+
+.fill-gap-purple .internal-text h2{
+    top: 256px;
+}
+
+.hide-element{
+    display:none!important;
+}
+
+
+.show-element{
+    display:block!important;
+}
+
 .bacground-balam {
     background-image: url('/sites/default/files/images/blogliberty9_0.jpg');
     height: 500px;
@@ -34,6 +224,273 @@
     padding-right: 10px;
     margin-bottom: 40px !important;
 }
+
+/*************** Green Icon  ******************/
+
+.fill-gap-green .internal-text {
+    position: relative;
+    top: -50px;
+    left: 100px;
+}
+
+.fill-gap-green .internal-text p {
+    position: relative;
+    left: 90px;
+    width: 630px;
+    line-height: 62px;
+    color: white !important;
+    text-align: left;
+    font-size: 32px !important;
+    text-transform: initial;
+    top: 290px;
+}
+
+.fill-gap-green .internal-text img {
+    width: 120px;
+    position: relative;
+    top: 300px;
+    left: 280px;
+}
+
+.fill-gap-green .internal-text h2 {
+    top: 268px;
+    left: 245px;
+}
+
+/*********************************/
+
+/**************** Gray ******************/
+
+
+.fill-gap-gray.show-text .internal-text {
+    position: relative;
+    top: -50px;
+    left: 100px;
+}
+
+.fill-gap-gray img {
+    width: 120px;
+    position: relative;
+    top: 300px;
+    left: 280px;
+}
+
+.fill-gap-gray p {
+    position: relative;
+    left: 36px;
+    width: 630px;
+    line-height: 62px;
+    color: white !important;
+    text-align: center;
+    font-size: 32px !important;
+    text-transform: initial;
+    top: 290px;
+}
+
+
+.fill-gap-gray .internal-text h2 {
+    top: 264px;
+    text-align: center;
+    width: 670px;
+    left: 20px;
+}
+
+
+/***************************************/
+
+/**************** Orange ******************/
+
+
+.fill-gap-orange .internal-text {
+    position: relative;
+    top: -50px;
+    left: 100px;
+}
+
+.fill-gap-orange img {
+    width: 120px;
+    position: relative;
+    top: 300px;
+    left: 280px;
+}
+
+
+.fill-gap-orange p {
+    position: relative;
+    left: 26px;
+    width: 680px;
+    line-height: 62px;
+    color: white !important;
+    text-align: center;
+    font-size: 32px !important;
+    text-transform: initial;
+    top: 290px;
+}
+
+.fill-gap-orange .internal-text h2 {
+    top: 264px;
+    text-align: center;
+    width: 670px;
+    left: 17px;
+}
+
+/***************************************/
+
+/**************** Blue ******************/
+
+
+.fill-gap-blue .internal-text {
+    position: relative;
+    top: -40px;
+    left: 110px;
+}
+
+.fill-gap-blue img {
+    width: 120px;
+    position: relative;
+    top: 300px;
+    left: 280px;
+}
+
+
+.fill-gap-blue p {
+    position: relative;
+    left: 26px;
+    width: 680px;
+    line-height: 62px;
+    color: white !important;
+    text-align: center;
+    font-size: 32px !important;
+    text-transform: initial;
+    top: 290px;
+}
+
+.fill-gap-blue .internal-text h2 {
+    top: 264px;
+    text-align: center;
+    width: 680px;
+    left: 17px;
+}
+
+/***************************************/
+
+/**************** Yellow ******************/
+
+
+.fill-gap-yellow .internal-text {
+    position: relative;
+    top: -100px;
+    left: 110px;
+}
+
+.fill-gap-yellow img {
+    width: 120px;
+    position: relative;
+    top: 300px;
+    left: 280px;
+}
+
+
+.fill-gap-yellow p {
+    position: relative;
+    left: 26px;
+    width: 680px;
+    line-height: 62px;
+    color: white !important;
+    text-align: center;
+    font-size: 32px !important;
+    text-transform: initial;
+    top: 290px;
+}
+
+.fill-gap-yellow .internal-text h2 {
+    top: 264px;
+    text-align: center;
+    width: 680px;
+    left: 17px;
+}
+
+/***************************************/
+
+
+/**************** Red ******************/
+
+
+.fill-gap-red .internal-text {
+    position: relative;
+    top: -40px;
+    left: 120px;
+}
+
+.fill-gap-red img {
+    width: 120px;
+    position: relative;
+    top: 300px;
+    left: 280px;
+}
+
+
+.fill-gap-red p {
+    position: relative;
+    left: 26px;
+    width: 680px;
+    line-height: 62px;
+    color: white !important;
+    text-align: center;
+    font-size: 32px !important;
+    text-transform: initial;
+    top: 290px;
+}
+
+.fill-gap-red .internal-text h2 {
+    top: 264px;
+    text-align: center;
+    width: 670px;
+    left: 17px;
+}
+
+/***************************************/
+
+
+/**************** Purple ******************/
+
+.fill-gap-purple .internal-text {
+    position: relative;
+    top: -100px;
+    left: 140px;
+}
+
+.fill-gap-purple img {
+    width: 120px;
+    position: relative;
+    top: 300px;
+    left: 280px;
+}
+
+
+.fill-gap-purple p {
+    position: relative;
+    left: 26px;
+    width: 680px;
+    line-height: 62px;
+    color: white !important;
+    text-align: center;
+    font-size: 32px !important;
+    text-transform: initial;
+    top: 290px;
+}
+
+.fill-gap-purple .internal-text h2 {
+    top: 264px;
+    text-align: center;
+    width: 670px;
+    left: 17px;
+}
+
+/***************************************/
+
+
+
 
 @media (min-width: 1740px) and (max-width: 1920px) {
     .bar-container {
