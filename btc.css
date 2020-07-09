@@ -4059,7 +4059,10 @@ footer{
     .regulation-g-tabs .tab__content {
         margin-top: -50px;
     }
-
+    /*News Boxes*/
+    .news-boxes{
+        height: 550px !important;
+    }
 }
 /* @media (max-width: 1139px) and (min-width: 768px) {
     .flickity-viewport {
