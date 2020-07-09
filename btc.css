@@ -2934,7 +2934,7 @@ hr.short {
 
 .news-boxes {
 	overflow: hidden !important;
-	height: 850px !important;
+	height: 950px !important;
 	background-color: transparent !important;
 }
 
@@ -4352,6 +4352,22 @@ footer{
     }
     .cw-regulation .pdf-little-img {
         top: 135px;
+    }
+    /*News-Box*/
+    .news-links .home-design .person-teaser.small{
+        padding-bottom:35%
+    }
+}
+/*********************** 480 *************************/
+@media (max-width: 480px) {
+    .news-boxes{
+        height: 850px !important;
+    }
+    .news-boxes .block{
+        padding-bottom: 15px;
+    }
+    .news-links .home-design .person-teaser.small{
+        padding-bottom: 35%;
     }
 }
 /*********************** 320 *************************/
