@@ -3783,9 +3783,13 @@ footer{
     }
 }
 
-
+@media (min-width: 1201px) and (max-width: 1280px) {
+    .news-boxes{
+        height: 800px !important;
+    }
+}
 /*********************** 1200 *************************/
-@media (max-width: 1200px) and (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1200px) {
 
     .page-node-type-full-page .imageblock__content.col-lg-6.col-md-8.pos-right {
         right: -20%;
@@ -3815,8 +3819,10 @@ footer{
         padding-bottom: 12mm !important;
     }
 
-
-
+    /*News Boxes*/
+    .news-boxes{
+        height: 675px !important;
+    }
 
 }
 
