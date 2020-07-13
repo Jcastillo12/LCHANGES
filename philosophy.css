@@ -6,56 +6,56 @@
 }
 
 .changeblue {
-    fill: blue;
+    fill: #004f9f;
     transform: rotate(90deg) scale(1.4);
     transition: all 1s;
     transform-origin: 43% 12%;
 }
 
 .changered {
-    fill: red;
+    fill: #D90019;
     transform: scale(1.4);
     transition: all 1s;
     transform-origin: 41% 38%;
 }
 
 .changegreen {
-    fill: green;
+    fill: #50A028;
     transform: rotate(90deg) scale(1.4);
     transition: all 1s;
     transform-origin: 58% 39%;
 }
 
 .changepurple {
-    fill: purple;
+    fill: #831F82;
     transform: scale(1.2);
     transition: all 1s;
     transform-origin: 42% 42%;
 }
 
 .changegray {
-    fill: gray;
+    fill: #333333;
     transform: scale(1.4);
     transition: all 1s;
     transform-origin: 55% 42%;
 }
 
 .changeyellow{
-    fill: red;
+    fill: #D90019;
     transform: scale(1.4);
     transition: all 1s;
     transform-origin: 55% 42%;
 }
 
 .changebrown {
-    fill: brown;
+    fill: #FF1926;
     transform: scale(1.3);
     transition: all 1s;
     transform-origin: 40% 55%;
 }
 
 .changepink {
-    fill: pink;
+    fill: #FF1926;
     transform: scale(1.3);
     transition: all 1s;
     transform-origin: 40% 62%;
@@ -69,35 +69,35 @@
 }
 
 .changeblue2 {
-    fill: blue;
+    fill: #004f9f;
     transform: rotate(90deg) scale(1.4);
     transition: all 1s;
     transform-origin: 35% 59%;
 }
 
 .changered2 {
-    fill: red;
+    fill: #D90019;
     transform: rotate(90deg) scale(1.4);
     transition: all 1s;
     transform-origin: 53% 90%;
 }
 
 .changegreen2 {
-    fill: green;
+    fill: #50A028;
     transform: scale(1.3);
     transition: all 1s;
     transform-origin: 50% 56%;
 }
 
 .changepurple2 {
-    fill: purple;
+    fill: #831F82;
     transform: scale(1.2);
     transition: all 1s;
     transform-origin: 51% 60%;
 }
 
 .changegray2 {
-    fill: purple;
+    fill: #831F82;
     transform: scale(1.2);
     transition: all 1s;
     transform-origin: 51% 64%;
@@ -105,7 +105,7 @@
 
 
 .changeyellow2 {
-    fill: red;
+    fill: #D90019;
     transform: scale(1.2);
     transition: all 1s;
     transform-origin: 50% 64%;

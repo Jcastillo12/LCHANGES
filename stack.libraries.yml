@@ -24,6 +24,7 @@ global-styling:
       css/culture.css: {}
       css/circles_navigation.css: {}
       css/our-square-products.css: {}
+      css/philosophy.css: {}
   js:
     js/countdown.min.js: {}
     js/datepicker.js: {}
@@ -44,6 +45,7 @@ global-styling:
     js/timeline.js: {}
     js/circle-animation.js: {}
     js/liberty-map.js: {}
+    js/philosophy.js: {}
 global-styling-rtl:
   css:
     theme:
