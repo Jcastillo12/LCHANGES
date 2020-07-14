@@ -3150,6 +3150,15 @@ a:hover {
         color: #FF4100 !important;
 }
 /************ Our Culture ************/
+.big-moments img:hover {
+    transform: scale(1.05);
+}
+.big-moments img {
+    transition: transform .8s ease;
+}
+.big-moments col-lg-6 {
+    overflow: hidden;
+}
 .pr-lg-4:hover {
         border: 1px solid #ff4100 !important;
         border-top: 0.50em solid #ff4100 !important;
