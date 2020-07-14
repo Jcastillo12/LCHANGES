@@ -25,6 +25,8 @@ global-styling:
       css/circles_navigation.css: {}
       css/our-square-products.css: {}
       css/philosophy.css: {}
+      css/pledge.css: {}
+      css/timelinenew.css: {}
   js:
     js/countdown.min.js: {}
     js/datepicker.js: {}
@@ -46,6 +48,8 @@ global-styling:
     js/circle-animation.js: {}
     js/liberty-map.js: {}
     js/philosophy.js: {}
+    js/pledge.js: {}
+    js/timelinenew.js: {}
 global-styling-rtl:
   css:
     theme:

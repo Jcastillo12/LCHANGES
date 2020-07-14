@@ -1,0 +1,21 @@
+#year2019,
+#year2018,
+#year2017,
+#year2016,
+#year2015,
+#year2014,
+#year2012,
+#year2011,
+#year2007,
+#year2006,
+#year2005,
+#year2001,
+#year2000{
+ display: none;
+}
+
+.show-effect-year{
+    display: block!important;
+}
+
+
