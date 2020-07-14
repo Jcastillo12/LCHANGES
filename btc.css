@@ -3324,6 +3324,9 @@ height: 58.3vh !important;
 .il-vg{
     margin-top: -200px !important;
 }
+.vid-gallery .switchable__text .col-md-6 {
+    padding: 0;
+}
 /************ Contact Us ************/
 .asterisk-lla {
         color: #f12f2f;
@@ -3644,7 +3647,7 @@ footer{
     position: absolute;
     z-index: 3;
     top: -120px;
-    left: 533px;
+    left: 522px;
 }
 
 /*
@@ -4068,6 +4071,11 @@ footer{
     /*News Boxes*/
     .news-boxes{
         height: 550px !important;
+    }
+    /*Video Gallery*/
+    .all-page-modals .modal-content {
+        width: 750px !important;
+        height: 620px !important;
     }
 }
 /* @media (max-width: 1139px) and (min-width: 768px) {
