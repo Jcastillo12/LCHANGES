@@ -1440,7 +1440,7 @@ article .article__body img  {
     line-height: 10mm;
     font-family: 'Helvetica Neue' !important;
     font-weight: 400 !important;
-    padding: 20px 15px !important;
+    padding: 20px 0px !important;
 }
 
 .bullets-info-internal-page{
@@ -1659,6 +1659,17 @@ article .article__body img  {
     border: 1px solid white;
 }
 
+#edit-submit-sec-filing {
+	font-size: 14pt;
+	font-weight: 400 !important;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	border-radius: 6px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	height: 45px;
+}
+
 .article__author,
 .article__title,
 .field.field--name-field-tags.field--type-entity-reference.field--label-hidden.field--items,
@@ -1800,6 +1811,11 @@ article .article__body img  {
 .accordion .accordion__title::before {
     float: right;
 }
+
+.accordion li .accordion__title {
+	padding-left: 0px !important;
+}
+
 .link-about,
 .description-internal-page a {
     font-size: 16pt;
@@ -3281,12 +3297,7 @@ height: 58.3vh !important;
 }
 
 .orange-banner-people h2 {
-    font-size: 50px;
-    line-height: 52px;
-}
-
-.orange-banner-people h2 {
-    font-size: 50px;
+    font-size: 45px;
     line-height: 52px;
 }
 
