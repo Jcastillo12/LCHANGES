@@ -3406,8 +3406,14 @@ height: 58.3vh !important;
 /******************** End contact form ********************/
 
 /*******************     Footer      ***************************/
-footer{
+.path-not-frontpage footer{
+    padding-top: 80mm!important;
+}
+.path-frontpage footer{
     padding-top: 10mm!important;
+}
+
+footer{
         padding-bottom: 0;
         background-color: #575756;
         background-image: url('/sites/default/files/2020-05/logate_rotated_definitive.png');
@@ -3551,6 +3557,10 @@ footer{
     background-color: rgba(255,255,255,0.9);
 } */
 
+.timeline-responsive .row {
+    padding-bottom: 60px;
+}
+
 /*************** NOT FRONT PAGE *****************/
  .path-not-frontpage .bar.bar--sm {
     background-color: transparent;
@@ -3562,7 +3572,7 @@ footer{
 .path-not-frontpage #main-container {
     margin-top: -10px;
     position: relative;
-    top: -120px;
+    top: 130px;
 }
 
 .path-not-frontpage .bar.pos-fixed {
