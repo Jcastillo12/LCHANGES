@@ -27,6 +27,7 @@ global-styling:
       css/philosophy.css: {}
       css/pledge.css: {}
       css/timelinenew.css: {}
+      css/responsive.css: {}
   js:
     js/countdown.min.js: {}
     js/datepicker.js: {}

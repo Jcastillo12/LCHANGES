@@ -232,7 +232,17 @@ ul.menu-horizontal {
 
 .region-we-mega-menu {
     position: relative;
-    top: -10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.region-we-mega-menu nav {
+    position: relative;
+    top: 0px;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    height: 50px;
+    min-height: 50px;
 }
 /*******************     Mega menu*/
 
@@ -477,7 +487,7 @@ ul.menu-horizontal {
 }
 
 #block-libertyfinalmenu .block-inner{
-    top: -4px;
+    top: 0px;
     position: relative;
 }
 
@@ -657,7 +667,7 @@ h5,
   font-weight: 800 !important;
 }
 .imagebg:not(.image--light) a {
-    font-weight: 500 !important;
+    font-weight: 400 !important;
 }
 .des-p {
     font-size: 18px;
@@ -798,7 +808,7 @@ label a {
 .description-internal-page .btn-home-news {
         color: #fff;
         font-size: 14pt;
-        font-weight: 800 !important;
+        font-weight: 400 !important;
 }
 
 .btn-home-news {
@@ -2951,7 +2961,7 @@ hr.short {
     color:white!important;
     position: relative;
     top: 12px;
-    width: 225px;
+    width: 250px;
     left: 15px;
 }
 

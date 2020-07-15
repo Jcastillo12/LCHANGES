@@ -1,0 +1,26 @@
+@media (max-width: 1309px) and  (min-width: 992px){
+
+    .path-frontpage footer{
+        padding-top: 80mm!important;
+    }
+
+}
+
+
+
+@media (max-width: 991px) and  (min-width: 777px){
+
+    .path-frontpage footer{
+        padding-top: 50mm!important;
+    }
+
+}
+
+
+@media (max-width: 1309px) {
+
+    .circle-mobile.wwa-margin-120.wwa-bg-light {
+        margin-top: -120px;
+    }
+
+}
