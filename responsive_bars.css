@@ -487,6 +487,10 @@
     left: 17px;
 }
 
+.balansign {
+    display: block !important;
+    width: 270px;
+}
 /***************************************/
 
 
@@ -500,7 +504,7 @@
     .page-node-type-full-page .article__body {
         width: 510px;
         padding-right: 15px;
-        padding-top: 38mm;
+        padding-top: 16mm;
     }
 
     .page-node-type-full-page .article__body h2 {
@@ -521,9 +525,9 @@
     .page-node-type-full-page .article__body {
         width: 510px;
         padding-right: 15px;
-        padding-top: 42mm;
+        padding-top: 18mm;
         position: relative;
-        left: 120px;
+        left: 142px;
     }
 
     .page-node-type-full-page .container.full-expand {
@@ -531,6 +535,26 @@
     }
     
     
+}
+
+@media (min-width: 1300px) and (max-width: 1524px) {
+ 
+    .page-node-type-full-page .article__body {
+        width: 510px;
+        padding-right: 15px;
+        padding-top: 18mm;
+        left: 20px;
+        position: relative;
+        left: 90px;
+    }
+
+    .bar-container {
+        left: 680px;
+    }
+    .page-node-type-full-page .container.full-expand {
+        margin-left: 0px !important;
+    }
+
 }
 
 @media (min-width: 1300px) and (max-width: 1360px) {
@@ -555,25 +579,7 @@
 }
 
 
-@media (min-width: 1300px) and (max-width: 1524px) {
- 
-    .page-node-type-full-page .article__body {
-        width: 510px;
-        padding-right: 15px;
-        padding-top: 38mm;
-        left: 20px;
-        position: relative;
-        left: 90px;
-    }
 
-    .bar-container {
-        left: 680px;
-    }
-    .page-node-type-full-page .container.full-expand {
-        margin-left: 0px !important;
-    }
-
-}
 
 
 @media (min-width: 1200px) and (max-width: 1299px) {
@@ -581,7 +587,7 @@
     .page-node-type-full-page .article__body {
         width: 400px;
         padding-right: 15px;
-        padding-top: 25mm;
+        padding-top: 8mm;
         position: relative;
         left: 60px;
     }
@@ -612,7 +618,7 @@
 
     .page-node-type-full-page .article__body {
         width: 400px !important;
-        padding-top: 90px !important;
+        padding-top: 32px !important;
         padding-right: 15px;
         position: relative;
         left: 90px;
@@ -639,17 +645,22 @@
     .mobile-only {
         padding-top: 0px;
     }
+    .bacground-text {
+        background-color: #B3B2B2;
+        height: 420px;
+    }
 }
 
 
 @media (max-width: 768px){
     .bacground-text {
         background-color: #B3B2B2;
-        height: 500px;
+        height: 420px;
     }
 
     .mobile-only {
         padding-top: 0px;
+        padding-bottom:0px;
     }
 
     .message .title-internal-page {
