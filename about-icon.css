@@ -292,7 +292,8 @@
     background-position-x: center;
     background-position-y: 32px;
     background-position-x: center;
-    background-position-x: 101px;
+    /*background-position-x: 101px;*/
+    background-position-x: 50px;
 }
 
 .backflip1 {
@@ -315,7 +316,8 @@
     background-position-x: center;
     background-position-y: 32px;
     background-position-x: center;
-    background-position-x: 95px;
+    /*background-position-x: 95px;*/
+    background-position-x: 50px;
 }
 
 .backflip2 {
@@ -338,7 +340,8 @@
     background-position-x: center;
     background-position-y: 48px;
     background-position-x: center;
-    background-position-x: 95px;
+    /*background-position-x: 95px;*/
+    background-position-x: 50px;
 }
 
 .backflip3 {
@@ -361,7 +364,8 @@
     background-position-x: center;
     background-position-y: 32px;
     background-position-x: center;
-    background-position-x: 101px;
+    /*background-position-x: 101px;*/
+    background-position-x: 50px;
 }
 
 .backflip4 {
@@ -384,7 +388,8 @@
     background-position-x: center;
     background-position-y: 32px;
     background-position-x: center;
-    background-position-x: 103px;
+    /*background-position-x: 103px;*/
+    background-position-x: 50px;
 }
 
 .backflip5 {
@@ -407,7 +412,8 @@
     background-position-x: center;
     background-position-y: 32px;
     background-position-x: center;
-    background-position-x: 98px;
+    /*background-position-x: 98px;*/
+    background-position-x: 50px;
 }
 
 .backflip6 {
@@ -430,7 +436,8 @@
     background-position-x: center;
     background-position-y: 32px;
     background-position-x: center;
-    background-position-x: 100px;
+    /*background-position-x: 100px;*/
+    background-position-x: 50px;
 }
 
 .backflip7 {
@@ -453,7 +460,8 @@
     background-position-x: center;
     background-position-y: 32px;
     background-position-x: center;
-    background-position-x: 88px;
+    /*background-position-x: 88px;*/
+    background-position-x: 50px;
 }
 
 .backflip8 {
@@ -474,10 +482,12 @@
     line-height: 8mm;
     font-family: 'Helvetica Neue' !important;
     font-weight: 400 !important;
-    text-align: center;
+    /*text-align: center;*/
+    text-align: left;
     position: relative;
-    top: 40px;
-    width: 260px;
+    /*top: 40px;*/
+    /*width: 260px;*/
+    width: 300px;
     left: 15px;
 }
 
@@ -487,9 +497,10 @@
     line-height: 8mm;
     font-family: 'Helvetica Neue' !important;
     font-weight: 400 !important;
-    text-align: center;
+    /*text-align: center;*/
+    text-align: left;
     position: relative;
-    top: 40px;
+    /*top: 40px;*/
     width: 260px;
     left: 15px;
 }
@@ -500,10 +511,12 @@
     line-height: 8mm;
     font-family: 'Helvetica Neue' !important;
     font-weight: 400 !important;
-    text-align: center;
+    /*text-align: center;*/
+    text-align: left;
     position: relative;
-    top: 40px;
-    width: 260px;
+    /*top: 40px;*/
+    /*width: 260px;*/
+    width: 300px;
     left: 15px;
 }
 
@@ -514,10 +527,13 @@
     line-height: 8mm;
     font-family: 'Helvetica Neue' !important;
     font-weight: 400 !important;
-    text-align: center;
+    /*text-align: center;*/
+    text-align: left;
     position: relative;
-    top: 40px;
-    width: 260px;
+    /*top: 40px;*/
+    top: 50px;
+    /*width: 260px;*/
+    width: 300px;
     left: 15px;
 }
 
@@ -527,9 +543,11 @@
     line-height: 8mm;
     font-family: 'Helvetica Neue' !important;
     font-weight: 400 !important;
-    text-align: center;
+    /*text-align: center;*/
+    text-align: left;
     position: relative;
-    top: 40px;
+    /*top: 40px;*/
+    top: 60px;
     width: 260px;
     left: 15px;
 }
@@ -540,9 +558,11 @@
     line-height: 8mm;
     font-family: 'Helvetica Neue' !important;
     font-weight: 400 !important;
-    text-align: center;
+    /*text-align: center;*/
+    text-align: left;
     position: relative;
-    top: 40px;
+    /*top: 40px;*/
+    top: 70px;
     width: 260px;
     left: 15px;
 }
@@ -553,9 +573,10 @@
     line-height: 8mm;
     font-family: 'Helvetica Neue' !important;
     font-weight: 400 !important;
-    text-align: center;
+    /*text-align: center;*/
+    text-align: left;
     position: relative;
-    top: 40px;
+    /*top: 40px;*/
     width: 260px;
     left: 15px;
 }
@@ -566,9 +587,11 @@
     line-height: 8mm;
     font-family: 'Helvetica Neue' !important;
     font-weight: 400 !important;
-    text-align: center;
+    /*text-align: center;*/
+    text-align: left;
     position: relative;
-    top: 40px;
+    /*top: 40px;*/
+    top: 55px;
     width: 260px;
     left: 15px;
 }
