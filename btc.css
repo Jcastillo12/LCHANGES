@@ -2777,6 +2777,7 @@ section.bg--secondary:not(.imagebg) + section:not(.imagebg):not([class*="bg-"]) 
     letter-spacing: 0px !important;
     font-family: "Helvetica Neue" !important;
     line-height: 40px;
+    text-transform: uppercase !important;
  }
 
  .special-spacing-tabs{
