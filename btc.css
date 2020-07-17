@@ -2942,7 +2942,7 @@ hr.short {
 
 .big-box .home-info p{
     position: relative;
-    top: -82px !important;
+    top: -32px !important;
     left: 20px;
     width: 520px;
 }
@@ -3806,9 +3806,15 @@ footer{
 
 .video.paragraph {
 	padding-bottom: 0px;
+	/* margin-bottom: -6px;  */
 	height: 570px;
 	overflow: hidden;
 }
+
+.path-frontpage .video.paragraph {
+	margin-bottom: -6px;  
+}
+
 
 /************************************************/
 

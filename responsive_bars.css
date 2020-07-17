@@ -289,12 +289,12 @@
     width: 120px;
     position: relative;
     top: 300px;
-    left: 280px;
+    left: 285px;
 }
 
 .fill-gap-green .internal-text h2 {
     top: 268px;
-    left: 245px;
+    left: 215px;
 }
 
 /*********************************/
@@ -304,7 +304,7 @@
 
 .fill-gap-gray.show-text .internal-text {
     position: relative;
-    top: -50px;
+    top: -92px;
     left: 100px;
 }
 
@@ -343,7 +343,7 @@
 
 .fill-gap-orange .internal-text {
     position: relative;
-    top: -50px;
+    top: -20px;
     left: 100px;
 }
 
