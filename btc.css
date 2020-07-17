@@ -2808,7 +2808,7 @@ hr.short {
 }
 
 .cabletica {
-    top: 160px;
+    top: 50px;
     width: 190px;
     left: 40px;
 }
@@ -2826,9 +2826,21 @@ hr.short {
 }
 
 .vtr {
-    top: 100px;
+    top: 60px;
     width: 160px;
     left: 60px;
+}
+
+.cwn {
+	top: 200px;
+	width: 250px;
+	left: 20px;
+}
+
+.cwb {
+	top: 175px;
+	width: 250px;
+	left: 20px;
 }
 
 .mt--1 {
