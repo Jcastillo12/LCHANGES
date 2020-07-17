@@ -29,7 +29,7 @@
 
 
 /* Cambiar y quitar al lanzar*/
-#block-libertyfinalmenu {
+/* #block-libertyfinalmenu {
 overflow: visible!important;
 }
 #block-libertyfinalmenu:hover {
@@ -38,7 +38,7 @@ overflow: visible!important;
 
 #block-libertyfinalmenu .navbar{
     position: relative!important;
-}
+} */
 
 /*******************     Secondary navigation - Top bar      ***************************/
 html {
@@ -83,6 +83,7 @@ html {
     font-size: 20px;
     color: white;
     margin-right: 7px;
+    margin-bottom: 20px;
     background-color: #878787;
     border-radius: 50%;
     height: 35px;    width: 35px;
@@ -3458,9 +3459,7 @@ height: 58.3vh !important;
 /******************** End contact form ********************/
 
 /*******************     Footer      ***************************/
-.path-not-frontpage footer{
-    padding-top: 80mm!important;
-}
+
 .path-frontpage footer{
     padding-top: 10mm!important;
 }
@@ -3813,12 +3812,16 @@ footer{
 .video.paragraph .container {
     width: 100%;
     padding: 0;
-    margin-top: -115px;
+}
+
+
+#myVideo {
+    height: auto;
+    max-width: 100%;
 }
 
 .video.paragraph {
 	padding-bottom: 0px;
-	/* margin-bottom: -6px;  */
 	height: 570px;
 	overflow: hidden;
 }
@@ -3828,6 +3831,31 @@ footer{
 }
 
 
+.path-not-frontpage .video.paragraph {
+    padding-bottom: 0px;
+    padding-top: 134px;
+}
+
+.path-not-frontpage .video.paragraph .container {
+    width: 100%;
+    padding: 0px;
+}
+.path-not-frontpage #myVideo {
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+.path-not-frontpage .video.paragraph {
+    padding-bottom: 0px;
+    padding-top: 134px;
+    margin-bottom: -8px;
+    height: auto;
+}
+
+.fit-image{
+    object-fit:cover;
+}
 /************************************************/
 
 

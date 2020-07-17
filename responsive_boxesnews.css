@@ -106,17 +106,21 @@
     .big-box .home-info p {
         position: relative;
         top: 30px !important;
-        left: -20px;
+        left: 0px;
         width: 350px;
-        font-size: -18px !important;
+    }
+
+    .big-box .home-info p a {
+        font-size: 16px !important;
     }
 
     .small p a {
         color: white !important;
         position: relative;
         top: 0px;
-        width: 345px;
-        left: 15px;
+        width: 275px;
+        left: 0px;
+        font-size: 16px !important;
     }
 
 

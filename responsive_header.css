@@ -3,6 +3,10 @@
     background-position-y: 0px !important;
 }
 
+.leader-bg .background-image-holder{
+    background-position-y: 70px !important;
+}
+
 
 
 @media (min-width: 993px) {
