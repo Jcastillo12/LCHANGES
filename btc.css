@@ -40,7 +40,6 @@ overflow: visible!important;
     position: relative!important;
 }
 
-
 /*******************     Secondary navigation - Top bar      ***************************/
 html {
     scroll-behavior: smooth;
@@ -3806,8 +3805,9 @@ footer{
 }
 
 .video.paragraph {
-    padding-bottom: 0px;
-    margin-bottom: -10px;
+	padding-bottom: 0px;
+	height: 570px;
+	overflow: hidden;
 }
 
 /************************************************/
