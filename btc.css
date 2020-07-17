@@ -1669,7 +1669,7 @@ article .article__body img  {
     border: 1px solid white;
 }
 
-#edit-submit-sec-filing {
+/*#edit-submit-sec-filing {
 	font-size: 14pt;
 	font-weight: 400 !important;
 	padding-left: 20px !important;
@@ -1678,6 +1678,20 @@ article .article__body img  {
 	padding-top: 0px !important;
 	padding-bottom: 0px !important;
 	height: 45px;
+}*/
+.sec-filings .btn-info {
+	font-weight: 400 !important;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	border-radius: 6px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	height: 45px;
+	background-color: #FF4100 !important;
+	border-color: #FF4100 !important;
+	font-family: "Helvetica Neue";
+	letter-spacing: 0px;
+	font-size: 14pt;
 }
 
 .article__author,
