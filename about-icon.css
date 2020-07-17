@@ -486,6 +486,7 @@
     text-align: left;
     position: relative;
     /*top: 40px;*/
+    top: 55px;
     /*width: 260px;*/
     width: 300px;
     left: 15px;
@@ -500,7 +501,7 @@
     /*text-align: center;*/
     text-align: left;
     position: relative;
-    /*top: 40px;*/
+    top: 40px;
     width: 260px;
     left: 15px;
 }
@@ -514,7 +515,7 @@
     /*text-align: center;*/
     text-align: left;
     position: relative;
-    /*top: 40px;*/
+    top: 40px;
     /*width: 260px;*/
     width: 300px;
     left: 15px;
@@ -576,7 +577,7 @@
     /*text-align: center;*/
     text-align: left;
     position: relative;
-    /*top: 40px;*/
+    top: 40px;
     width: 260px;
     left: 15px;
 }
