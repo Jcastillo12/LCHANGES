@@ -1,4 +1,30 @@
 /*Bars*/
+
+.changecolorpurple{
+    background-color: #702673!important;
+}
+
+.changecolorred{
+    background-color: #BD1521!important;
+}
+
+.changeyellow{
+    background-color: #F9B234!important;
+}
+
+.changeblue{
+    background-color: #283583!important;
+}
+
+.changeorange{
+    background-color: #EA5B0B!important;
+}
+
+.changegray{
+    background-color: #575757!important;
+}
+
+
 .bar-container {
     width: 125px;
     height: 570px;
@@ -20,6 +46,8 @@
     height: inherit;
     width: 36px;
     float:left;
+    z-index: 3;
+    position: relative;
 }
 
 .bar-animated-2 {
@@ -27,6 +55,8 @@
     height: inherit;
     width: 5px;
     float: left;
+    z-index: 3;
+    position: relative;
 }
 
 .bar-animated-3 {
@@ -34,6 +64,8 @@
     height: inherit;
     width: 16px;
     float: left;
+    z-index: 3;
+    position: relative;
 }
 
 .bar-animated-4 {
@@ -41,6 +73,8 @@
     height: inherit;
     width: 17px;
     float: left;
+    z-index: 3;
+    position: relative;
 }
 
 .bar-animated-5 {
@@ -48,6 +82,8 @@
     height: inherit;
     width: 12px;
     float: left;
+    z-index: 3;
+    position: relative;
 }
 
 .bar-animated-6 {
@@ -55,6 +91,8 @@
     height: inherit;
     width: 15px;
     float: left;
+    z-index: 3;
+    position: relative;
 }
 
 .bar-animated-7 {
@@ -62,6 +100,8 @@
     height: inherit;
     width: 23px;
     float: left;
+    z-index: 3;
+    position: relative;
 }
 
 .text-bar-animated {
