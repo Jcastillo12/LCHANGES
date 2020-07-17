@@ -27,6 +27,20 @@
     top: 30px;
 }
 
+
+/* Cambiar y quitar al lanzar*/
+#block-libertyfinalmenu {
+overflow: visible!important;
+}
+#block-libertyfinalmenu:hover {
+    overflow: visible!important;
+}  
+
+#block-libertyfinalmenu .navbar{
+    position: relative!important;
+}
+
+
 /*******************     Secondary navigation - Top bar      ***************************/
 html {
     scroll-behavior: smooth;
@@ -3599,7 +3613,7 @@ footer{
 .path-not-frontpage #main-container {
     margin-top: -10px;
     position: relative;
-    top: 130px;
+    top: 0px;
 }
 
 .path-not-frontpage .bar.pos-fixed {
