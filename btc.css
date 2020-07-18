@@ -3487,6 +3487,15 @@ footer{
         background-repeat: no-repeat;
 }
 
+.link-footer li {
+    float: left;
+    margin-right: 20px;
+    letter-spacing: 0px;
+    color: white;
+    font-size: 14px !important;
+    font-family: 'Helvetica Neue' !important;
+}
+
 .description-footer h4{
     color: rgba(255,255,255) !important;
     font-size: 18px;
