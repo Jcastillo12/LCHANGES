@@ -3572,7 +3572,7 @@ footer{
     font-weight: 300;
 }
 
-.bar .logo {max-height: 93px;top: 3px;}
+.bar .logo {max-height: 93px;top: 6px;}
 
 .pos-fixed .we-mega-menu-li {
     color: #575756!important;
@@ -3609,9 +3609,9 @@ footer{
 } */
 
 
-.bar--absolute.pos-fixed .we-mega-menu-li{
+/* .bar--absolute.pos-fixed .we-mega-menu-li{
     color: #575756!important;
-}
+} */
 
 .bar--absolute .we-mega-menu-ul > .we-mega-menu-li.active > a
 .bar--absolute .we-mega-menu-li.active-trail > a{
@@ -3695,7 +3695,7 @@ footer{
 	font-weight: 400 !important;
 	width: 560px;
 	position: relative;
-	top: 120px;
+	top: 80px;
 	left: 140px;
 	font-size: 30px;
 	letter-spacing: 0px !important;
@@ -3703,9 +3703,21 @@ footer{
 	line-height: 40px;
 }
 
+.special-text {
+    top: 115px !important;
+}
+
+.or-tabs.tabs-brands .switchable {
+    margin-bottom: 0px !important;
+}
+
 #ourprinciples .container {
     padding-left: 0px;
     padding-right: 0px;
+}
+
+.switchable__text a{
+    text-decoration: none;
 }
 
 .imge-conte .barra-interna {

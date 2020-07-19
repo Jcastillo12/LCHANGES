@@ -101,6 +101,7 @@
         left: -20px;
         width: 260px;
         font-size: -18px !important;
+        margin-left: 0px;
     }
 
     .big-box .home-info p {

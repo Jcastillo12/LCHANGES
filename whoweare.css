@@ -15,9 +15,9 @@
 }
 .wwa-switchable .imageblock__content.col-md-6.col-lg-5.col-sm-12.pos-right {
     position: absolute !important;
-    left: auto !important; 
-    top: -90px !important;
-    right: 90px !important;
+    left: auto !important;
+    top: -10px !important;
+    right: 130px !important;
 }
 
 .background-who.wwa-background-who {
@@ -50,7 +50,7 @@ section.wwa-padding {
     margin-top: 15px;
 }
 .wwa-margin-120 {
-    margin-bottom: -120px !important;
+    margin: 0px !important;
 }
 
 .wwa-hidden { 
@@ -100,15 +100,11 @@ section.wwa-padding {
     }
 
     .circle-mobile.wwa-margin-120.wwa-bg-light {
-        transform: translateY(120px);
-        -moz-transform: translateY(120px);
-        -webkit-transform: translateY(120px);
-        margin-top: -65px;
         padding: 53px 0px 0px !important;
     }
     .circle-mobile { display: block !important; }
     .circle-mobile .row.circles-space .col-lg-4, .row.circles-space .col-lg-6 {  padding-bottom: 53px !important; }
-    .brands-companies.wwa-bg-light {  margin-top: -65px !important; }
+    
 }
 @media (max-width: 1199px) {
     .background-who.wwa-background-who .barra-interna {

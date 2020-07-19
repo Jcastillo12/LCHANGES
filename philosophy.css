@@ -1,103 +1,103 @@
 .changeorange{
-    fill: #FF4100; 
+    fill: #FF4100!important; 
     /* transform: scale(1.2);
     transition: all 1s;
     transform-origin: 50% 50%; */
 }
 
 .changeblue {
-    fill: #004f9f;
+    fill: #004f9f!important;
     /* transform: rotate(90deg) scale(1.4);
     transition: all 1s;
     transform-origin: 43% 12%; */
 }
 
 .changered {
-    fill: #D90019;
+    fill: #D90019!important;
     /* transform: scale(1.4);
     transition: all 1s;
     transform-origin: 41% 38%; */
 }
 
 .changegreen {
-    fill: #50A028;
+    fill: #50A028!important;
     /* transform: rotate(90deg) scale(1.4);
     transition: all 1s;
     transform-origin: 58% 39%; */
 }
 
 .changepurple {
-    fill: #831F82;
+    fill: #831F82!important;
     /* transform: scale(1.2);
     transition: all 1s;
     transform-origin: 42% 42%; */
 }
 
 .changegray {
-    fill: #333333;
+    fill: #FF1926!important;
     /* transform: scale(1.4);
     transition: all 1s;
     transform-origin: 55% 42%; */
 }
 
 .changeyellow{
-    fill: #D90019;
+    fill: #D90019!important;
     /* transform: scale(1.4);
     transition: all 1s;
     transform-origin: 55% 42%; */
 }
 
 .changebrown {
-    fill: #FF1926;
+    fill: #FF1926!important;
     /* transform: scale(1.3);
     transition: all 1s;
     transform-origin: 40% 55%; */
 }
 
 .changepink {
-    fill: #FF1926;
+    fill: #FF1926!important;
     /* transform: scale(1.3);
     transition: all 1s;
     transform-origin: 40% 62%; */
 }
 
 .changeorange2{
-    fill: #FF4100;
+    fill: #FF4100!important;
     /* transform: scale(1.3);
     transition: all 1s;
     transform-origin: 40% 62%; */
 }
 
 .changeblue2 {
-    fill: #004f9f;
+    fill: #004f9f!important;
     /* transform: rotate(90deg) scale(1.4);
     transition: all 1s;
     transform-origin: 35% 59%; */
 }
 
 .changered2 {
-    fill: #D90019;
+    fill: #D90019!important;
     /* transform: rotate(90deg) scale(1.4);
     transition: all 1s;
     transform-origin: 53% 90%; */
 }
 
 .changegreen2 {
-    fill: #50A028;
+    fill: #50A028!important;
     /* transform: scale(1.3);
     transition: all 1s;
     transform-origin: 50% 56%; */
 }
 
 .changepurple2 {
-    fill: #831F82;
+    fill: #831F82!important;
     /* transform: scale(1.2);
     transition: all 1s;
     transform-origin: 51% 60%; */
 }
 
 .changegray2 {
-    fill: #831F82;
+    fill: #831F82!important;
     /* transform: scale(1.2);
     transition: all 1s;
     transform-origin: 51% 64%; */
@@ -105,7 +105,7 @@
 
 
 .changeyellow2 {
-    fill: #D90019;
+    fill: #D90019!important;
     /* transform: scale(1.2);
     transition: all 1s;
     transform-origin: 50% 64%; */
