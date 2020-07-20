@@ -4197,6 +4197,9 @@ footer{
         width: 750px !important;
         height: 620px !important;
     }
+    .video-gallery-desktop {
+        display: none !important;
+    }
 }
 /* @media (max-width: 1139px) and (min-width: 768px) {
     .flickity-viewport {
@@ -4494,6 +4497,10 @@ footer{
     .news-links .home-design .person-teaser.small{
         padding-bottom:35%
     }
+    /*Video Gallery*/
+    .video-gallery-desktop {
+        display: none !important;
+    }
 }
 /*********************** 480 *************************/
 @media (max-width: 480px) {
@@ -4505,6 +4512,9 @@ footer{
     }
     .news-links .home-design .person-teaser.small{
         padding-bottom: 35%;
+    }
+    .video-gallery-desktop {
+        display: none !important;
     }
 }
 /*********************** 320 *************************/
@@ -4523,6 +4533,9 @@ footer{
     .cw-regulation .pdf-little-img {
         top: 158px !important;
         float: right;
+    }
+    .video-gallery-desktop {
+        display: none !important;
     }
 }
 /*********************** 768 *************************/
