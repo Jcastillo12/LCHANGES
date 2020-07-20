@@ -3904,6 +3904,9 @@ footer{
     .container {
         width: 1280px;
     }
+    .video-gallery-tablet {
+        display: none !important;
+    }
 }
 
 @media (min-width: 1201px) and (max-width: 1280px) {
@@ -3945,6 +3948,9 @@ footer{
     /*News Boxes*/
     .news-boxes{
         height: 675px !important;
+    }
+    .video-gallery-tablet {
+        display: none !important;
     }
 
 }
