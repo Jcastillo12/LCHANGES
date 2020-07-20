@@ -1,3 +1,37 @@
+
+    /****  toolbar  ****/
+
+    .toolbar-tray-open .paragraph.paragraph--type--paragraph-block.video.paragraph--view-mode--default {
+        padding-top: 0px!important;
+    }
+
+
+    .toolbar-tray-open #block-libertyfinalmenu {
+        overflow: visible!important;
+        top: -12px;
+        right: 0px;
+    }
+    .toolbar-tray-open #block-libertyfinalmenu:hover {
+        overflow: visible!important;
+    }  
+
+    .toolbar-tray-open #block-libertyfinalmenu .navbar {
+        position: relative;
+        right: 2%;
+    }
+
+    .toolbar-tray-open.path-frontpage .bar.pos-fixed {
+        top: 80px;
+    }
+
+    .toolbar-tray-open.path-not-frontpage .bar.pos-fixed{
+        position: initial;
+    }
+
+   
+
+    /****  end toolbar  ****/
+
 @media (min-width: 1310px) {
     .path-not-frontpage footer{
         padding-top: 10mm!important;

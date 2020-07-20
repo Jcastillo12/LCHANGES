@@ -353,7 +353,7 @@ ul.menu-horizontal {
         content: '|';
         position: relative;
         right: -14px;
-        top: 35%;
+        top: 18px;
         margin-top: -.3125rem;
         width: .6875rem;
         height: .6875rem;
@@ -364,7 +364,7 @@ ul.menu-horizontal {
 }
 
 .we-mega-menu-ul > .we-mega-menu-li:nth-child(2):after  {
-        content: '|';
+    content: '|';
     position: relative;
     right: -17px;
     top: 36%;
@@ -656,6 +656,8 @@ html{
 /*******************     HOME      ***************************/
 body {
     color: #333;
+    font-family: 'Helvetica Neue'!important;
+    
 }
 h1,
 h2,
@@ -3496,6 +3498,10 @@ footer{
     font-family: 'Helvetica Neue' !important;
 }
 
+.col-sm-6.col-md-3.col-xs-6.link-footer {
+    display: none;
+}
+
 .description-footer h4{
     color: rgba(255,255,255) !important;
     font-size: 18px;
@@ -3648,6 +3654,35 @@ footer{
     position: relative;
     top: 0px;
 }
+
+
+/* Login page*/
+#main-container .highlighted {
+    margin-top: 150px;
+}
+
+.region.region-content .tabs--primary.nav.nav-tabs .is-active {
+    border: none !important;
+    font-size: 18px;
+}
+
+.region.region-content .tabs--primary.nav.nav-tabs li a {
+    font-size: 18px;
+    color: black;
+}
+
+#user-login-form .form-required::after {
+    display: none;
+}
+
+#user-login-form .control-label.js-form-required.form-required.visually-hidden {
+    overflow: visible;
+    position: relative !important;
+    font-size: 18px;
+}
+
+
+
 
 .path-not-frontpage .bar.pos-fixed {
     background: rgb(255,255,255);
@@ -4138,6 +4173,9 @@ footer{
     #footer-custom .postscript_first{
         padding-left:0px;
     }
+
+
+
 
 
     /*Homepage*/
