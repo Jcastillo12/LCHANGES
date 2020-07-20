@@ -32,16 +32,171 @@
         background-position-y: 90px !important;
     }
 
+    .alerts-padding,.alerts-news{
+        padding-bottom: 0px;
+    }
+    .alerts-news{
+        margin-bottom: -50px;
+    }
+
+    #alerts {
+        height: 660px;
+    }
+
     
 .home-barritas {
     position: relative;
 }
 
-.home-size p {
-    height: 820px;
+
+
+/*Philosophy Responsive*/
+
+.ph-1 {
+    font-size: 34pt;
+    color: #FF4100;
+    line-height: 14mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 300 !important;
 }
 
+.ph-2 {
+    color: #831F82;
+    font-size: 34pt;
+    line-height: 14mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 300 !important;
+}
+
+.ph-3 {
+    font-size: 34pt;
+    color: #004F9F;
+    line-height: 14mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 300 !important;
+}
+
+.ph-4 {
+    font-size: 34pt;
+    color: #50A028;
+    line-height: 14mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 300 !important;
+}
+
+.ph-5 {
+    font-size: 34pt;
+    color: #D90019;
+    line-height: 14mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 300 !important;
+}
+
+.ph-6 {
+    font-size: 34pt;
+    color: #FF4100;
+    line-height: 14mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 300 !important;
+}
+
+.ph-7 {
+    color: #831F82;
+    font-size: 34pt;
+    line-height: 14mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 300 !important;
+}
+
+.ph-8 {
+    font-size: 34pt;
+    color: #004F9F;
+    line-height: 14mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 300 !important;
+}
+
+.ph-9 {
+    font-size: 34pt;
+    color: #50A028;
+    line-height: 14mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 300 !important;
+}
+
+.ph-10 {
+    font-size: 34pt;
+    color: #FF4100;
+    line-height: 14mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 300 !important;
+}
+
+.ph-11{
+    color: #831F82;
+    font-size: 34pt;
+    line-height: 14mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 300 !important;
+}
+
+.ph-12{
+    font-size: 34pt;
+    color: #004F9F;
+    line-height: 14mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 300 !important; 
+}
+
+.ph-13{
+    font-size: 34pt;
+    color: #D90019;
+    line-height: 14mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 300 !important;
+}
+
+.ph-14{
+    font-size: 34pt;
+    color: #50A028;
+    line-height: 14mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 300 !important;
+}
+
+.ph-15{
+    font-size: 34pt;
+    color: #FF4100;
+    line-height: 14mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 300 !important;
+}
+
+.ph-16{
+    font-size: 34pt;
+    color: #004F9F;
+    line-height: 14mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 300 !important; 
+}
+
+
+.philosophy-responsive p {
+    padding: 14px;
+}
+
+
+
+
+
     /****  end toolbar  ****/
+
+@media (min-width: 1500px) {
+    .home-size p {
+        height: 820px;
+    }
+}
+
 
 @media (min-width: 1310px) {
     .path-not-frontpage footer{
@@ -146,6 +301,14 @@
 }
 
 @media (max-width: 768px){
+    .special-text {
+        top: 0px !important;
+    }
+    .philosophy-responsive p {
+        padding: 14px;
+        font-size: 20pt!important;
+        line-height: 8mm;
+    }
     .timeline-responsive img {
         width: 300px;
     }

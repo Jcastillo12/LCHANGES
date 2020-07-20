@@ -515,11 +515,11 @@
     .page-node-type-full-page .article__body {
         width: 510px;
         padding-right: 15px;
-        padding-top: 16mm;
+        padding-top: 24mm;
     }
 
     .page-node-type-full-page .article__body h2 {
-        font-size: 28pt;
+        font-size: 26pt;
         color: #fff !important;
         letter-spacing: 0px !important;
         font-family: "Helvetica Neue" !important;
@@ -842,7 +842,11 @@
 
     .page-node-type-full-page .article__body h2 {
         line-height: 43px;
+        font-size: 21pt;
+        padding-top: 18px;
     }
+
+    
 
 }
 
