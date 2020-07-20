@@ -28,7 +28,18 @@
         position: initial;
     }
 
-   
+    .leader-bg .background-image-holder {
+        background-position-y: 90px !important;
+    }
+
+    
+.home-barritas {
+    position: relative;
+}
+
+.home-size p {
+    height: 820px;
+}
 
     /****  end toolbar  ****/
 
@@ -49,9 +60,38 @@
         margin-top: -120px;
     }
 }
+@media (min-width: 993px){
+    
+    .pledge-responsive,
+    .philosophy-responsive{
+        display: none;
+    }
 
+}
 
 @media (max-width: 992px){
+   
+    .pledge-desktop,
+    .philosophy-desktop{
+        display: none;
+    }
+
+    .pledge-responsive,
+    .philosophy-responsive{
+        display: block;
+    }
+
+    .pledge-responsive {
+        padding-bottom: 0px;
+    }
+
+    .pledge-responsive p{
+        font-size: 16pt;
+        color: #4B4C4C;
+        line-height: 8mm;
+        font-family: 'Helvetica Neue' !important;
+        font-weight: 400 !important;
+    }
 
     .path-not-frontpage footer{
         padding-top: 10mm!important;
@@ -106,6 +146,18 @@
 }
 
 @media (max-width: 768px){
+    .timeline-responsive img {
+        width: 300px;
+    }
+
+    .timeline-responsive .col-sm-4{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .timeline-responsive .row {
+        padding-bottom: 0px;
+    }
 
     .path-not-frontpage footer{
         padding-top: 10mm!important;
