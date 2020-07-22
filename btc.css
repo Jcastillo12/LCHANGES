@@ -3959,7 +3959,7 @@ footer{
     }
     .vid-gallery .all-page-modals .modal-content {
         width: 100% !important;
-        height: 75% !important;
+        height: 50% !important;
     }
 }
 
@@ -4263,7 +4263,7 @@ footer{
         height: 550px !important;
     }
     /*Video Gallery*/
-    .all-page-modals .modal-content {
+    .vid-gallery .all-page-modals .modal-content {
         /*width: 750px !important;
         height: 620px !important;*/
         width: 100% !important;
@@ -4580,7 +4580,7 @@ footer{
         display: none !important;
     }
 
-    .all-page-modals .modal-content {
+    .vid-gallery .all-page-modals .modal-content {
         /*width: 750px !important;
         height: 620px !important;*/
         width: 100% !important;
