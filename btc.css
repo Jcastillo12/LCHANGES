@@ -4256,8 +4256,11 @@ footer{
     }
     /*Video Gallery*/
     .all-page-modals .modal-content {
-        width: 750px !important;
-        height: 620px !important;
+        /*width: 750px !important;
+        height: 620px !important;*/
+        width: 100% !important;
+        height: 50% !important;
+    }
     }
     .video-gallery-desktop {
         display: none !important;
@@ -4568,6 +4571,13 @@ footer{
     }
     .video-gallery-tablet{
         display: none !important;
+    }
+
+    .all-page-modals .modal-content {
+        /*width: 750px !important;
+        height: 620px !important;*/
+        width: 100% !important;
+        height: 50% !important;
     }
 }
 /*********************** 480 *************************/
