@@ -28,12 +28,18 @@
         position: initial;
     }
 
+
+    .toolbar-tray-open.path-not-frontpage .secondary-slider.cover.imagebg .background-image-holder {
+        background-position-y: 0px !important;
+    }
+
     .leader-bg .background-image-holder {
         background-position-y: 90px !important;
     }
 
     .alerts-padding,.alerts-news{
         padding-bottom: 0px;
+        padding-top: 30px;
     }
     .alerts-news{
         margin-bottom: -50px;
