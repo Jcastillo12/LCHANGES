@@ -46,7 +46,6 @@ global-styling:
     js/scripts.js: {}
     js/bar-animation-home.js: {}
     js/circle-animation.js: {}
-    js/liberty-map.js: {}
     js/philosophy.js: {}
     js/pledge.js: {}
     js/timelinenew.js: {}
