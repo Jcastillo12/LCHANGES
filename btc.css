@@ -1839,7 +1839,7 @@ article .article__body img  {
 }
 
 .accordion li .accordion__title {
-	padding-left: 0px !important;
+	padding-left: 15px !important;
 }
 
 .link-about,
