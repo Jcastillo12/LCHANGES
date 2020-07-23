@@ -33,6 +33,11 @@
         background-position-y: 0px !important;
     }
 
+
+    .toolbar-tray-open.path-not-frontpage .desktop-banner-image {
+        margin-top: 0px;
+    }
+
     .leader-bg .background-image-holder {
         background-position-y: 90px !important;
     }
@@ -47,6 +52,15 @@
 
     #alerts {
         height: 660px;
+    }
+
+    .desktop-banner-image .container {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .desktop-banner-image {
+        padding: 0;
     }
 
     
@@ -306,7 +320,39 @@
 
 }
 
+@media (min-width: 769px){
+
+    .mobile-banner-image{
+        display: none;
+    }
+    
+
+    .desktop-banner-image{
+        display: block;
+        margin-top: 130px;
+    }
+
+}
+
 @media (max-width: 768px){
+
+    .desktop-banner-image{
+        display: none;
+    }
+
+    .mobile-banner-image{
+        display: block;
+    }
+
+    .mobile-banner-image .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .mobile-banner-image {
+        padding: 0;
+    }
+
     .special-text {
         top: 0px !important;
     }

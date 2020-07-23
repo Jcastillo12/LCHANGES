@@ -9,7 +9,6 @@ global-styling:
       css/stack-interface.css: {}
       css/theme.css: {}
       css/custom.css: {}
-      css/local.css: {}
       css/btc.css: {}
       css/interactivemap.css: {}
       css/circlebtc2.css: {}
