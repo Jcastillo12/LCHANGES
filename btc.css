@@ -1837,7 +1837,7 @@ article .article__body img  {
 .accordion .accordion__title::before {
     float: right;
 }
-
+/*Padding Share Information*/
 .accordion li .accordion__title {
 	padding-left: 15px !important;
 }
