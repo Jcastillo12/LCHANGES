@@ -1,3 +1,168 @@
+.pd-3-4{
+    padding-bottom: 3.429em !important;
+}
 .hover-boxes {
     position: relative;
+}
+.off-screen.off-screen--from-left, .off-screen.off-screen--from-right, .off-screen.off-screen--fade{
+    transition: all 0.4s ease-out;
+}
+.off-screen {
+    /* -ms-transform: translate(0,0); */
+    /* -webkit-transform: translate(0,0); */
+    transform: translate(0,0);
+    opacity: 1;
+}
+.hover-boxes .hover-box {
+    width: 50%;
+    height: 375px;
+    float: left;
+    background-size: cover;
+    background-position: center;
+}
+
+.hover-boxes .hover-box:nth-child(1) .hover-box__overlay-content {
+    border-radius: 0 50px 50px 50px;
+}
+.hover-boxes .hover-box:nth-child(2) .hover-box__overlay-content{
+    border-radius: 50px 0 50px 50px;
+}
+.hover-boxes .hover-box:nth-child(3) .hover-box__overlay-content{
+    border-radius: 50px 50px 50px 0;
+}
+.hover-boxes .hover-box:nth-child(4) .hover-box__overlay-content{
+    border-radius: 50px 50px 0 50px;
+}
+.hover-boxes .hover-box__overlay-content {
+    opacity: 0;
+    background-color: #aaa;
+    padding: 45px 35px;
+    max-width: 440px;
+    z-index: 99;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    color: #fff;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.hover-boxes .hover-box .overlay-content__title {
+    font-size: 16pt;
+    line-height: 8mm;
+    color: #fff;
+    font-family: 'Helvetica Neue' !important;
+    margin-bottom: 15px;
+}
+p {
+    font-size: 1.3125rem;
+    line-height: 1.42857;
+    margin-bottom: 15px;
+}
+.hover-boxes .hover-box__overlay {
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    -webkit-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+    background: -webkit-linear-gradient(133.05deg,transparent 0%,transparent 60%,#000000 100%);
+    background: -o-linear-gradient(133.05deg,transparent 0%,transparent 60%,#000000 100%);
+    background: linear-gradient(316.95deg,transparent 0%,transparent 60%,#000000 100%);
+    position: relative;
+}
+.hover-boxes .hover-box:nth-child(1) .hover-box__title {
+    top: 35px;
+    left: 40px;
+}
+.hover-boxes .hover-box:nth-child(4) .hover-box__title{
+    bottom: 35px;
+    right: 40px;
+}
+.hover-boxes .hover-box:nth-child(2) .hover-box__title{
+    top: 35px;
+    right: 40px;
+}
+.hover-boxes .hover-box__title {
+    color: #fff;
+    font-size: 2rem;
+    position: absolute;
+}
+.hover-boxes .hover-box:nth-child(1):after {
+    top: 0;
+    left: 0;
+}
+.hover-boxes .hover-box:after {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 50%;
+    z-index: 99;
+}
+.hover-boxes .hover-box__overlay:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.hover-boxes .hover-box:hover .hover-box__overlay-content, .hover-boxes .hover-box:focus .hover-box__overlay-content{
+    opacity: 1;
+    -webkit-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+.hover-boxes .hover-box:hover .hover-box__overlay:before, .hover-boxes .hover-box:focus .hover-box__overlay:before{
+    opacity: 0;
+}
+.hover-boxes .hover-box:hover, .hover-boxes .hover-box:focus{
+    outline: none;
+}
+.hover-boxes:hover .hover-box__overlay:before, .hover-boxes:focus .hover-box__overlay:before{
+    opacity: .6;
+}
+.hover-boxes .hover-box:nth-child(3) .hover-box__title{
+    bottom: 35px;
+    left: 40px;
+}
+.hover-boxes .hover-box:nth-child(2) .hover-box__overlay{
+    transform: scale(-1,1);
+}
+.hover-boxes .hover-box:nth-child(3) .hover-box__overlay{
+    transform: scale(1,-1);
+}
+.hover-boxes .hover-box:nth-child(4) .hover-box__overlay{
+    transform: scale(-1,-1);
+}
+
+
+
+@media (max-width: 768px){
+   
+    .hover-boxes .hover-box {
+        width: 100%;
+    }
+
+    .hover-boxes .hover-box:nth-child(2) .hover-box__title {
+        top: 405px;
+        right: 30px;
+    }
+
+    .hover-boxes .hover-box:nth-child(3) .hover-box__title {
+        bottom: 685px;
+        left: 40px;
+    }
+
+    .hover-boxes .hover-box__overlay-content {
+        width: 100%;
+    }
+
+
 }
