@@ -3944,6 +3944,21 @@ footer{
     color: #fff;
 }
 
+/******************* Chris Aditional CSS*************************/
+
+.tabs-brands .tabs {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.tabs-brands .tabs li {
+    width: 8rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*Responsive*/
 
 
@@ -4560,6 +4575,8 @@ footer{
     /*Share Information*/
     .tabs--Horizontal .tabs {
         width: 100%;
+        display: inline-block;
+        flex-wrap: nowrap;
     }
     /*Regulation G Information*/
     .regulation-g-tabs .tab__content {
