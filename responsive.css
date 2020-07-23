@@ -64,9 +64,13 @@
     }
 
     
-.home-barritas {
-    position: relative;
-}
+    .home-barritas {
+        position: relative;
+    }
+
+    #my_xss_magic {
+        width: 210px!important;
+    }
 
 
 
@@ -312,13 +316,35 @@
 }
 
 
-@media (max-width: 991px) and  (min-width: 777px){
+@media (max-width: 991px) and (min-width: 777px){
 
     .path-frontpage footer {
         padding-top: 10mm!important;
     }
 
 }
+
+@media (max-width: 991px) and (min-width: 768px){
+    .region-we-mega-menu {
+        top: 79px;
+    }
+    
+    #menu1 {
+        height: 160px;
+    }
+    
+    #my_xss_magic {
+        top: 6px!important;
+        right: 22px!important;
+    }
+    .news-grid .feature__body.boxed.boxed--border a {
+        line-height: 0px;
+        font-size: 16px;
+    }
+
+
+}
+
 
 @media (min-width: 769px){
 
@@ -335,6 +361,11 @@
 }
 
 @media (max-width: 768px){
+
+    #my_xss_magic {
+        top: 0px!important;
+        right: 15px!important;
+    }
 
     .desktop-banner-image{
         display: none;
@@ -395,6 +426,16 @@
 
     .boxes-company-news .news-boxes {
         height: auto !important;
+    }
+
+}
+
+@media (max-width: 378px){
+    #my_xss_magic {
+        width: 170px!important;
+        height: 20px !important;
+        right: 18px!important;
+        top:0px!important;
     }
 
 }
