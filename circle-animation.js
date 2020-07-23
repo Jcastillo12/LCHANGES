@@ -1,7 +1,7 @@
 jQuery(document).ready(function() {
 
    //Hover Circle 1
-   $("#circle-internal-one").hover(function(){
+   $("#clickicon1").hover(function(){
     //Add classes
     $('#circle-internal-one').addClass( "orange" );
     $('#circle-external-one_1_').addClass( "effectCircle1" );
@@ -21,7 +21,7 @@ jQuery(document).ready(function() {
   });
 
   //Hover Circle 2
-  $("#circle-internal-two").hover(function(){
+  $("#clickicon2").hover(function(){
         //Add classes
         $('#circle-internal-two').addClass( "red" );
         $('#circle-external-two').addClass( "effectCircle2" );
@@ -41,7 +41,7 @@ jQuery(document).ready(function() {
   });
 
   //Hover Circle 3
-  $("#circle-internal-three").hover(function(){
+  $("#clickicon3").hover(function(){
 
         //Add classes
         $('#circle-internal-three').addClass( "reddish" );
@@ -63,7 +63,7 @@ jQuery(document).ready(function() {
   });
 
 //Hover Circle 4
-$("#circle-internal-four").hover(function(){
+$("#clickicon4").hover(function(){
 
     //Add classes
     $('#circle-internal-four').addClass( "black" );
@@ -86,7 +86,7 @@ $("#circle-internal-four").hover(function(){
 });
 
 //Hover Circle 5
-$("#circle-internal-five").hover(function(){
+$("#clickicon5").hover(function(){
 
     //Add classes
     $('#circle-internal-five').addClass( "purple" );
