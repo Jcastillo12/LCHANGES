@@ -1545,6 +1545,10 @@ article .article__body img  {
     color: #929292;
 }
 
+.paragraph.paragraph--type--paragraph-block.about-lla.about-lla2.ourworkplace.no-padding-top.paragraph--view-mode--default {
+    padding-top: 0px !important;
+}
+
 .content-tab-sidebar a {
     width: 70%;
     padding-bottom: 20px;
