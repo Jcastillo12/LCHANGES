@@ -833,8 +833,9 @@ label a {
 }
 
 .btn-home-news:hover {
-        color: #fff !important;
-        background: #ea5b0b !important;
+    color: #fff !important;
+    background: #808080 !important;
+    border: none !important;
 }
 
 .news-facebook {
@@ -1789,6 +1790,10 @@ article .article__body img  {
     padding-bottom: 0px;
 }
 
+.no-padding-top{
+    padding-top: 0px;
+}
+
 .news-grid .description-internal-page.dip-news-grid {
         display: none;
 }
@@ -1944,19 +1949,19 @@ article .article__body img  {
 .text-bar-1.animation1 {
     background-color: #702673;
 }
-.guidelines-tab .tabs-container.tabs--vertical .tabs {
-    width: 30%;
+.guidelines-tab.tabs-container.tabs--vertical .tabs {
+    width: 32%;
     float: left;
 }
 
-.guidelines-tab .tabs-container.tabs--vertical .tabs-content {
+.guidelines-tab.tabs-container.tabs--vertical .tabs-content {
     width: 65%;
     float: right;
     margin-top: 0;
 }
 
 
-.guidelines-tab  .tabs-content {
+.guidelines-tab .tabs-content {
     height: 830px;
     overflow-y: scroll;
     width: 100%;
@@ -1964,31 +1969,52 @@ article .article__body img  {
     padding: 0px 20px;
 }
 
+.short-container.guidelines-tab .tabs-content {
+    height: 560px;
+}
+
 .guidelines-tab .tabs {
     border-left: none;
     border-top: none;
     border-bottom: none!important;
+    border-radius: 0px;
+    border-right: 3px solid #E8E8E8;
 }
 
 .guidelines-tab .tabs li {
-    padding-left: 0px;
+    padding-left: 20px;
+    border-bottom: none !important;
 }
 
-.guidelines-tab .tabs li {
-    border-bottom: none;
-}
 
 .guidelines-tab .tabs li div {
     font-size: 16pt !important;
-    line-height: 6mm;
+    line-height: 8mm;
     font-family: 'Helvetica Neue' !important;
     font-weight: 400 !important;
     color:#4B4C4C;
 }
 
 .guidelines-tab .tabs li.active div {
-    color: #ff4100 !important;
+    color: white !important;
 }
+
+.guidelines-tab{
+    padding-bottom: 70px;
+}
+
+.guidelines-tab .tabs li:not(.active) {
+    opacity: 1;
+}
+.guidelines-tab .tabs .active {
+    background-color: #ff4100;
+}
+
+.guidelines-tab .tabs .tab__title{
+color: #4B4C4C !important;
+}
+
+
 
 
 .text-bar-2.animation2 {
@@ -2818,6 +2844,12 @@ section.bg--secondary:not(.imagebg) + section:not(.imagebg):not([class*="bg-"]) 
     font-family: "Helvetica Neue" !important;
     line-height: 40px;
     text-transform: uppercase !important;
+ }
+
+ .title-inside-tabs a{
+    color: #ff4100 !important;
+    font-family: "Helvetica Neue" !important;
+    font-weight: 400 !important;
  }
 
  .special-spacing-tabs{
