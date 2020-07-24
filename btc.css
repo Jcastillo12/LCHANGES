@@ -957,7 +957,7 @@ section:not(.image--light) .slider[data-paging="true"] .flickity-page-dots .dot 
 .slider[data-paging="true"]:not(section) .flickity-page-dots {
     bottom: -3.8em !important;
 }
-.btn--primary:hover {
+/*.btn--primary:hover {
         background: #FF4100 !important;
         border: 1px solid #FF4100 !important;
 }
@@ -973,9 +973,32 @@ section:not(.image--light) .slider[data-paging="true"] .flickity-page-dots .dot 
     font-weight: 500 !important;
     font-size: 16px !important;
     letter-spacing: 0px;
+}*/
+
+/*Boton para Articulos de News*/
+
+.btn.btn--primary {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    background-color: #FF4100 !important;
+    border-color: #FF4100 !important;
+    border-radius: 6px !important;
+    float: left !important;
 }
 
+.btn.btn--primary:hover {
+    color: #fff !important;
+    background: #808080 !important;
+    border: none !important;
+}
 
+.btn.btn--primary .btn__text {
+    font-size: 16pt !important;
+    color: #fff !important;
+    line-height: 8mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+}
 
 .field .btn.btn--primary {
         padding:5px 10px;
@@ -1681,7 +1704,12 @@ article .article__body img  {
 	padding-bottom: 0px !important;
 	height: 45px;
 }*/
-.sec-filings .btn-info {
+.sec-filings .form-group .btn-info:hover {
+	color: #fff !important;
+	background: #808080 !important;
+	border: none !important;
+}
+.sec-filings .form-group .btn-info {
 	font-weight: 400 !important;
 	padding-left: 20px !important;
 	padding-right: 20px !important;
@@ -1758,7 +1786,19 @@ article .article__body img  {
 }
 
 .pagination.js-pager__items .active a:hover {
-        color: #fff !important;
+    color: #fff !important;
+    background: #808080 !important;
+    border-color: #808080 !important;
+    transform: none !important;
+    -webkit-transform: none !important;
+}
+
+.pagination.js-pager__items a:hover {
+    color: #fff !important;
+    background: #808080 !important;
+    border-color: #808080 !important;
+    transform: none !important;
+    -webkit-transform: none !important;
 }
 
 .news-grid .description-internal-page {
@@ -1772,9 +1812,12 @@ article .article__body img  {
 }
 
 .view-news-grid .pagination > .active > a {
-        background-color: #FF4100 !important;
-        border-color: #FF4100 !important;
-        color: #fff !important;
+    background-color: #FF4100 !important;
+    border-color: #FF4100 !important;
+    color: #fff !important;
+    font-weight: 400 !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
 }
 
 .imagebg-content-article {
@@ -2124,7 +2167,7 @@ article .article__body img  {
 }
 
 .bg-image-brand {
-    background-image: url('http://ec2-18-205-16-231.compute-1.amazonaws.com/sites/default/files/images/blogliberty9_0.jpg');
+    background-image: url('https://lla.com/sites/default/files/images/blogliberty9_0.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
