@@ -322,6 +322,12 @@
         padding-top: 10mm!important;
     }
 
+    .navbar-we-mega-menu.navbar .nav .open > a, .navbar-we-mega-menu.navbar .nav .open > a:focus, .navbar-we-mega-menu.navbar .nav .open > a:hover {
+        color: white !important;
+        background-color: #808080!important;
+        padding-left: 10px !important;
+    }
+
 }
 
 @media (max-width: 991px) and (min-width: 768px){
@@ -361,6 +367,13 @@
 }
 
 @media (max-width: 768px){
+    .guidelines-tab.tabs-container.tabs--vertical .tabs {
+        width: 100%!important;
+    }
+    
+    .guidelines-tab.tabs-container.tabs--vertical .tabs-content {
+        width: 100%!important;
+    }
 
     #my_xss_magic {
         top: 0px!important;
