@@ -957,7 +957,7 @@ section:not(.image--light) .slider[data-paging="true"] .flickity-page-dots .dot 
 .slider[data-paging="true"]:not(section) .flickity-page-dots {
     bottom: -3.8em !important;
 }
-.btn--primary:hover {
+/*.btn--primary:hover {
         background: #FF4100 !important;
         border: 1px solid #FF4100 !important;
 }
@@ -973,9 +973,32 @@ section:not(.image--light) .slider[data-paging="true"] .flickity-page-dots .dot 
     font-weight: 500 !important;
     font-size: 16px !important;
     letter-spacing: 0px;
+}*/
+
+/*Boton para Articulos de News*/
+
+.btn.btn--primary {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    background-color: #FF4100 !important;
+    border-color: #FF4100 !important;
+    border-radius: 6px !important;
+    float: left !important;
 }
 
+.btn.btn--primary:hover {
+    color: #fff !important;
+    background: #808080 !important;
+    border: none !important;
+}
 
+.btn.btn--primary .btn__text {
+    font-size: 16pt !important;
+    color: #fff !important;
+    line-height: 8mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+}
 
 .field .btn.btn--primary {
         padding:5px 10px;
