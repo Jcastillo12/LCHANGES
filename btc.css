@@ -3964,6 +3964,10 @@ footer{
     justify-content: center;
 }
 
+#block-columna1 i.fa.fa-exclamation-triangle {
+    padding-right: 5px;
+}
+
 /*Responsive*/
 
 
@@ -3980,6 +3984,15 @@ footer{
     .vid-gallery .all-page-modals .modal-content {
         width: 100% !important;
         height: 50% !important;
+    }
+}
+
+@media (min-width: 1199px) {
+    .tabs-brands .tabs li {
+        width: 20%;
+    }
+    .tabs li:not(:last-child) {
+        border-bottom: 1px solid #ECECEC;
     }
 }
 
@@ -4582,6 +4595,13 @@ footer{
         width: 100%;
         display: inline-block;
         flex-wrap: nowrap;
+    }
+    .tabs-brands .tabs li {
+        width: 100%;
+        height: auto;
+        display: block;
+        align-items: center;
+        justify-content: center;
     }
     /*Regulation G Information*/
     .regulation-g-tabs .tab__content {
