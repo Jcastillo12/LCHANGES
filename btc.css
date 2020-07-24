@@ -3987,7 +3987,7 @@ footer{
     }
 }
 
-@media (min-width: 1199px) {
+@media (max-width: 1199px) {
     .tabs-brands .tabs li {
         width: 20%;
     }
