@@ -1681,7 +1681,12 @@ article .article__body img  {
 	padding-bottom: 0px !important;
 	height: 45px;
 }*/
-.sec-filings .btn-info {
+.sec-filings .form-group .btn-info:hover {
+	color: #fff !important;
+	background: #808080 !important;
+	border: none !important;
+}
+.sec-filings .form-group .btn-info {
 	font-weight: 400 !important;
 	padding-left: 20px !important;
 	padding-right: 20px !important;
