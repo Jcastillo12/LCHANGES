@@ -21,6 +21,265 @@
     background-position-x: 42px;
 }
 
+.circle1.about1 {
+    background-image: url('/sites/default/files/2020-07/about-icon1.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 77px 102px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-x: center;
+    background-position-x: 47px;
+}
+
+
+.circle2.about2 {
+    background-image: url('/sites/default/files/2020-07/about-icon2.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 83px 100px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-x: center;
+    background-position-x: 43px;
+}
+
+.circle3.about3 {
+    background-image: url('/sites/default/files/2020-07/about-icon3.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 90px 100px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-x: center;
+    background-position-x: 52px;
+}
+
+.circle4.about4 {
+    background-image: url('/sites/default/files/2020-07/about-icon4.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100px 100px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-x: center;
+    background-position-x: 36px;
+}
+
+.circle5.about5 {
+    background-image: url('/sites/default/files/2020-07/about-icon5.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 92px 102px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-x: center;
+    background-position-x: 45px;
+}
+
+
+.circle1.culture1 {
+    background-image: url('/sites/default/files/2020-07/culture-icon1.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 85px 98px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: 33px;
+    background-position-x: center;
+    background-position-x: 43px;
+}
+
+.circle2.culture2 {
+    background-image: url('/sites/default/files/2020-07/culture-icon2.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100px 100px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: 30px;
+    background-position-x: center;
+    background-position-x: 36px;
+}
+
+.circle3.culture3 {
+    background-image: url('/sites/default/files/2020-07/culture-icon3.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 102px 102px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-x: center;
+    background-position-x: 34px;
+}
+
+.circle4.culture4 {
+    background-image: url('/sites/default/files/2020-07/culture-icon4.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 102px 102px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-x: center;
+    background-position-x: 34px;
+}
+
+.circle5.culture5 {
+    background-image: url('/sites/default/files/2020-07/culture-icon5.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 120px 102px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: 32px;
+    background-position-x: center;
+    background-position-x: 26px;
+}
+
+.circle1.investors1 {
+    background-image: url('/sites/default/files/2020-07/investor-icon1.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 90px 90px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: 32px;
+    background-position-x: center;
+    background-position-x: 42px;
+}
+
+.circle2.investors2 {
+    background-image: url('/sites/default/files/2020-07/investor-icon2.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100px 90px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: 33px;
+    background-position-x: center;
+    background-position-x: 33px;
+}
+
+.circle3.investors3 {
+    background-image: url('/sites/default/files/2020-07/investor-icon3.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 80px 92px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: 36px;
+    background-position-x: center;
+    background-position-x: 44px;
+}
+
+.circle4.investors4 {
+    background-image: url('/sites/default/files/2020-07/investor-icon4.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 90px 92px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: 35px;
+    background-position-x: center;
+    background-position-x: 40px;
+}
+
+.circle5.investors5 {
+    background-image: url('/sites/default/files/2020-07/investor-icon5.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100px 102px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: 32px;
+    background-position-x: center;
+    background-position-x: 36px;
+}
+
+.circle1.newsicon1 {
+    background-image: url('/sites/default/files/2020-07/news-icon1.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100px 102px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: 32px;
+    background-position-x: center;
+    background-position-x: 36px;
+}
+.circle2.newsicon2 {
+    background-image: url('/sites/default/files/2020-07/news-icon2.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100px 102px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: 32px;
+    background-position-x: center;
+    background-position-x: 36px;
+}
+.circle3.newsicon3 {
+    background-image: url('/sites/default/files/2020-07/news-icon3.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 90px 82px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: 38px;
+    background-position-x: center;
+    background-position-x: 46px;
+}
+.circle4.newsicon4 {
+    background-image: url('/sites/default/files/2020-07/news-icon4.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100px 102px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: 32px;
+    background-position-x: center;
+    background-position-x: 36px;
+}
+.circle5.newsicon5 {
+    background-image: url('/sites/default/files/2020-07/news-icon5.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 132px 102px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: 32px;
+    background-position-x: center;
+    background-position-x: 19px;
+}
+
+
 .circle1:hover {
     background-color: #EA5B0B;
 }

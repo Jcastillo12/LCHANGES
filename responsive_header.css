@@ -1,9 +1,7 @@
 
-  .secondary-slider.cover.imagebg .background-image-holder {
-    background-position-y: 80px !important;
+.toolbar-tray-open.path-not-frontpage  .secondary-slider.cover.imagebg .background-image-holder {
+    background-position-y: 0px !important;
 }
-
-
 
 @media (min-width: 993px) {
     #block-libertyfinalmenu .navbar {
@@ -25,9 +23,6 @@
 @media (max-width: 991px) and (min-width: 768px) {
     .path-not-frontpage #main-container {
         margin-top: 0px;
-    }
-    .secondary-slider.cover.imagebg .background-image-holder {
-        background-position-y: 0px !important;
     }
     .path-not-frontpage .bar.bar--sm {
         background: white;
