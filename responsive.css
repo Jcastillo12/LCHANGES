@@ -210,7 +210,7 @@
 }
 
 #my_xss_magic {
-    right: 420px;
+    right: 420px !important;
 }
 
     /****  end toolbar  ****/
