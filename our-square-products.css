@@ -93,6 +93,9 @@ p {
     top: 0;
     left: 0;
 }
+.hover-boxes .hover-box:nth-child(2):after {
+    top: 0;
+}
 .hover-boxes .hover-box:after {
     position: absolute;
     content: '';
