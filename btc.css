@@ -3773,6 +3773,7 @@ footer{
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 1%)!important;
     position: fixed;
+    z-index: 999;
 }
 
 .path-not-frontpage #menu1 :not([pos-fixed]) .logo.logo-dark{
@@ -3973,6 +3974,7 @@ footer{
 #myVideo {
     height: auto;
     max-width: 100%;
+    width: 100%;
 }
 
 .video.paragraph {
