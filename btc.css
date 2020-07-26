@@ -4060,7 +4060,7 @@ footer{
 }
 
 .news-home .imageblock__content ._2049 {
-    background-image: url(https://lla.com/sites/default/files/images/ceo_img.jpg);
+    background-image: url(/sites/default/files/2020-07/ceo_img.jpg) !important;
 }
 
 /*Responsive*/
