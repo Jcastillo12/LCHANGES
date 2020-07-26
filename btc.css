@@ -833,8 +833,9 @@ label a {
 }
 
 .btn-home-news:hover {
-        color: #fff !important;
-        background: #ea5b0b !important;
+    color: #fff !important;
+    background: #808080 !important;
+    border: none !important;
 }
 
 .news-facebook {
@@ -1832,6 +1833,10 @@ article .article__body img  {
     padding-bottom: 0px;
 }
 
+.no-padding-top{
+    padding-top: 0px;
+}
+
 .news-grid .description-internal-page.dip-news-grid {
         display: none;
 }
@@ -1987,47 +1992,73 @@ article .article__body img  {
 .text-bar-1.animation1 {
     background-color: #702673;
 }
-/* ._1332.back1,
-._1332.back2,
-._1332.back3,
-._1332.back4,
-._1332.back5,
-._1332.back6,
-._1332.back7{
-    height: 528px !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-}
- */
-
-/* ._1332.back1{
-    background-image: url(/sites/default/files/2020-06/bar_image1.jpg)!important;
+.guidelines-tab.tabs-container.tabs--vertical .tabs {
+    width: 32%;
+    float: left;
 }
 
-._1332.back2{
-    background-image: url(/sites/default/files/2020-06/bar_image2.jpg)!important;
+.guidelines-tab.tabs-container.tabs--vertical .tabs-content {
+    width: 65%;
+    float: right;
+    margin-top: 0;
 }
 
-._1332.back3{
-    background-image: url(/sites/default/files/2020-06/bar_image3.jpg)!important;
+
+.guidelines-tab .tabs-content {
+    height: 830px;
+    overflow-y: scroll;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0px 20px;
 }
 
-._1332.back4{
-    background-image: url(/sites/default/files/2020-06/bar_image4.jpg)!important;
+.short-container.guidelines-tab .tabs-content {
+    height: 560px;
 }
 
-._1332.back5{
-    background-image: url(/sites/default/files/2020-06/bar_image5.jpg)!important;
+.guidelines-tab .tabs {
+    border-left: none;
+    border-top: none;
+    border-bottom: none!important;
+    border-radius: 0px;
+    border-right: 3px solid #E8E8E8;
 }
 
-._1332.back6{
-    background-image: url(/sites/default/files/2020-06/bar_image6.jpg)!important;
+.guidelines-tab .tabs li {
+    padding-left: 20px;
+    border-bottom: none !important;
 }
 
-._1332.back7{
-    background-image: url(/sites/default/files/2020-06/bar_image7.jpg)!important;
-} */
+
+.guidelines-tab .tabs li div {
+    font-size: 16pt !important;
+    line-height: 8mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+    color:#4B4C4C;
+}
+
+.guidelines-tab .tabs li.active div {
+    color: white !important;
+}
+
+.guidelines-tab{
+    padding-bottom: 70px;
+}
+
+.guidelines-tab .tabs li:not(.active) {
+    opacity: 1;
+}
+.guidelines-tab .tabs .active {
+    background-color: #ff4100;
+}
+
+.guidelines-tab .tabs .tab__title{
+color: #4B4C4C !important;
+}
+
+
+
 
 .text-bar-2.animation2 {
     background-color: #BD1521;
@@ -2858,6 +2889,12 @@ section.bg--secondary:not(.imagebg) + section:not(.imagebg):not([class*="bg-"]) 
     text-transform: uppercase !important;
  }
 
+ .title-inside-tabs a{
+    color: #ff4100 !important;
+    font-family: "Helvetica Neue" !important;
+    font-weight: 400 !important;
+ }
+
  .special-spacing-tabs{
      padding-bottom: 40px;
  }
@@ -3019,7 +3056,7 @@ hr.short {
 
 .big-box .home-info p{
     position: relative;
-    top: -32px !important;
+    top: -35px !important;
     left: 20px;
     width: 520px;
 }
@@ -3736,6 +3773,7 @@ footer{
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 1%)!important;
     position: fixed;
+    z-index: 999;
 }
 
 .path-not-frontpage #menu1 :not([pos-fixed]) .logo.logo-dark{
@@ -3936,6 +3974,7 @@ footer{
 #myVideo {
     height: auto;
     max-width: 100%;
+    width: 100%;
 }
 
 .video.paragraph {
