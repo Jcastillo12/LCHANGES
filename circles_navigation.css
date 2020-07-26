@@ -193,16 +193,16 @@
 }
 
 .circle4.investors4 {
-    background-image: url('/sites/default/files/2020-07/investor-icon4.png');
+    background-image: url('/sites/default/files/2020-07/suppliers.png');
     margin-bottom: 0px;
     background-repeat: no-repeat;
     background-size: contain;
-    background-size: 90px 92px;
+    background-size: 115px 90px;
     background-position: center;
     background-position-x: center;
     background-position-y: 35px;
     background-position-x: center;
-    background-position-x: 40px;
+    background-position-x: 28px;
 }
 
 .circle5.investors5 {
@@ -219,64 +219,64 @@
 }
 
 .circle1.newsicon1 {
-    background-image: url('/sites/default/files/2020-07/news-icon1.png');
+    background-image: url('/sites/default/files/2020-07/home.png');
     margin-bottom: 0px;
     background-repeat: no-repeat;
     background-size: contain;
     background-size: 100px 102px;
     background-position: center;
     background-position-x: center;
-    background-position-y: 32px;
+    background-position-y: 30px;
     background-position-x: center;
     background-position-x: 36px;
 }
 .circle2.newsicon2 {
-    background-image: url('/sites/default/files/2020-07/news-icon2.png');
+    background-image: url('/sites/default/files/2020-07/news.png');
     margin-bottom: 0px;
     background-repeat: no-repeat;
     background-size: contain;
     background-size: 100px 102px;
-    background-position: center;
-    background-position-x: center;
-    background-position-y: 32px;
-    background-position-x: center;
-    background-position-x: 36px;
-}
-.circle3.newsicon3 {
-    background-image: url('/sites/default/files/2020-07/news-icon3.png');
-    margin-bottom: 0px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-size: 90px 82px;
     background-position: center;
     background-position-x: center;
     background-position-y: 38px;
     background-position-x: center;
-    background-position-x: 46px;
-}
-.circle4.newsicon4 {
-    background-image: url('/sites/default/files/2020-07/news-icon4.png');
-    margin-bottom: 0px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-size: 100px 102px;
-    background-position: center;
-    background-position-x: center;
-    background-position-y: 32px;
-    background-position-x: center;
     background-position-x: 36px;
 }
-.circle5.newsicon5 {
-    background-image: url('/sites/default/files/2020-07/news-icon5.png');
+.circle3.newsicon3 {
+    background-image: url('/sites/default/files/2020-07/play.png');
     margin-bottom: 0px;
     background-repeat: no-repeat;
     background-size: contain;
-    background-size: 132px 102px;
+    background-size: 90px 80px;
     background-position: center;
     background-position-x: center;
-    background-position-y: 32px;
+    background-position-y: 45px;
     background-position-x: center;
-    background-position-x: 19px;
+    background-position-x: 40px;
+}
+.circle4.newsicon4 {
+    background-image: url('/sites/default/files/2020-07/media.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 55px 90px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: 40px;
+    background-position-x: center;
+    background-position-x: 57px;
+}
+.circle5.newsicon5 {
+    background-image: url('/sites/default/files/2020-07/careers.png');
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100px 80px;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: 40px;
+    background-position-x: center;
+    background-position-x: 40px;
 }
 
 
