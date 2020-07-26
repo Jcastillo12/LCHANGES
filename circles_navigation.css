@@ -9,16 +9,15 @@
 }
 
 .circle1 {
-    background-image: url('/sites/default/files/2020-07/icon1.png');
+    background-image: url('/sites/default/files/2020-07/icon5.png');
     margin-bottom: 0px;
     background-repeat: no-repeat;
     background-size: contain;
-    background-size: 92px 92px;
+    background-size: 96px 70px;
     background-position: center;
-        background-position-x: center;
-        background-position-y: center;
     background-position-x: center;
-    background-position-x: 42px;
+    background-position-x: 38px;
+    background-position-y: 48px;
 }
 
 .circle1.about1 {
@@ -285,16 +284,17 @@
 }
 
 .circle2 {
-    background-image: url('/sites/default/files/2020-07/icon2.png');
+    background-image: url('/sites/default/files/2020-07/facts.png');
     margin-bottom: 0px;
     background-repeat: no-repeat;
     background-size: contain;
-    background-size: 100px 70px;
+    background-size: 60px 80px;
     background-position: center;
         background-position-x: center;
     background-position-x: center;
     background-position-x: center;
-    background-position-x: 36px;
+    background-position-x: center;
+    background-position-x: 56px;
 }
 
 .circle2:hover {
