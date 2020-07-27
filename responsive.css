@@ -219,6 +219,9 @@
     padding: 14px;
 }
 
+.page-node-type-article .main-container .region-content .container .comments {
+    display: none!important;
+}
 
     /****  end toolbar  ****/
 
