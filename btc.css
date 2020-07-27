@@ -4097,6 +4097,11 @@ footer{
     height: 100%;
 }
 
+.people-mobile .switchable__text h2 {
+    line-height: 50px !important;
+    text-transform: none !important;
+}
+
 /*Responsive*/
 
 @media screen and (max-width: 1309px){
@@ -4155,6 +4160,15 @@ footer{
 }
 
 @media (max-width: 991px) {
+
+    .people-mobile .switchable__text {
+        padding: 120px 70px 120px 30px;
+    }
+
+    .people-mobile .switchable__text h2 {
+        font-size: 23pt !important;
+        line-height: 44px !important;
+    }
 
     section.wwa-mobile .custom-description-internal-page {
         font-size: 12pt !important;
