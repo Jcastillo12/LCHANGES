@@ -438,8 +438,10 @@
     .path-not-frontpage footer{
         padding-top: 10mm!important;
     }
+    
     .description-footer {
         margin-bottom: 10px;
+        margin-right: 0px !important;
     }
 
     .video{
