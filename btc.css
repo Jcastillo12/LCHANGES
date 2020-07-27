@@ -1271,7 +1271,7 @@ article .article__body img  {
 
 .background-who{
    margin-top: 30px;
-   background-color: #B3B2B2;
+   background-color: #808080;
 }
 
 .paragraph.paragraph--type--bp-view.paragraph--view-mode--default.paragraph--id--1821.paragraph--width--full h1{
@@ -4061,6 +4061,17 @@ footer{
 
 .news-home .imageblock__content ._2049 {
     background-image: url(/sites/default/files/2020-07/ceo_img.jpg) !important;
+}
+
+/*Color Bars Update*/
+
+.wwa-mobile .switchable__text {
+    padding: 50px 70px 50px 30px;
+}
+
+.wwa-mobile .imge-conte .barra-interna {
+    right: 0px;
+    left: -45px;
 }
 
 /*Responsive*/
