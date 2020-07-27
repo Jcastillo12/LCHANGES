@@ -4512,9 +4512,15 @@ footer{
 
 @media (max-width: 767px) {
 
+    .row.culture-principles {
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
    .lla-team .feature {
         text-align: left;
-        margin-left: 32px !important;
+        margin-left: 17px !important;
     }
 
     .page-node-type-full-page .imageblock__content.col-lg-6.col-md-8.pos-right {
