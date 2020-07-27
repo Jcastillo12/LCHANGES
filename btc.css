@@ -4528,6 +4528,12 @@ footer{
 /*********************** 767 *************************/
 
 @media (max-width: 767px) {
+
+   .lla-team .feature {
+        text-align: left;
+        margin-left: 32px !important;
+    }
+
     .page-node-type-full-page .imageblock__content.col-lg-6.col-md-8.pos-right {
         width: 806px;
         position: relative;
