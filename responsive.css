@@ -73,7 +73,13 @@
     }
 
     #my_xss_magic {
-        width: 210px!important;
+        right: 0px !important;
+        width: 192px !important;
+    }
+
+    .fa.fa-heartbeat {
+        margin-right: 5px;
+        color:#82368C;
     }
 
 
@@ -213,9 +219,6 @@
     padding: 14px;
 }
 
-#my_xss_magic {
-    right: 430px !important;
-}
 
     /****  end toolbar  ****/
 
