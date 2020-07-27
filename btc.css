@@ -4070,7 +4070,7 @@ footer{
 }
 
 .philosophy-responsive h2.subtitle-internal-page {
-    padding-left: 15px;
+    padding-left: 15px !important;
 }
 
 /*Color Bars Update*/
@@ -4159,7 +4159,7 @@ footer{
 
 }
 
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
     section.wwa-mobile .imge-conte .barra-interna {
         left: 0px !important;
         top: 0px !important;
