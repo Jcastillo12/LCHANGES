@@ -4161,6 +4161,11 @@ footer{
 
 @media (max-width: 991px) {
 
+    .col-sm-3.col-md-3.separator-left.ctm-social {
+        margin-top: 10px;
+        margin-right: -10px;
+    }
+
     .people-mobile .switchable__text {
         padding: 120px 70px 120px 30px;
     }
