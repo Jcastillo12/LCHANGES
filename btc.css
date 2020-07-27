@@ -4063,6 +4063,16 @@ footer{
     background-image: url(/sites/default/files/2020-07/ceo_img.jpg) !important;
 }
 
+.philosophy-responsive p {
+    font-size: 16pt !important;
+    line-height: 16pt !important;
+    padding-bottom: 0px !important;
+}
+
+.philosophy-responsive h2.subtitle-internal-page {
+    padding-left: 15px;
+}
+
 /*Color Bars Update*/
 
 .wwa-mobile .switchable__text {
@@ -4075,7 +4085,7 @@ footer{
 }
 
 .ctm-tablet-hide {
-    display: hide !important;
+    display: none !important;
 }
 
 /*Responsive*/
@@ -4143,8 +4153,8 @@ footer{
     }
 
     .custom-box-title {
-        font-size: 20pt;
-        line-height: 20px;
+        font-size: 15pt;
+        line-height: 40px;
     }
 
 }
