@@ -219,6 +219,10 @@
 
     /****  end toolbar  ****/
 
+.bg--orange .barra-interna {
+    right: -260px;
+}
+
 @media (min-width: 1500px) {
     .home-size p {
         height: 820px;
@@ -230,8 +234,43 @@
     .path-not-frontpage footer{
         padding-top: 10mm!important;
     }
+
+    .orange-banner-people h2 {
+        font-size: 50px;
+        line-height: 52px;
+        width: 590px;
+    }
    
 }
+
+
+@media (max-width: 1309px) and  (min-width: 1200px) {
+   
+    .orange-banner-people h2 {
+        font-size: 48px;
+        line-height: 52px;
+        width: 590px;
+    }
+   
+}
+
+
+@media (max-width: 1199px) and  (min-width: 992px) {
+   
+    .orange-banner-people h2 {
+        font-size: 40px;
+        line-height: 52px;
+        width: 600px;
+    }
+
+    .bg--orange .barra-interna {
+        right: -245px;
+    }
+   
+}
+
+
+
 
 
 @media (max-width: 1309px) and  (min-width: 992px){
@@ -326,11 +365,20 @@
         padding-top: 10mm!important;
     }
 
-
+    
 
 }
 
 @media (max-width: 991px) and (min-width: 768px){
+    .bg--orange .barra-interna {
+        right: -210px;
+    }
+    .orange-banner-people h2 {
+        font-size: 40px;
+        line-height: 52px;
+        width: 600px;
+    }
+
     .region-we-mega-menu {
         top: 79px;
     }
@@ -382,6 +430,12 @@
 }
 
 @media (max-width: 768px){
+
+    .orange-banner-people h2 {
+        font-size: 34px;
+        line-height: 52px;
+        line-height: 38px;
+    }
     .guidelines-tab.tabs-container.tabs--vertical .tabs {
         width: 100%!important;
     }

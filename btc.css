@@ -3421,8 +3421,9 @@ height: 58.3vh !important;
 }
 
 .orange-banner-people h2 {
-    font-size: 45px;
+    font-size: 50px;
     line-height: 52px;
+    width: 590px;
 }
 
 /************ Video Gallery ************/
