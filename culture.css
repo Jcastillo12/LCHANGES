@@ -209,7 +209,7 @@ section.orange-banner-people{
     }
 
     section.banner-culture-section .col-sm-5 {
-        background-position: center;
+        background-position: 60% !important;
     }
 
     .flip-box-principles {

@@ -3821,20 +3821,20 @@ footer{
 }
 
 #principles {
-	color: white;
-	font-weight: 400 !important;
-	width: 560px;
-	position: relative;
-	top: 80px;
-	left: 140px;
-	font-size: 30px;
-	letter-spacing: 0px !important;
-	font-family: "Helvetica Neue" !important;
-	line-height: 40px;
+    color: white;
+    font-weight: 400 !important;
+    width: 560px;
+    position: relative;
+    top: 80px;
+    left: 140px;
+    font-size: 34px;
+    letter-spacing: 0px !important;
+    font-family: "Helvetica Neue" !important;
+    line-height: 44px;
 }
 
 .special-text {
-    top: 115px !important;
+    top: 100px !important;
 }
 
 .or-tabs.tabs-brands .switchable {
