@@ -345,6 +345,10 @@ section.orange-banner-people{
         height: 360px;
     }
 
+    section.banner-culture-section .col-sm-5 {
+        background-position: center !important;
+    }
+
     /*---- Responsability Page ----*/
 
     .video-cover {
