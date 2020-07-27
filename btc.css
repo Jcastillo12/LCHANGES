@@ -4088,6 +4088,14 @@ footer{
     display: none !important;
 }
 
+.people-mobile .switchable__text {
+    padding: 150px 70px 150px 30px;
+}
+
+.people-mobile .bg--orange {
+    height: 100%;
+}
+
 /*Responsive*/
 
 @media screen and (max-width: 1309px){
