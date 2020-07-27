@@ -4075,6 +4075,10 @@ footer{
     left: -45px !important;
 }
 
+.ctm-tablet-hide {
+    display: hide !important;
+}
+
 /*Responsive*/
 
 @media screen and (max-width: 1309px){
@@ -4101,6 +4105,15 @@ footer{
 }
 
 @media (max-width: 1199px) {
+
+    .ctm-desk-hide {
+        display: none !important;
+    }
+
+    .ctm-tablet-hide {
+        display: block !important;
+    }
+
     .tabs-brands .tabs li {
         width: 20%;
     }
@@ -4135,6 +4148,13 @@ footer{
         line-height: 20px;
     }
 
+}
+
+@media (max-width: 767px) {}
+    section.wwa-mobile .imge-conte .barra-interna {
+        left: 0px !important;
+        top: 0px !important;
+    }
 }
 
 /*********************** 1200 *************************/
