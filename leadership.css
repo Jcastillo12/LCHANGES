@@ -2,10 +2,7 @@
     padding-left: 10px;
 }
 
-.align-middle.switchable__text {
-    position: relative;
-    top: 90px;
-}
+
 .align-middle.switchable__text > p {
     padding-bottom: 30px;
 }
@@ -94,3 +91,47 @@ a .person-teaser:hover .person-teaser__bg {
     font-weight: 400 !important;
     margin-top: 10px;
 }
+
+@media (min-width: 1200px){
+    .align-middle.switchable__text {
+        position: relative;
+        top: 90px;
+    }
+}
+
+
+@media (max-width: 1199px) and  (min-width: 992px) {
+   
+    .orange-banner-people h2 {
+        font-size: 40px;
+        line-height: 52px;
+        width: 600px;
+    }
+
+    .bg--orange .barra-interna {
+        right: -245px;
+    }
+
+    .align-middle.switchable__text {
+        position: relative;
+        top: 0px;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+   
+    .align-middle.switchable__text {
+        margin-top: 40px;
+    }
+
+}
+
+@media (max-width: 768px) {
+   
+   
+
+}
+
+
