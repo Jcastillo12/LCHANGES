@@ -4071,11 +4071,17 @@ footer{
 }
 
 .wwa-mobile .imge-conte .barra-interna {
-    right: 0px;
-    left: -45px;
+    right: 0px !important;
+    left: -45px !important;
 }
 
 /*Responsive*/
+
+@media screen and (max-width: 1309px){
+    section.wwa-mobile .imge-conte .barra-interna {
+        left: -60px !important;
+    }
+}
 
 
 @media (min-width: 1200px) {
@@ -4101,6 +4107,14 @@ footer{
     .tabs li:not(:last-child) {
         border-bottom: 1px solid #ECECEC;
     }
+
+    section.wwa-mobile .imge-conte .barra-interna {
+        left: -50px !important;
+    }
+
+    section.wwa-mobile .custom-description-internal-page {
+        font-size: 14pt !important;
+    }
 }
 
 @media (min-width: 1201px) and (max-width: 1280px) {
@@ -4108,6 +4122,21 @@ footer{
         height: 800px !important;
     }
 }
+
+@media (max-width: 991px) {
+
+    section.wwa-mobile .custom-description-internal-page {
+        font-size: 12pt !important;
+        line-height: 6.5mm;
+    }
+
+    .custom-box-title {
+        font-size: 20pt;
+        line-height: 20px;
+    }
+
+}
+
 /*********************** 1200 *************************/
 @media (min-width: 992px) and (max-width: 1200px) {
 
