@@ -95,6 +95,31 @@
           </div>
           <div class="col-xs-9 col-sm-10 text-right">
               <div class="row">
+                <style type="text/css">
+                  #my_xss_magic {
+                      position: absolute;
+                      padding-top: 30px;
+                      float: right;
+                      width: 350px;
+                      height: 30px;
+                      top: -34px;
+                      height: 20px !important;
+                      right: 352px;
+                  }
+
+                  #my_xss_magic iframe {
+                    min-height:0px;
+                  }
+
+                  .stock-info {
+                      padding: 0;
+                  }
+
+                  .stock-info .field--label, .stock-info a {
+                      display: none;
+                  }
+                </style>
+                <div id="my_xss_magic" style="display: block; visibility: visible;"><iframe allowtransparency="true" id="macroaxis_stock_ticker" marginheight="0" marginwidth="0" name="macroaxis_stock_ticker" scrolling="NO" src="https://www.macroaxis.com/widgets/partnerStockTicker.jsp?gis=f&amp;tid=123&amp;t=42&amp;s=LILA,%20LILAK,%20LILAB&amp;noclick=true" width="100%" height="34px" frameborder="0"></iframe><noscript><a href='https://www.macroaxis.com/' title ='Powered by Macroaxis - Portfolio Optimization Platform'>Powered by Macroaxis, Wealth Management and Portfolio Optimization Platform</a><br /><a title ='Get Macroaxis Stock Widgets' href='https://www.macroaxis.com/invest/widget'>Get macroaxis widgets for your site</a></noscript></div>
                 <div class="col-xs-12 social-media-mobile">
                   <a href="https://www.facebook.com/LibertyLatAm/" target="_blank"><i class="fa fa-facebook"></i></a>
                   <a href="https://www.youtube.com/channel/UCG9kKHPQVfHV60-r852NGtA" target="_blank"><i class="fa fa-youtube-play"></i></a>
