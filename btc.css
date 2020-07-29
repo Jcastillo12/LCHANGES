@@ -4031,7 +4031,7 @@ footer{
     color: #fff;
 }
 
-/******************* Chris Aditional CSS*************************/
+/******************* Chris Aditional CSS *************************/
 
 .tabs-brands .tabs {
     display: inline-flex;
@@ -4073,6 +4073,20 @@ footer{
     padding-left: 15px !important;
 }
 
+.hover-boxes .hover-box {
+    padding-bottom: 10px;
+    background-clip: content-box;
+}
+
+.hover-boxes .hover-box:nth-child(1), .hover-boxes .hover-box:nth-child(3) {
+    padding-right: 5px;
+}
+
+.hover-boxes .hover-box:nth-child(2), .hover-boxes .hover-box:nth-child(4) {
+    padding-left: 5px;
+}
+
+
 /*Color Bars Update*/
 
 .wwa-mobile .switchable__text {
@@ -4101,16 +4115,120 @@ footer{
     text-transform: none !important;
 }
 
-/*Responsive*/
+/*New Featured News Section*/
+
+.ctm-half-section{
+    padding: 0px;
+}
+
+.ctm-half-section .container{
+    width: 640px;
+}
+
+#ctm-one-post .container{
+    margin-left: auto;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+#ctm-multiple-post .container{
+    margin-left: 0px;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 0px;
+
+}
+
+.ctm-half-section .feature .feature__body {
+    position: absolute;
+    min-height: auto !important;
+    max-height: auto !important;
+    margin-bottom: 0px !important;
+    bottom: 0px;
+    background: linear-gradient(0deg, rgb(0 0 0 / 67%) 50%, rgba(27,27,27,0) 100%) !important;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+.ctm-half-section .news-grid .feature__body.boxed.boxed--border a  {
+    color: #fff !important;
+}
+
+.ctm-half-section .news-grid .feature__body.boxed.boxed--border h4  {
+    font-size: 14pt;
+    line-height: 6mm;
+}
+
+.ctm-half-section .feature .feature__body p.news-date {
+    display: none;
+}
+
+.ctm-half-section .masonry__item:not(:empty) {
+    margin-bottom: 10px;
+}
+
+#ctm-multiple-post .col-sm-6 {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.ctm-half-section .feature {
+    overflow: hidden;
+}
+
+.ctm-half-section .feature img {
+    transition: 0.5s ease-out;
+}
+
+.ctm-half-section .feature:hover img {
+    transform: scale(1.1);
+}
+
+#ctm-one-post .feature img {
+    height: 437px !important;
+}
+
+#ctm-multiple-post .feature img {
+    width: 100% !important;
+}
+
+.ctm-half-section .feature .feature__body h4 {
+    margin-bottom: 0px;
+}
+
+/******************* RESPONSIVE *************************/
+
+/*@media screen and (min-width: 1310px){
+    section.video.home-size #myVideo {
+        margin-bottom: -230px;
+        margin-top: -50px;
+    }
+}*/
+
 
 @media screen and (max-width: 1309px){
     section.wwa-mobile .imge-conte .barra-interna {
         left: -60px !important;
     }
+
+    .ctm-half-section .container{
+        width: 585px;
+    }
+
+    #ctm-one-post .feature img {
+        height: 400px !important;
+    }
 }
 
 
 @media (min-width: 1200px) {
+
+    section.video.home-size #myVideo {
+        margin-bottom: -230px;
+        margin-top: -50px;
+    }
+
     .container {
         width: 1280px;
     }
@@ -4127,6 +4245,14 @@ footer{
 }
 
 @media (max-width: 1199px) {
+
+    .ctm-half-section .container{
+        width: 485px;
+    }
+
+    #ctm-one-post .feature img {
+        height: 334px !important;
+    }
 
     .ctm-desk-hide {
         display: none !important;
@@ -4158,7 +4284,28 @@ footer{
     }
 }
 
+
 @media (max-width: 991px) {
+
+    .ctm-half-section .container{
+        width: 750px;
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    #ctm-one-post .feature img {
+        height: 100% !important;
+    }
+
+    #ctm-one-post .container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #ctm-multiple-post .container{
+        margin-left: auto;
+        margin-right: auto;
+    }    
 
     .col-sm-3.col-md-3.separator-left.ctm-social {
         margin-top: 10px;
@@ -4186,7 +4333,28 @@ footer{
 
 }
 
+@media (max-width: 768px) {
+
+    .hover-boxes .hover-box:nth-child(1), .hover-boxes .hover-box:nth-child(3) {
+        padding-right: 0px;
+    }
+
+    .hover-boxes .hover-box:nth-child(2), .hover-boxes .hover-box:nth-child(4) {
+        padding-left: 0px;
+    }
+}
+
 @media (max-width: 767px) {
+
+    #ctm-multiple-post .col-sm-6 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }    
+
+    .ctm-half-section .container{
+        width: 100%;
+    }
+
     section.wwa-mobile .imge-conte .barra-interna {
         left: 0px !important;
         top: 0px !important;
