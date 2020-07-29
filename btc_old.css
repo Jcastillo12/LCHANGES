@@ -615,7 +615,10 @@ color:white;
     color:#808080;
 }
 
-
+.all-page-modals .modal-content{
+    width: 1020px !important;
+    height: 620px !important;
+}
 
 /************************ Title banner ***********************************/
 
@@ -3418,9 +3421,8 @@ height: 58.3vh !important;
 }
 
 .orange-banner-people h2 {
-    font-size: 50px;
+    font-size: 45px;
     line-height: 52px;
-    width: 590px;
 }
 
 /************ Video Gallery ************/
@@ -4281,24 +4283,6 @@ footer{
         height: 800px !important;
     }
 }
-
-@media (min-width: 1120px) {
-    .all-page-modals .modal-content{
-        width: 1020px !important;
-        height: 620px !important;
-    }
-}
-
-@media (max-width: 1119px) {
-    .all-page-modals .modal-content {
-        width: 100%!important;
-        height: 620px !important;
-    }
-}
-
-
-
-
 
 
 @media (max-width: 991px) {
