@@ -27,6 +27,7 @@ global-styling:
       css/pledge.css: {}
       css/timelinenew.css: {}
       css/responsive.css: {}
+      css/spacing.css: {}
   js:
     js/countdown.min.js: {}
     js/datepicker.js: {}

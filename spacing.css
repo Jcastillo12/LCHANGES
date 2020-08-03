@@ -1,0 +1,619 @@
+/*----------------------------------------
+
+Spacing Stylesheet and Last Minute Changes
+
+---------------------------------------- */
+
+/***************** Home Page ********************/
+
+.news-home .imageblock__content ._2097 {
+  background-image: url(/sites/default/files/2020-07/ceo_img.jpg) !important;
+}
+
+.paragraph.paragraph--type--paragraph-block.video.home-size.paragraph--view-mode--default {
+  margin-bottom: -8px !important;
+}
+
+#feature-news {
+  padding-top: 45px !important;
+  padding-bottom: 40px !important;
+}
+
+.news-home-boxes {
+  padding-bottom: 65px !important;
+}
+
+.page-node-type-full-page .article__body {
+  padding-top: 70px !important;
+}
+
+/***************** WWA page ********************/
+
+.wwa-title {
+  padding-bottom: 30px !important;
+  padding-top: 52px !important;
+}
+
+#mapa .field.field--name-field-paragraph-content {
+  padding-bottom: 0px !important;
+}
+
+.wwa-switchable.ctm-desk-hide h2 {
+  margin-bottom: 40px !important;
+}
+
+.facts.wwa-news-con.news-con {
+  padding-top: 60px !important;
+  padding-bottom: 15px !important;
+}
+
+.facts h2 {
+  padding-bottom: 23px !important;
+}
+
+.tab-circle-about {
+  padding-top: 15px !important;
+  padding-bottom: 0px !important;
+}
+
+.footnote {
+  padding-bottom: 65px !important;
+}
+
+/***************** Brands page ********************/
+
+.tabs-brands {
+  padding-bottom: 58px;
+}
+
+/***************** Products page ********************/
+
+.fun-product-section {
+  padding-top: 5px !important;
+  padding-bottom: 0px !important;
+  margin-bottom: 65px;
+}
+
+.fun-product-section h2 {
+  margin-bottom: 30px !important;
+}
+
+.fun-product-section .fun-text {
+  margin-top: 100px !important;
+}
+
+.hover-box__overlay-content {
+  border: 1px solid #888;
+  border-radius: 6px !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/***************** Leadership page ********************/
+
+.profile-about {
+  padding-top: 10px !important;
+}
+
+.profile-about h2.subtitle-internal-page {
+  margin-bottom: 30px !important;
+}
+
+.person-teaser {
+  margin-bottom: 25px !important;
+}
+
+.ceo-box {
+  top: 75px !important;
+}
+
+.board {
+  padding-top: 5px !important;
+  padding-bottom: 25px !important;
+}
+
+/***************** History page ********************/
+
+.timeline-new {
+  padding-top: 8px !important;
+  padding-bottom: 55px !important;
+}
+
+.timeline-responsive {
+  padding-bottom: 0px;
+}
+
+/***************** Culture page ********************/
+
+section.banner-culture-section {
+  padding-top: 13px !important;
+  padding-bottom: 0px !important;
+}
+
+#ourprinciples h2.subtitle-internal-page {
+  margin-bottom: 18px !important;
+}
+
+section.philosophy-section h3.subtitle-internal-page {
+  margin-bottom: 40px !important;
+}
+
+section.philosophy-section {
+  padding-bottom: 45px !important;
+  padding-top: 3px !important;
+}
+
+.big-moments {
+  padding-bottom: 63px !important;
+}
+
+/***************** People page ********************/
+
+#diversity-and-inclusion {
+  padding-top: 5px;
+}
+
+#diversity-and-inclusion h3 {
+  margin-bottom: 36px !important;
+}
+
+#our-work-place h2 {
+  margin-bottom: 36px !important;
+}
+
+.ourworkplace {
+  padding-bottom: 65px !important;
+}
+
+/***************** Responsability page ********************/
+
+#pledge {
+  padding-top: 5px !important;
+  padding-bottom: 50px !important;
+}
+
+.pledge-img {
+  padding-bottom: 40px !important;
+}
+
+.we-take-txt {
+  padding-bottom: 60px !important;
+}
+
+.responsability-vid {
+  padding-top: 100px !important;
+  padding-bottom: 92px !important;
+}
+
+.responsability-vid .responsability-vid-row {
+  display: flex;
+  align-items: center;
+}
+
+/***************** Investors page ********************/
+
+.investors-page-tlt {
+  padding-bottom: 20px !important;
+}
+
+.ctm-investors-rows {
+  padding-bottom: 60px !important;
+}
+
+.iframe-presentation {
+  padding-bottom: 30px !important;
+}
+
+.iframe-presentation iframe {
+  height: 670px;
+}
+
+.iframe-earning {
+  padding-bottom: 25px !important;
+  min-height: auto;
+}
+
+.iframe-earning iframe {
+  height: 395px;
+  min-height: auto;
+}
+
+.investors-p {
+  padding-bottom: 32px !important;
+}
+
+/***************** Fixed Income page ********************/
+
+.f-income-page-tlt {
+  padding-bottom: 48px !important;
+}
+
+#fixed-income-row {
+  padding-bottom: 25px;
+}
+
+#fixed-income-row iframe {
+  min-height: auto;
+  height: 320px;
+}
+
+/***************** Share Information page ********************/
+
+#share-info-tabs .tabs-content li:nth-child(4) {
+  overflow-x: scroll;
+}
+
+/***************** Regulations G page ********************/
+
+#regulation-row {
+  padding-bottom: 25px;
+}
+
+#regulation-row iframe {
+  min-height: auto;
+  height: 320px;
+}
+
+/***************** Sec Fillings page ********************/
+
+#sec-filings-iframe {
+  padding-bottom: 30px !important;
+}
+
+/***************** Presentations page ********************/
+
+#presentation-row {
+  padding-bottom: 30px;
+}
+
+#presentation-row iframe {
+  min-height: auto;
+  height: 670px;
+}
+
+/***************** Suppliers page ********************/
+
+#suppliers-tabs {
+  padding-bottom: 58px !important;
+}
+
+/***************** Corporate Governance pages - All ********************/
+
+.no-bottom-txt {
+  padding-bottom: 52px !important;
+}
+
+#governance-tabs {
+  padding-bottom: 38px !important;
+}
+
+#governance-tabs .tabs-content {
+  height: 455px !important;
+}
+
+#guidelines-tabs {
+  padding-bottom: 35px !important;
+}
+
+#guidelines-tabs .tabs-content {
+  height: 995px !important;
+}
+
+#audit-tabs {
+  padding-bottom: 0px !important;
+}
+
+#audit-tabs .tabs-content {
+  height: 520px !important;
+}
+
+#compensation-tabs,
+#nominating-tabs {
+  padding-bottom: 62px !important;
+}
+
+#compensation-tabs .tabs-content {
+  height: 380px !important;
+}
+
+#nominating-tabs .tabs-content {
+  height: 320px !important;
+}
+
+/***************** News pages - All ********************/
+
+.news-page-boxes {
+  padding-bottom: 52px !important;
+}
+
+.news-page-boxes .row.news-boxes.home-design {
+  height: auto !important;
+}
+
+.front-news {
+  padding-bottom: 58px;
+}
+
+.vid-gallery-stlt h3 {
+  line-height: 32px !important;
+  margin-bottom: 20px !important;
+}
+
+.vid-gallery h3.subtitle-internal-page {
+  line-height: 32px !important;
+  margin-bottom: 20px !important;
+}
+
+.video-gallery-desktop {
+  padding-bottom: 0px !important;
+}
+
+.row.ctm-video-row {
+  margin-bottom: 50px;
+  border-bottom: 1px solid #b3b2b2;
+}
+
+.row.ctm-video-row.last-video {
+  border-bottom: 0px;
+  margin-bottom: 8px;
+}
+
+.contact-tlt {
+  padding-bottom: 52px !important;
+}
+
+#relations-row {
+  padding-bottom: 55px;
+}
+
+#assets-row {
+  padding-bottom: 60px;
+}
+
+.assets-doc-tlt {
+  font-size: 16pt;
+  line-height: 24px;
+  font-family: "Helvetica Neue" !important;
+  position: relative;
+  top: -50px;
+  left: 142px;
+  margin-left: -30px;
+}
+
+.article__body h1 {
+    font-size: 40px;
+    color: #ff4100 !important;
+    letter-spacing: 0px !important;
+    font-family: "Helvetica Neue" !important;
+    line-height: 45px;
+    margin-bottom: 40px !important;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.article__body a {
+    color: #FF4100;
+    font-size: 16pt;
+    line-height: 6mm;
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400 !important;
+}
+
+/***************** Sign alerts page ********************/
+
+.alerts-news {
+  margin-bottom: 40px !important;
+}
+
+.alerts-news #alerts {
+  height: 750px !important;
+}
+
+/***************** Circles ********************/
+
+.circle-desktop {
+  padding-top: 55px !important;
+  padding-bottom: 20px !important;
+}
+
+.circle-desktop h2 {
+  margin-bottom: 35px !important;
+}
+
+.circle-desktop svg {
+  margin-bottom: 5px !important;
+}
+
+/***************** Responsive ********************/
+
+@media screen and (min-width: 1310px) {
+  #mapa img {
+    margin-top: -50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  section.home-size #myVideo {
+    margin-bottom: -215px !important;
+    margin-top: -30px !important;
+  }
+
+  #fixed-income-row .tabs,
+  #regulation-row .tabs {
+    margin-bottom: 40px !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  .fun-product-section .fun-text {
+    margin-top: 65px !important;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .ceo-box {
+    top: 15px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .fun-product-section .fun-text {
+    margin-top: 0px !important;
+  }
+
+  .iframe-presentation iframe {
+    height: 980px;
+  }
+
+  .iframe-earning iframe {
+    height: 525px;
+  }
+
+  #fixed-income-row .tabs li,
+  #regulation-row .tabs li {
+    width: 100%;
+  }
+
+  #fixed-income-row iframe {
+    height: 450px;
+    margin-bottom: 20px;
+  }
+
+  #regulation-row iframe {
+    height: 470px;
+    margin-bottom: 20px;
+  }
+
+  #presentation-row iframe {
+    height: 980px;
+    margin-bottom: 0px;
+  }
+
+  .row.ctm-video-row {
+    margin-bottom: 45px;
+  }
+
+  .alerts-news #alerts {
+    height: 750px !important;
+  }
+
+  .alerts-news {
+    margin-bottom: 30px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #governance-tabs .tabs-content,
+  #guidelines-tabs .tabs-content,
+  #conduct-tabs .tabs-content,
+  #audit-tabs .tabs-content,
+  #compensation-tabs .tabs-content,
+  #nominating-tabs .tabs-content {
+    padding-top: 20px;
+    height: auto !important;
+  }
+
+  #governance-tabs,
+  #guidelines-tabs,
+  #conduct-tabs,
+  #nominating-tabs {
+    padding-bottom: 58px !important;
+  }
+
+  #audit-tabs {
+    padding-bottom: 20px !important;
+  }
+
+  #compensation-tabs {
+    padding-bottom: 52px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .fun-product-section .fun-text {
+    margin-bottom: 35px;
+  }
+  .responsability-vid {
+    padding-top: 50px !important;
+    padding-bottom: 180px !important;
+  }
+
+  .responsability-vid .responsability-vid-row {
+    display: block;
+    align-items: center;
+  }
+
+  .row.ctm-video-row {
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+  }
+
+  .assets-doc-tlt {
+    width: 30%;
+  }
+
+  #relations-row .ctc-resp-col {
+    padding-top: 50px;
+  }
+
+  #assets-row .col-md-2.col-sm-3 img {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 599px) {
+  .row.ctm-video-row {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .timeline.modal-content {
+    width: 90%;
+    padding: 25px;
+    top: 0px;
+  }
+}
+
+@media (max-width: 479px) {
+  .row.ctm-video-row {
+    margin-bottom: 5px;
+    padding-bottom: 25px;
+  }
+}
+
+@media (max-width: 460px) {
+  .iframe-presentation iframe {
+    height: 1440px;
+  }
+
+  .iframe-earning iframe {
+    height: 685px;
+  }
+
+  #fixed-income-row iframe {
+    height: 570px;
+    margin-bottom: 5px;
+  }
+
+  #regulation-row iframe {
+    height: 590px;
+    margin-bottom: 5px;
+  }
+
+  #presentation-row iframe {
+    height: 1440px;
+    margin-bottom: 0px;
+  }
+
+  .alerts-news #alerts {
+    height: 875px !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .responsability-vid {
+    padding-top: 50px !important;
+    padding-bottom: 110px !important;
+  }
+}
