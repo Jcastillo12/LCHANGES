@@ -285,8 +285,6 @@ article.comment:last-child {
 .subscribe-inline #block-simplenewssubscription #edit-actions {
   margin-top: 10px;
 }
-.tooltip {
-}
 .tooltip-inner {
   float: left;
   overflow: hidden;
@@ -325,9 +323,6 @@ body.user-logged-in .subscribe-inline #block-simplenewssubscription #edit-action
 .field--name-field-image,
 .field--name-field-video {
   margin-bottom: 1.85714286em;
-}
-.imagebg-content-article {
-  padding: 5.57142857em 0;
 }
 
 .article__author .field--name-user-picture {

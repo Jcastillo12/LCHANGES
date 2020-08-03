@@ -21,7 +21,7 @@
     background-position: center;
 }
 
-.hover-boxes .hover-box:nth-child(1) .hover-box__overlay-content {
+/*.hover-boxes .hover-box:nth-child(1) .hover-box__overlay-content {
     border-radius: 0 50px 50px 50px;
 }
 .hover-boxes .hover-box:nth-child(2) .hover-box__overlay-content{
@@ -32,10 +32,11 @@
 }
 .hover-boxes .hover-box:nth-child(4) .hover-box__overlay-content{
     border-radius: 50px 50px 0 50px;
-}
+}*/
+
 .hover-boxes .hover-box__overlay-content {
     opacity: 0;
-    background-color: #aaa;
+    background-color: #AAAAAA;
     padding: 45px 35px;
     max-width: 440px;
     z-index: 99;
