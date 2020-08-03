@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        iframe{
+            width: 100%;
+        }
+
+        .footer{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <script type="text/javascript">
+
+                    var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+                    
+                    var eventListener = window[eventMethod];
+                    
+                    var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+                    
+                    var iframes = [];
+                    
+                     
+                    
+                    eventListener(messageEvent,function(e) {
+                    
+                    var message = e.data;
+                    
+                    if(e.origin.indexOf('gcs-web.com') < 0) return;
+                    
+                    iframes.push(message);
+                    
+                    updateIFrame(iframes);
+                    
+                    },false);
+                    
+                     
+                    
+                    function updateIFrame(iframes) {
+                    
+                    var iframe1 = document.getElementById('sec_filings');
+                    
+                    iframe1.setAttribute('height',iframes[0]);
+                    
+                    }
+                    
+                    </script>             
+<iframe frameborder="0" name="sec_filings" id="sec_filings" scrolling="no" src="https://libertygloballatinamerica.gcs-web.com/presentations" width="100%"></iframe>
+
+
+
+                
+            </div>
+        </div>
+
+
+        <div class="row footer">
+            <div class="col-md-12">
+                <h2>Footer Area</h2>
+            </div>
+        </div>
+  
+        
+    </div>
+</body>
+</html>
+
+

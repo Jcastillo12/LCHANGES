@@ -1,0 +1,34 @@
+<script type="text/javascript">
+
+    var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+
+    var eventListener = window[eventMethod];
+
+    var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+
+              
+
+    eventListener(messageEvent,function(e) {
+
+        var message = e.data;
+
+        if(e.origin.indexOf('gcs-web.com') < 0) return;
+
+        updateIFrame(message);
+
+    },false);
+
+               
+
+    function updateIFrame(height) {
+
+        var iframe = document.getElementById('sec_filings'); // iframe id
+
+        iframe.setAttribute('height',height);
+
+    }
+
+</script>
+
+
+<iframe align="left" allowtransparency="true" frameborder="0" height="850" name="sec_filings" scrolling="no" src="https://libertygloballatinamerica.gcs-web.com/earnings-releases" width="850" id="sec_filings"></iframe>

@@ -1,0 +1,33 @@
+<iframe name="investorframe" id="investorframe" style="width:100%;" src="{{ url }}" scrolling="no" frameborder="0" onload="parent.scrollTo(0,0);"></iframe>
+
+<script type="text/javascript">
+
+    var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+
+    var eventListener = window[eventMethod];
+
+    var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+
+ 
+
+    eventListener(messageEvent,function(e) {
+
+                var message = e.data;
+
+                if(e.origin.indexOf('gcs-web.com') < 0) return;
+
+                updateIFrame(message);
+
+    },false);
+
+ 
+
+    function updateIFrame(height) {
+
+        var iframe = document.getElementById('investorframe'); // iframe id
+
+        iframe.setAttribute('height',height);
+
+    }
+
+</script>

@@ -4197,14 +4197,6 @@ footer{
 
 /******************* RESPONSIVE *************************/
 
-/*@media screen and (min-width: 1310px){
-    section.video.home-size #myVideo {
-        margin-bottom: -230px;
-        margin-top: -50px;
-    }
-}*/
-
-
 @media screen and (max-width: 1309px){
     section.wwa-mobile .imge-conte .barra-interna {
         left: -60px !important;
@@ -4295,10 +4287,6 @@ footer{
         height: 620px !important;
     }
 }
-
-
-
-
 
 
 @media (max-width: 991px) {
