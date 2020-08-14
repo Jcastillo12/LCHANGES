@@ -1,4 +1,8 @@
 /*Bars*/
+.imagebg-content-article .article__body .field ul li {
+    list-style: disc;
+    margin-left: 5px !important;
+}
 
 .changecolorpurple{
     background-color: #702673!important;
@@ -504,8 +508,34 @@
 }
 /***************************************/
 
+@media (min-width: 2511px){
+    .page-node-type-full-page .container.full-expand{
+        margin-left: 615px!important;
+    }
+}
 
 
+@media (min-width: 2301px) and (max-width: 2510px){
+    .page-node-type-full-page .container.full-expand{
+        margin-left: 510px!important;
+    }
+}
+
+@media (min-width: 2080px) and (max-width: 2300px){
+
+    .page-node-type-full-page .container.full-expand{
+        margin-left: 395px!important;
+    }
+
+}
+
+@media (min-width: 1921px){
+
+   .bar-container{
+       top:-500px;
+   }
+
+}
 
 @media (min-width: 1740px) and (max-width: 1920px) {
     .bar-container {
