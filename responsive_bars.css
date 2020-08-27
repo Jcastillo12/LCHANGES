@@ -240,273 +240,24 @@
     margin-bottom: 40px !important;
 }
 
-/*************** Green Icon  ******************/
+/**************** Global ******************/
 
-.fill-gap-green .internal-text {
+.bar-wrapper .show-text .internal-text {
+    top: 12rem;
     position: relative;
-    top: -50px;
-    left: 100px;
 }
 
-.fill-gap-green .internal-text p {
+.bar-wrapper .show-text .internal-text img {
+    width: 400px;
     position: relative;
-    left: 123px;
-    width: 630px;
-    line-height: 62px;
-    color: white !important;
-    text-align: left;
-    font-size: 26px !important;
-    text-transform: initial;
-    top: 277px;
-}
-
-.fill-gap-green .internal-text img {
-    width: 120px;
-    position: relative;
-    top: 300px;
-    left: 270px;
-}
-
-.fill-gap-green .internal-text h2 {
-    top: 238px;
-    left: 260px;
-}
-
-/*********************************/
-
-/**************** Gray ******************/
-
-
-.fill-gap-gray.show-text .internal-text {
-    position: relative;
-    top: -92px;
-    left: 100px;
-}
-
-.fill-gap-gray img {
-    width: 160px;
-    position: relative;
-    top: 300px;
-    left: 260px;
-}
-
-.fill-gap-gray p {
-    position: relative;
-    left: 36px;
-    width: 630px;
-    line-height: 62px;
-    color: white !important;
-    text-align: center;
-    font-size: 26px !important;
-    text-transform: initial;
-    top: 290px;
-}
-
-
-.fill-gap-gray .internal-text h2 {
-    top: 252px;
-    text-align: center;
-    width: 670px;
-    left: 20px;
-}
-
-
-/***************************************/
-
-/**************** Orange ******************/
-
-
-.fill-gap-orange .internal-text {
-    position: relative;
-    top: -25px;
-    left: 100px;
-}
-
-.fill-gap-orange img {
-    width: 120px;
-    position: relative;
-    top: 300px;
-    left: 280px;
-}
-
-
-.fill-gap-orange p {
-    position: relative;
-    left: 10px;
-    width: 680px;
-    line-height: 62px;
-    color: white !important;
-    text-align: center;
-    font-size: 26px !important;
-    text-transform: initial;
-    top: 290px;
-}
-
-.fill-gap-orange .internal-text h2 {
-    top: 250px;
-    text-align: center;
-    width: 670px;
-    left: 17px;
-}
-
-/***************************************/
-
-/**************** Blue ******************/
-
-
-.fill-gap-blue .internal-text {
-    position: relative;
-    top: -60px;
-    left: 110px;
-}
-
-.fill-gap-blue img {
-    width: 150px;
-    position: relative;
-    top: 300px;
-    left: 255px;
-}
-
-
-.fill-gap-blue p {
-    position: relative;
-    left: 5px;
-    width: 680px;
-    line-height: 62px;
-    color: white !important;
-    text-align: center;
-    font-size: 26px !important;
-    text-transform: initial;
-    top: 290px;
-}
-
-.fill-gap-blue .internal-text h2 {
-    top: 250px;
-    text-align: center;
-    width: 640px;
-    left: 17px;
-}
-
-/***************************************/
-
-/**************** Yellow ******************/
-
-
-.fill-gap-yellow .internal-text {
-    position: relative;
-    top: -115px;
-    left: 110px;
-}
-
-.fill-gap-yellow img {
-    width: 90px;
-    position: relative;
-    top: 320px;
-    left: 310px;
-}
-
-
-.fill-gap-yellow p {
-    position: relative;
-    left: 26px;
-    width: 680px;
-    line-height: 62px;
-    color: white !important;
-    text-align: center;
-    font-size: 26px !important;
-    text-transform: initial;
-    top: 290px;
-}
-
-.fill-gap-yellow .internal-text h2 {
-    top: 257px;
-    text-align: center;
-    width: 680px;
-    left: 32px;
-}
-
-/***************************************/
-
-
-/**************** Red ******************/
-
-
-.fill-gap-red .internal-text {
-    position: relative;
-    top: -60px;
-    left: 120px;
-}
-
-.fill-gap-red img {
-    width: 260px;
-    position: relative;
-    top: 300px;
-    left: 236px;
-}
-
-
-.fill-gap-red p {
-    position: relative;
-    left: 26px;
-    width: 680px;
-    line-height: 62px;
-    color: white !important;
-    text-align: center;
-    font-size: 26px !important;
-    text-transform: initial;
-    top: 290px;
-}
-
-.fill-gap-red .internal-text h2 {
-    top: 252px;
-    text-align: center;
-    width: 720px;
-    left: 17px;
-}
-
-/***************************************/
-
-
-/**************** Purple ******************/
-
-.fill-gap-purple .internal-text {
-    position: relative;
-    top: -148px;
-    left: 140px;
-}
-
-.fill-gap-purple img {
-    width: 150px;
-    position: relative;
-    top: 300px;
-    left: 280px;
-}
-
-
-.fill-gap-purple p {
-    position: relative;
-    left: 26px;
-    width: 680px;
-    line-height: 62px;
-    color: white !important;
-    text-align: center;
-    font-size: 26px !important;
-    text-transform: initial;
-    top: 290px;
-}
-
-.fill-gap-purple .internal-text h2 {
-    top: 252px;
-    text-align: center;
-    width: 670px;
-    left: 17px;
 }
 
 .balansign {
     display: block !important;
     width: 270px;
 }
-/***************************************/
+
+/**************** Responsive ******************/
 
 @media (min-width: 2511px){
     .page-node-type-full-page .container.full-expand{
@@ -529,12 +280,141 @@
 
 }
 
+@media (min-width: 2201px) {
+    /*************** Green Icon  ******************/
+
+    .fill-gap-green .internal-text img {
+        left: calc(13rem + 8rem);
+    }
+
+    /**************** Gray ******************/
+
+    .fill-gap-gray.show-text .internal-text img {
+        left: calc(13.5rem + 8rem);
+    }
+
+    /**************** Orange ******************/
+
+    .fill-gap-orange .internal-text img {
+        left: calc(14rem + 8rem);
+    }
+
+    /**************** Blue ******************/
+
+    .fill-gap-blue .internal-text img {
+        left: calc(14.5rem + 8rem);
+    }
+
+    /**************** Yellow ******************/
+    .fill-gap-yellow .internal-text img {
+        left: calc(15.5rem + 8rem);
+    }
+
+    /**************** Red ******************/
+
+    .fill-gap-red .internal-text img {
+        left: calc(16rem + 8rem);
+    }
+
+    /**************** Purple ******************/
+
+    .fill-gap-purple .internal-text img {
+        left: calc(17rem + 8rem);
+    }
+}
+
+@media (max-width: 2200px) {
+    /*************** Green Icon  ******************/
+
+    .fill-gap-green .internal-text img {
+        left: calc(13rem + 4rem);
+    }
+
+    /**************** Gray ******************/
+
+    .fill-gap-gray.show-text .internal-text img {
+        left: calc(13.5rem + 4rem);
+    }
+
+    /**************** Orange ******************/
+
+    .fill-gap-orange .internal-text img {
+        left: calc(14rem + 4rem);
+    }
+
+    /**************** Blue ******************/
+
+    .fill-gap-blue .internal-text img {
+        left: calc(14.5rem + 4rem);
+    }
+
+    /**************** Yellow ******************/
+    .fill-gap-yellow .internal-text img {
+        left: calc(15.5rem + 4rem);
+    }
+
+    /**************** Red ******************/
+
+    .fill-gap-red .internal-text img {
+        left: calc(16rem + 4rem);
+    }
+
+    /**************** Purple ******************/
+
+    .fill-gap-purple .internal-text img {
+        left: calc(17rem + 4rem);
+    }
+}
+
 @media (min-width: 1921px){
 
    .bar-container{
        top:-500px;
    }
 
+}
+
+@media (max-width: 1800px) {
+    /*************** Green Icon  ******************/
+
+    .fill-gap-green .internal-text img {
+        left: 13rem;
+    }
+
+    /**************** Gray ******************/
+
+    .fill-gap-gray.show-text .internal-text img {
+        left: 13.5rem;
+    }
+
+    /**************** Orange ******************/
+
+    .fill-gap-orange .internal-text img {
+        left: 14rem;
+    }
+
+    /**************** Blue ******************/
+
+    .fill-gap-blue .internal-text img {
+        left: 14.5rem;
+    }
+
+    /**************** Yellow ******************/
+    .fill-gap-yellow .internal-text img {
+        left: 15.5rem;
+    }
+
+    /**************** Red ******************/
+
+    .fill-gap-red .internal-text img {
+        left: 16rem;
+    }
+
+    /**************** Purple ******************/
+
+    .fill-gap-purple .internal-text img {
+        left: 17rem;
+    }
 }
 
 @media (min-width: 1740px) and (max-width: 1920px) {
@@ -558,27 +438,6 @@
 
 }
 
-
-@media (min-width: 1665px) {
- 
-    .fill-gap-green .internal-text {
-        left: 28px;
-    }
-
-    .fill-gap-gray.show-text .internal-text {
-        left: 62px;
-    }
-
-    .fill-gap-orange .internal-text {
-        left: 80px;
-    }
-
-
-
-}
-
-
-
 @media (min-width: 1525px) and (max-width: 1740px) {
     .bar-container {
         left: 790px !important;
@@ -596,180 +455,50 @@
         margin-left: 0px !important;
     }
     
-    
 }
 
-
-
-@media (min-width: 1680px) {
-   
-    .fill-gap-green .internal-text {
-        left: 88px;
-        top:-28px;
-    }
-
-    .fill-gap-gray.show-text .internal-text {
-        top: -65px;
-        left: 110px;
-    }
-
-    .fill-gap-orange .internal-text {
-        top:-20px;
-        left: 130px;
-    }
-
-    .fill-gap-blue .internal-text {
-        top: -15px;
-        left: 110px;
-    }
-
-    .fill-gap-yellow .internal-text {
-        top: -115px;
-        left: 80px;
-    }
-
-    .fill-gap-red .internal-text {
-        position: relative;
-        top: -15px;
-        left: 80px;
-    }
-
-    .fill-gap-purple .internal-text {
-        position: relative;
-        top: -125px;
-        left: 120px;
-    }
-
-}
-
-
-@media (min-width: 1364px) and (max-width:1679px) {
-    .fill-gap-green .internal-text {
-        position: relative;
-        top: -50px;
-        left: 0px;
-    }
-
-    .fill-gap-gray.show-text .internal-text {
-        position: relative;
-        top: -87px;
-        left: -20px;
-    }
-
-    .fill-gap-orange .internal-text {
-        position: relative;
-        top: -45px;
-        left: -20px;
-    }
-
-    .fill-gap-blue .internal-text {
-        position: relative;
-        top: -40px;
-        left: 20px;
-    }
-
-    .fill-gap-yellow .internal-text {
-        position: relative;
-        top: -133px;
-        left: 0px;
-    }
-
-    .fill-gap-red .internal-text {
-        position: relative;
-        top: -38px;
-        left: -10px;
-    }
-
-    .fill-gap-purple .internal-text {
-        position: relative;
-        top: -148px;
-        left: 60px;
-    }
-
-
-}
-
-
-@media (min-width: 1300px) and (max-width:1363px) {
-
+@media (max-width: 1400px) {
+    /*************** Green Icon  ******************/
 
     .fill-gap-green .internal-text img {
-        width: 120px;
-        position: relative;
-        top: 310px;
-        left: 200px;
-    }
-    
-    .fill-gap-green .internal-text p {
-        left: 53px;
-    }
-    
-    .fill-gap-green .internal-text h2 {
-        top: 250px;
-        left: 190px;
-    }
-    
-    .fill-gap-green .internal-text {
-        position: relative;
-        top: -43px;
-        left: 0px;
+        left: calc(13rem - 7rem);
     }
 
-    .fill-gap-gray.show-text .internal-text {
-        position: relative;
-        top: -76px;
-        left: -70px;
+    /**************** Gray ******************/
+
+    .fill-gap-gray.show-text .internal-text img {
+        left: calc(13.5rem - 7rem);
     }
 
+    /**************** Orange ******************/
 
-    .fill-gap-orange p {
-        font-size: 21px !important;
+    .fill-gap-orange .internal-text img {
+        left: calc(14rem - 7rem);
     }
 
-    .fill-gap-orange .internal-text {
-        position: relative;
-        top: -25px;
-        left: -47px;
+    /**************** Blue ******************/
+
+    .fill-gap-blue .internal-text img {
+        left: calc(14.5rem - 7rem);
     }
 
-    .fill-gap-orange .internal-text h2 {
-        top: 256px;
+    /**************** Yellow ******************/
+    .fill-gap-yellow .internal-text img {
+        left: calc(15.5rem - 7rem);
     }
 
-    .fill-gap-blue .internal-text {
-        position: relative;
-        top: -28px;
-        left: -20px;
+    /**************** Red ******************/
+
+    .fill-gap-red .internal-text img {
+        left: calc(16rem - 7rem);
     }
 
-    .fill-gap-yellow .internal-text {
-        position: relative;
-        top: -121px;
-        left: -21px;
+    /**************** Purple ******************/
+
+    .fill-gap-purple .internal-text img {
+        left: calc(17rem - 7rem);
     }
-
-    .fill-gap-red .internal-text {
-        position: relative;
-        top: -27px;
-        left: -45px;
-    }
-
-    .fill-gap-red .internal-text h2 {
-        font-size: 28px !important;
-    }
-
-    .fill-gap-purple .internal-text {
-        position: relative;
-        top: -137px;
-        left: -30px;
-    }
-
-    
-
-
 }
-
-
 
 @media (min-width: 1300px) and (max-width: 1524px) {
  
@@ -794,66 +523,6 @@
 
 
 @media (min-width: 1200px) and (max-width: 1299px) {
-
-    .fill-gap-green .internal-text {
-        position: relative;
-        top: -67px;
-        left: -58px;
-    }
-
-    .fill-gap-gray.show-text .internal-text {
-        position: relative;
-        top: -103px;
-        left: -54px;
-    }
-
-    .fill-gap-orange .internal-text {
-        position: relative;
-        top: -59px;
-        left: -38px;
-    }
-
-    .fill-gap-orange p {
-        font-size: 22px !important;
-    }
-
-    .fill-gap-blue .internal-text {
-        position: relative;
-        top: -55px;
-        left: -10px;
-    }
-
-    .fill-gap-yellow .internal-text {
-        position: relative;
-        top: -148px;
-        left: -20px;
-    }
-
-    .fill-gap-red .internal-text h2 {
-        font-size: 28px !important;
-    }
-
-    .fill-gap-red .internal-text {
-        position: relative;
-        top: -50px;
-        left: -26px;
-    }
-
-    .fill-gap-purple p {
-        left: 16px;
-    }
-
-
-    .fill-gap-purple .internal-text {
-        position: relative;
-        top: -161px;
-        left: 30px;
-    }
-
-    .fill-gap-purple img {
-        left: 270px;
-    }
- 
     .page-node-type-full-page .article__body {
         width: 400px;
         padding-right: 15px;
@@ -875,6 +544,66 @@
     }
 
 }
+
+@media (max-width: 1299px) {
+    .bar-wrapper .show-text .internal-text {
+        top: 10rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    /*************** Green Icon  ******************/
+
+    .fill-gap-green .internal-text img {
+        left: calc(13rem - 8.5rem);
+    }
+
+    /**************** Gray ******************/
+
+    .fill-gap-gray.show-text .internal-text img {
+        left: calc(13.5rem - 8.5rem);
+    }
+
+    /**************** Orange ******************/
+
+    .fill-gap-orange .internal-text img {
+        left: calc(14rem - 8.5rem);
+    }
+
+    /**************** Blue ******************/
+
+    .fill-gap-blue .internal-text img {
+        left: calc(14.5rem - 8.5rem);
+    }
+
+    /**************** Yellow ******************/
+    .fill-gap-yellow .internal-text img {
+        left: calc(15.5rem - 8.5rem);
+    }
+
+    /**************** Red ******************/
+
+    .fill-gap-red .internal-text img {
+        left: calc(16rem - 8.5rem);
+    }
+
+    /**************** Purple ******************/
+
+    .fill-gap-purple .internal-text img {
+        left: calc(17rem - 8.5rem);
+    }
+
+    /**************** Global ******************/
+
+    .bar-wrapper .show-text .internal-text {
+        top: 14rem;
+    }
+
+    .bar-wrapper .show-text .internal-text img {
+        width: 250px;
+    }
+}
+
 
 @media (min-width: 990px) and (max-width: 1199px) {
 
@@ -899,237 +628,13 @@
     
 }
 
+@media (max-width: 1024px) {
+    /**************** Global ******************/
 
-@media (min-width: 1130px) and (max-width: 1199px) {
-
-    .fill-gap-green .internal-text {
+    .bar-wrapper .show-text .internal-text {
+        top: 19rem;
         position: relative;
-        top: -50px;
-        left: -91px;
     }
-
-    .fill-gap-gray .internal-text h2 {
-        font-size: 28px !important;
-    }
-
-    .fill-gap-gray.show-text .internal-text {
-        position: relative;
-        top: -92px;
-        left: -88px;
-    }
-
-    .fill-gap-orange p {
-        font-size: 20px !important;
-    }
-
-    .fill-gap-orange .internal-text {
-        position: relative;
-        top: -47px;
-        left: -76px;
-    }
-
-    .fill-gap-blue .internal-text h2 {
-        font-size: 28px !important;
-    }
-
-    .fill-gap-blue .internal-text {
-        top: -44px;
-        left: -50px;
-    }
-
-    .fill-gap-yellow .internal-text {
-        position: relative;
-        top: -136px;
-        left: -54px;
-    }
-
-    .fill-gap-red .internal-text h2 {
-        font-size: 26px !important;
-    }
-
-    .fill-gap-red .internal-text {
-        position: relative;
-        top: -38px;
-        left: -65px;
-    }
-
-    .fill-gap-purple .internal-text h2 {
-        font-size: 28px !important;
-    }
-
-    .fill-gap-purple .internal-text {
-        position: relative;
-        top: -151px;
-        left: 0px;
-    }
-
-}
-
-@media (min-width: 992px) and (max-width: 1130px) {
-
-    .fill-gap-green .internal-text p {
-        left: 195px;
-        font-size: 18px !important;
-        top: 290px;
-    }
-    
-    .fill-gap-green .internal-text h2 {
-        top: 250px;
-        left: 268px;
-    }
-    
-    .fill-gap-green .internal-text img {
-        width: 120px;
-        top: 300px;
-        left: 275px;
-    }
-    
-    .fill-gap-green .internal-text {
-        position: relative;
-        top: -50px;
-        left: -173px;
-    }
-
-    .fill-gap-gray .internal-text h2 {
-        top: 254px;
-        left: -20px;
-        font-size: 20px !important;
-    }
-    
-    .fill-gap-gray p {
-        left: 0px;
-        font-size: 18px !important;
-        top: 300px;
-    }
-    
-    .fill-gap-gray.show-text .internal-text {
-        position: relative;
-        top: -71px;
-        left: -120px;
-    }
-    
-    .fill-gap-gray img {
-        width: 160px;
-        position: relative;
-        top: 320px;
-        left: 232px;
-    }
-
-    .fill-gap-orange p {
-        left: 202px;
-        width: 320px;
-        line-height: 30px;
-        font-size: 20px !important;
-        top: 290px;
-    }
-    
-    .fill-gap-orange img {
-        top: 300px;
-        left: 304px;
-    }
-
-    .fill-gap-orange .internal-text h2 {
-        top: 264px;
-        left: 27px;
-    }
-
-    .fill-gap-orange .internal-text {
-        position: relative;
-        top: -39px;
-        left: -151px;
-    }
-
-    .fill-gap-blue .internal-text h2 {
-        top: 270px;
-        left: 38px;
-        font-size: 18px !important;
-    }
-    
-    .fill-gap-blue p {
-        left: 20px;
-        width: 680px;
-        line-height: 62px;
-        font-size: 18px !important;
-        top: 315px;
-    }
-
-    .fill-gap-blue img {
-        top: 320px;
-        left: 285px;
-    }
-
-    .fill-gap-blue .internal-text {
-        position: relative;
-        top: -37px;
-        left: -140px;
-    }
-
-    .fill-gap-yellow p {
-        left: 35px;
-        line-height: 62px;
-        font-size: 20px !important;
-        top: 290px;
-    }
-
-    .fill-gap-yellow .internal-text h2 {
-        top: 254px;
-        left: 32px;
-    }
-
-    .fill-gap-yellow img {
-        top: 320px;
-        left: 320px;
-    }
-
-    .fill-gap-yellow .internal-text {
-        position: relative;
-        top: -123px;
-        left: -140px;
-    }
-
-    .fill-gap-red .internal-text h2 {
-        top: 264px;
-        left: 13px;
-        font-size: 18px !important;
-    }
-
-    .fill-gap-red p {
-        left: 36px;
-        line-height: 62px;
-        font-size: 24px !important;
-        top: 310px;
-    }
-
-    .fill-gap-red img {
-        width: 260px;
-        top: 320px;
-        left: 246px;
-    }
-
-    .fill-gap-red .internal-text {
-        position: relative;
-        top: -60px;
-        left: -130px;
-    }
-
-    .fill-gap-purple .internal-text h2 {
-        top: 247px;
-        text-align: center;
-        width: 670px;
-        left: 35px;
-        font-size: 22px !important;
-    }
-    
-    .fill-gap-purple p {
-        font-size: 23px !important;
-    }
-
-    .fill-gap-purple .internal-text {
-        position: relative;
-        top: -125px;
-        left: -91px;
-    }
-
 }
 
 
